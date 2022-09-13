@@ -20,11 +20,7 @@ class Blog(Blog):
     content_path = "content"
     archive_template = "blog_list.html"
     has_archive = True
-    items_per_page = 20
-    subcollections = (
-        SubCollection("category", "Uncategorized"),
-        SubCollection("tags", "untagged"),
-    )
+    items_per_page = 50
 
 
 # Running render separately to save pages to variable for Index's Featured Post
