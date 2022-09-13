@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="my-4">
+  <div class="my-4">
+    <h2 class="text-4xl font-bold">Projects</h2>
+    <div class="rounded border my-2">
+      {% include '_projects.html' %}
+    </div>
+  </div>
+
+  <div class="my-4">
+    <h2 class="text-4xl font-bold">Retired Projects</h2>
+    <div class="my-4">
+      <p> I don't keep a running list of projects I've retired. But you can check out a list of all of my projects on <a class="underline
+                                                                 hover:italic"
+                                                               href="https://github.com/kjaymiller?tab=repositories&q=&type=archived">GitHub</a>.
+      </p>
+    </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

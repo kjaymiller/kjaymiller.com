@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="border my-5 p-3 shadow-lg">
+    <h2 class="text-3xl text-purple-700 my-2">I'm a pretty open book </h2>
+    <p>if you have a question or just want to give some feedback. Please fill out the form below... It will go to my email and we can chat.</p>
+
+    <p>
+    If you would like to here my thoughts in your inbox regularly, You can also Subscribe to my Newsletter.
+    </p>
+
+    <p>
+    Reaching out to me via this form will not add you to any list (except maybe my personal contacts).
+    </p>
+</div>
+
+<form class="p-2 border rounded-lg" method="POST" action="https://formspree.io/kjaymiller@gmail.com">
+        <div class="m-2">
+            <label class="font-bold" for="#name">Name</label>
+            <input id="name" class="border rounded p-2" type="text" name="Name" placeholder="What I should call you" style="width: 30%;">
+        </div>
+
+	    <div class="m-2">
+            <label class="font-bold" for="#email">Email</label>
+            <input class="border rounded p-2" id="email" type="email" name="email" placeholder="you@example.com" style="width: 30%;">
+		</div>
+
+        <div class="m-2">
+            <label class="font-bold" for="#message">Message</label>
+        </div>
+        <div class="m-2">
+            <textarea id="message" name="message" class="border rounded p-2" style="min-width: 50%; height: 150px;" placeholder="Your message"></textarea>
+    	</div>
+	<button class="w-48 border bg-slate-50 text-purple-800 p-2 rounded-lg hover:bg-purple-800 hover:text-slate-50" type="submit" >Send</button>
+</form>
+
+
+
+<section class="section">
+<div class="my-5 py-6 ">
+<h2 class="text-2xl">Email not your thing?</h2>
+
+<div class="content">
+    <p>You can reach out to me on social media.</p>
+
+    {% include 'social-cards.html' %}
+
+</div>
+</div>
+</section>
+{% endblock %}

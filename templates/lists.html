@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="section">
+  <div class="container">
+  <h1 class="title is-2">{{title}}</h1>
+  <div class="content">
+    <ul>
+  {% for list_item in list_section %}
+  <li class="subtitle is-4">
+    <a href="/{{list_item}}/all_posts">{{list_item}}</a>
+  </li>
+{% endfor %}
+    </ul>
+  </div>
+</section>
+{% endblock %}

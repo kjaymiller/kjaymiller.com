@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}{{title}}{% endblock %}
+{% block head %}
+{% endblock %}
+{% block content %}
+<h2 class="mt-8 title text-3xl font-bold">{{title}}</h2>
+<div class="">
+    <div class="container mx-auto">
+        {% include '_archive.html' %}
+    </div>
+  </div>
+{% endblock %}

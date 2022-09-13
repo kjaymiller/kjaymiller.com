@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}{{title}}{% endblock%}
+{% block head %}<link rel="stylesheet" href="/static/css/article.css" />{% endblock %}
+{% block content %}
+<div class="my-4">
+<h1 class="text-4xl font-extrabold">{{title}}</h1>
+<article class=content>
+    {{content}}
+</article>
+</div>
+{% endblock %}
+{% block add_ons %}
+{% endblock %}

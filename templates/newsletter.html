@@ -1,0 +1,31 @@
+<article class="h-screen">
+<div class="my-3 border p-2 w-full">
+  <h2 class="text-lg font-bold">Subscribe to the Newsletter</h2>
+
+</article>
+ {{ markup }}
+
+<form
+	action="https://buttondown.email/api/emails/embed-subscribe/kjaymiller"
+	method="post"
+	target="popupwindow"
+	onsubmit="window.open('https://buttondown.email/kjaymiller', 'popupwindow')"
+	class="rounded border shadow-lg py-4 px-1 my-10">
+	
+  <div class="">
+  <input type="email"
+  class="rounded-lg w-96 border m-2 p-2"
+	name="email"
+	placeholder="Email"
+	id="bd-email">
+  
+	<input type="hidden"
+	value="1"
+	name="embed" />
+  
+  	<input class="p-2 rounded-lg border bg-purple-800 text-slate-50"
+	type="submit"
+	value="Subscribe" />
+	</div>
+
+</div>

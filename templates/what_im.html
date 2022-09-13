@@ -1,0 +1,30 @@
+<!-- What I'm Section -->
+<div id="What-im" class="d-md-none d-lg-block jumbotron bg-transparent">
+  <h3 class="">What I'm...</h3>
+  <div id="" class="row mx-2">
+    {% for section in what_im_block %}
+
+    <div class="p-1 col-lg-3">
+      <h4 class="card-title">{{ section }} 
+        <i class="{{what_im_block[section]['icon'] }}"></i>
+      </h4>
+      <hr>
+      <ul>
+        {% for item in what_im_block[section]['items'] %}
+        <li>
+          <a href="{{ item['url'] }}" class="text-secondary">
+            <b>{{item['title']}}</b>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+    <div class="col-lg-3 text-center">
+      <img src="https://s3-us-west-2.amazonaws.com/kjaymiller/images/whatimpodcast.JPG">
+      <h3 class="align-right">  Check out the <a
+          href="/what-im">What I'm Podcast</a>
+      </h3>
+    </div>
+  </div>
+</div>

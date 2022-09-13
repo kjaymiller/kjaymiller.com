@@ -1,0 +1,60 @@
+  <div class="row px-2">
+    <!-- Left Section -->
+    <div class="col-md-9 p-1">
+
+      <!-- Latest Post Section -->
+      <div class="jumbotron d-md-jumbotron-fluid">
+        <h2>{{config.SITE_SUBTITLE}}</h2>
+        <div class="row">
+          {% if featured_post.image %}
+
+          <div class="col-md-2">
+            <a href="{{featured_post.href}}">
+              <img src="{{featured_post.image}}">
+            </a>
+          </div>
+
+          {% endif %}
+          <div class="col-sm-7">
+            <a href="{{featured_post.href}}">
+              <h2>{{featured_post.title}}</h2>
+            </a>
+
+            {% if featured_post._link %}
+            <a href="{{featured_post._link}}">
+              <i class="fas fa-link"></i>{{featured_post._link}}
+            </a>
+            {% endif %}
+
+            <p>{{featured_post.summary}}</p>
+
+            <p class="text-right">
+            <a href="{{featured_post.href}}">Read More</a>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Blog Post Section -->
+    <div id="More Posts Section" class="col-lg-2">
+      <h3 class="text-gray"> More Blog Posts</h3>
+      <div class="column">
+        {% for latest_post in latest_posts %}
+
+        <!-- Blog Post Card --> 
+        <div class="card my-2" >
+
+          <a href="{{latest_post.href}}" class="text-dark">
+            <b class="card-title">{{latest_post.title}}</b>
+          </a>
+
+          <small>
+            {{latest_post.date_published}}
+          </small>
+        </div>
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>

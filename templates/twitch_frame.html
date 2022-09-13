@@ -1,0 +1,37 @@
+<div class="container">
+<h2 class="subtitle is-2" id="jay-stream">Jay (and his Friends) are streaming (Toggle to <span
+                                                     id="show-hide">Hide</span>)-
+                                                   <input type="checkbox" /></h2>
+</div>
+<div id="twitch-block" class="is-hidden-touch">
+<section class="section">
+<div class="container">
+<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<figure class="image">
+<div id="twitch-player" class="has-text-centered"></div>
+</figure>
+<script type="text/javascript">
+  var options = {
+    width: 1024,
+    height: 600,
+    channel: "kjaymiller",
+  };
+
+ var embed = new Twitch.Embed('twitch-player', options);
+
+  embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
+  if (embed.isPaused()) {
+    document.querySelector('#twitch-block').style.maxHeight="inherit";
+  }
+
+  else {
+    document.querySelector('#twitch-block').style.maxHeight= '800px';
+  }
+
+  });
+
+
+</script>
+</div>
+</section>
+</div>

@@ -1,0 +1,17 @@
+{% extends 'page.html' %}
+{% block add_ons %}
+<div class="container mx-auto">
+  {% for post in posts %}
+    <div class="my-2">
+	<small class="font-bold"><a href="{{post.link}}">{{post.event}}</a></small>
+	{% if post.slides %}<small class="p-2 bg-gray-500"><a href="{{post.slides}}">Slides</a></small>{% endif %}
+	<b class="text-sm">{{post['last_presented']}}</b>
+	<h2 class="text-2xl">{{post['title']}} </h2>
+      {% autoescape false %}
+        {{post['abstract']}}
+      {% endautoescape %}
+    </div>
+    <hr />
+  {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,15 @@
+<div class="column is-3 is-mobile-hidden">
+  {% for topic in subcollections %}
+  <div class="box">
+    <h2 class="subtitle">{{topic|capitalize}}</h2>
+      <div class="field is-grouped is-grouped-multiline">
+        {% for subcollection in subcollections[topic] %}
+        <div class="my-4">
+            {% set tag=subcollection.slug%}
+            {% include 'tag_link.html' %}
+        </div>
+        {% endfor %}
+      </div>
+  </div>
+  {% endfor %}
+</div>

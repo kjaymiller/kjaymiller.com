@@ -1,0 +1,5 @@
+#twitch-block {
+  transition: max-height 2s;
+  overflow: hidden;
+  max-height: 50px;
+}

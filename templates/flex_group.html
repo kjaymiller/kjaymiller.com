@@ -1,0 +1,17 @@
+<div class="md:flex flex-wrap my-4">
+  {% for title, item in group.items() %}
+  <div class="sm:w-1/3 md:w-1/6 m-3">
+    <a href="{{item['url']}}">
+      {% if 'image' in item %}
+      <img
+        alt="{{title}}"
+        class="w-2/5 sm:w-2/3 md:1/3 rounded-lg shadow hover:shadow-lg hover:shadow-indigo-800"
+        src="{{item['image']}}"
+      />
+      {% else %}
+      <h2>{{title}}</h2>
+      {% endif %}
+    </a>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Making Government (Data) Useable by anyone with Pandas, Python and Eland",
+    "abstract": "Unreadable data can lead to bad perceptions and positive action being delayed. Some of the most obscure data comes from reporting from local, state and federal governments. That said the data is there, freely available and it has to be provided in a consistent (at some level) manner.This talk will look at how I made Police Call Records easier to investigate with Python, Pandas and Eland.",
+    "last_presented": "October 2, 2021",
+    "event": "PyGotham",
+    "image": "https://2021.pygotham.tv/static/images/apple-touch-icon.png",
+    "link": "https://2021.pygotham.tv/talks/making-government-useable-by-anyone-with-pandas-python-and-eland/",
+    "tags": "python, elasticsearch"
+  },
+  {
+    "title": "Getting your Data into Elasticsearch, Let me count the ways",
+    "abstract": "There are a few different ways for you to index your data into Elasticsearch. This talk will cover how to make your data searchable via your web app or from a data frame.",
+    "last_presented": "July 31, 2021",
+    "event": "PyOhio",
+    "image": "https://www.pyohio.org/2021/static/ac971189777933ca2867b5429c716436/ef841/catalyst-site-logo.webp",
+    "embed": "https://www.youtube.com/embed/oJn7VhANpW0",
+    "link": "https://www.pyohio.org/2021/program/talks/getting-your-data-into-elasticsearch-let-me-count-the-ways",
+    "slides": "https://www.slideshare.net/JayMiller73/getting-your-data-in-and-out-of-elasticsearch-let-me-count-the-ways",
+    "tags": "python, elasticsearch"
+  },
+  {
+    "title": "But Look at the Numbers: Using Public Data to Highlight Systemic Problems",
+    "abstract": "This talk explores the process of looking at public data made by the San Diego Police department and other public sources that show an obvious story of systemic issues in searches, stops, and sadly police involved shootings.",
+    "last_presented": "June 20, 2021",
+    "event": "Juneteenth Conf",
+    "embed": "https://www.youtube.com/embed/OfyqAg2IPfc",
+    "link": "http://www.juneteenthconf.com"
+  },
+  {
+    "title": "Telling The Server User Story Through The Elastic Stack",
+    "event": "Python Web Conf",
+    "last_presented": "March 21, 2021",
+    "embed": "https://www.youtube.com/embed/qITZSvVO2As",
+    "abstract": "Elastic has an ecosystem of products that to tell a story around both internal and external data. Companies use the Elastic Stack to gain insight on websites, businesses, and products. Diversityorgs.tech allows guests to search for diversity-focused orgs in their area. We’ll look at web traffic and examine trends in orgs searched. I'll explain ingesting that data from NGINX logs using Beats. We’ll look at analytics from Elastic App Search and visualize this information with Kibana. Finally, we'll use that information to implement a new feature giving people requests based on their perceived area, ALL WHILE REQUIRING NO COOKIES OR TRACKING FROM OUR USERS."
+  },
+  {
+    "event": "CSVConf v6",
+    "link": "https://csvconf.com",
+    "embed": "https://www.youtube.com/embed/YM0zQ2OdWT0",
+    "title": "Enhancing Civics Data with Elasticsearch, pandas and Eland",
+    "last_presented": "May 4, 2021",
+    "abstract": "<p>Many cities in the United States provide data as a part of the oversight initiatives and federal compliance. However, datasets often present information in incomplete or hard-to-compare formats.</p><p>This talk will break down how to compile data from the San Diego Police Department into pandas dataframes and use geopandas, eland, and Elasticsearch to enrich the data with approximate GeoPoints so that it can be visualized in Kibana or a public plotting platform.</p>",
+    "github": "https://github.com/kjaymiller/sd-police-call-data"
+  },
+  {
+    "title": "Reinvent the Wheel (But Add Spikes to It)",
+    "event": "PyBeach 2020",
+    "last_presented": "Feb 1, 2020",
+    "abstract": "In my quest to grow as a python developer I learned a lot from reinventing the wheel. While I don't think you should use your wheel prototypes in production, I do think that a lot can be learned from reinventing the wheel."
+  },
+  {
+    "title": "How I turned a podcast into a business with Python (and some Other Tools we won't talk about)",
+    "last_presented": "Nov 3, 2019",
+    "event": "North Bay Python",
+    "abstract": "I started podcasting in 2014 with the idea that I could use is to become more productive. That idea grew into a business where I help other people in tech do the same thing.",
+    "embed": "https://www.youtube.com/embed/kdnNGQss--Q"
+  }
+]

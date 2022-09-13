@@ -1,0 +1,24 @@
+<svg viewBox="-10 -10 20 20">
+  <defs>
+  <g id="circle">
+    <circle fill="#234324;" r="10" />
+  </g>
+  <g id="rings">
+    <circle stroke="#eeeeee" stroke-width=".010" r="9.9"/>
+    <circle stroke="#eeeeee" stroke-width=".010" r="9.7/>
+    <circle stroke="#eeeeee" stroke-width=".010" r="9.5"/>
+    <circle stroke="#eeeeee" stroke-width=".010" r="9.3"/>
+    <circle stroke="#eeeeee" stroke-width=".010" r="9.1"/>
+	</g>  
+  </defs>
+   	<use xlink:href="#circle"/>
+   	<use xlink:href="#rings" />
+ 	<use xlink:href="#rings" transform="scale(.90, .90)"/>
+   	<use xlink:href="#rings" transform="scale(.81, .81)"/>
+   	<use xlink:href="#rings" transform="scale(.75, .75)"/>
+   	<text fill="#22ee22" font-size="1" y="-5" x="-2.5">
+   	<textPath href="#circle" fill="None" transform="scale(.40, .40)">@kjaymiller</textPath>
+   	</text>
+   	<use xlink:href="#circle" fill="#ad232c" transform="scale(.25, .25)"/>
+   	<use xlink:href="#circle" transform="scale(.05, .05)"/>
+  </svg>

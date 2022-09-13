@@ -1,0 +1,72 @@
+[
+    {"podcast" :"Talk Python to Me",
+    "date": "15 Dec 2021 12:00PM",
+    "image": "https://talkpython.fm/static/img/talk_python_logo_mic.png",
+    "tags": "tools, productivity, shell",
+    "link": "https://www.talkpython.fm/345",
+    "title": "10 Tips and Tools for Developer Productivity"
+  },
+    {"podcast" :"Mac Power Users",
+    "date": "06 Sep 2021 03:00 PM",
+    "image": "https://relayfm.s3.amazonaws.com/uploads/broadcast/image_3x/16/mpu_artwork.png",
+    "tags": "Video, Hook, Setapp, Apps, Bunch, Lighting",
+    "link": "https://www.relay.fm/mpu/604",
+    "title": "Workflows with Jay Miller"
+  },
+  {"podcast": "Python Bytes",
+    "date": "July 7, 2021 12:00 PM",
+    "image": "https://pythonbytes.fm/static/img/logo.png",
+    "tags": "python",
+    "link": "https://pythonbytes.fm/episodes/241",
+    "title": "f-yes we want some f-string tricks"
+  },
+  {"podcast": "Brew and Byte",
+    "date": "June 14, 2021 12:00PM",
+    "link": "https://www.lmug.org.uk/podcast/",
+    "image": "https://i2.wp.com/www.lmug.org.uk/wp-content/uploads/2020/09/pic-1.jpg?w=715&ssl=1",
+    "title": "Contextual Computing and a date at the Apple store",
+    "tags": "Automation, Hook, Craft, WWDC, Apple"
+  },
+    {"podcast":   "Automators",
+    "date": "May 7, 2021 12:00PM",
+    "link": "https://www.relay.fm/automators/75",
+    "image": "https://relayfm.s3.amazonaws.com/uploads/broadcast/image_3x/44/automators_artwork.png",
+    "title": "Bunches of Automation, with Jay Miller",
+    "tags": "Automation, Hook, Keyboard Maestro, Drafts, Bunch"
+  },
+  {"podcast": "GTD Jedi",
+    "date": "Jan 29, 2021 21:55 PM",
+    "image": "https://kjaymiller.s3-us-west-2.amazonaws.com/images/gtdj.png",
+    "tags": "productivity",
+    "link": "https://www.tekside.net/gtdjedi/2021/1/26/zj4l4ms1tlizvkrpyiqmlm6g5o5gsq",
+    "title": "Bullet Journal Roundtable"
+  },
+  {"podcast": "Talk Python To Me",
+    "date": "Dec 28, 2020 12:00 PM",
+    "image": "https://talkpython.fm/static/img/talk_python_logo_mic.png",
+    "tags": "python",
+    "link": "https://talkpython.fm/episodes/show/297/python-year-in-review-2020-edition",
+    "title": "Python year in review (2020 edition)"
+  },
+  {"podcast": "Anything But Idle",
+    "date": "Dec 22, 2020 12:00 PM",
+    "image": "https://anythingbutidle.com/wp-content/uploads/sites/8/2020/02/cropped-Anything-But-Idle-Podcast-Logo-Assets-and-Album-Cover.png",
+    "tags": "productivity",
+    "link": "https://anythingbutidle.com/035-best-productivity-and-technology-stories-in-review-for-2020/",
+    "title": "Best Productivity and Technology Stories 2020"
+  },
+  {"podcast": "Python Bytes",
+    "date": "Dec 02, 2020 12:00 PM",
+    "image": "https://pythonbytes.fm/static/img/logo.png",
+    "tags": "python",
+    "link": "https://pythonbytes.fm/episodes/show/210/analyzing-kickstarter-campaigns-with-python",
+    "title": "Analyzing Kickstarter Campaigns with Python"
+  },
+  {"podcast": "Focused",
+    "date": "Aug 04, 2020 21:33 PM",
+    "image": "https://relayfm.s3.amazonaws.com/uploads/broadcast/image_2x/34/focused_artwork.png",
+    "tags": "productivity",
+    "link": "https://www.relay.fm/focused/105",
+    "title": "People Who Build Things with Jay Miller"
+  }
+]
