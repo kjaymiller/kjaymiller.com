@@ -19,6 +19,7 @@
             <div class="mx-2">
               <strong>Date:</strong> {{post.date_friendly}}
             </div>
+            {#
             {% if post.tags %}
               <div class="mx-2">
                 {% for tag in post.tags %}
@@ -26,6 +27,7 @@
                 {% endfor %}
               </div>
             {% endif%}
+            #}
           </div>
   </article>
 {% endfor %}
