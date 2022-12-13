@@ -54,3 +54,5 @@ Here are some folks that also contributed to a great year!
 
 ### Jon Bonafato
 [Jon's](https://jonafato.me) been an amazing buddy starting the Python Community News Podcast, but also helping me with leveling up my development skills in the process.
+
+Thank you folks for truly making 2022 a great year for me. You can check out the [2021 Winners here](https://kjaymiller.com/blog/jaysies-2021.html)
