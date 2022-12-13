@@ -2,6 +2,7 @@
 title:  Folks That Made 2022 😎 (Jaysies 2022)
 slug: jaysies-2022
 tags: jaysies
+date: 13 Dec 2022 9:30
 image: https://kjaymiller.azureedge.net/media/jaysies%202022.png
 ---
 
