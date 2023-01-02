@@ -10,20 +10,19 @@ mysite = MySite()
 
 @mysite.collection
 class Pages(Collection):
-    Parser = MarkdownPageParser
+    PageParser = MarkdownPageParser
     content_path = "content/pages"
     template = "page.html"
 
 
 class Blog(Blog):
-    Parser = MarkdownPageParser
+    PageParser = MarkdownPageParser
     template = "blog.html"
     routes = ["blog"]
     content_path = "content"
     archive_template = "blog_list.html"
     has_archive = True
     items_per_page = 50
-
 
 # Running render separately to save pages to variable for Index's Featured Post
 blog = mysite.collection(Blog)
