@@ -1,22 +1,24 @@
+import inspect
 from render_engine import Page
 from render_engine.blog import Blog
 from render_engine.collection import Collection, SubCollection
+from render_engine.parsers.markdown import MarkdownPageParser
 
 from mysite import MySite
 
-mysite = MySite(static="static")
+mysite = MySite()
 
-
-@mysite.render_collection
+@mysite.collection
 class Pages(Collection):
+    Parser = MarkdownPageParser
     content_path = "content/pages"
     template = "page.html"
-    output_path = "./"
 
 
 class Blog(Blog):
+    Parser = MarkdownPageParser
     template = "blog.html"
-    output_path = "blog"
+    routes = ["blog"]
     content_path = "content"
     archive_template = "blog_list.html"
     has_archive = True
@@ -24,10 +26,14 @@ class Blog(Blog):
 
 
 # Running render separately to save pages to variable for Index's Featured Post
-blog = mysite.render_collection(Blog)
+blog = mysite.collection(Blog)
 
-
-@mysite.render_page
+@mysite.page
 class Index(Page):
     template = "index.html"
-    featured_post = blog.sorted_pages[0]
+    template_vars = {
+            "featured_post": blog.sorted_pages[0],
+           }
+
+if __name__ == "__main__":
+    mysite.render()
