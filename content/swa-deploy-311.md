@@ -97,8 +97,6 @@ We need to add additional steps using the this to our `POST_BUILD_COMMAND`. If y
 
 ```yaml
 
-# .github/workflows/azure-static-web-apps-<UNIQUE_STRING>.yml
-
 jobs:
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
@@ -127,8 +125,6 @@ If you looked closely at the output of the failed action, you'll notice that the
 We can set our build to use Python 3.11 by adding a PYTHON_VERSION environment variable to our action. This goes along with our `POST_BUILD_COMMAND` environment variable.
 
 ```yaml
-
-# in that same build step
 
 env:
     POST_BUILD_COMMAND: ./build.sh
