@@ -17,6 +17,7 @@ class Pages(Collection):
 
 class Blog(Blog):
     PageParser = MarkdownPageParser
+    markdown_extras = ["footnotes", "fenced-code-blocks"]
     template = "blog.html"
     routes = ["blog"]
     content_path = "content"
