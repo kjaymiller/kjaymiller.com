@@ -44,7 +44,7 @@ pytzdata==2020.1
     # via pendulum
 pyyaml==6.0
     # via python-frontmatter
-render-engine==2022.12.7a7
+render-engine==2022.12.7a9
     # via -r requirements.in
 rich==12.5.1
     # via render-engine
