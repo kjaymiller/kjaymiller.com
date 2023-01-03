@@ -32,7 +32,7 @@ class Index(Page):
     template = "index.html"
     template_vars = {
             "featured_post": blog.sorted_pages[0],
-           }
+        }
 
 if __name__ == "__main__":
     mysite.render()
