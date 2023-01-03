@@ -143,7 +143,7 @@ Higher in the action output, we can see that the site was built using Python 3.1
 
 ![Complete Deployment Output showing 3.11.1 was used](https://kjaymiller.azureedge.net/media/SWA%20Successful%203.11%20Deployment.png)
 
-You've built your site but its probably not at the URL that you would like. You can change that by going into the Azure portal and [setting a custom domain].
+You've built your site but its probably not at the URL that you would like. You can change that by going into the Azure portal and [setting a custom domain][custom domain].
 
 But now you have a static web app running on azure.
 
@@ -152,6 +152,6 @@ But now you have a static web app running on azure.
 [render-engine]: https://github.com/kjaymiller/render_engine
 [vanilla-js build]: https://learn.microsoft.com/en-us/azure/static-web-apps/get-started-cli?tabs=vanilla-javascript
 [Products Available by Region]: https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/?products=app-service
-[setting a custom domain]: https://docs.microsoft.com/en-us/azure/static-web-apps/custom-domain?tabs=azure-dns
+[custom domain]: https://docs.microsoft.com/en-us/azure/static-web-apps/custom-domain?tabs=azure-dns
 
 [^1]: There are other options that you can set. You can read more about them in the [dev.to post] or in the [docs](https://docs.microsoft.com/en-us/cli/azure/ext/staticwebapps/staticwebapp?view=azure-cli-latest#ext-staticwebapps-az-staticwebapp-create)
