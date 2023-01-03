@@ -98,7 +98,6 @@ We need to add additional steps using the this to our `POST_BUILD_COMMAND`. If y
 ```yaml
 # .github/workflows/azure-static-web-apps-<UNIQUE_STRING>.yml
 
-```yaml
 jobs:
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
@@ -126,7 +125,7 @@ If you looked closely at the output of the failed action, you'll notice that the
 
 We can set our build to use Python 3.11 by adding a PYTHON_VERSION environment variable to our action. This goes along with our `POST_BUILD_COMMAND` environment variable.
 
-```yaml 
+```yaml
 
     # in that same build step
 
@@ -147,10 +146,11 @@ Higher in the action output, we can see that the site was built using Python 3.1
 
 ![Complete Deployment Output showing 3.11.1 was used](https://kjaymiller.azureedge.net/media/SWA%20Successful%203.11%20Deployment.png)
 
-You've built your site but its probably not at the URL that you would like. You can change that by going into the Azure portal and [setting a custom domain]. 
+You've built your site but its probably not at the URL that you would like. You can change that by going into the Azure portal and [setting a custom domain].
 
 But now you have a static web app running on azure.
 
+[faster-python]: https://devblogs.microsoft.com/python/python-311-faster-cpython-team/?WT.mc_id=python-79329-jaymiller
 [dev.to post]: https://dev.to/azure/deploy-azure-static-web-apps-using-python-1hn7
 [render-engine]: https://github.com/kjaymiller/render_engine
 [vanilla-js build]: https://learn.microsoft.com/en-us/azure/static-web-apps/get-started-cli?tabs=vanilla-javascript
