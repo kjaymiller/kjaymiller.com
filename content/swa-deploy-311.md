@@ -96,6 +96,7 @@ Even though the action failed, a new file was added to our repo called `.github/
 We need to add additional steps using the this to our `POST_BUILD_COMMAND`. If you have any kind of pre-processors (I'm using tailwindcss to build my site) add a shell script with all your steps and add the shell script in the action's build and deploy step as an envrioment variable. Alternatively, you can add the command used to build your site directly in the action's build and deploy step. eg. `python build.py`.
 
 ```yaml
+
 # .github/workflows/azure-static-web-apps-<UNIQUE_STRING>.yml
 
 jobs:
@@ -127,11 +128,11 @@ We can set our build to use Python 3.11 by adding a PYTHON_VERSION environment v
 
 ```yaml
 
-    # in that same build step
+# in that same build step
 
-    env:
-        POST_BUILD_COMMAND: ./build.sh
-        PYTHON_VERSION: "3.11"
+env:
+    POST_BUILD_COMMAND: ./build.sh
+    PYTHON_VERSION: "3.11"
 
 ```
 
