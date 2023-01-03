@@ -15,14 +15,15 @@ class Pages(Collection):
     template = "page.html"
 
 
-class Blog(Blog):
-    PageParser = MarkdownPageParser
-    markdown_extras = [
+markdown_extras = [
             "footnotes",
             "fenced-code-blocks",
             "header-ids",
             "mermaid",
-    ]
+]
+class Blog(Blog):
+    PageParser = MarkdownPageParser
+    parser_extras = {"markdown_extras": markdown_extras}
     template = "blog.html"
     routes = ["blog"]
     content_path = "content"
