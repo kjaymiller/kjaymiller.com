@@ -4,6 +4,9 @@ link: https://superuser.com/questions/875095/adding-parenthesis-around-highlight
 tags: vim 
 ---
 
+> I learned this from this [SuperUser post].
+
+
 ```vim
 # In Normal Mode
 v$
@@ -29,3 +32,6 @@ vnoremap <C-(> c()<esc>P
 ```
 
 Most of the commands are the same. The `vnoremap` ensures that this only runs in VISUAL Mode (When you select text) and `<C-(>` is the command for `ctrl+(`.
+
+
+[SuperUser post]: https://superuser.com/questions/875095/adding-parenthesis-around-highlighted-text-in-vim
