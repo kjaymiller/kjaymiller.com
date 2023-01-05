@@ -50,7 +50,7 @@ render-engine==2022.12.7a11
     # via
     #   -r requirements.in
     #   render-engine-rss
-render-engine-rss==2023.1.0a4
+render-engine-rss==2023.1.0a5
     # via -r requirements.in
 rich==12.5.1
     # via render-engine

@@ -4,6 +4,7 @@ from render_engine.blog import Blog
 from render_engine.collection import Collection, SubCollection
 from render_engine.parsers.markdown import MarkdownPageParser
 from render_engine_rss import RSSCollection
+from render_engine_rss.parsers import PodcastPageParser
 
 from mysite import MySite
 
@@ -25,9 +26,11 @@ markdown_extras = [
 
 @mysite.collection
 class Conduit(RSSCollection):
+    PageParser = PodcastPageParser
     content_path = "https://www.relay.fm/conduit/feed"
     template = "blog.html"
     routes = ['conduit']
+    archive_template = "blog_list.html"
 
 class Blog(Blog):
     PageParser = MarkdownPageParser
@@ -37,7 +40,6 @@ class Blog(Blog):
     content_path = "content"
     archive_template = "blog_list.html"
     has_archive = True
-    items_per_page = 50
 
 # Running render separately to save pages to variable for Index's Featured Post
 blog = mysite.collection(Blog)
