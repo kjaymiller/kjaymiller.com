@@ -1,6 +1,7 @@
 ---
 title: Enclose text in Parentheses (and Other Characters) in VIM WITHOUT PLUGINS
 link: https://superuser.com/questions/875095/adding-parenthesis-around-highlighted-text-in-vim
+date: 05 Jan 2023 11:30
 tags: vim 
 ---
 
