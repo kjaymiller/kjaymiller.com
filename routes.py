@@ -27,7 +27,6 @@ markdown_extras = [
 @mysite.collection
 class Conduit(RSSCollection):
     PageParser = PodcastPageParser
-    content_path = "https://www.relay.fm/conduit/feed"
     template = "blog.html"
     routes = ['conduit']
     archive_template = "blog_list.html"
