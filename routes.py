@@ -4,6 +4,7 @@ from render_engine.blog import Blog
 from render_engine.collection import Collection, SubCollection
 from render_engine.parsers.markdown import MarkdownPageParser
 from render_engine_rss import RSSCollection
+from render_engine_rss.parsers import PodcastPageParser
 
 from mysite import MySite
 
@@ -25,6 +26,7 @@ markdown_extras = [
 
 @mysite.collection
 class Conduit(RSSCollection):
+    Parser = PodcastPageParser
     content_path = "https://www.relay.fm/conduit/feed"
     template = "blog.html"
     routes = ['conduit']
