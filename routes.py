@@ -30,6 +30,7 @@ class Conduit(RSSCollection):
     template = "blog.html"
     routes = ['conduit']
     archive_template = "blog_list.html"
+    content_path = "https://www.relay.fm/conduit/feed"
 
 class Blog(Blog):
     PageParser = MarkdownPageParser
@@ -49,6 +50,3 @@ class Index(Page):
     template_vars = {
             "featured_post": blog.sorted_pages[0],
         }
-
-if __name__ == "__main__":
-    mysite.render()
