@@ -66,7 +66,7 @@ class MicroBlogPost(BlogPost):
     @property
     def _slug(self):
         base_date = parser.parse(self.date)
-        return base_date.strftime("%Y%m%d%H%T")
+        return base_date.strftime("%Y%m%d%H%M")
 
     @property    
     def _title(self):
