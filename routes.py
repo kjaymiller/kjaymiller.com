@@ -1,6 +1,7 @@
-import inspect
+from dateutil import parser
+import datetime
 from render_engine import Page
-from render_engine.blog import Blog
+from render_engine.blog import Blog, BlogPost
 from render_engine.collection import Collection, SubCollection
 from render_engine.parsers.markdown import MarkdownPageParser
 from render_engine_rss import RSSCollection
@@ -60,3 +61,26 @@ class Index(Page):
     template_vars = {
             "featured_post": blog.sorted_pages[0],
         }
+
+class MicroBlogPost(BlogPost):
+    @property
+    def _slug(self):
+        base_date = parser.parse(self.date)
+        return base_date.strftime("%Y%m%d%H%T")
+
+    @property    
+    def _title(self):
+        return self.slug
+
+@mysite.collection
+class MicroBlogPost(Blog):
+    title = "MicroBlog"
+    archive_template = "microblog_archive.html"
+    template = "blog.html"
+    PageParser = MarkdownPageParser
+    content_type = MicroBlogPost
+    content_path = "content/microblog"
+    routes = ["microblog"]
+    parser_extras = {"markdown_extras": markdown_extras}
+    items_per_page = 50
+

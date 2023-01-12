@@ -1,32 +1,21 @@
 {% extends 'base.html' %}
-{% block title %}{{title}}{% endblock %}
+{% block title %}{{collection_title}}{% endblock %}
 {% block content %}
 {% block head %}
 <link rel="stylesheet" type="text/css" href="/static/css/microblog_archive.css">
 {% endblock %}
-<section class="section">
+<section class="section my-5">
   <div class="container">
-    <h2 class="title is-1 has-text-info">{{title}}</h2>
-        {% for post in pages %}
-			<div class="tile is-parent">
-	<article class="tile is-child box">
-
-		<div class="columns">
-		<div class="column">
-			<div class="container">
-			<div class="microblog-content content">{{post.content}}</div>
-		</div>
-    <div class="hero has-text-left">
-			<strong>Date:</strong> {{post.date_friendly}}
-		</div>
-    <div class="container">
-      <script type="text/javascript" src="https://micro.blog/conversation.js?url={{SITE_LINK}}/{{post.slug}}"></script> 
-    </div>
-	</article>
-		</div>
-        {% endfor %}
-    </div>
-</div>
+    <h2 class="text-4xl">{{title}}</h2>
+    {% for post in pages %}
+        <div class="border rounded my-5 p-3">
+            <article class="prose lg:prose-xl dark:prose-invert prose-slate">
+                <div class="column">
+                        <div class="">{{post.markup}}</div>
+                <div class="hero has-text-left"><strong>Date:</strong> {{post.date_friendly}}</div>
+            </article>
+        </div>
+    {% endfor %}
 </div>
 </section>
 {% endblock %}
