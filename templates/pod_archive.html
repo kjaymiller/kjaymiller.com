@@ -3,7 +3,7 @@
         {% if post.image %}
           <div class="p-2 w-1/4">
             <a href="{{post.url}}">
-                  <img class="full max-w-full shadow rounded-lg " src="{{post.image}}">
+                  <img class="full max-w-full shadow rounded-lg " src="{{post.image['href']}}">
               </a>
           </div>
         {% endif %}

@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-black==22.8.0
+black==22.12.0
     # via -r requirements.in
 click==8.1.3
     # via
@@ -12,25 +12,29 @@ click==8.1.3
     #   typer
 commonmark==0.9.1
     # via rich
-isort==5.10.1
+dtyper==2.0.3
+    # via render-engine
+feedparser==6.0.10
+    # via render-engine-rss
+isort==5.11.4
     # via -r requirements.in
 jinja2==3.1.2
     # via render-engine
-markdown2==2.4.3
+markdown2==2.4.6
     # via render-engine
 markupsafe==2.1.1
     # via jinja2
-more-itertools==8.14.0
+more-itertools==9.0.0
     # via render-engine
 mypy-extensions==0.4.3
     # via black
-pathspec==0.10.1
+pathspec==0.10.3
     # via black
 pendulum==2.1.2
     # via render-engine
-platformdirs==2.5.2
+platformdirs==2.6.2
     # via black
-pygments==2.13.0
+pygments==2.14.0
     # via rich
 pytailwindcss==0.1.4
     # via -r requirements.in
@@ -38,16 +42,22 @@ python-dateutil==2.8.2
     # via pendulum
 python-frontmatter==1.0.0
     # via render-engine
-python-slugify==6.1.2
+python-slugify==7.0.0
     # via render-engine
 pytzdata==2020.1
     # via pendulum
 pyyaml==6.0
     # via python-frontmatter
-render-engine==2022.12.7a11
+render-engine==2023.1.1b2
+    # via
+    #   -r requirements.in
+    #   render-engine-rss
+render-engine-rss==2023.1.0a7
     # via -r requirements.in
-rich==12.5.1
+rich==13.0.1
     # via render-engine
+sgmllib3k==1.0.0
+    # via feedparser
 six==1.16.0
     # via python-dateutil
 text-unidecode==1.3
@@ -55,4 +65,6 @@ text-unidecode==1.3
 tomli==2.0.1
     # via black
 typer==0.7.0
-    # via render-engine
+    # via
+    #   dtyper
+    #   render-engine
