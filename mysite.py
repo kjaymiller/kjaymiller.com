@@ -13,8 +13,9 @@ site_vars = {
         Link(text="About", url="/about.html"),
         Link(text="Blog", url="/blog/blog-0.html"),
         Link(text="YouTube", url="https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q"),
+        Link(text="Python Community News", url='/pcn/pcn'),
+        Link(text="Conduit", url='/conduit/conduit/'),
         Link(text="Talks", url="https://github.com/stars/kjaymiller/lists/conference-talks"),
-        Link(text="Podcasts", url="/podcasts.html"),
         Link(text="Projects", url="/projects.html"),
         Link(text="Contact", url="/contact"),
         ),
@@ -25,7 +26,7 @@ site_vars = {
     'AUTHOR': "Jay Miller",
     'GUEST_APPEARANCES': load_json("content/guest-appearances.json"),
     'PROJECTS': load_json("content/projects.json"),
-    'PODCASTS': load_json("content/podcasts.json"),
+
     'CONFERENCE_TALKS': load_json("content/conference-talks.json"),
 }
 

@@ -1,5 +1,5 @@
-render-engine==2022.12.7a11
-render-engine-rss==2023.1.0a5
+render-engine==2023.1.1b2
+render-engine-rss==2023.1.0a6
 pytailwindcss
 black
 isort

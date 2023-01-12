@@ -24,13 +24,6 @@ markdown_extras = [
             "mermaid",
 ]
 
-@mysite.collection
-class Conduit(RSSCollection):
-    PageParser = PodcastPageParser
-    template = "blog.html"
-    routes = ['conduit']
-    archive_template = "blog_list.html"
-    content_path = "https://www.relay.fm/conduit/feed"
 
 class Blog(Blog):
     PageParser = MarkdownPageParser
@@ -43,6 +36,19 @@ class Blog(Blog):
 
 # Running render separately to save pages to variable for Index's Featured Post
 blog = mysite.collection(Blog)
+
+class Podcast(Blog):
+    PageParser = PodcastPageParser
+
+@mysite.collection
+class Conduit(Podcast):
+    routes = ['conduit']
+    content_path = "https://www.relay.fm/conduit/feed"
+
+@mysite.collection
+class PythonCommunityNews(Podcast):
+    routes = ['pcn']
+    content_path = "https://feeds.transistor.fm/python-community-podcast"
 
 @mysite.page
 class Index(Page):
