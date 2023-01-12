@@ -70,7 +70,7 @@ class MicroBlogPost(BlogPost):
 
     @property    
     def _title(self):
-        return self.slug
+        return ""
 
 @mysite.collection
 class MicroBlogPost(Blog):
