@@ -37,16 +37,19 @@ class Blog(Blog):
 # Running render separately to save pages to variable for Index's Featured Post
 blog = mysite.collection(Blog)
 
-class Podcast(Blog):
-    PageParser = PodcastPageParser
-
 @mysite.collection
-class Conduit(Podcast):
+class Conduit(RSSCollection):
+    PageParser = PodcastPageParser
+    template = "blog.html"
+    archive_template = "blog_list.html"
     routes = ['conduit']
     content_path = "https://www.relay.fm/conduit/feed"
 
 @mysite.collection
-class PythonCommunityNews(Podcast):
+class PythonCommunityNews(RSSCollection):
+    PageParser = PodcastPageParser
+    template = "blog.html"
+    archive_template = "blog_list.html"
     routes = ['pcn']
     content_path = "https://feeds.transistor.fm/python-community-podcast"
 
