@@ -16,7 +16,6 @@ site_vars = {
         Link(text="Python Community News", url='/pcn/pythoncommunitynews'),
         Link(text="Conduit", url='/conduit/conduit'),
         Link(text="Talks", url="https://github.com/stars/kjaymiller/lists/conference-talks"),
-        Link(text="Projects", url="/projects.html"),
         Link(text="Contact", url="/contact"),
         ),
     'timezone': "US/Pacific",
