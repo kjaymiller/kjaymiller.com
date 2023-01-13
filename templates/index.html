@@ -19,14 +19,40 @@
 
   </div>
 </div>
+
+<div class="mt-3 mb-6 py-3">
+  <h1 class="text-2xl my-3 font-bold capitalize">Latest Video</h1>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{youtube.yt_videoid}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 <div class="mt-3 mb-6 py-3 hover:shadow-xl shadow-indigo-800">
-  <h1 class="text-4xl my-3 font-bold capitalize">Featured Post</h1>
+  <h1 class="text-2xl my-3 font-bold capitalize">Latest Blog Post</h1>
   <div class=" p-2 flex flex-col lg:flex-row items-center">
-    <img class="featured-image max-h-48 overflow-hidden" src="{{featured_post.image}}" />
-    <h2 class="text-4xl px-3 font-bold"><a href="blog/{{featured_post.url}}">{{featured_post.title}}</a></h2>
+    <img class="featured-image max-h-48 overflow-hidden" src="{{blog.image}}" />
+    <h2 class="text-2xl px-3"><a href="{{blog.url_for}}">{{blog.title}}</a></h2>
+  </div>
+</div>
+
+<div class="mt-3 mb-6 py-3 hover:shadow-xl shadow-indigo-800">
+  <h1 class="text-2xl my-3 font-bold capitalize">Latest MicroBlog Post</h1>
+  <div class=" p-2 items-center">
+    {{microblog.markup}}
+  </div>
+</div>
+
+<div class="mt-3 mb-6 py-3 hover:shadow-xl shadow-indigo-800">
+  <h1 class="text-2xl my-3 font-bold capitalize">On Conduit</h1>
+  <div class=" p-2 flex flex-col lg:flex-row items-center">
+    <img class="featured-image max-h-48 overflow-hidden" src="{{conduit.image}}" />
+    <h2 class="text-2xl px-3"><a href="{{conduit.url_for}}">{{conduit.title}}</a></h2>
     </div>
 </div>
 
- <h2 class="w-full text-2xl font-bold">Things I'm Building</h2>
-  {% include '_projects.html' %}
+<div class="mt-3 mb-6 py-3 hover:shadow-xl shadow-indigo-800">
+  <h1 class="text-2xl my-3 font-bold capitalize">On Python Community News</h1>
+  <div class=" p-2 flex flex-col lg:flex-row items-center">
+    <img class="featured-image max-h-48 overflow-hidden" src="{{pythoncommunitynews.image}}" />
+    <h2 class="text-2xl px-3"><a href="{{pythoncommunitynews.url_for}}">{{pythoncommunitynews.title}}</a></h2>
+    </div>
+</div>
 {% endblock %}

@@ -24,10 +24,6 @@ site_vars = {
     'SITE_SUBTITLE': "Automation, Podcasting, Development",
     'SITE_URL': "https://kjaymiller.com",
     'AUTHOR': "Jay Miller",
-    'GUEST_APPEARANCES': load_json("content/guest-appearances.json"),
-    'PROJECTS': load_json("content/projects.json"),
-
-    'CONFERENCE_TALKS': load_json("content/conference-talks.json"),
 }
 
 

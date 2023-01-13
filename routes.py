@@ -11,19 +11,23 @@ from mysite import MySite
 
 mysite = MySite()
 
-@mysite.collection
-class Pages(Collection):
-    PageParser = MarkdownPageParser
-    content_path = "content/pages"
-    template = "page.html"
-
-
 markdown_extras = [
             "footnotes",
             "fenced-code-blocks",
             "header-ids",
             "mermaid",
 ]
+
+
+def get_latest(collection, site):
+    _collection = site.collection(collection)
+    return _collection.sorted_pages[0]
+
+@mysite.collection
+class Pages(Collection):
+    PageParser = MarkdownPageParser
+    content_path = "content/pages"
+    template = "page.html"
 
 
 class Blog(Blog):
@@ -36,10 +40,6 @@ class Blog(Blog):
     has_archive = True
     items_per_page = 50
 
-# Running render separately to save pages to variable for Index's Featured Post
-blog = mysite.collection(Blog)
-
-@mysite.collection
 class Conduit(RSSCollection):
     PageParser = PodcastPageParser
     template = "blog.html"
@@ -47,7 +47,6 @@ class Conduit(RSSCollection):
     routes = ['conduit']
     content_path = "https://www.relay.fm/conduit/feed"
 
-@mysite.collection
 class PythonCommunityNews(RSSCollection):
     PageParser = PodcastPageParser
     template = "blog.html"
@@ -55,12 +54,6 @@ class PythonCommunityNews(RSSCollection):
     routes = ['pcn']
     content_path = "https://feeds.transistor.fm/python-community-podcast"
 
-@mysite.page
-class Index(Page):
-    template = "index.html"
-    template_vars = {
-            "featured_post": blog.sorted_pages[0],
-        }
 
 class MicroBlogPost(BlogPost):
     @property
@@ -72,9 +65,7 @@ class MicroBlogPost(BlogPost):
     def _title(self):
         return ""
 
-@mysite.collection
-class MicroBlogPost(Blog):
-    title = "MicroBlog"
+class MicroBlog(Blog):
     archive_template = "microblog_archive.html"
     template = "blog.html"
     PageParser = MarkdownPageParser
@@ -84,3 +75,18 @@ class MicroBlogPost(Blog):
     parser_extras = {"markdown_extras": markdown_extras}
     items_per_page = 50
 
+class Youtube(RSSCollection):
+    template = "blog.html"
+    archive_template = "blog_list.html"
+    routes = ['youtube']
+    content_path = "https://www.youtube.com/feeds/videos.xml?channel_id=UCjoJU65IbXkKXsNqydro05Q"
+
+collections = [Youtube, Blog, MicroBlog, Conduit, PythonCommunityNews]
+
+@mysite.page
+class Index(Page):
+    template = "index.html"
+    template_vars = {
+        collection.__name__.lower(): get_latest(collection, mysite) \
+        for collection in collections
+    }
