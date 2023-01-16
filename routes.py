@@ -2,7 +2,7 @@ from dateutil import parser
 import datetime
 from render_engine import Page
 from render_engine.blog import Blog, BlogPost
-from render_engine_microblog.collection import MicroBlog
+from render_engine_microblog import MicroBlog
 from render_engine.collection import Collection
 from render_engine.parsers.markdown import MarkdownPageParser
 from render_engine_rss import RSSCollection
