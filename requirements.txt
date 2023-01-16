@@ -48,7 +48,7 @@ pytzdata==2020.1
     # via pendulum
 pyyaml==6.0
     # via python-frontmatter
-render-engine==2023.1.1b2
+render-engine==2023.1.2
     # via
     #   -r requirements.in
     #   render-engine-microblog
@@ -57,7 +57,7 @@ render-engine-microblog==2023.1.0a3
     # via -r requirements.in
 render-engine-rss==2023.1.0a7
     # via -r requirements.in
-rich==13.0.1
+rich==13.1.0
     # via render-engine
 sgmllib3k==1.0.0
     # via feedparser
