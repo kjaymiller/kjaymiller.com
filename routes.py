@@ -2,6 +2,7 @@ from dateutil import parser
 import datetime
 from render_engine import Page
 from render_engine.blog import Blog, BlogPost
+from render_engine_microblog.collection import MicroBlog
 from render_engine.collection import Collection
 from render_engine.parsers.markdown import MarkdownPageParser
 from render_engine_rss import RSSCollection
@@ -55,21 +56,9 @@ class PythonCommunityNews(RSSCollection):
     content_path = "https://feeds.transistor.fm/python-community-podcast"
 
 
-class MicroBlogPost(BlogPost):
-    @property
-    def _slug(self):
-        base_date = parser.parse(self.date)
-        return base_date.strftime("%Y%m%d%H%M")
-
-    @property    
-    def _title(self):
-        return ""
-
-class MicroBlog(Blog):
+class MicroBlog(MicroBlog):
     archive_template = "microblog_archive.html"
     template = "blog.html"
-    PageParser = MarkdownPageParser
-    content_type = MicroBlogPost
     content_path = "content/microblog"
     routes = ["microblog"]
     parser_extras = {"markdown_extras": markdown_extras}

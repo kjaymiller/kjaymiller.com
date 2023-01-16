@@ -36,7 +36,7 @@
 <div class="mt-3 mb-6 py-3 hover:shadow-xl shadow-indigo-800">
   <h1 class="text-2xl my-3 font-bold capitalize">Latest MicroBlog Post</h1>
   <div class=" p-2 items-center prose">
-    {{microblog.markup}}
+    {{microblog.markup}}{% if microblog['link'] %} - [🔗]({{microblog['link']}}{% endif %}
   </div>
 </div>
 
