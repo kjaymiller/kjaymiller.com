@@ -34,6 +34,8 @@ pendulum==2.1.2
     # via render-engine
 platformdirs==2.6.2
     # via black
+pluggy==1.0.0
+    # via render-engine
 pygments==2.14.0
     # via rich
 pytailwindcss==0.1.4
@@ -48,7 +50,7 @@ pytzdata==2020.1
     # via pendulum
 pyyaml==6.0
     # via python-frontmatter
-render-engine==2023.1.1b2
+render-engine==2023.1.3a1
     # via
     #   -r requirements.in
     #   render-engine-microblog
