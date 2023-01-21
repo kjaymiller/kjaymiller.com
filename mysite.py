@@ -2,6 +2,7 @@ import json
 
 from render_engine.links import Link
 from render_engine.site import Site
+from render_engine.plugins import SiteMap
 
 
 def load_json(filename):
@@ -28,3 +29,6 @@ site_vars = {
 
 class MySite(Site):
     site_vars = site_vars
+    plugins = [
+        SiteMap
+    ]
