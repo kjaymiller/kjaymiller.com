@@ -50,7 +50,7 @@ render-engine-microblog==2023.1.0a3
     # via -r requirements.in
 render-engine-rss==2023.1.0a7
     # via -r requirements.in
-render-engine-tailwindcss==2023.1.1a2
+render-engine-tailwindcss==2023.1.2a1
     # via -r requirements.in
 rich==13.2.0
     # via render-engine
