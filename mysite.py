@@ -32,6 +32,6 @@ class MySite(Site):
     site_vars = site_vars
     plugins = [
         CleanOutput,
-        TailwindCSS,
         SiteMap,
+        TailwindCSS,
     ]
