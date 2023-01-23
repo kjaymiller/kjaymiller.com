@@ -2,7 +2,8 @@ import json
 
 from render_engine.links import Link
 from render_engine.site import Site
-from render_engine.plugins import SiteMap
+from render_engine.plugins import CleanOutput, SiteMap
+from render_engine_tailwindcss import TailwindCSS
 
 
 def load_json(filename):
@@ -30,5 +31,7 @@ site_vars = {
 class MySite(Site):
     site_vars = site_vars
     plugins = [
-        SiteMap
+        CleanOutput,
+        TailwindCSS,
+        SiteMap,
     ]

@@ -1,6 +1,4 @@
 render-engine==2023.1.3a1
+render-engine-tailwindcss==2023.1.1a2
 render-engine-rss==2023.1.0a7
 render-engine-microblog==2023.1.0a3
-pytailwindcss
-black
-isort
