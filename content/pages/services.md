@@ -1,5 +1,5 @@
 ---
-name: Professional Services
+title: Professional Services
 ---
 
 ## Services I Offer

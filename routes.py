@@ -7,6 +7,8 @@ from render_engine.collection import Collection
 from render_engine.parsers.markdown import MarkdownPageParser
 from render_engine_rss import RSSCollection
 from render_engine_rss.parsers import PodcastPageParser
+import more_itertools
+import pdb
 
 from mysite import MySite
 
@@ -20,9 +22,9 @@ markdown_extras = [
 ]
 
 
-def get_latest(collection, site):
-    _collection = site.collection(collection)
-    return _collection.sorted_pages[0]
+def get_latest(collection):
+    latest_post = collection.sorted_pages[0]
+    return mysite.post_build_page(latest_post)
 
 @mysite.collection
 class Pages(Collection):
@@ -31,6 +33,7 @@ class Pages(Collection):
     template = "page.html"
 
 
+@mysite.collection
 class Blog(Blog):
     PageParser = MarkdownPageParser
     parser_extras = {"markdown_extras": markdown_extras}
@@ -41,6 +44,7 @@ class Blog(Blog):
     has_archive = True
     items_per_page = 50
 
+@mysite.collection
 class Conduit(RSSCollection):
     PageParser = PodcastPageParser
     template = "blog.html"
@@ -48,6 +52,7 @@ class Conduit(RSSCollection):
     routes = ['conduit']
     content_path = "https://www.relay.fm/conduit/feed"
 
+@mysite.collection
 class PythonCommunityNews(RSSCollection):
     PageParser = PodcastPageParser
     template = "blog.html"
@@ -56,6 +61,7 @@ class PythonCommunityNews(RSSCollection):
     content_path = "https://feeds.transistor.fm/python-community-podcast"
 
 
+@mysite.collection
 class MicroBlog(MicroBlog):
     archive_template = "microblog_archive.html"
     template = "blog.html"
@@ -64,18 +70,22 @@ class MicroBlog(MicroBlog):
     parser_extras = {"markdown_extras": markdown_extras}
     items_per_page = 50
 
+@mysite.collection
 class Youtube(RSSCollection):
     template = "blog.html"
     archive_template = "blog_list.html"
     routes = ['youtube']
     content_path = "https://www.youtube.com/feeds/videos.xml?channel_id=UCjoJU65IbXkKXsNqydro05Q"
 
-collections = [Youtube, Blog, MicroBlog, Conduit, PythonCommunityNews]
+
+collections = [Blog, MicroBlog, Conduit, PythonCommunityNews, Youtube]
+
+top_entries = [get_latest(collection) for collection in collections]
 
 @mysite.page
 class Index(Page):
     template = "index.html"
     template_vars = {
-        collection.__name__.lower(): get_latest(collection, mysite) \
+        collection.__class__.__name__.lower(): get_latest(collection)
         for collection in collections
     }

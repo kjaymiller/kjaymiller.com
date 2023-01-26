@@ -40,17 +40,20 @@ pytzdata==2020.1
     # via pendulum
 pyyaml==6.0
     # via python-frontmatter
-render-engine==2023.1.3a2
+render-engine==2023.1.3a4
     # via
     #   -r requirements.in
     #   render-engine-microblog
     #   render-engine-rss
     #   render-engine-tailwindcss
+    #   render-engine-youtube-embed
 render-engine-microblog==2023.1.0a3
     # via -r requirements.in
-render-engine-rss==2023.1.0a7
+render-engine-rss==2023.1.0a8
     # via -r requirements.in
 render-engine-tailwindcss==2023.1.2a1
+    # via -r requirements.in
+render-engine-youtube-embed==2023.1.1a2
     # via -r requirements.in
 rich==13.2.0
     # via render-engine

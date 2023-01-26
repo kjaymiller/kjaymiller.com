@@ -4,6 +4,7 @@ from render_engine.links import Link
 from render_engine.site import Site
 from render_engine.plugins import CleanOutput, SiteMap
 from render_engine_tailwindcss import TailwindCSS
+from render_engine_youtube_embed import YouTubeEmbed
 
 
 def load_json(filename):
@@ -34,4 +35,5 @@ class MySite(Site):
         CleanOutput,
         SiteMap,
         TailwindCSS,
+        YouTubeEmbed
     ]
