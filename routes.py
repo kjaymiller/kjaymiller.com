@@ -1,14 +1,10 @@
-from dateutil import parser
-import datetime
 from render_engine import Page
-from render_engine.blog import Blog, BlogPost
+from render_engine.blog import Blog
 from render_engine_microblog import MicroBlog
 from render_engine.collection import Collection
 from render_engine.parsers.markdown import MarkdownPageParser
 from render_engine_rss import RSSCollection
 from render_engine_rss.parsers import PodcastPageParser
-import more_itertools
-import pdb
 
 from mysite import MySite
 
@@ -22,10 +18,6 @@ markdown_extras = [
 ]
 
 
-def get_latest(collection):
-    latest_post = collection.sorted_pages[0]
-    return mysite.post_build_page(latest_post)
-
 @mysite.collection
 class Pages(Collection):
     PageParser = MarkdownPageParser
@@ -37,12 +29,14 @@ class Pages(Collection):
 class Blog(Blog):
     PageParser = MarkdownPageParser
     parser_extras = {"markdown_extras": markdown_extras}
+    subcollections = ["tags"]
     template = "blog.html"
     routes = ["blog"]
     content_path = "content"
     archive_template = "blog_list.html"
     has_archive = True
     items_per_page = 50
+
 
 @mysite.collection
 class Conduit(RSSCollection):
@@ -52,14 +46,15 @@ class Conduit(RSSCollection):
     routes = ['conduit']
     content_path = "https://www.relay.fm/conduit/feed"
 
+
 @mysite.collection
 class PythonCommunityNews(RSSCollection):
+    title = "Python Community News"
     PageParser = PodcastPageParser
     template = "blog.html"
     archive_template = "blog_list.html"
     routes = ['pcn']
     content_path = "https://feeds.transistor.fm/python-community-podcast"
-
 
 @mysite.collection
 class MicroBlog(MicroBlog):
@@ -70,6 +65,7 @@ class MicroBlog(MicroBlog):
     parser_extras = {"markdown_extras": markdown_extras}
     items_per_page = 50
 
+
 @mysite.collection
 class Youtube(RSSCollection):
     template = "blog.html"
@@ -78,14 +74,17 @@ class Youtube(RSSCollection):
     content_path = "https://www.youtube.com/feeds/videos.xml?channel_id=UCjoJU65IbXkKXsNqydro05Q"
 
 
-collections = [Blog, MicroBlog, Conduit, PythonCommunityNews, Youtube]
+latest_episodes = dict()
+for entry, col in mysite.route_list.items():
+    if isinstance(col, Collection) and col.has_archive:
+            latest_episodes[entry] = {
+                "title": col.title,
+                "latest": col.sorted_pages[0],
+                "archive": list(col.archives)[0],
+            }
 
-top_entries = [get_latest(collection) for collection in collections]
+mysite.site_vars['latest_episodes'] = latest_episodes
 
 @mysite.page
 class Index(Page):
     template = "index.html"
-    template_vars = {
-        collection.__class__.__name__.lower(): get_latest(collection)
-        for collection in collections
-    }
