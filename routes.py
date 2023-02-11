@@ -77,11 +77,11 @@ class Youtube(RSSCollection):
 latest_episodes = dict()
 for entry, col in mysite.route_list.items():
     if isinstance(col, Collection) and col.has_archive:
-            latest_episodes[entry] = {
-                "title": col.title,
-                "latest": col.sorted_pages[0],
-                "archive": list(col.archives)[0],
-            }
+        latest_episodes[entry] = {
+            "title": col.title,
+            "latest": col.sorted_pages[0],
+            "archive": list(col.archives)[0],
+        }
 
 mysite.site_vars['latest_episodes'] = latest_episodes
 

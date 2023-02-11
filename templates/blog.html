@@ -7,10 +7,10 @@
 {% block content %} 
   <article class="prose lg:prose-xl dark:prose-invert prose-slate">
 	<div class="feature-image overflow-hidden">
-    <img src="{{image}}" class="rounded-lg shadow">
+    <img src="{{image}}" class="max-h-72 rounded-lg shadow">
 	</div>
   <div class="m-3">
-      <h1 class="title text-4xl font-bold">{{title}}</h1>
+      <h1 class="title font-bold">{{title}}</h1>
       {% if subtitle %}: {{subtitle}}{%endif%}
       {% if link %}<a href="{{link}}">🔗</a>{% endif %}
       <small class="column is-narrow">
