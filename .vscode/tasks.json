@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Site",
+      "type": "shell",
+      "command" : "${command:python.interpreterPath}",
+      "args": [ "-m", "render_engine", "build", "routes:mysite"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
+      "label": "Run Server",
+      "type": "shell",
+      "command" : "${command:python.interpreterPath}",
+      "args": [ "-m", "render_engine", "serve", "--build", "routes:mysite", "-d", "output"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
+      "label": "Update Dependencies",
+      "type": "shell",
+      "command" : "${command:python.interpreterPath} -m piptools compile --upgrade && ${command:python.interpreterPath} -m piptools sync",
+    }
+  ]
+}
