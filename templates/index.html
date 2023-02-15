@@ -48,11 +48,15 @@
     </div>
 </div>
 
-<div class="mt-3 mb-6 py-3 hover:shadow-xl shadow-indigo-800">
-  <h1 class="text-2xl my-3 font-bold capitalize">On Python Community News</h1>
-  <div class=" p-2 flex flex-col lg:flex-row items-center">
-    <img class="featured-image max-h-48 overflow-hidden" src="{{pythoncommunitynews.image}}" />
-    <h2 class="text-2xl px-3"><a href="{{pythoncommunitynews.url_for}}">{{pythoncommunitynews.title}}</a></h2>
-    </div>
-</div>
+<h1 class="text-2xl font-bold underline">Latest Posts</h1>
+    {% for section in latest_episodes %}
+    {% if section != "microblog" %}
+      {% set section_title = latest_episodes[section]["title"] %}
+      {% set latest = latest_episodes[section]["latest"] %}
+      {% set archive = latest_episodes[section]["archive"] %}
+        <h2 class="text-lg my-2"><a class="font-bold" href="{{archive.url_for}}">{{section_title | title}}:</a><a class="pl-2" href="{{latest.url_for}}">{{latest.title}}</a></h1>
+          <h3>
+      {% endif %}
+    {% endfor %}
+</section>
 {% endblock %}
