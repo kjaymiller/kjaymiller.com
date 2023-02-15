@@ -18,6 +18,11 @@
       "options": {
         "cwd": "${workspaceFolder}"
       }
+    },
+    {
+      "label": "Update Dependencies",
+      "type": "shell",
+      "command" : "${command:python.interpreterPath} -m piptools compile --upgrade && ${command:python.interpreterPath} -m piptools sync",
     }
   ]
 }
