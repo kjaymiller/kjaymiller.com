@@ -7,14 +7,10 @@ from render_engine_tailwindcss import TailwindCSS
 from render_engine_youtube_embed import YouTubeEmbed
 
 
-def load_json(filename):
-    with open(filename) as j:
-        return json.load(j)
-
 site_vars = {
     'HEADER_LINKS': (
         Link(text="About", url="/about.html"),
-        Link(text="Blog", url="/blog/blog-0.html"),
+        Link(text="Blog", url="/blog/blog0.html"),
         Link(text="YouTube", url="https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q"),
         Link(text="Python Community News", url='/pcn/pythoncommunitynews'),
         Link(text="Conduit", url='/conduit/conduit'),

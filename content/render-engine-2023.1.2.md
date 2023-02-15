@@ -10,7 +10,7 @@ image: https://kjaymiller.azureedge.net/media/render-engine-logo.png
 
 I talked about some of the development process and reasoning in a recent _Developer Journal_ update.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8WYK_9Nk2i8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+https://www.youtube.com/watch/8WYK_9Nk2i8
 
 There are many updates (sorry I'm not that great at managing my changelog), but here are a few of the big topics.
 

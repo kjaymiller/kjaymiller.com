@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Render Engine: Serve",
+            "type": "python",
+            "request": "launch",
+            "module": "render_engine",
+            "justMyCode": true,
+            "args": [
+                "serve",
+                "routes:mysite",
+                "--build",
+                "-d",
+                "output"
+            ],
+        }
+    ]
+}
