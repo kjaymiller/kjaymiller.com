@@ -42,7 +42,7 @@ pytzdata==2020.1
     # via pendulum
 pyyaml==6.0
     # via python-frontmatter
-render-engine==2023.1.3a6
+render-engine==2023.1.3a7
     # via
     #   -r requirements.in
     #   render-engine-microblog
