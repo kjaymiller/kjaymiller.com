@@ -1,7 +1,6 @@
 ---
 title: About Jay Miller
 slug: about
-template: blog.html
 ---
 
 

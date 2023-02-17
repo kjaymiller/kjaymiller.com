@@ -6,49 +6,36 @@
 {% endblock %}
 {% block content %} 
   <article class="prose lg:prose-xl dark:prose-invert prose-slate">
-	<div class="feature-image overflow-hidden">
-    <img src="{{image}}" class="max-h-72 rounded-lg shadow">
-	</div>
-  <div class="m-3">
-      <h1 class="title font-bold">{{title}}</h1>
+    {% if not no_feature_image %}
+      <div class="feature-image overflow-hidden">
+        <img src="{{image}}" class="max-h-72 rounded-lg shadow">
+      </div>
+    {% endif %}
+    <div class="pt-1">
+      <h1 class="title">{{title}}</h1>
       {% if subtitle %}: {{subtitle}}{%endif%}
-      {% if link %}<a href="{{link}}">🔗</a>{% endif %}
       <small class="column is-narrow">
       {{date_friendly}}
       </small>
-
         </div>
-{#
-	  <section class="flex">
-                  <div class="px-3">
-                  {% if tags %}
-                    <p class="">
-                    <strong>Tags: </strong>
-                    {% for tag in tags %}
-                    {% include 'tag_link.html' %}
-                    {% endfor %}
-                    </p>
-                    {% endif %}
-                </div>
-              </section>
-  #}
-	  </section>
-        <hr />
-
         {% include 'github_disclaimer.html' %}
 
         {% if link %}
         <div class="notification is-small">
-          <strong>Source:</strong> <a href="{{link}}">{{link}}</a>
         </div>
         {% endif %}
         {% include 'YouTube_embed.html' %}
 
-    <section class="section min-h-screen my-4 py-4">
+    <section class="section min-h-screen">
+          <h4>{{date}}</h4>
+          <h4><strong>Source:</strong> <a href="{{link}}">{{link}}</a>
+          {% if link %}<a href="{{link}}">🔗</a>{% endif %}
+          </h4>
           <div class="content">
             {{content}}
           </div>
         </section>
+	  </section>
       </article>
     <section class="my-4 border-t-2 border-gray-400">
       <div class="content p-2">

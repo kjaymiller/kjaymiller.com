@@ -2,12 +2,14 @@
 {% block title %}{{title}}{% endblock%}
 {% block head %}<link rel="stylesheet" href="/static/css/article.css" />{% endblock %}
 {% block content %}
+<section>
 <div class="my-4">
-<h1 class="text-4xl font-extrabold">{{title}}</h1>
-<article class=content>
+    <h1 class="text-4xl font-extrabold">{{title}}</h1>
+</div>
+<article class="prose">
     {{content}}
 </article>
-</div>
+</section>
 {% endblock %}
 {% block add_ons %}
 {% endblock %}

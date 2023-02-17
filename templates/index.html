@@ -2,13 +2,13 @@
 <!-- <link rel="stylesheet" type="text/css" href="/static/css/index.css" /> -->
 {% endblock %}
 {% block content %}
-<section>
-<h1 class="text-2xl font-bold"><a href="{{latest_episodes["microblog"]["archive"].url_for}}">Microblog</a></h1>
-<div>
-{{latest_episodes["microblog"]["latest"].content}}
-</div>
+<section class="my-2">
+<article class="prose">
+  <h1 class="text-2xl font-bold"><a href="{{latest_episodes["microblog"]["archive"].url_for}}">Microblog</a></h1>
+  {{latest_episodes["microblog"]["latest"].content}}
+</article>
 </section>
-<section class="my-4">
+<section class="my-6">
 
 <h1 class="text-2xl font-bold underline">Latest Posts</h1>
     {% for section in latest_episodes %}

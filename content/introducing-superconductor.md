@@ -2,6 +2,7 @@
 title: Introducing Super Conductor
 link: https://imasuperconductor.com
 date: 26 Jan 2023 10:15
+no_feature_image: True
 image:  https://kjaymiller.azureedge.net/media/SuperConductor.jpeg
 ---
 
