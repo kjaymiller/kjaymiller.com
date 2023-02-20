@@ -9,14 +9,13 @@
   </section>
   <section class="my-6">
 
-  <h1 class="text-2xl font-bold underline">Latest Posts</h2>
+  <h2 class="text-2xl font-bold underline">Latest Posts</h2>
     {% for section in latest_episodes %}
     {% if section != "microblog" %}
       {% set section_title = latest_episodes[section]["title"] %}
       {% set latest = latest_episodes[section]["latest"] %}
       {% set archive = latest_episodes[section]["archive"] %}
-        <h2 class="text-lg my-2"><a class="font-bold" href="{{archive.url_for}}">{{section_title | title}}:</a><a class="pl-2" href="{{latest.url_for}}">{{latest.title}}</a></h1>
-          <h3>
+        <h3 class="text-lg my-2"><a class="font-bold" href="{{archive.url_for}}">{{section_title | title}}:</a><a class="pl-2" href="{{latest.url_for}}">{{latest.title}}</a></h3>
       {% endif %}
     {% endfor %}
   </section>
