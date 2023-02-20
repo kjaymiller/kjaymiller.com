@@ -16,6 +16,24 @@ markdown_extras = [
             "header-ids",
             "mermaid",
 ]
+@mysite.collection
+class Conduit(RSSCollection):
+    PageParser = PodcastPageParser
+    template = "blog.html"
+    archive_template = "blog_list.html"
+    routes = ['conduit']
+    content_path = "https://www.relay.fm/conduit/feed"
+
+
+@mysite.collection
+class PythonCommunityNews(RSSCollection):
+    title = "Python Community News"
+    PageParser = PodcastPageParser
+    template = "blog.html"
+    archive_template = "blog_list.html"
+    routes = ['pcn']
+    content_path = "https://feeds.transistor.fm/python-community-podcast"
+
 
 
 @mysite.collection
@@ -37,24 +55,6 @@ class Blog(Blog):
     has_archive = True
     items_per_page = 50
 
-
-@mysite.collection
-class Conduit(RSSCollection):
-    PageParser = PodcastPageParser
-    template = "blog.html"
-    archive_template = "blog_list.html"
-    routes = ['conduit']
-    content_path = "https://www.relay.fm/conduit/feed"
-
-
-@mysite.collection
-class PythonCommunityNews(RSSCollection):
-    title = "Python Community News"
-    PageParser = PodcastPageParser
-    template = "blog.html"
-    archive_template = "blog_list.html"
-    routes = ['pcn']
-    content_path = "https://feeds.transistor.fm/python-community-podcast"
 
 @mysite.collection
 class MicroBlog(MicroBlog):
