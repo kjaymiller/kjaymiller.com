@@ -55,7 +55,7 @@ render-engine-rss==2023.1.0a11
     # via -r requirements.in
 render-engine-tailwindcss==2023.1.2a2
     # via -r requirements.in
-render-engine-youtube-embed==2023.1.1a3
+render-engine-youtube-embed==2023.1.1a4
     # via -r requirements.in
 rich==13.3.1
     # via render-engine
