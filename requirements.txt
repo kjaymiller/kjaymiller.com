@@ -14,7 +14,7 @@ feedparser==6.0.10
     # via render-engine-rss
 jinja2==3.1.2
     # via render-engine
-markdown-it-py==2.1.0
+markdown-it-py==2.2.0
     # via rich
 markdown2==2.4.8
     # via render-engine
@@ -42,14 +42,14 @@ pytzdata==2020.1
     # via pendulum
 pyyaml==6.0
     # via python-frontmatter
-render-engine==2023.1.3a8
+render-engine==2023.1.3a9
     # via
     #   -r requirements.in
     #   render-engine-microblog
     #   render-engine-rss
     #   render-engine-tailwindcss
     #   render-engine-youtube-embed
-render-engine-microblog==2023.1.0a4
+render-engine-microblog==2023.1.0a5
     # via -r requirements.in
 render-engine-rss==2023.1.0a11
     # via -r requirements.in
