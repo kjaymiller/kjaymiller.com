@@ -8,7 +8,8 @@
       "args": [ "-m", "render_engine", "build", "routes:mysite"],
       "options": {
         "cwd": "${workspaceFolder}"
-      }
+      },
+      "problemMatcher": []
     },
     {
       "label": "Run Server",
@@ -17,12 +18,14 @@
       "args": [ "-m", "render_engine", "serve", "--build", "routes:mysite", "-d", "output"],
       "options": {
         "cwd": "${workspaceFolder}"
-      }
+      },
+      "problemMatcher": []
     },
     {
       "label": "Update Dependencies",
       "type": "shell",
       "command" : "${command:python.interpreterPath} -m piptools compile --upgrade && ${command:python.interpreterPath} -m piptools sync",
+      "problemMatcher": []
     }
   ]
 }
