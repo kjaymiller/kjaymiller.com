@@ -67,5 +67,6 @@ text-unidecode==1.3
     # via python-slugify
 typer==0.7.0
     # via
+    #   -r requirements.in
     #   dtyper
     #   render-engine

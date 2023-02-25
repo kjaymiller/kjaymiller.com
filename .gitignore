@@ -1,3 +1,4 @@
+.local-venv
 output
 .envrc
 .direnv
