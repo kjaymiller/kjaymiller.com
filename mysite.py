@@ -1,5 +1,3 @@
-import json
-
 from render_engine.links import Link
 from render_engine.site import Site
 from render_engine.plugins import CleanOutput, SiteMap

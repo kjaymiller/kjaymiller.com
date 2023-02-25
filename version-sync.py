@@ -69,5 +69,3 @@ def update(pin: PinType = PinType.eq):
 
 if __name__ == "__main__":
     app()
-
-
