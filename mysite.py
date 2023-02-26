@@ -25,8 +25,9 @@ site_vars = {
 
 class MySite(Site):
     site_vars = site_vars
+    partial=True
     plugins = [
-        CleanOutput,
+    #    CleanOutput,
         SiteMap,
         TailwindCSS,
         YouTubeEmbed

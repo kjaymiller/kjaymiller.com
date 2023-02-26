@@ -8,7 +8,7 @@ chevron==0.14.0
     # via render-engine
 click==8.1.3
     # via typer
-dtyper==2.0.3
+dtyper==2.1.0
     # via render-engine
 feedparser==6.0.10
     # via render-engine-rss
@@ -42,7 +42,7 @@ pytzdata==2020.1
     # via pendulum
 pyyaml==6.0
     # via python-frontmatter
-render-engine==2023.1.3a10
+render-engine==2023.1.3a11
     # via
     #   -r requirements.in
     #   render-engine-microblog
