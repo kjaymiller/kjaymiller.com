@@ -1,22 +1,3 @@
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
-
-[project]
-name = "kjaymiller.com"
-description = "A Flexible Static Site Generator for Python"
-version = "0.0.1"
-readme = "README.md"
-
-dependencies = [
-    "render-engine==2023.1.3a9",
-    "render-engine-tailwindcss==2023.1.2a2",
-    "render-engine-rss==2023.1.0a11",
-    "render-engine-microblog==2023.1.0a5",
-    "render-engine-youtube-embed",
-    ]
-
-
 [tools.version_check]
 paths = [
         "render-engine:../render_engine",
