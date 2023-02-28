@@ -10,7 +10,7 @@ site_vars = {
         Link(text="About", url="/about.html"),
         Link(text="Blog", url="/blog/blog1.html"),
         Link(text="YouTube", url="https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q"),
-        Link(text="Python Community News", url='/pcn/pythoncommunitynews'),
+        Link(text="Python Community News", url='/pcn/python-community-news'),
         Link(text="Conduit", url='/conduit/conduit'),
         Link(text="Talks", url="https://github.com/stars/kjaymiller/lists/conference-talks"),
         Link(text="Contact", url="/contact"),
@@ -26,7 +26,7 @@ site_vars = {
 class MySite(Site):
     site_vars = site_vars
     plugins = [
-        CleanOutput,
+        # CleanOutput,
         SiteMap,
         TailwindCSS,
         YouTubeEmbed
