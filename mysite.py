@@ -11,7 +11,7 @@ site_vars = {
         Link(text="Blog", url="/blog/blog1.html"),
         Link(text="YouTube", url="https://www.youtube.com/channel/UCjoJU65IbXkKXsNqydro05Q"),
         Link(text="Python Community News", url='/pcn/python-community-news'),
-        Link(text="Conduit", url='/conduit/conduit'),
+        Link(text="Conduit", url='https://relay.fm/conduit'),
         Link(text="Talks", url="https://github.com/stars/kjaymiller/lists/conference-talks"),
         Link(text="Contact", url="/contact"),
         ),
