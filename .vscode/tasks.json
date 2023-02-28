@@ -2,30 +2,58 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "PipTools: Upgrade",
+      "type":"shell",
+      "command": "${command:python.interpreterPath} -m piptools compile --upgrade"
+    },
+    {
+      "label": "PipTools: Sync",
+      "type": "shell",
+      "command": "${command:python.interpreterPath} -m piptools sync",
+      "dependsOn": "PipTools: Upgrade"
+    },
+    {
       "label": "Build Site",
       "type": "shell",
       "command" : "${command:python.interpreterPath}",
       "args": [ "-m", "render_engine", "build", "routes:mysite"],
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
-      "problemMatcher": []
+      "problemMatcher": [], 
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "revealProblems": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": true,
+        "clear": false
+      }
     },
     {
       "label": "Run Server",
       "type": "shell",
       "command" : "${command:python.interpreterPath}",
       "args": [ "-m", "render_engine", "serve", "--build", "routes:mysite", "-d", "output"],
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
-      "problemMatcher": []
+      "problemMatcher": [], 
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "revealProblems": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": true,
+        "clear": false
+      }
+    },
+
+    {
+      "label": "Check Local Dependencies",
+      "type": "shell",
+      "command" : "${command:python.interpreterPath} version-sync.py check"
     },
     {
-      "label": "Update Dependencies",
+      "label": "Update Local Dependencies",
       "type": "shell",
-      "command" : "${command:python.interpreterPath} -m piptools compile --upgrade && ${command:python.interpreterPath} -m piptools sync",
-      "problemMatcher": []
+      "command" : "${command:python.interpreterPath} version-sync.py update"
     }
   ]
 }

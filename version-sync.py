@@ -33,7 +33,7 @@ def get_requirements() -> dict[str, str | None]:
     return packages
 
 @app.command()
-def check_versions() -> dict[str, str | None]:
+def check() -> dict[str, str | None]:
     """Checks the version of the python packages in the manifest"""
 
     packages = get_requirements()
@@ -52,6 +52,7 @@ def check_versions() -> dict[str, str | None]:
             packages[package] = version
         
         else:
+            rich.print(f"{package=} {version=} is up to date :thumbs_up:")
             del packages[package]
 
     return packages
