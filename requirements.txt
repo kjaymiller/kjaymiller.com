@@ -26,25 +26,19 @@ mdurl==0.1.2
     # via markdown-it-py
 more-itertools==9.0.0
     # via render-engine
-pendulum==2.1.2
-    # via render-engine
 pluggy==1.0.0
     # via render-engine
 pygments==2.14.0
     # via rich
 pytailwindcss==0.1.4
     # via render-engine-tailwindcss
-python-dateutil==2.8.2
-    # via pendulum
 python-frontmatter==1.0.0
     # via render-engine
 python-slugify==8.0.1
     # via render-engine
-pytzdata==2020.1
-    # via pendulum
 pyyaml==6.0
     # via python-frontmatter
-render-engine==2023.1.3a12
+render-engine==2023.3.1b4
     # via
     #   -r requirements.in
     #   render-engine-microblog
@@ -63,8 +57,6 @@ rich==13.3.1
     # via render-engine
 sgmllib3k==1.0.0
     # via feedparser
-six==1.16.0
-    # via python-dateutil
 smmap==5.0.0
     # via gitdb
 text-unidecode==1.3
