@@ -1,8 +1,0 @@
-[tools.version_check]
-paths = [
-        "render-engine:../render_engine",
-        "render-engine-rss:../render-engine-extensions/render-engine-rss",
-        "render-engine-microblog:../render-engine-microblog",
-        "render-engine-tailwindcss:../render-engine-tailwind",
-        "render-engine-youtube-embed:../render-engine-youtube",
-    ]

@@ -4,13 +4,15 @@
     {
       "label": "PipTools: Upgrade",
       "type":"shell",
-      "command": "${command:python.interpreterPath} -m piptools compile --upgrade"
+      "command": "${command:python.interpreterPath} -m piptools compile --upgrade",
+      "problemMatcher": []
     },
     {
       "label": "PipTools: Sync",
       "type": "shell",
       "command": "${command:python.interpreterPath} -m piptools sync",
-      "dependsOn": "PipTools: Upgrade"
+      "dependsOn": "PipTools: Upgrade",
+      "problemMatcher": []
     },
     {
       "label": "Build Site",
