@@ -32,13 +32,15 @@ pygments==2.14.0
     # via rich
 pytailwindcss==0.1.4
     # via render-engine-tailwindcss
+python-dateutil==2.8.2
+    # via render-engine
 python-frontmatter==1.0.0
     # via render-engine
 python-slugify==8.0.1
     # via render-engine
 pyyaml==6.0
     # via python-frontmatter
-render-engine==2023.3.1b5
+render-engine==2023.3.1b13
     # via
     #   -r requirements.in
     #   render-engine-microblog
@@ -57,6 +59,8 @@ rich==13.3.1
     # via render-engine
 sgmllib3k==1.0.0
     # via feedparser
+six==1.16.0
+    # via python-dateutil
 smmap==5.0.0
     # via gitdb
 text-unidecode==1.3
