@@ -12,5 +12,7 @@
         "titleBar.inactiveForeground": "#e7e7e799"
     },
     "peacock.color": "#215732",
-    "peacock.remoteColor": "#1c3f63"
+    "peacock.remoteColor": "#1c3f63",
+    "frontMatter.preview.host": "http://localhost:8000",
+    "frontMatter.framework.startCommand": ". .venv/bin/activate && render-engine serve --build routes:mysite"
 }
