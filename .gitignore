@@ -166,3 +166,4 @@ cython_debug/
 frontmatter.json
 .frontmatter/
 .vscode/
+.DS_Store
