@@ -1,8 +1,10 @@
 ---
-title: Breaking Changes Around Date Handling
+date: 2023-04-16 13:09:00-07:00
 series: Render Engine DevLog
-date: 2023-04-16 13:09-0700
-tags: [render-engine, devlog]
+tags:
+- render-engine
+- devlog
+title: Breaking Changes Around Date Handling
 ---
 
 In our push to reduce the complexity of the system prior to our "1.0" stable release. I've made the decision to reduce the number of mandatory attributes reduce confusion in what is required and what isn't.
@@ -88,4 +90,3 @@ There is always an issue when dealing with time-zone naive or aware dates. I've 
 ## Future Removals
 
 The hope is that if breaking changes are required they can be documented with steps to remediate any issues caused by it.
-

@@ -167,3 +167,4 @@ frontmatter.json
 .frontmatter/
 .vscode/
 .DS_Store
+.vscode/settings.json
