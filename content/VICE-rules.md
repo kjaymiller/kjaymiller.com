@@ -1,8 +1,8 @@
 ---
-title: The VICE Strategy for setting Boundaries and Rules
-date: 19 Mar 2022 8:30
-tags: conduit, productivity
+date: 2022-03-19 08:30:00-07:00
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/vise-1.jpg
+tags: conduit, productivity
+title: The VICE Strategy for setting Boundaries and Rules
 ---
 
 Another Productivity acronym from the [Conduit Crew](https://relay.fm/conduit/18)! This one is to help you with dealing with external factors.

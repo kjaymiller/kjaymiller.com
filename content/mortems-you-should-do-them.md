@@ -1,7 +1,7 @@
 ---
-date: 25 Mar 2021 08:40
+date: 2021-03-25 08:40:00-07:00
 tags: productivity
-title: "Mortems: You Should Do Those"
+title: 'Mortems: You Should Do Those'
 ---
 
 Inspired by an app idea I had a couple years ago.

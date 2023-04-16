@@ -1,9 +1,9 @@
 ---
-title: SubCollections now available in Render Engine
-date: 01 Jul 2020 14:43
 category: Render Engine
-tags: update
+date: 2020-07-01 14:43:00-07:00
 image: https://s3-us-west-2.amazonaws.com/kjaymiller/images/render-engine-subcollections.png
+tags: update
+title: SubCollections now available in Render Engine
 ---
 
 **Version Update: 2020.07.02**

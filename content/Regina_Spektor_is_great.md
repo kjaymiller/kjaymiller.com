@@ -1,7 +1,7 @@
 ---
-title: Regina Spektor is my brain put to music and I love it!
-date: 05 Aug 2022 22:04
+date: 2022-08-05 22:04:00-07:00
 tags: music
+title: Regina Spektor is my brain put to music and I love it!
 ---
 
 I don't really have much to say. Other than listen to Regina Spektor's Tiny Desk. It's really good and put me in a wonderful mood!

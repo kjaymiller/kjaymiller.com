@@ -40,7 +40,7 @@ python-slugify==8.0.1
     # via render-engine
 pyyaml==6.0
     # via python-frontmatter
-render-engine==2023.3.1b14
+render-engine==2023.4.1a5
     # via
     #   -r requirements.in
     #   render-engine-microblog
@@ -49,13 +49,13 @@ render-engine==2023.3.1b14
     #   render-engine-youtube-embed
 render-engine-microblog==2023.1.0a5
     # via -r requirements.in
-render-engine-rss==2023.1.0a11
+render-engine-rss==2023.4.1a2
     # via -r requirements.in
 render-engine-tailwindcss==2023.1.2a2
     # via -r requirements.in
 render-engine-youtube-embed==2023.3.2a1
     # via -r requirements.in
-rich==13.3.1
+rich==13.3.3
     # via render-engine
 sgmllib3k==1.0.0
     # via feedparser

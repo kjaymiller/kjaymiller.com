@@ -1,8 +1,8 @@
 ---
-title: Setup New Github Key
 category: code
+date: 2021-03-24 14:22:00-07:00
 tags: github, server, new machine
-date: 24 Mar 2021 14:22
+title: Setup New Github Key
 ---
 
 Another note that I wind up having to look up every time.

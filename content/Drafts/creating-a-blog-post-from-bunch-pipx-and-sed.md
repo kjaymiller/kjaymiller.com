@@ -1,7 +1,7 @@
 ---
+date: 2021-05-19 16:59:54-07:00
+tags: null
 title: Creating a Blog Post from Bunch, pipx, and sed
-date: 05/19/21 16:59:54
-tags:
 ---
 
 Shell scripting is a weakness of mine. I know how to navigate a terminal and enter commands but there are a lot of things that differ in entering the commands directly or running a gamut of commands in a single script.

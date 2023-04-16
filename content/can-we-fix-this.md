@@ -1,10 +1,9 @@
 ---
-title: Can we fix this?
+date: 2020-06-01 08:17:00-07:00
 slug: can-we-fix-this
-date: 01 Jun 2020 08:17
 tags: police brutality, racism
+title: Can we fix this?
 ---
-
 
 I have been mostly silent in this time, mostly as I needed time to think
 about what I would like to see come out of all this.
@@ -80,4 +79,3 @@ These ideas are mostly from conversations with folks that have asked me how
 they can best help. If you want to help, be an advocate and ally for those that
 can't advocate for themselves. Stand up for those that can't afford to stand up
 for themselves. Punish those that punish unjustly. And be willing to listen when we do speak up.
-

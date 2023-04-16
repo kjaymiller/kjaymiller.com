@@ -1,9 +1,9 @@
 ---
-title: Transcriptor now Supports SRT Upload and Conversion
-date: 05 Aug 2020 13:37
-tags: update, accessibility
 category: Transcriptor
+date: 2020-08-05 13:37:00-07:00
 image: https://s3-us-west-2.amazonaws.com/kjaymiller/images/Transcriptor%20Logo%20V1.1.png
+tags: update, accessibility
+title: Transcriptor now Supports SRT Upload and Conversion
 ---
 
 A few weeks ago, I was tasked with a new transcription project.

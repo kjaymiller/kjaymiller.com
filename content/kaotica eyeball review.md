@@ -1,10 +1,10 @@
 ---
-title: Kaotica Eyeball
-subtitle: The $200 Acoustic Paneling to Replace $400 Audio Plugins
-image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/kaotica-eyeball.jpeg
-tags: audio, production, sound-proofing
-date: 04 Nov 2020 16:19
 category: reviews
+date: 2020-11-04 16:19:00-08:00
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/kaotica-eyeball.jpeg
+subtitle: The $200 Acoustic Paneling to Replace $400 Audio Plugins
+tags: audio, production, sound-proofing
+title: Kaotica Eyeball
 ---
 
 I first learned about the [Kaotica Eyeball](https://www.kaoticaeyeball.com) from a video by Hip Hop Artist [Ruslan](). In the video he mentioned using it to record vocals that would later appear on one of his albums. While consulting for a former employer, I took the opportunity to order one for them to record in their office. I was impressed with the quality of the acoustic foam and how well it blocked out noise. I hoped that I could use it to block out some unwanted noise from our (and our neighbor's) dogs.

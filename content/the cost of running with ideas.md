@@ -1,7 +1,7 @@
 ---
-title: The Cost of Running with Scratched Itches
-date: 06 Feb 2021 13:41
+date: 2021-02-06 13:41:00-08:00
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/cat%20scratch.jpg
+title: The Cost of Running with Scratched Itches
 ---
 
 I have friends that make things. They also inspire me to make things.

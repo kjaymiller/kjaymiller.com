@@ -1,9 +1,9 @@
 ---
-title: New Project 31 Tweets of Neurodiverse Encouragement
-date: 17 Aug 2022 10:15
-tags: mental-health
-slug: 31-tweets-nd-encouragment
+date: 2022-08-17 10:15:00-07:00
 image: https://jmblogstorrage.blob.core.windows.net/media/CLO20b_Gabriel_Jordan_outside_001.jpg
+slug: 31-tweets-nd-encouragment
+tags: mental-health
+title: New Project 31 Tweets of Neurodiverse Encouragement
 ---
 
 We've all seen these motivational posts on social media designed to <strike>get follows</strike> brighten our days.

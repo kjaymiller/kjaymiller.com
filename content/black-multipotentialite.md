@@ -1,8 +1,8 @@
 ---
-title: In Defense of the Black Multi-Potentialite
-date: 06 Jun 2020 22:24
-tags: multipotentiality
 category: life
+date: 2020-06-06 22:24:00-07:00
+tags: multipotentiality
+title: In Defense of the Black Multi-Potentialite
 ---
 
 > _Stay in Your Lane._ - NRA to Emergency Room Doctors
@@ -69,4 +69,3 @@ Donald Glover became one of the most influential black artists in America by com
 Janelle Monae has done something similar by not just making music but making a statement in her sound, and videos. Her message made her a clear choice for portraying one of Black America's most notable mathematicians, Mary Jackson.
 
 My child will grow up seeing me doing what I want and enjoying it, and maybe I will inspire her to do the same.
-

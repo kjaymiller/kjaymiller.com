@@ -1,8 +1,8 @@
 ---
-title: Keyboard Shortcuts in Craft’s Calendar View with Keyboard Maestro
-date: 11 June 2021 13:00
-tags: YouTube, craft, Keyboard Maestro, automation
 category: YouTube
+date: 2021-06-11 13:00:00-07:00
+tags: YouTube, craft, Keyboard Maestro, automation
+title: Keyboard Shortcuts in Craft’s Calendar View with Keyboard Maestro
 youtube: https://www.youtube.com/embed/u95TCzGe7eo
 ---
 
@@ -15,4 +15,3 @@ Checkout Craft on the Mac App Store - https://apps.apple.com/us/app/craft-docs-a
 Checkout Keyboard Maestro - https://www.keyboardmaestro.com/main/
 
 If you aren't already follow me on Twitter! - https://twiter.com/kjaymiller
-

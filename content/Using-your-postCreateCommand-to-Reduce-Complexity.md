@@ -1,7 +1,7 @@
 ---
-title: Using your `postCreateCommand`to Reduce Complexity
-date: 01 Mar 2023 21:03
+date: 2023-03-01 21:03:00-08:00
 tags: github
+title: Using your `postCreateCommand`to Reduce Complexity
 ---
 
 In prep for my talk at [SCALE](https://socallinuxexpo.org), I've been playing with making my development systems moare streamlined using [Dev Containers](https://containers.dev).

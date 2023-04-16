@@ -1,7 +1,7 @@
 ---
-title: Omnifocus Resources via Joe Buhlig
-date: 25 Mar 2021 08:21
+date: 2021-03-25 08:21:00-07:00
 tags: omnifocus, productivity
+title: Omnifocus Resources via Joe Buhlig
 ---
 
 I've mentioned [Joe](https://joebuhlig.com) before. Joe's great. He shared a lot of resources with me a while ago[^1] about Omnifocus. Some may be outdated but perhaps the context is still there.

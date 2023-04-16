@@ -1,7 +1,7 @@
 ---
-title: Frontmatter replacing custom parser in Render Engine
-date: 23 Apr 2021 07:00
+date: 2021-04-23 07:00:00-07:00
 tags: development, render-engine
+title: Frontmatter replacing custom parser in Render Engine
 ---
 
 There's a tug-of-war in software development around whether or not your products

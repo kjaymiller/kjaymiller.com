@@ -1,8 +1,8 @@
 ---
-title: asdf, direnv and the upgrade to python 3.10
-date: 06 Oct 2021 07:16
-tags: python, code
+date: 2021-10-06 07:16:00-07:00
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/python_3_10_asdf_errors_python_versions.png
+tags: python, code
+title: asdf, direnv and the upgrade to python 3.10
 ---
 
 Recently [Python Bytes][6937-0001] a post mentioned using [asdf][6937-0002] and direnv to manage Python versions.

@@ -1,9 +1,9 @@
 ---
-title: Announcing Conduit on Relay.FM
-date: 12 Jul 2021 14:39
-tags: podcast, announcements
-link: https://relay.fm/conduit
+date: 2021-07-12 14:39:00-07:00
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png
+link: https://relay.fm/conduit
+tags: podcast, announcements
+title: Announcing Conduit on Relay.FM
 ---
 
 I'm happy to announce my new project, [Conduit](https://relay.fm/conduit)!
@@ -23,4 +23,3 @@ We'll share our experiences and try small experiments to see what happens. In th
 I hope you'll join us! [Episode 0](https://relay.fm/0) is out now and the first episode launches later this week! You can subscribe using your podcatcher of choice today!
 
 [Conduit]: https://relay.fm/conduit
-

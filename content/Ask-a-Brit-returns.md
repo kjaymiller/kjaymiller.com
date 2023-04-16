@@ -1,11 +1,10 @@
 ---
-title: Ask a Brit is back for Season 2
-slug: aab-season-2
-date: 11 Dec 2020 21:04
 category: Ask a Brit
-slug: podcast announcement
+date: 2020-12-11 21:04:00-08:00
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/AskABritv4.png
 link: https://share.transistor.fm/s/9d9f5cfe
+slug: podcast announcement
+title: Ask a Brit is back for Season 2
 ---
 
 Happy to announce that Ask a Brit is back for another round. Jay and Jamie decided to record a bunch of their conversations where Jamie asked about US politics and THE VID.

@@ -1,10 +1,10 @@
 ---
-title: How I Made My Twitch Player Appear on My Site Only When I'm Live
-slug: twitch-player-live-only
 category: Code
-tags: twitch, javascript, KISS
+date: 2020-08-12 11:27:00-07:00
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/purple-background-twitch-embed.png
-date: 12 Aug 2020 11:27
+slug: twitch-player-live-only
+tags: twitch, javascript, KISS
+title: How I Made My Twitch Player Appear on My Site Only When I'm Live
 ---
 
 I wanted to write this to show that the easiest answer can often elude us. 
@@ -45,4 +45,3 @@ Don't forget to add an amazing purple background so it looks fantastic!
 [^1]: Which I still a little confused on how that present in a responsive way
 [^2]: I don't know if this is the case if you are hosting someone sooooo... Your mileage may vary.
 [^3]: There could be some performance issues with this, but ultimately if there is the player would not load which means that the block wouldn't take up any space.
-

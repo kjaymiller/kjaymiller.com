@@ -1,8 +1,8 @@
 ---
-title: Quick Productivity Tip - The Upcoming Family Agenda
-slug: qtp-family-agenda
+date: 2020-05-25 22:59:00-07:00
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-05-25-at-22.50.08.png
-date: 25 May 2020 22:59
+slug: qtp-family-agenda
+title: Quick Productivity Tip - The Upcoming Family Agenda
 ---
 
 I've recently been doing weekly reviews with my wife (GTD addicts calm down, not that kind of review). Mostly we just cover my schedule and plan our meals for the week. This has been amazing for us as it gets us on the same page and eliminates any last minute decisions. 

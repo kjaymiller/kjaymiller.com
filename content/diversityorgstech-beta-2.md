@@ -1,10 +1,8 @@
 ---
-title: DiversityOrgs.Tech (Beta 2)
-date: 29 June 2022
+date: 2022-06-29 00:00:00-07:00
 tags: diversity, azure, technology
+title: DiversityOrgs.Tech (Beta 2)
 ---
-
-
 
 > **TLDR**: 
 > The latest update to Diversityorgs.Tech returns to the original URL and brings more information to each organization, map-based searching, and organizer access to keep organizations up to date, and a basic API for programmatic access.

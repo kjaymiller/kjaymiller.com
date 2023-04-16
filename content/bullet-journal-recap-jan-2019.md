@@ -1,8 +1,8 @@
 ---
-Title: January 2019 Bullet Journal Recap
-Date: February 01, 2019 16:00
 Category: Analog
+Date: 2019-02-01 16:00:00-08:00
 Tags: Bullet Journal, Reflection
+Title: January 2019 Bullet Journal Recap
 ---
 
 Late last year I made the decision to go full time analog productivity. To me this was a return to my _Midori Traveller's Notebook_ and less reliability on mobile applications to keep track of things. 
@@ -24,4 +24,4 @@ There is still one area that I haven't fully is my management of a calendar. I h
 Another failed experiment was abandoning the daily spread for a weekly theme. I quickly have to revert to this as I would have things that would stretch across several pages (and days) This meant that I was doing more unneccessary flipping through pages instead of just doing a daily review and transfer of information that helped me to prepare myself through the day. 
 
 ### My thoughts going into February
-February is going to be a test on consistency for me. I've proven that I can work from my notebook like I used to. As this trust has returned, I can continue to focus on adding more and more content and collections into it. I also think my current notebook will fill up in the middle of the month which will bring about a migration which I will definitely talk about at that time. 
+February is going to be a test on consistency for me. I've proven that I can work from my notebook like I used to. As this trust has returned, I can continue to focus on adding more and more content and collections into it. I also think my current notebook will fill up in the middle of the month which will bring about a migration which I will definitely talk about at that time.

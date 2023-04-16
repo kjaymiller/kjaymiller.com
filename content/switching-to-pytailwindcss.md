@@ -1,9 +1,9 @@
 ---
-title: Switching from TailwindCSS to PyTailwindCSS
-slug: switch-to-pytailwindcss
-date: 07 Sep 2022 10:34
-tags: tailwind, python
+date: 2022-09-07 10:34:00-07:00
 image: https://kjaymiller.azureedge.net/media/pytailwindcss.png
+slug: switch-to-pytailwindcss
+tags: tailwind, python
+title: Switching from TailwindCSS to PyTailwindCSS
 ---
 
 I often use [TailwindCSS](https://tailwindcss.com) for my web project and this often means that wind up with a package.json and lock-file just for tailwind.

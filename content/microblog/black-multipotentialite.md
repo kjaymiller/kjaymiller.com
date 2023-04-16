@@ -1,5 +1,5 @@
 ---
-date: 06 Jun 2020 23:19
+date: 2020-06-06 23:19:00-07:00
 ---
 
 Been writing more and more because of this. People have mentioned that they have enjoyed getting to know me through my posts.

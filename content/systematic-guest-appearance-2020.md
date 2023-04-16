@@ -1,9 +1,9 @@
 ---
-title: I Was a Guest on Systematic
-date: 25 Oct 2020 20:12
-tags: podcast, developer advocacy, podcasting
 category: Guest Appearances
+date: 2020-10-25 20:12:00-07:00
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/banner-systemcast_ddE0LhiRq.png
+tags: podcast, developer advocacy, podcasting
+title: I Was a Guest on Systematic
 ---
 
 I had the pleasure of being a guest on Brett Terpstra's [_Systematic_][systemcast] Podcast. 

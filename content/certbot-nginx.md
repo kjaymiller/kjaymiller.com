@@ -1,8 +1,8 @@
 ---
-title: How to enable certs with CertBot and NGINX
-date: 24 Mar 2021 13:21
 category: code
+date: 2021-03-24 13:21:00-07:00
 tags: certbox, nginx
+title: How to enable certs with CertBot and NGINX
 ---
 
 I always forget this so I'm adding it to my website instead of my notes (since I apparently don't check those.[^1])

@@ -1,7 +1,7 @@
 ---
-title: Lesson Learned from Setting Up Testing for a Postgres Django App (Crash Course)
-date: 28 Mar 2023 22:36
+date: 2023-03-28 22:36:00-07:00
 tags: gh-actions
+title: Lesson Learned from Setting Up Testing for a Postgres Django App (Crash Course)
 ---
 
 > NOTE:  This is a quick write... I'll probably come back and edit it later.

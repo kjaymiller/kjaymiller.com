@@ -1,9 +1,9 @@
 ---
-title: On Blizzard/Activision lawsuit
-date: 22 Jul 2021 23:51
-tags: trigger-warning-terrible-men, gaming
 category: opinion
+date: 2021-07-22 23:51:00-07:00
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/Blizzard%20Activision%20Lawsuit.png
+tags: trigger-warning-terrible-men, gaming
+title: On Blizzard/Activision lawsuit
 ---
 
 Some of y'all know that my podcasting/streaming/video knowledge has some origins in gaming. I'm actually a part of a esports team as a marketing consultant.

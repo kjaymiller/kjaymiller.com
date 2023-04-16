@@ -1,5 +1,5 @@
 ---
-date: 08 Jun 2020 20:58
+date: 2020-06-08 20:58:00-07:00
 ---
 
 minor update to render engine. You can now quickly build your setup using

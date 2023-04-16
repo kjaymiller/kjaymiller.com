@@ -1,10 +1,10 @@
 ---
-slug: dont-volcano-your-project
-title: How to Not 🌋 your Project
-date: 28 Jan 2021 17:00
-tags: git, talks, lightning-talks
 category: meetups
+date: 2021-01-28 17:00:00-08:00
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/volcano_presentaion.jpg
+slug: dont-volcano-your-project
+tags: git, talks, lightning-talks
+title: "How to Not \U0001F30B your Project"
 youtube: https://www.youtube.com/embed/V_5FV4LkQyc
 ---
 
@@ -91,4 +91,3 @@ echo *.json *.csv >> .gitignore
 ## No `git add .` ##
 
 `git status` before you `git wrecked`
-

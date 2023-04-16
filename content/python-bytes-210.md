@@ -1,9 +1,9 @@
 ---
-title: Analyzing Kickstarter Campaigns with Python
-date: 7 July 2021 13:00
-category: Guest Appearances
-tags: python, talks
 YouTube: https://www.youtube.com/embed/GVGnN-EIZhs
+category: Guest Appearances
+date: 2021-07-07 13:00:00-07:00
+tags: python, talks
+title: Analyzing Kickstarter Campaigns with Python
 ---
 
 Full show notes: https://pythonbytes.fm/241

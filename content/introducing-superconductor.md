@@ -1,9 +1,9 @@
 ---
-title: Introducing Super Conductor
+date: 2023-01-26 10:15:00-08:00
+image: https://kjaymiller.azureedge.net/media/SuperConductor.jpeg
 link: https://imasuperconductor.com
-date: 26 Jan 2023 10:15
-no_feature_image: True
-image:  https://kjaymiller.azureedge.net/media/SuperConductor.jpeg
+no_feature_image: true
+title: Introducing Super Conductor
 ---
 
 Today is the official launch of Conduit's  Membership Show - [Super Conductor](https://www.relay.fm/conduit/join).

@@ -1,7 +1,7 @@
 ---
-title: I Can't Be the Only One Seeing This
-date: 05 Mar 2020 13:58
+date: 2020-03-05 13:58:00-08:00
 slug: march-2020-crisis-social-issues
+title: I Can't Be the Only One Seeing This
 ---
 
 What are people yelling about?

@@ -1,5 +1,5 @@
 ---
-date: June 20, 2021
+date: 2021-06-20 00:00:00-07:00
 link: http://www.juneteenthconf.com
 tags: 'Juneteenth Conf, '
 title: 'But Look at the Numbers: Using Public Data to Highlight Systemic Problems'

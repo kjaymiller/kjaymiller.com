@@ -1,8 +1,8 @@
 ---
-title: How to Automate Form Filling with Keyboard Maestro (For Big Sur)
-date: 03 Mar 2021 11:12
-tags: Keyboard Maestro, automation, productivity
+date: 2021-03-03 11:12:00-08:00
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Keyboard%20Maestro%20Set%20Safari%20Field.png
+tags: Keyboard Maestro, automation, productivity
+title: How to Automate Form Filling with Keyboard Maestro (For Big Sur)
 ---
 
 Working to help a friend automate some form entry I went to look back into how I had automated a similar task a few years ago with [Keyboard Maestro](https://keyboardmastro.com). I was surprised at how I remembered the steps to input form fields (Big props to the KM team for making it so easy to do.)
@@ -63,4 +63,3 @@ Then in the inspector you can right click the highlighted code-block and hover o
 Repeat this step as many times as you like for each field. Finally, add a submit field.
 
 ![Submit Form](https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Keyboard%20Maestro%20Submit%20Safari%20Form.png)
-

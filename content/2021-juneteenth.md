@@ -1,7 +1,7 @@
 ---
-title: Speaking at Juneteenth Conf 2021
-date: 19 June 2021 13:00 
+date: 2021-06-19 13:00:00-07:00
 tags: speaking, talks
+title: Speaking at Juneteenth Conf 2021
 youtube: https://www.youtube.com/embed/OfyqAg2IPfc
 ---
 
@@ -16,4 +16,3 @@ If you want to checkout the datasets that I worked with and how I got them into 
 
 - <https://github.com/kjaymiller/sd-ripa-data>
 - <https://github.com/kjaymiller/data-police-shootings>
-

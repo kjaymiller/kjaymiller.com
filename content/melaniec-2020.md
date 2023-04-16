@@ -1,6 +1,6 @@
 ---
 category: Productivity in Tech Podcast
-date: 30 Jun 2020 08:00
+date: 2020-06-30 08:00:00-07:00
 github: https://github.com/kjaymiller/kjaymiller.com/blob/master/content/melaniec-2020.md
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pitpodcast-hellomelaniec.png
 slug: pitpodcast-melaniec-2020

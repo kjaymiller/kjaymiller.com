@@ -1,5 +1,5 @@
 ---
-date: '2020-11-08T16:30:00.000Z'
+date: 2020-11-08 08:30:00-08:00
 image: https://images.transistor.fm/file/transistor/images/episode/395855/1604811210-artwork.jpg
 title: 'The Power of Personal Freedom: David Sparks on Speaking Around Multiple Interests'
 ---

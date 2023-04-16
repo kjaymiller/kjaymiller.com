@@ -1,6 +1,6 @@
 ---
+date: 2021-08-17 07:30:00-07:00
 title: The PIT Show Post Mortem
-date: 17 Aug 2021 07:30
 ---
 
 > I recently did a post-mortem for the PIT Show (formerly known as the Productivity in Tech Podcast). I wanted to break down the takeaways I got from it.

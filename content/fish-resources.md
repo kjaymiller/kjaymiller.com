@@ -1,8 +1,8 @@
 ---
-title: Fish Resources
-slug: fish-resources
-date: 14 Apr 2020 08:19
+date: 2020-04-14 08:19:00-07:00
 image: https://fishshell.com/assets/img/Terminal_Logo_CRT_Small.png
+slug: fish-resources
+title: Fish Resources
 ---
 
 <div class="notification is-dark">

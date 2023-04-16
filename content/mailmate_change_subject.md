@@ -1,6 +1,6 @@
 ---
 category: productivity
-date: 23 Jan 2021 21:45
+date: 2021-01-23 21:45:00-08:00
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/Mailmate%20Change%20Subject%20Box.png
 tags: email, hey
 title: TIL You can change the subject of an Email

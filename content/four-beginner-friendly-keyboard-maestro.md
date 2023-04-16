@@ -1,8 +1,8 @@
 ---
-title: 4 Beginner Friendly Keyboard Maestro Macros (3 Actions or Less!)
 YouTube: https://www.youtube.com/embed/7ZqL-VSdlN0
-date: 19 May 2021 17:33
+date: 2021-05-19 17:33:00-07:00
 tags: Youtube
+title: 4 Beginner Friendly Keyboard Maestro Macros (3 Actions or Less!)
 ---
 
 [Keyboard Maestro][keyboard maestro] is the most versatile automation tool you can get for the Mac. That said, getting started always seems like a challenge.

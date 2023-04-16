@@ -1,7 +1,7 @@
 ---
-title: Fresh Builds Daily
-date: 07 Dec 2021 13:19
+date: 2021-12-07 13:19:00-08:00
 tags: development, github, gh actions
+title: Fresh Builds Daily
 ---
 
 One of the challenges faced with faced with static site generation is not having to be on top of things. When [Conduit](!g conduit relay.fm) releases, if I would like my website to update, this would require me to run a script to rebuild my site[^1]. 
@@ -22,4 +22,3 @@ This gave me the ability to run my script 4x each day. Also after fixing an issu
 I'm not happy that I have some bugs that aren't solved but I am happy that I have a nice little fix to make sure that my site is always within 4 hours of being up to day with what I'm doing.
 
 [^1]: The [script](https://github.com/kjaymiller/kjaymiller/blob/main/podreader.py) actually pulls the latest episode from our rss feed
-

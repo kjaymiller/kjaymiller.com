@@ -1,6 +1,6 @@
 ---
 category: Productivity in Tech Podcast
-date: 18 Aug 2020 22:21
+date: 2020-08-18 22:21:00-07:00
 github: https://github.com/kjaymiller/kjaymiller/blob/master/content/PIT-Reflection-2020-Aug-18.md
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/reaching-for-likes.jpg
 title: 'PIT Reflections: The Spiral to free Content'

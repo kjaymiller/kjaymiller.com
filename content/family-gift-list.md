@@ -1,8 +1,8 @@
 ---
-title: Benefits of a Family Gift Site
+date: 2021-12-11 23:53:00-08:00
 slug: why-family-gifts
-date: 11 Dec 2021 23:53
 tags: development, opinion
+title: Benefits of a Family Gift Site
 ---
 
 I recently created [millerfamilygifts.netlify.app](https://millerfamilygifts.netlify.app).

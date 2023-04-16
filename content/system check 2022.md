@@ -1,9 +1,9 @@
 ---
-title: My productivity check for this quarter. 
-date: 18 Aug 2022 12:40
-tags: productivity, conduit
-slug: system-check-summer-2022
+date: 2022-08-18 12:40:00-07:00
 image: https://kjaymiller.azureedge.net/media/plotter.jpg
+slug: system-check-summer-2022
+tags: productivity, conduit
+title: My productivity check for this quarter.
 ---
 
 Kathy and I, on our previous [Conduit](https://relay.fm/conduit/29) did a _Systems Check_ where we look at how our systems have changed over time. We decided that waiting an entire year to catch up with our system is like doing an annual review (It's not as helpful as regular check-ins). 
@@ -59,5 +59,3 @@ I do have dot grid A5 pages for additional meetings and projects that I'm workin
 
 [Conduit]: https://relay.fm/conduit/29
 [Plotter System]: https://plotterusa.com
-
-

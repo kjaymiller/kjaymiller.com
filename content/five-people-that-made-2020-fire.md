@@ -1,10 +1,10 @@
 ---
-title: 5 People that made my 2020 🔥
-slug: five-people-that-made-2020-fire
-date: 27 Dec 2020 11:18
-tags: reflection, people
-image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/jay-sies-2020.jpg
 category: jaysies
+date: 2020-12-27 11:18:00-08:00
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/jay-sies-2020.jpg
+slug: five-people-that-made-2020-fire
+tags: reflection, people
+title: "5 People that made my 2020 \U0001F525"
 ---
 
 I've mentioned this before. As much as 2020 sucked for the world, it was one of my biggest professional years of growth.

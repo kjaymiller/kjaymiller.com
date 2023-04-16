@@ -1,7 +1,7 @@
 ---
 Title: How I AutoUpdate My Github README using GitHub Actions in 5 Easy Steps
-date: 10 Jul 2020 15:16
 category: coding
+date: 2020-07-10 15:16:00-07:00
 tags: github, github actions, python, automation
 ---
 
@@ -116,5 +116,3 @@ will probably setup the file on a schedule to also update when I push something
 new (Future Post...Probably).
 
 [Productivity in Tech Podcast]: https://podcast.productivityintech.com
-
-

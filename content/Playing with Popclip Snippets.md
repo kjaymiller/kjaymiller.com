@@ -1,7 +1,7 @@
 ---
-title: Popclip Extension Snippets
-date: 29 Nov 2021 11:51
+date: 2021-11-29 11:51:00-08:00
 tags: popclip, automation
+title: Popclip Extension Snippets
 youtube: https://www.youtube.com/embed/i4ORaFxbHvg
 ---
 

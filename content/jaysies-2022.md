@@ -1,9 +1,9 @@
 ---
-title:  Folks That Made 2022 😎 (Jaysies 2022)
+date: 2022-12-13 09:30:00-08:00
+image: https://kjaymiller.azureedge.net/media/jaysies%202022.png
 slug: jaysies-2022
 tags: jaysies
-date: 13 Dec 2022 9:30
-image: https://kjaymiller.azureedge.net/media/jaysies%202022.png
+title: "Folks That Made 2022 \U0001F60E (Jaysies 2022)"
 ---
 
 It's that time again. It's the 3rd Annual Jaysies. These are people that I connected with this year that really made an impact. Some folks have been around for a while and they really took it to the next level this year. Others are folks that I met and I'm amazed at how much I am chatting with them.

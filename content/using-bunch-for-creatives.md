@@ -1,11 +1,10 @@
 ---
-title: Using Bunch for Creating Newsletters 
-date: July 6, 2021 08:00
-youtube: https://www.youtube.com/embed/zDsyw5uU0wA
-tags: YouTube
 category: YouTube
+date: 2021-07-06 08:00:00-07:00
+tags: YouTube
+title: Using Bunch for Creating Newsletters
+youtube: https://www.youtube.com/embed/zDsyw5uU0wA
 ---
-
 
 I'm going to show y'all the bunch that I use every single week to start and end the process of making the Talk Python Newsletter.
 

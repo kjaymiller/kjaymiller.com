@@ -1,8 +1,9 @@
 ---
-title: Azure Static Web Apps supports Python 3.11. Here's how to build yours with Azure CLI.
-slug: azure-static-web-apps-python3.11
-date: 03 Jan 2023 12:30
+date: 2023-01-03 12:30:00-08:00
 image: https://kjaymiller.azureedge.net/media/Python%203.11%20in%20SWA.png
+slug: azure-static-web-apps-python3.11
+title: Azure Static Web Apps supports Python 3.11. Here's how to build yours with
+  Azure CLI.
 ---
 
 A right of passage for many developers is to build their own website and many of us take on the harder task of using Python to do it.

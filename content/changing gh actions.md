@@ -1,7 +1,9 @@
 ---
+date: 2023-04-04 21:03:00-07:00
+tags:
+- gh
+- render-engine devlog
 title: chaining gh actions
-date: 4 April 2023 21:03
-tags: [gh, render-engine devlog]
 ---
 
 You can see an example of this in [render-engine-rss](https://github.com/kjaymiller/render-engine-rss/)

@@ -1,5 +1,5 @@
 ---
-date: Feb 1, 2020
+date: 2020-02-01 00:00:00-08:00
 link: ''
 tags: 'PyBeach 2020, '
 title: Reinvent the Wheel (But Add Spikes to It)

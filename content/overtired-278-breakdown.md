@@ -1,7 +1,7 @@
 ---
-title: Overtired \#278 Link Breakdown
-date: 29 Mar 2022 18:50
+date: 2022-03-29 18:50:00-07:00
 tags: podcast, Brett Terpstra, overtired
+title: Overtired \#278 Link Breakdown
 ---
 
 Okay here's the Breakdown on my favorite episode of @ovrtrd so far. 🧵
@@ -41,4 +41,3 @@ Kaleidoscope - I keep seeing this and I haven't gotten it yet. I don't think I n
 
 
 BetterTouchTool - An Amazing Tool that is always one of the first things installed on the new machine!
-

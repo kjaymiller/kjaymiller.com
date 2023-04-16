@@ -1,9 +1,9 @@
 ---
-title: Make Inlay Type Hints in Python Appear/Disappear
-date: 27 Jul 2022 14:35
-tags: VS Code, Python
 category: work
+date: 2022-07-27 14:35:00-07:00
 image: https://jmblogstorrage.blob.core.windows.net/media/type_literals.png
+tags: VS Code, Python
+title: Make Inlay Type Hints in Python Appear/Disappear
 ---
 
 ## A Type Hinting Tip for Those Not Completely Onboard
@@ -89,4 +89,4 @@ Next in settings just search for "Inlay".  You should find `Editor › Inlay Hin
 
 ![Toggle Inlay Hints](https://jmblogstorrage.blob.core.windows.net/media/toggle_inlay_hints.gif)
 
-You can also set `OnUnlessPressed`. This does the opposite, only showing the code that exists in the file. This entry in settings is also next to other Inlay hint stylings that may help you differentiate your code from hints. 
+You can also set `OnUnlessPressed`. This does the opposite, only showing the code that exists in the file. This entry in settings is also next to other Inlay hint stylings that may help you differentiate your code from hints.

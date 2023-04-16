@@ -16,9 +16,11 @@
             <a href="{{post.url_for()}}">{{post.title}}</a>
           </h2>
           <div class="flex">
+            {% if post.date is defined %}
             <div class="mx-2">
-              <strong>Date:</strong> {{post.date}}
+              <strong>Date:</strong> {{post.date|format_datetime}}
             </div>
+            {% endif %}
           </div>
   </article>
 {% endfor %}

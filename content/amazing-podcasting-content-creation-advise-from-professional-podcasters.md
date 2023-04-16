@@ -1,7 +1,8 @@
 ---
-title: Amazing Podcasting (and Content Creation) Advice from Professional Podcasters (WIP)
+date: 2020-11-08 22:48:00-08:00
 tags: podcasting, career-advice
-date: 08 Nov 2020 22:48
+title: Amazing Podcasting (and Content Creation) Advice from Professional Podcasters
+  (WIP)
 ---
 
 Work in Progress means this Post is Mostly Done, but things could change. You can help with that by telling me your thoughts on [twitter](https://twitter.com/kjaymiller/status/1325700577033007104?s=21)

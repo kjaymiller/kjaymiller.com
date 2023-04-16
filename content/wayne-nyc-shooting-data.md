@@ -1,10 +1,10 @@
 ---
-title: The Disparity of Black Shootings in NYC
-date: 10 Jul 2020 09:37
-tags: BlackDevelopers
 category: links
-link: https://data-dashboard-blm.netlify.app
+date: 2020-07-10 09:37:00-07:00
 image: https://s3-us-west-2.amazonaws.com/kjaymiller/images/wayne-blm-dataset-nyc.png
+link: https://data-dashboard-blm.netlify.app
+tags: BlackDevelopers
+title: The Disparity of Black Shootings in NYC
 ---
 
 There is a huge disparity in the number of Black Americans and shooting

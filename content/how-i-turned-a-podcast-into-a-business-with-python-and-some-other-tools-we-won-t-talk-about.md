@@ -1,5 +1,5 @@
 ---
-date: Nov 3, 2019
+date: 2019-11-03 00:00:00-07:00
 link: ''
 title: How I turned a podcast into a business with Python (and some Other Tools we
   won't talk about)

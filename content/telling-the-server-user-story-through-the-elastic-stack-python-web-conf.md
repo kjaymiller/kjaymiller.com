@@ -1,5 +1,5 @@
 ---
-date: March 21, 2021
+date: 2021-03-21 00:00:00-07:00
 link: ''
 tags: 'Python Web Conf, '
 title: Telling The Server User Story Through The Elastic Stack

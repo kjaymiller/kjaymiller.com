@@ -1,9 +1,10 @@
 ---
-title: Render Engine 2023.1.2 brings CLI, Parsers, and Begins Extensions Work and More
-tag: render-engine
-date: 16 Jan 2023 21:00
-link: https://render-engine.readthedocs.io/en/latest/
+date: 2023-01-16 21:00:00-08:00
 image: https://kjaymiller.azureedge.net/media/render-engine-logo.png
+link: https://render-engine.readthedocs.io/en/latest/
+tag: render-engine
+title: Render Engine 2023.1.2 brings CLI, Parsers, and Begins Extensions Work and
+  More
 ---
 
 [Render Engine](https://render-engine.readthedocs.io/en/latest/), my long term static site generator project, has been updated to version `2023.1.2`. This was the biggest update I've made and also begins creating a more structured update cycle. 

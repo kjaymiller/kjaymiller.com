@@ -1,9 +1,9 @@
 ---
-title: 5 People That Made My 2021 📈
-slug: jaysies-2021
-date: 17 Dec 2021 08:14
-tags: jaysies
+date: 2021-12-17 08:14:00-08:00
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/jaysies-2021.png
+slug: jaysies-2021
+tags: jaysies
+title: "5 People That Made My 2021 \U0001F4C8"
 ---
 
 Normally awards like this are reserved for the very last post of the year, but as I'm hoping to fulfill my commitment on [Conduit](https://relay.fm/conduit/12) and try not to work on my time off[^1]. 

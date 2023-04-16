@@ -1,10 +1,9 @@
 ---
-title: Introducing the TIRE Method
-date: 25 Feb 2022 23:24
-tags: conduit, productivity
+date: 2022-02-25 23:24:00-08:00
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/tire-with-wheels.jpg
+tags: conduit, productivity
+title: Introducing the TIRE Method
 ---
-
 
 Decisions are hard. There are many different factors, and the weight of a decision may not be realized after you commit.
 

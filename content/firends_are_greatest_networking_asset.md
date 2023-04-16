@@ -1,8 +1,8 @@
 ---
-Title: Friends have been my Greatest Asset!
-Date: April 17, 2019 09:24
 Category: Marketing
+Date: 2019-04-17 09:24:00-07:00
 Tags: networking, lead-capture
+Title: Friends have been my Greatest Asset!
 ---
 
 I've been letting folks know about my [coaching](https://productivityintech.com/coaching) and [editing](https://productivityintech.com/editing) services more and more these days. 
@@ -72,4 +72,4 @@ The other thing about doing this that has been great is that now when I send out
 
 ================
 
-None of these things are all that time intensive and none of them leave you with this _grimy_ feeling as if you are peddling to your friends. Your "inner-circle" doesn't want to see you fail. In fact, they will be your biggest fan. It's up to you to nurture those relationships and make sure that you let them know of ways that they can help. 
+None of these things are all that time intensive and none of them leave you with this _grimy_ feeling as if you are peddling to your friends. Your "inner-circle" doesn't want to see you fail. In fact, they will be your biggest fan. It's up to you to nurture those relationships and make sure that you let them know of ways that they can help.

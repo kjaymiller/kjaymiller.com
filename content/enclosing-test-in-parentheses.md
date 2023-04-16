@@ -1,9 +1,9 @@
 ---
-title: Enclose text in Parentheses (and Other Characters) in VIM WITHOUT PLUGINS
-link: https://superuser.com/questions/875095/adding-parenthesis-around-highlighted-text-in-vim
-date: 05 Jan 2023 11:30
-tags: vim 
+date: 2023-01-05 11:30:00-08:00
 image: https://kjaymiller.azureedge.net/media/vim_encap_parens.gif
+link: https://superuser.com/questions/875095/adding-parenthesis-around-highlighted-text-in-vim
+tags: vim
+title: Enclose text in Parentheses (and Other Characters) in VIM WITHOUT PLUGINS
 ---
 
 Whether I'm creating a backlink or adding a url or a comment I often need to wrap text in parenteses or other characters. I've been a VIM (or VIM mode) user for a while and I never committed how to do this to memory. Let's change that.

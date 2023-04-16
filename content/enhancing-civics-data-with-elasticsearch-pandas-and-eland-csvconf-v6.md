@@ -1,5 +1,5 @@
 ---
-date: May 4, 2021
+date: 2021-05-04 00:00:00-07:00
 link: https://csvconf.com
 tags: 'CSVConf v6, '
 title: Enhancing Civics Data with Elasticsearch, pandas and Eland

@@ -1,7 +1,7 @@
 ---
-title: My Development Tools - Python 2023
+date: 2023-01-02 13:42:00-08:00
 tags: development
-date: 02 Jan 2023 13:42
+title: My Development Tools - Python 2023
 ---
 
 ## Which Python Versions am I using?
