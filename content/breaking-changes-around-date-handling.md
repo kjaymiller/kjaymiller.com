@@ -17,7 +17,8 @@ There were two breaking changes introduced in the 2024.2.1a2 update. Both of the
 
 In previous versions, `Blog` objects required a `date_published` and had code for handling both `date_published`/`date_modified`. We've changed this to just `date`.
 
-> **Before**
+####  Before
+
 >
 > ```yaml
 > ---
@@ -27,8 +28,8 @@ In previous versions, `Blog` objects required a `date_published` and had code fo
 > ---
 > ```
 
-> After
->
+#### After
+
 > ```yaml
 > # example.md
 > ---
@@ -50,8 +51,8 @@ Since the beginning there was a lot of concern on how to detect and parse dateti
 
 Date-based aggregation is common. For this reason, it benefits us to let that datetime parsing of PyYAML to handle all file-based `datetime` assignments and we can leverage pythons built-in `datetime` parsing. This creates consistency on detection of `datetime` values that were already being detected. Making for clearer documentation and less custom code.
 
-> Before
->
+#### Before
+
 > ```yaml
 > # example.md
 > ---
@@ -59,7 +60,7 @@ Date-based aggregation is common. For this reason, it benefits us to let that da
 > date: 16 Apr 2023 13:31
 > ---
 
-> Before
+#### After
 >
 > ```yaml
 > # example.md
