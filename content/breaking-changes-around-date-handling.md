@@ -19,26 +19,24 @@ In previous versions, `Blog` objects required a `date_published` and had code fo
 
 ####  Before
 
->
-> ```yaml
-> ---
-> title: my page title
-> date_published: 16 Apr 2023 13:31 -07:00
-> # date_modified: 16 Apr 2023 14:31 -07:00 # date_modified is optional but built-in logic is looking for it.
-> ---
-> ```
+```yaml
+---
+title: my page title
+date_published: 16 Apr 2023 13:31 -07:00
+# date_modified: 16 Apr 2023 14:31 -07:00 # date_modified is optional but built-in logic is looking for it.
+---
+```
 
 #### After
 
-> ```yaml
-> # example.md
-> ---
-> title: my page title
-> date: 2023-04-16 13:31 -07:00
-> # date_modified can exist but no built-in logic for it exists
-> ---
-> ```
->
+```yaml
+---
+title: my page title
+date: 2023-04-16 13:31 -07:00
+# date_modified can exist but no built-in logic for it exists
+---
+```
+
 Originally we wanted to distinguish between the date the object was created and if any updates were made. However there is no standardized way of specifying this.
 
 Render Engine has a liberal approach to how custom attributes are handled and we can do that because we only work to modify code that is required. The custom code that was introduced was designed to handle inconsistencies with naming. There was much concern in detecting the right values and making them consistent behind the scenes. Changing `date_published` to `date` and removing `date_modified` removes the need for correcting naming.
@@ -53,21 +51,19 @@ Date-based aggregation is common. For this reason, it benefits us to let that da
 
 #### Before
 
-> ```yaml
-> # example.md
-> ---
-> title: my page title
-> date: 16 Apr 2023 13:31
-> ---
+```yaml
+---
+title: my page title
+date: 16 Apr 2023 13:31
+---
 
 #### After
->
-> ```yaml
-> # example.md
-> ---
-> title: my page title
-> date: 2023-04-16 13:31 -07:00
-> ---
+
+```yaml
+---
+title: my page title
+date: 2023-04-16 13:31 -07:00
+---
 
 This opens the door for people to add custom dates and provide a simple way to standardize on all datetime objects using the new `{{format_datetime}}` jinja2 custom filter provided and the `site_var['DATETIME_FORMAT']`
 
