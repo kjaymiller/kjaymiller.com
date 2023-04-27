@@ -1,12 +1,12 @@
 ---
-name: Create a Custom Query in the GitHub Issues Client
+title: Create a Custom Query in the GitHub Issues Client
 date: 2023-04-26 17:04-0700
 tags: [github, vscode, extensions, TIL]
 ---
 
 Did you know that you can create a custom query for your GitHub issues and PRs?
 
-The _GitHub Issues and Pull Requests extension_ allows you to interact with issues and PRs. While hovering over the "My Issues" label I noticed an edit marker with "Edit Query" in the tooltip. 
+The _GitHub Issues and Pull Requests extension_ allows you to interact with issues and PRs. While hovering over the "My Issues" label I noticed an edit marker with "Edit Query" in the tooltip.
 
 ![GitHub Issues and Pull Requests](https://kjaymiller.azureedge.net/media/GitHub%20Issues%20and%20Pull%20Requests.png)
 
