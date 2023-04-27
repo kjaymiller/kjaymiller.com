@@ -1,6 +1,6 @@
 ---
 title: Create a Custom Query in the GitHub Issues Client
-date: 2023-04-26 17:04:00-0700
+date: 2023-04-26T17:04:00-0700
 tags: [github, vscode, extensions, TIL]
 ---
 
