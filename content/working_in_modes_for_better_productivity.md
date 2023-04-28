@@ -2,7 +2,6 @@
 category: meetups
 date: 2020-12-19 10:06:00-08:00
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/SCAU-POSTER-12-19-2020-FINAL.jpg
-link: https://myscau.org
 tags: bunch, hook, productivity
 title: Presenting Working in Modes for Better Productivity
 ---
