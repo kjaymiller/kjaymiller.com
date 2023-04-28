@@ -4,7 +4,7 @@ tags: encouragement
 title: Pigeons are Scary
 ---
 
-Let me first say that [Questionable Content] is hands down my favorite online comic and I've been following them for more than a decade now and have viewed EVERY SINGLE STRIP.
+Let me first say that [Questionable Content](https://questionablecontent.net) is hands down my favorite online comic and I've been following them for more than a decade now and have viewed EVERY SINGLE STRIP.
 
 Every once in a while there is a strip that speaks to me in a profound way. Monday's post did just that.
 
@@ -24,7 +24,7 @@ If I were honest, it was because I was scared.
 
 In fact even in PIT's rebirth it went from being a way to help developers be more productive with coaching into a pivot to content editing because the apparent _lack_of_demand_ was scary.
 
-My daughter, wife and I watched _Tangled_ over the weekend. There is a wonderful scene where Repunzel asks a group of thugs, "[Haven't you ever had a dream?][i've got a dream]"
+My daughter, wife and I watched _Tangled_ over the weekend. There is a wonderful scene where Repunzel asks a group of thugs, "Haven't you ever had a dream?"
 
 https://www.youtube.com/watch?v=tTuwo_TqlhQ
 
@@ -38,8 +38,5 @@ That said if I use that excuse as a way not to run my business (my way) I will n
 
 ![Corny Gif](https://media2.giphy.com/media/l3q2MVha8Yar53JF6/giphy.gif)
 
-<hr> 
 Tomorrow's Post will be the regular update as usual. The blog portion of the Render Engine that I'm building (Now in testing) is still a little wonky so I wanted to share this here. This post will eventually be added to the blog.
-
-[i've got a dream]: https://www.youtube.com/watch?v=tTuwo_TqlhQ
-[questionable content]: https://questionablecontent.net
+😅
