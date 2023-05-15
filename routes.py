@@ -1,8 +1,9 @@
 from render_engine import Page
-from render_engine.blog import Blog
+from render_engine.blog import Blog as Blog 
 from render_engine_microblog import MicroBlog
 from render_engine.collection import Collection
 from render_engine.parsers.markdown import MarkdownPageParser
+from render_engine_aggregators.feed import AggregateFeed
 from render_engine_rss import RSSCollection
 from render_engine_rss.parsers import PodcastPageParser
 
@@ -35,7 +36,6 @@ class PythonCommunityNews(RSSCollection):
     content_path = "https://feeds.transistor.fm/python-community-podcast"
 
 
-
 @mysite.collection
 class Pages(Collection):
     PageParser = MarkdownPageParser
@@ -43,7 +43,6 @@ class Pages(Collection):
     template = "page.html"
 
 
-@mysite.collection
 class Blog(Blog):
     PageParser = MarkdownPageParser
     parser_extras = {"markdown_extras": markdown_extras}
@@ -55,8 +54,9 @@ class Blog(Blog):
     has_archive = True
     items_per_page = 50
 
+mysite.collection(Blog)
 
-@mysite.collection
+
 class MicroBlog(MicroBlog):
     archive_template = "microblog_archive.html"
     template = "blog.html"
@@ -65,6 +65,7 @@ class MicroBlog(MicroBlog):
     parser_extras = {"markdown_extras": markdown_extras}
     items_per_page = 50
 
+mysite.collection(MicroBlog)
 
 @mysite.collection
 class Youtube(RSSCollection):
@@ -84,6 +85,12 @@ for entry, col in mysite._route_list.items():
         }
 
 mysite.engine.globals['latest_episodes'] = latest_episodes
+
+
+@mysite.page
+class AllPosts(AggregateFeed):
+    collections = [Blog, MicroBlog]
+
 
 @mysite.page
 class Index(Page):
