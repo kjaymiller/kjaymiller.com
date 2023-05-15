@@ -15,7 +15,9 @@ gitdb==4.0.10
 gitpython==3.1.31
     # via render-engine
 jinja2==3.1.2
-    # via render-engine
+    # via
+    #   render
+    #   render-engine
 markdown-it-py==2.2.0
     # via rich
 markdown2==2.4.8
@@ -39,17 +41,18 @@ python-frontmatter==1.0.0
 python-slugify==8.0.1
     # via render-engine
 pyyaml==6.0
-    # via python-frontmatter
-render-engine==2023.5.1
+    # via
+    #   python-frontmatter
+    #   render
+render==1.0.0
+    # via -r requirements.in
+render-engine==2023.5.2a1
     # via
     #   -r requirements.in
-    #   render-engine-aggregators
     #   render-engine-microblog
     #   render-engine-rss
     #   render-engine-tailwindcss
     #   render-engine-youtube-embed
-render-engine-aggregators==2023.5.1a3
-    # via -r requirements.in
 render-engine-microblog==2023.4.1a5
     # via -r requirements.in
 render-engine-rss==2023.4.1a2
