@@ -1,7 +1,7 @@
 ---
 title: Fixing my Micro.blog RSS Feed (A Love Letter to Micro.Blog)
 date: 2023-05-15 22:45:00-04:00
-image: https://kjaymiller.azureedge.net/media/micro_dot_blog_crossposts.png
+image: https://kjaymiller.azureedge.net/media/What%20I%20(Hope)%20to%20Be%20Doing.png
 ---
 
 > !!! Note disclaimer: This is a praise piece of Micro.blog and they deserve it. That said, they have given me money before so I want to be transparent about that. They did not pay me to write this and I will not earn any revenue as a direct result of this post.
