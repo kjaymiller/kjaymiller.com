@@ -1,3 +1,4 @@
+import pathlib
 import slugify
 from upload_social_card import overlay_text
 from render_engine import Page
@@ -59,8 +60,8 @@ class Blog(Blog):
 
 mysite.collection(Blog)
 
-if not pathlib.Path("static/images/social_cards").exists():
-    mkdir("static/images/social_cards")
+if not (path:=pathlib.Path("static/images/social_cards")).exists():
+    path.mkdir("static/images/social_cards")
 
 for blog_post in Blog():
     overlay_text(
