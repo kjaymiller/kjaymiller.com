@@ -47,7 +47,7 @@ def overlay_text(
 
     draw = ImageDraw.Draw(image)
     font_size = 1
-    font = ImageFont.truetype("Arial", font_size)
+    font = ImageFont.truetype("static/fonts/mononoki Bold Italic Nerd Font Complete.ttf", font_size)
 
     while font.getbbox(text)[1] < image_size_ratio:
         font_size += 1
