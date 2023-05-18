@@ -59,6 +59,9 @@ class Blog(Blog):
 
 mysite.collection(Blog)
 
+if not pathlib.Path("static/images/social_cards").exists():
+    mkdir("static/images/social_cards")
+
 for blog_post in Blog():
     overlay_text(
         text=blog_post.title,
