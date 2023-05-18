@@ -1,3 +1,5 @@
+import slugify
+from upload_social_card import overlay_text
 from render_engine import Page
 from render_engine.blog import Blog as Blog 
 from render_engine_microblog import MicroBlog
@@ -12,6 +14,7 @@ from mysite import MySite
 mysite = MySite()
 
 markdown_extras = [
+            "admonitions",
             "footnotes",
             "fenced-code-blocks",
             "header-ids",
@@ -55,6 +58,13 @@ class Blog(Blog):
     items_per_page = 50
 
 mysite.collection(Blog)
+
+for blog_post in Blog():
+    overlay_text(
+        text=blog_post.title,
+        image_path="static/images/social_card_base.jpg",
+        output_path=f"static/images/social_cards/{slugify.slugify(blog_post.title)}.jpg",
+    )
 
 
 class MicroBlog(MicroBlog):

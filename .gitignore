@@ -168,3 +168,5 @@ frontmatter.json
 .vscode/
 .DS_Store
 .vscode/settings.json
+
+static/images/social_cards

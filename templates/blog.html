@@ -3,6 +3,16 @@
 
 {% block head %}
   <link rel="stylesheet" href="/static/css/pygments.css" />
+  <meta property="og:title" content="{{title}}" />
+  {% if description is defined %}<meta property="og:description" content="{{description}}" />{% endif %}
+  <meta property="og:url" content="{{url|to_absolute}}" />
+  {%set l_image="/static/image/social_cards/" + slug + ".jpg" %}
+  <meta property="og:image" content="{{l_image|to_absolute}}" />
+
+  <meta name="twitter:title" content="{{title}}">
+  {% if description is defined %}<meta name="twitter:description" content="{{description}}">{% endif %}
+  <meta name="twitter:image" content="{{l_image|to_absolute}}" />
+  <meta name="twitter:card" content="summary_large_image">
 {% endblock %}
 {% block content %} 
   <article class="prose lg:prose-xl dark:prose-invert prose-slate">
@@ -28,8 +38,8 @@
 
     <section class="section min-h-screen">
           <h4>{{date}}</h4>
-          <h4><strong>Source:</strong> <a href="{{link}}">{{link}}</a>
-          {% if link %}<a href="{{link}}">🔗</a>{% endif %}
+          {% if link %}<h4><strong>Source:</strong> <a href="{{link}}">{{link}}</a>
+          <a href="{{link}}">🔗</a>{% endif %}
           </h4>
           <div class="content">
             {{content}}
