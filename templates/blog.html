@@ -4,6 +4,7 @@
 {% block head %}
   <link rel="stylesheet" href="/static/css/pygments.css" />
   <meta property="og:title" content="{{title}}" />
+  <meta property="og:type" content="article" />
   {% if description is defined %}<meta property="og:description" content="{{description}}" />{% endif %}
   <meta property="og:url" content="{{url|to_absolute}}" />
   {%set l_image="/static/images/social_cards/" + slug + ".jpg" %}
