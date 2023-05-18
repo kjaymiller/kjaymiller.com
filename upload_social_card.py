@@ -27,7 +27,7 @@ def overlay_text(
     if pathlib.Path(image_path).suffix == ".png":
         image = image.convert("RGB")
 
-    font_style = "/mononoki Bold Nerd Font Complete.ttf"
+    font_style = "static/fonts/mononoki Bold Nerd Font Complete.ttf"
 
     if (text_length := len(text)) >= wrap_cap_2xl:
         text = textwrap.fill(text, width=wrap_length_xl)
@@ -47,13 +47,13 @@ def overlay_text(
 
     draw = ImageDraw.Draw(image)
     font_size = 1
-    font = ImageFont.truetype("static/fonts/mononoki Bold Italic Nerd Font Complete.ttf", font_size)
+    font = ImageFont.truetype(font_style, font_size)
 
     while font.getbbox(text)[1] < image_size_ratio:
         font_size += 1
         font = ImageFont.truetype(font_style, font_size)
 
-    ImageFont.truetype("Arial", 30)
+    ImageFont.truetype(font_style, 30)
     draw.text((75, 200), text, font=font, fill=(50, 50, 50, 255))
     draw.text(
         (390, 490),
