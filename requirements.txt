@@ -26,6 +26,8 @@ mdurl==0.1.2
     # via markdown-it-py
 more-itertools==9.1.0
     # via render-engine
+pillow==9.5.0
+    # via -r requirements.in
 pluggy==1.0.0
     # via render-engine
 pygments==2.15.1

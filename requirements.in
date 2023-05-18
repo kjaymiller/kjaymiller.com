@@ -4,3 +4,4 @@ render-engine-rss==2023.4.1a2
 render-engine-microblog==2023.4.1a5
 render-engine-youtube-embed==2023.3.2a1
 render-engine-aggregators
+pillow
