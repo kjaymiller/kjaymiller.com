@@ -58,8 +58,10 @@ class Blog(Blog):
     has_archive = True
     items_per_page = 50
 
+# Add blog to the site - route_list
 mysite.collection(Blog)
 
+# Create social cards
 if not (path:=pathlib.Path("static/images/social_cards")).exists():
     path.mkdir()
 
