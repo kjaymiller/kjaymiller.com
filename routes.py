@@ -1,5 +1,3 @@
-import pathlib
-import slugify
 import upload_social_card
 from render_engine import Page
 from render_engine.blog import Blog as Blog 
@@ -75,8 +73,7 @@ for blog_post in Blog():
         )
 
         upload_social_card.upload_blob_stream(
-            collection="media",
-            container="static",
+            container="media",
             extension=".jpg",
             image=image,
             tags={"used_for": "social_cards"},
