@@ -1,6 +1,6 @@
 import pathlib
 import slugify
-from upload_social_card import overlay_text
+import upload_social_card
 from render_engine import Page
 from render_engine.blog import Blog as Blog 
 from render_engine_microblog import MicroBlog
@@ -61,16 +61,27 @@ class Blog(Blog):
 # Add blog to the site - route_list
 mysite.collection(Blog)
 
-# Create social cards
-if not (path:=pathlib.Path("static/images/social_cards")).exists():
-    path.mkdir()
-
 for blog_post in Blog():
-    overlay_text(
-        text=blog_post.title,
-        image_path="static/images/social_card_base.jpg",
-        output_path=f"static/images/social_cards/{slugify.slugify(blog_post.title)}.jpg",
-    )
+    if not upload_social_card.check_for_image(
+        check_tag="used_for",
+        tags= {"used_for": "social_cards"},
+        slug=blog_post._slug,
+        extension=".jpg",
+    ):
+
+        image = upload_social_card.overlay_text(
+            text=blog_post.title,
+            image_path="static/images/social_card_base.jpg",
+        )
+
+        upload_social_card.upload_blob_stream(
+            collection="media",
+            container="static",
+            extension=".jpg",
+            image=image,
+            tags={"used_for": "social_cards"},
+            slug=blog_post._slug,
+        )
 
 
 class MicroBlog(MicroBlog):
