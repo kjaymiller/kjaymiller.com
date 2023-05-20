@@ -27,7 +27,7 @@ def check_for_image(
         filter_expression=f'"{check_tag}" = \'{tags[check_tag]}\''
     )
     filename = pathlib.Path(slug).with_suffix(extension).name
-    return filename.name in [f.name for f in file_blobs]
+    return filename in [f.name for f in file_blobs]
 
 def upload_blob_stream(
     *,
