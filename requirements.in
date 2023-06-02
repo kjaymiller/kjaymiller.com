@@ -5,3 +5,4 @@ render-engine-microblog==2023.6.1
 render-engine-youtube-embed==2023.6.2a1
 render-engine-aggregators
 pillow
+azure-storage-blob
