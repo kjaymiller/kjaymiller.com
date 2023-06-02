@@ -32,6 +32,8 @@ jobs:
           output_location: "output" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
         env:
+          AZURE_STORAGE_ACCOUNT_URL: ${{secrets.AZURE_STORAGE_ACCOUNT_URL}}
+          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
           PYTHON_VERSION: "3.11"
           POST_BUILD_COMMAND: "render-engine build routes:mysite"
 

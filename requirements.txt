@@ -4,8 +4,20 @@
 #
 #    pip-compile
 #
+azure-core==1.26.4
+    # via azure-storage-blob
+azure-storage-blob==12.16.0
+    # via -r requirements.in
+certifi==2023.5.7
+    # via requests
+cffi==1.15.1
+    # via cryptography
+charset-normalizer==3.1.0
+    # via requests
 click==8.1.3
     # via typer
+cryptography==40.0.2
+    # via azure-storage-blob
 dtyper==2.1.0
     # via render-engine
 feedparser==6.0.10
@@ -14,6 +26,10 @@ gitdb==4.0.10
     # via gitpython
 gitpython==3.1.31
     # via render-engine
+idna==3.4
+    # via requests
+isodate==0.6.1
+    # via azure-storage-blob
 jinja2==3.1.2
     # via render-engine
 markdown-it-py==2.2.0
@@ -26,8 +42,12 @@ mdurl==0.1.2
     # via markdown-it-py
 more-itertools==9.1.0
     # via render-engine
+pillow==9.5.0
+    # via -r requirements.in
 pluggy==1.0.0
     # via render-engine
+pycparser==2.21
+    # via cffi
 pygments==2.15.1
     # via rich
 pytailwindcss==0.1.4
@@ -43,6 +63,7 @@ pyyaml==6.0
 render-engine==2023.6.1
     # via
     #   -r requirements.in
+    #   render-engine-aggregators
     #   render-engine-microblog
     #   render-engine-rss
     #   render-engine-tailwindcss
@@ -60,7 +81,10 @@ rich==13.4.1
 sgmllib3k==1.0.0
     # via feedparser
 six==1.16.0
-    # via python-dateutil
+    # via
+    #   azure-core
+    #   isodate
+    #   python-dateutil
 smmap==5.0.0
     # via gitdb
 text-unidecode==1.3
