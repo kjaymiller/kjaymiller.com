@@ -2,22 +2,25 @@
 <!-- <link rel="stylesheet" type="text/css" href="/static/css/index.css" /> -->
 {% endblock %}
 {% block content %}
-<article class="prose lg:prose-xl dark:prose-invert prose-slate">
-  <section class="my-2">
-    <h2 class="text-2xl font-bold"><a href="{{latest_episodes["microblog"]["archive"].url_for()}}">Microblog</a></h2>
-    {{latest_episodes["microblog"]["latest"].content}}
+  <section class="py-4 my-2">
+    <h2 class="text-4xl my-3 font-bold"><a href="{{'microblog'|url_for()}}">Microblog</a></h2>
+    <article class="prose lg:prose-xl dark:prose-invert prose-slate">
+    {{microblog[0].content}}
+    </article>
   </section>
-  <section class="my-6">
-
-  <h2 class="text-2xl underline">Latest Posts</h2>
-    {% for section in latest_episodes %}
-    {% if section != "microblog" %}
-      {% set section_title = latest_episodes[section]["title"] %}
-      {% set latest = latest_episodes[section]["latest"] %}
-      {% set archive = latest_episodes[section]["archive"] %}
-        <h4 class="text-lg my-2"><a class="font-bold" href="{{archive.url_for()}}">{{section_title | title}}:</a><a class="pl-2" href="{{latest.url_for()}}">{{latest.title}}</a></h4>
-      {% endif %}
-    {% endfor %}
+  <section class="my-2 py-2">
+    <h2 class="my-4 text-4xl font-bold"><a href="{{'blog'|url_for()}}">Blog</a></h2>
+    {% set latest_blog = blog[0] %}
+    <h3 class="text-2xl"><a href="{{latest_blog.url_for()}}">{{latest_blog.title}}</a></h3>
   </section>
-</article>
+<section>
+  {% set pcn = pcn[0] %}
+  <h2 class="my-4 text-2xl font-bold"><a href="{{'python-community-news'|url_for()}}">Python Community News</a></h2>
+  <a class="text-xl" href="{{pcn.url_for()}}">{{pcn.title}}</a>
+</section>
+<section>
+  {% set conduit = conduit[0] %}
+  <h2 class="my-4 text-2xl font-bold"><a href="{{'conduit'|url_for()}}">Conduit</a></h2>
+  <a class="text-xl" href="{{conduit.url_for()}}">{{conduit.title}}</a>
+</section>
 {% endblock %}

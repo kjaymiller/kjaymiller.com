@@ -2,6 +2,7 @@
 title: Storing My Opengraph Social Cards in Azure
 date: 2023-05-20T03:05:40Z
 tags: [azure, static-site-generator]
+image: https://kjaymiller.azureedge.net/media/entries_taged_social_cards.png
 ---
 
 Yesterday, I figured out how to [generate social cards](adding-social-cards-to-my-static-site.html). I mentioned in that post that I would need to do something eventually or build times would get out of hand.
@@ -10,7 +11,7 @@ Yesterday, I figured out how to [generate social cards](adding-social-cards-to-m
 
 Today was the future. I took some time this evening to figure out something that I've been wanting to figure out for a while now.
 
-How do I upload images to Azure Blob Storage.
+**How do I upload images to Azure Blob Storage?**
 
 ## I need it for more than this project
 
@@ -20,7 +21,7 @@ Just as I borrowed some of this code from another project, I can see myself retu
 
 In order to upload images there are three main changes that will need to be made.
 
-## Saving images to ~~disk~~ stream
+## Saving images to <strike>disk</strike> stream
 
 Instead of writing the files to disk and then uploading the images from file, I opted to just stream the image to Azure directly. I'm not sure if there are performance improvements, but I've always been told saving to disk is slower so I and uploading from memory.
 

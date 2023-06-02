@@ -5,10 +5,11 @@ to-indigo-800
   flex
   flex-wrap
   items-baseline
-  p-5
+  px-5
+  py-2
   ">
     <h1 class="title mx-3 text-2xl font-bold text-gray-200">
-      <a class="hover:no-decorate" href="/">{{SITE_TITLE}}</a>
+      <a class="no-underline" href="/">{{SITE_TITLE}}</a>
     </h1>
     <div class="hidden md:block p-2">
     {% for link in HEADER_LINKS %}
@@ -21,6 +22,7 @@ to-indigo-800
             hover:text-indigo-800
             hover:font-semibold
             text-gray-200
+            no-underline
           " href="{{link.url}}">
         {{link.text}}
       </a>
