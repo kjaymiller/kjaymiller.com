@@ -50,6 +50,6 @@ You can be a voting member by [financially supporting](https://psfmember.org/) t
 
 If you are doing any of the things above, you likely qualify as a managing & contributing member. If you contribute at least 5 hours a month you can vote based on [this membership tier](https://docs.google.com/forms/d/e/1FAIpQLSfwWBGkzvkWDZrxW3up_M_B7qgt1IWZlx9KJ0ucLA5WJP1vfA/viewform).
 
-To register as a voting member visit the [PSF Website](https://www.python.org/psf/membership/)
+To register as a voting member visit the [PSF Website](https://www.python.org/psf/membership/). You must register by June 15th to vote in the 2023 election.
 
 I hope to consider running again in the future, but I hope in the meantime, I can encourage someone out there to also run.
