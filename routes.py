@@ -58,7 +58,9 @@ class PythonCommunityNews(RSSCollection):
     routes = ['pcn']
     content_path = "https://www.youtube.com/feeds/videos.xml?channel_id=UCA8N-T_aEhHLzwwn47K-UFw"
 
-for blog_post in Blog():
+blog = mysite.route_list['blog']
+
+for blog_post in blog:
     if not upload_social_card.check_for_image(
         check_tag="used_for",
         tags= {"used_for": "social_cards"},
