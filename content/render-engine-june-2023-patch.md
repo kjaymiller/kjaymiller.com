@@ -48,4 +48,6 @@ This creates a little more consistency in how plugins operate as referenced.
 
 **SIDE EFFECT**: If you are calling the content from one page into another the `render_content` hookspec is not called. This should be fixed in future updates (perhaps with an extension to render pages as partials) 
 
+**SIDE EFFECT**: `render_content` is now called on parsed content and not preparsed content. This means that you are looking for the rendered html and not the pre-existing content. This ensures that plugin developers don't need to think about the content's base type and instead can focus on the ensured HTML-formatted string.
+
 **TODO**: Move the logic of page creation from site objects simple to a `site.render_page()` method that is called by all pages written to file.
