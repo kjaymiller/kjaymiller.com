@@ -37,15 +37,15 @@ class PageCallingPage1Instance(Page):
     page1 = site.route_list['page1']
 ```
 
-### Methods `site.page()` and `site.collection()` now return None
+### Methods `site.page()` and `site.collection()` now return `None`
 
 To reinforce how to access instances of pages and collections.
 
-### **Registering Plugins for Pages and Collections happen when `Site.collection()` and `Site.page()` is called** _(previously from `Collection.__init__()` and `Page.__init__()`)_.
+### Registering Plugins for Pages and Collections happen when `Site.collection()` and `Site.page()` is called _(previously from `Collection.__init__()` and `Page.__init__()`)_
 
 This creates a little more consistency in how plugins operate as referenced.
 
-### **`render_content` hookspec is called in `site.render()` for Page objects and `site.render_partial_collection`/`site.render_full_collection` for collection objects.**
+### `render_content` hookspec is called in `site.render()` for Page objects and `site.render_partial_collection`/`site.render_full_collection` for collection objects.
 
 **SIDE EFFECT**: If you are calling the content from one page into another the `render_content` hookspec is not called. This should be fixed in future updates (perhaps with an extension to render pages as partials) 
 
