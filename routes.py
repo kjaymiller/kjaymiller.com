@@ -1,4 +1,4 @@
-import upload_social_card
+import os
 
 from render_engine import Page
 from render_engine.blog import Blog as Blog 
@@ -21,6 +21,9 @@ markdown_extras = [
             "mermaid",
 ]
 
+@mysite.page
+class Contact(Page):
+    template = "contact.html"
 
 @mysite.collection
 class Pages(Collection):
@@ -60,26 +63,31 @@ class PythonCommunityNews(RSSCollection):
 
 blog = mysite.route_list['blog']
 
-for blog_post in blog:
-    if not upload_social_card.check_for_image(
-        check_tag="used_for",
-        tags= {"used_for": "social_cards"},
-        slug=blog_post._slug,
-        extension=".jpg",
-    ):
+if os.environ.get("prod", False):
+    import upload_social_card
 
-        image = upload_social_card.overlay_text(
-            text=blog_post.title,
-            image_path="static/images/social_card_base.jpg",
-        )
-
-        upload_social_card.upload_blob_stream(
-            container="media",
-            extension=".jpg",
-            image=image,
-            tags={"used_for": "social_cards"},
-            slug=blog_post._slug,
-        )
+    def update_social_cards(collection):
+        for post in collection:
+            if not upload_social_card.check_for_image(
+                check_tag="used_for",
+                tags= {"used_for": "social_cards"},
+                slug=post._slug,
+                extension=".jpg",
+            ):
+                image = upload_social_card.overlay_text(
+                    text=post.title,
+                    image_path="static/images/social_card_base.jpg",
+                )
+    
+                upload_social_card.upload_blob_stream(
+                    container="media",
+                    extension=".jpg",
+                    image=image,
+                    tags={"used_for": "social_cards"},
+                    slug=post._slug,
+                )
+    
+    update_social_cards(blog)
 
 
 @mysite.collection
