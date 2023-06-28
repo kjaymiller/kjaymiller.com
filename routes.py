@@ -1,4 +1,5 @@
 import os
+import upload_social_card
 
 from render_engine import Page
 from render_engine.blog import Blog as Blog 
@@ -64,31 +65,25 @@ class PythonCommunityNews(RSSCollection):
 blog = mysite.route_list['blog']
 
 if os.environ.get("prod", False):
-    import upload_social_card
+    for post in collection:
+        if not upload_social_card.check_for_image(
+            check_tag="used_for",
+            tags= {"used_for": "social_cards"},
+            slug=post._slug,
+            extension=".jpg",
+        ):
+            image = upload_social_card.overlay_text(
+                text=post.title,
+                image_path="static/images/social_card_base.jpg",
+            )
 
-    def update_social_cards(collection):
-        for post in collection:
-            if not upload_social_card.check_for_image(
-                check_tag="used_for",
-                tags= {"used_for": "social_cards"},
-                slug=post._slug,
+            upload_social_card.upload_blob_stream(
+                container="media",
                 extension=".jpg",
-            ):
-                image = upload_social_card.overlay_text(
-                    text=post.title,
-                    image_path="static/images/social_card_base.jpg",
-                )
-    
-                upload_social_card.upload_blob_stream(
-                    container="media",
-                    extension=".jpg",
-                    image=image,
-                    tags={"used_for": "social_cards"},
-                    slug=post._slug,
-                )
-    
-    update_social_cards(blog)
-
+                image=image,
+                tags={"used_for": "social_cards"},
+                slug=post._slug,
+            )
 
 @mysite.collection
 class MicroBlog(MicroBlog):

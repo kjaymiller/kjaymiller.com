@@ -8,11 +8,12 @@ from PIL import Image, ImageDraw, ImageFont
 from azure.storage.blob import BlobServiceClient, ContentSettings
 
 
-account_url = os.getenv("AZURE_STORAGE_ACCOUNT_URL")
-connection_string = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
+def connect_to_storage() -> BlobServiceClient:
+    account_url = os.getenv("AZURE_STORAGE_ACCOUNT_URL")
+    connection_string = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
 
-# Create the BlobServiceClient object
-blob_service_client = BlobServiceClient.from_connection_string(connection_string)
+    # Create the BlobServiceClient object
+    return BlobServiceClient.from_connection_string(connection_string)
 
 
 def check_for_image(
@@ -23,6 +24,7 @@ def check_for_image(
     extension: str,
 ):
     """Checks if a blob exists in an Azure Container"""""
+    blob_service_client = connect_to_storage()
     file_blobs = blob_service_client.find_blobs_by_tags(
         filter_expression=f'"{check_tag}" = \'{tags[check_tag]}\''
     )
@@ -49,6 +51,7 @@ def upload_blob_stream(
     tags = {"used_for": "social_cards"}
     filename = pathlib.Path(slug).with_suffix(extension)
 
+    blob_service_client = connect_to_storage()
     blob_client = blob_service_client.get_blob_client(
         container=container,
         blob=filename,
