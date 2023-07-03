@@ -76,7 +76,7 @@ render-engine-rss==2023.6.1a1
     # via -r requirements.in
 render-engine-tailwindcss==2023.1.2a2
     # via -r requirements.in
-render-engine-youtube-embed==2023.7.1
+render-engine-youtube-embed==2023.7.2
     # via -r requirements.in
 requests==2.31.0
     # via azure-core
