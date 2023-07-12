@@ -4,9 +4,9 @@
 #
 #    pip-compile
 #
-azure-core==1.27.0
+azure-core==1.28.0
     # via azure-storage-blob
-azure-storage-blob==12.16.0
+azure-storage-blob==12.17.0
     # via -r requirements.in
 certifi==2023.5.7
     # via requests
