@@ -62,7 +62,7 @@ python-slugify==8.0.1
     # via render-engine
 pyyaml==6.0.1
     # via python-frontmatter
-render-engine==2023.7.4a3
+render-engine==2023.7.4a4
     # via
     #   -r requirements.in
     #   render-engine-aggregators
