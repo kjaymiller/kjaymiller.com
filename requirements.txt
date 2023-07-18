@@ -31,7 +31,9 @@ idna==3.4
 isodate==0.6.1
     # via azure-storage-blob
 jinja2==3.1.2
-    # via render-engine
+    # via
+    #   render-engine
+    #   render-engine-theme-kjaymiller
 markdown-it-py==3.0.0
     # via rich
 markdown2==2.4.9
@@ -75,6 +77,8 @@ render-engine-microblog==2023.6.1
 render-engine-rss==2023.6.1a1
     # via -r requirements.in
 render-engine-tailwindcss==2023.1.2a2
+    # via -r requirements.in
+render-engine-theme-kjaymiller==2023.7.1a2
     # via -r requirements.in
 render-engine-youtube-embed==2023.7.2
     # via -r requirements.in
