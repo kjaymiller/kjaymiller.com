@@ -31,6 +31,6 @@ site_vars = {
 
 
 app = Site()
-app.site_vars = {**app.site_vars, **site_vars}
+app.site_vars.update(site_vars)
 app.register_plugins(SiteMap, TailwindCSS, YouTubeEmbed) 
 app.register_themes(kjaymiller)
