@@ -1,8 +1,9 @@
 import dataclasses
 from render_engine.site import Site
-from render_engine.plugins import CleanOutput, SiteMap
+from render_engine.plugins.site_map import SiteMap
 from render_engine_tailwindcss import TailwindCSS
 from render_engine_youtube_embed import YouTubeEmbed
+from render_engine_theme_kjaymiller import kjaymiller
 
 
 @dataclasses.dataclass
@@ -29,10 +30,7 @@ site_vars = {
 }
 
 
-class MySite(Site):
-    site_vars = site_vars
-    plugins = [
-        SiteMap,
-        TailwindCSS,
-        YouTubeEmbed
-    ]
+app = Site()
+app.site_vars = {**app.site_vars, **site_vars}
+app.register_plugins(SiteMap, TailwindCSS, YouTubeEmbed) 
+app.register_themes(kjaymiller)

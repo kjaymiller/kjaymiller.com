@@ -4,19 +4,19 @@
 #
 #    pip-compile
 #
-azure-core==1.27.0
+azure-core==1.28.0
     # via azure-storage-blob
-azure-storage-blob==12.16.0
+azure-storage-blob==12.17.0
     # via -r requirements.in
 certifi==2023.5.7
     # via requests
 cffi==1.15.1
     # via cryptography
-charset-normalizer==3.1.0
+charset-normalizer==3.2.0
     # via requests
-click==8.1.3
+click==8.1.5
     # via typer
-cryptography==41.0.1
+cryptography==41.0.2
     # via azure-storage-blob
 dtyper==2.1.0
     # via render-engine
@@ -24,7 +24,7 @@ feedparser==6.0.10
     # via render-engine-rss
 gitdb==4.0.10
     # via gitpython
-gitpython==3.1.31
+gitpython==3.1.32
     # via render-engine
 idna==3.4
     # via requests
@@ -32,25 +32,25 @@ isodate==0.6.1
     # via azure-storage-blob
 jinja2==3.1.2
     # via render-engine
-markdown-it-py==2.2.0
+markdown-it-py==3.0.0
     # via rich
-markdown2==2.4.8
+markdown2==2.4.9
     # via render-engine
-markupsafe==2.1.2
+markupsafe==2.1.3
     # via jinja2
 mdurl==0.1.2
     # via markdown-it-py
 more-itertools==9.1.0
     # via render-engine
-pillow==9.5.0
+pillow==10.0.0
     # via -r requirements.in
-pluggy==1.0.0
+pluggy==1.2.0
     # via render-engine
 pycparser==2.21
     # via cffi
 pygments==2.15.1
     # via rich
-pytailwindcss==0.1.4
+pytailwindcss==0.2.0
     # via render-engine-tailwindcss
 python-dateutil==2.8.2
     # via render-engine
@@ -58,9 +58,9 @@ python-frontmatter==1.0.0
     # via render-engine
 python-slugify==8.0.1
     # via render-engine
-pyyaml==6.0
+pyyaml==6.0.1
     # via python-frontmatter
-render-engine==2023.7.2a1
+render-engine==2023.7.4a3
     # via
     #   -r requirements.in
     #   render-engine-aggregators
@@ -80,7 +80,7 @@ render-engine-youtube-embed==2023.7.2
     # via -r requirements.in
 requests==2.31.0
     # via azure-core
-rich==13.4.1
+rich==13.4.2
     # via render-engine
 sgmllib3k==1.0.0
     # via feedparser
@@ -97,10 +97,10 @@ typer==0.9.0
     # via
     #   dtyper
     #   render-engine
-typing-extensions==4.6.3
+typing-extensions==4.7.1
     # via
     #   azure-core
     #   azure-storage-blob
     #   typer
-urllib3==2.0.2
+urllib3==2.0.3
     # via requests

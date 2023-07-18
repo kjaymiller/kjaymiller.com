@@ -1,8 +1,9 @@
-render-engine>=2023.7.2a1
+render-engine>=2023.7.4a3
 render-engine-tailwindcss==2023.1.2a2
 render-engine-rss==2023.6.1a1
 render-engine-microblog==2023.6.1
 render-engine-youtube-embed==2023.7.2
 render-engine-aggregators
+render-engine-theme-kjaymiller
 pillow
 azure-storage-blob

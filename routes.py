@@ -10,9 +10,8 @@ from render_engine_aggregators.feed import AggregateFeed
 from render_engine_rss.collection import RSSCollection
 from render_engine_rss.parsers import PodcastPageParser
 
-from mysite import MySite
+from mysite import app
 
-mysite = MySite()
 
 markdown_extras = [
             "admonitions",
@@ -22,18 +21,18 @@ markdown_extras = [
             "mermaid",
 ]
 
-@mysite.page
+@app.page
 class Contact(Page):
     template = "contact.html"
 
-@mysite.collection
+@app.collection
 class Pages(Collection):
     PageParser = MarkdownPageParser
     content_path = "content/pages"
     template = "page.html"
 
 
-@mysite.collection
+@app.collection
 class Blog(Blog):
     PageParser = MarkdownPageParser
     parser_extras = {"markdown_extras": markdown_extras}
@@ -45,7 +44,7 @@ class Blog(Blog):
     has_archive = True
     items_per_page = 50
 
-@mysite.collection
+@app.collection
 class Conduit(RSSCollection):
     PageParser = PodcastPageParser
     template = "blog.html"
@@ -53,7 +52,7 @@ class Conduit(RSSCollection):
     routes = ['conduit']
     content_path = "https://www.relay.fm/conduit/feed"
 
-@mysite.collection
+@app.collection
 class PythonCommunityNews(RSSCollection):
     title = "Python Community News"
     PageParser = PodcastPageParser
@@ -62,7 +61,7 @@ class PythonCommunityNews(RSSCollection):
     routes = ['pcn']
     content_path = "https://www.youtube.com/feeds/videos.xml?channel_id=UCA8N-T_aEhHLzwwn47K-UFw"
 
-blog = mysite.route_list['blog']
+blog = app.route_list['blog']
 
 if os.environ.get("prod", False):
     for post in collection:
@@ -85,7 +84,7 @@ if os.environ.get("prod", False):
                 slug=post._slug,
             )
 
-@mysite.collection
+@app.collection
 class MicroBlog(MicroBlog):
     archive_template = "microblog_archive.html"
     template = "blog.html"
@@ -94,18 +93,18 @@ class MicroBlog(MicroBlog):
     parser_extras = {"markdown_extras": markdown_extras}
     items_per_page = 50
 
-@mysite.page
+@app.page
 class AllPosts(AggregateFeed):
     collections = [Blog, MicroBlog]
 
 latest_episodes = {
-    "blog": mysite.route_list['blog'].latest(),
-    "microblog": mysite.route_list['microblog'].latest(),
-    "conduit": mysite.route_list['conduit'].latest(),
-    "pcn": mysite.route_list['python-community-news'].latest(),
+    "blog": app.route_list['blog'].latest(),
+    "microblog": app.route_list['microblog'].latest(),
+    "conduit": app.route_list['conduit'].latest(),
+    "pcn": app.route_list['python-community-news'].latest(),
 }
 
-@mysite.page
+@app.page
 class Index(Page):
     template = "index.html"
     template_vars = latest_episodes
