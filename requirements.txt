@@ -76,9 +76,9 @@ render-engine-microblog==2023.6.1
     # via -r requirements.in
 render-engine-rss==2023.6.1a1
     # via -r requirements.in
-render-engine-tailwindcss==2023.1.1
+render-engine-tailwindcss==2023.7.1a2
     # via render-engine-theme-kjaymiller
-render-engine-theme-kjaymiller==2023.7.1a3
+render-engine-theme-kjaymiller==2023.7.1a4
     # via -r requirements.in
 render-engine-youtube-embed==2023.7.2
     # via -r requirements.in
