@@ -1,20 +1,20 @@
 ---
-title: Embrace AI on Behalf of my Laziness
+title: Embracing AI because I'm Lazy
 date: 2023-08-17T02:21:59Z
 image: https://kjaymiller.azureedge.net/media/ChatGPT%20random%20language%20code.png
 ---
 
-I'm not the biggest fan of AI outside of code completion. That being said I've used chatGPT a few times now and it has always been something that I'm capable of doing but have little/no ambition of doing. Here's my list of "successful" uses of AI.
+I'm not the biggest fan of AI outside of code completion, even then that tends to be like working with your own junior developer. That said, I've used ChatGPT a few times for things I'm capable of doing but have little/no ambition of doing. Here's my list of "successful" uses of AI. As you'll soon read, it never did exactly what I watned but was at least enough to break through the getting started issues.
 
 Disclaimers galore:
 
 1. I was asked to use AI for a couple of things
 2. I don't care if you use it or not I'm not advocating nor do I care your opinion (it's too late in the evening of me writing this for that)
-3. I work at a company that is heavily involved with AI so much that I feel if I don't say something I'm direlect in my job duties so w/e. That said I wasn't asked to write this and I hope they honestly don't read this.
+3. I work at a company that is heavily involved with AI so much that we're being constantly pushed to talk about AI. I wasn't asked to write this and I hope they honestly don't read it.
 
 ## Use Case 1 - Writing things that no one will read
 
-Earlier this year my daughter was denied enrollment to our first choice school and we were allowed to dispute and write a letter of consideration. This was definitely something that I'm sure only one person would read and they probably didn't care. It wasn't a college essay it was "please explain why we should make the except for your child".  ChatGPT did a decent job but definitely didn't give the "you'd be lucky to have us" vibe I was looking for. A little proofreading and editing made it good to go. I've also used it to craft emails that I was too lazy to write on my own because words are hard.
+Earlier this year, my daughter was denied enrollment to our first choice school. We were allowed to dispute and write a letter of consideration. This was definitely something that I'm sure only one person would read and they probably didn't care. It wasn't a college essay, it was "please explain why we should make the exception for your child".  ChatGPT did a decent job but definitely didn't give the "you'd be lucky to have us" vibe I was looking for. A little proofreading and editing made it good to go. I've also used it to craft emails that I was too lazy to write on my own because words are hard.
 
 ## Use Case 2 - Writing things that don't matter
 
