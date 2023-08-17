@@ -1,11 +1,13 @@
 ---
 title: Embrace AI on Behalf of my Laziness
 date: 2023-08-17T02:21:59Z
+image: https://kjaymiller.azureedge.net/media/ChatGPT%20random%20language%20code.png
 ---
 
 I'm not the biggest fan of AI outside of code completion. That being said I've used chatGPT a few times now and it has always been something that I'm capable of doing but have little/no ambition of doing. Here's my list of "successful" uses of AI.
 
 Disclaimers galore:
+
 1. I was asked to use AI for a couple of things
 2. I don't care if you use it or not I'm not advocating nor do I care your opinion (it's too late in the evening of me writing this for that)
 3. I work at a company that is heavily involved with AI so much that I feel if I don't say something I'm direlect in my job duties so w/e. That said I wasn't asked to write this and I hope they honestly don't read this.
