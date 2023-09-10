@@ -11,13 +11,13 @@ I believe my best skill is doing things that can make a big impact to a small gr
 
 ## Socially
 
-I love 1:1 zoom calls talking about whatever and showing up to conferences to encourage 1-2 people give there first conference talk. I will normally DM folks with thoughts instead of making a blog post and I'm always a fan of saying the thing that may make someone feel uncomfortable because it needed to be said. 
+I love 1:1 zoom calls talking about whatever and showing up to conferences to encourage 1-2 people give there first conference talk. I will normally DM folks with thoughts instead of making a blog post and I'm always a fan of saying the thing that may make someone feel uncomfortable because it needed to be said.
 
 I have influence but I'm not an influencer. I also don't hate that word. I have some privilege that others don't and I can work to level the playing field a tad. I spend way too much money to help a handful of people, like funding the higher level of Discord perks so that all the Black Python Devs in my community can share their screens in our meetups with the same fidelity while getting $0 in funding.
 
 I also make things that I want like podcast where I ask my friend to break down British things because I'm an ignorant American at times. It's also just an excuse to talk to him because we're both adults with busy lives. I also do what I call the most important not-recorded podcast with my friend and Productivity GURU (HAHA take that SCOTTY!) Scotty Jackson. We learn from another, we empathize with each other and we shed tears for each other and at the end of the day it's cathartic and not recorded and probably the thing I've learned the most from in the last 3-4 years we've been doing it.
 
-## Techincally
+## Technically
 
 This also applies on the technical side. My blog post automation workflow is something like.
 
