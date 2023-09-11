@@ -6,3 +6,4 @@ render-engine-aggregators
 render-engine-theme-kjaymiller==2023.7.1a4
 pillow
 azure-storage-blob
+axe-playwright-python==0.1.4
