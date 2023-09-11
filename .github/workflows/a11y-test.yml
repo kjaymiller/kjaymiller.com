@@ -1,0 +1,32 @@
+name: Accessibility Review
+on:
+    workflow_run:
+      workflows:
+        - Azure Static Web Apps CI/CD
+      types:
+        - completed
+    workflow_dispatch:
+
+jobs:
+  accessibility:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install ' "axe-playwright-python typer"
+      - name: get date
+        id: date
+        run: |
+          echo "::set-output name=date::$(date +'%Y-%m-%d')"
+      - Name : Run accessibility tests
+        run: |
+          axe-playwright https://www.example.com --tags wcag2a --browser chromium --timeout 30000 --save accessibility-report-${{date}}-${{github.event.workflow_run.id}}.txt
+      - uses: actions/upload-artifact@v3
+        with:
+          name: accessibility-report-${{steps.date}}-${{github.event.workflow_run.id}}.txt
+          path: accessibility-report-${{steps.date}}-${{github.event.workflow_run.id}}.txt 
