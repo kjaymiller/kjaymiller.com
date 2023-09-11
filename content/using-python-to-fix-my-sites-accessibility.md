@@ -33,6 +33,7 @@ I saved the script to my repo so you can [check that out over here](https://gith
 The results show that there are 3 violations (well three types of violations. I didn't count the number of instances for each of those violations)
 
 ```md
+
 Found 3 accessibility violations:
 Rule Violated:
 landmark-one-main - Ensures the document has a main landmark
@@ -132,9 +133,9 @@ region - Ensures all page content is contained by landmarks
   Snippet: <div class="flex-grow mx-2 md:mx-auto container">
   Messages:
   * Some page content is not contained by landmarks
+```
 
-
-This is just main so we'll see if we can update the render-engine template and then shift our focus to other pages.
+This is just the homepage so we'll see if we can update the render-engine template and then shift our focus to other pages.
 
 Because most of the template is in the render-engine theme my work will make it across many other pages quickly.
 
