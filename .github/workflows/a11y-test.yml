@@ -32,5 +32,5 @@ jobs:
           python a11y.py url=https://kjaymiller.com
       - uses: actions/upload-artifact@v3
         with:
-          name: accessibility-report-${{steps.date}}-${{github.event.workflow_run.id}}.txt
-          path: accessibility-report-${{steps.date}}-${{github.event.workflow_run.id}}.txt 
+          name: accessibility-report-${{steps.date.outputs.date}}-${{github.event.workflow_run.id}}.txt
+          path: accessibility-report-${{steps.date.outputs.date}}-${{github.event.workflow_run.id}}.txt 
