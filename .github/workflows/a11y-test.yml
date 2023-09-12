@@ -28,7 +28,7 @@ jobs:
         shell: bash
       - Name : Run accessibility tests
         run: |
-          axe-playwright https://www.example.com --tags wcag2a --browser chromium --timeout 30000 --save accessibility-report-${{date}}-${{github.event.workflow_run.id}}.txt
+          axe-playwright https://www.example.com --tags wcag2a --browser chromium --timeout 30000 --save accessibility-report-${{steps.date.outputs.DATE}}-${{github.event.workflow_run.id}}.txt
           python a11y.py url=https://kjaymiller.com
       - uses: actions/upload-artifact@v3
         with:
