@@ -22,7 +22,7 @@ jobs:
       - name: get date
         id: date
         run: |
-          echo "::set-output name=date::$(date +'%Y-%m-%d')"
+          echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
       - name: Sleep for 30 seconds
         run: sleep 15s
         shell: bash
