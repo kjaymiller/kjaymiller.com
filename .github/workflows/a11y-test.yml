@@ -11,7 +11,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install axe-playwright-python typer render-engine==2023.7.4a7
+          pip install -r requirements-test.txt
           playwright install --with-deps
       - name: get date
         id: date

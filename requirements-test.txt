@@ -1,0 +1,4 @@
+-r requirements.txt
+
+typer
+axe-playwright-python 
