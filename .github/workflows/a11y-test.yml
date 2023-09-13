@@ -1,12 +1,5 @@
 name: Accessibility Review
-on:
-    workflow_run:
-      workflows:
-        - Azure Static Web Apps CI/CD
-      types:
-        - completed
-    workflow_dispatch:
-
+on: [workflow_call, workflow_dispatch]
 jobs:
   accessibility:
     runs-on: ubuntu-latest
@@ -26,7 +19,7 @@ jobs:
           echo "DATE=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
       - name : Run accessibility tests
         run: |
-          python a11y.py "https://kjaymiller.com" --output "accessibility-report-${{steps.date.outputs.DATE}}-${{github.run_id}}.txt"
+          python a11y.py --output "accessibility-report-${{steps.date.outputs.DATE}}-${{github.run_id}}.txt"
           cat "accessibility-report-${{steps.date.outputs.DATE}}-${{github.run_id}}.txt" >> $GITHUB_STEP_SUMMARY
 
       - uses: actions/upload-artifact@v3
