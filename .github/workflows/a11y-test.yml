@@ -27,6 +27,8 @@ jobs:
       - name : Run accessibility tests
         run: |
           python a11y.py "https://kjaymiller.com" --output "accessibility-report-${{steps.date.outputs.DATE}}-${{github.event.workflow_run.id}}.txt"
+          run: cat "accessibility-report-${{steps.date.outputs.DATE}}-${{github.event.workflow_run.id}}.txt" >> $GITHUB_STEP_SUMMARY
+
       - uses: actions/upload-artifact@v3
         with:
           name: accessibility-report-${{steps.date.outputs.DATE}}-${{github.event.workflow_run.id}}.txt
