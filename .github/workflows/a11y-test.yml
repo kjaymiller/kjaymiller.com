@@ -26,10 +26,10 @@ jobs:
           echo "DATE=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
       - name : Run accessibility tests
         run: |
-          python a11y.py "https://kjaymiller.com" --output "accessibility-report-${{steps.date.outputs.DATE}}-${{github.event.workflow_run.id}}.txt"
-          run: cat "accessibility-report-${{steps.date.outputs.DATE}}-${{github.event.workflow_run.id}}.txt" >> $GITHUB_STEP_SUMMARY
+          python a11y.py "https://kjaymiller.com" --output "accessibility-report-${{steps.date.outputs.DATE}}-${{github.run_id}}.txt"
+          cat "accessibility-report-${{steps.date.outputs.DATE}}-${{github.run_id}}.txt" >> $GITHUB_STEP_SUMMARY
 
       - uses: actions/upload-artifact@v3
         with:
-          name: accessibility-report-${{steps.date.outputs.DATE}}-${{github.event.workflow_run.id}}.txt
-          path: accessibility-report-${{steps.date.outputs.DATE}}-${{github.event.workflow_run.id}}.txt 
+          name: accessibility-report-${{steps.date.outputs.DATE}}-${{github.run_id}}.txt
+          path: accessibility-report-${{steps.date.outputs.DATE}}-${{github.run_id}}.txt 
