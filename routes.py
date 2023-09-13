@@ -1,5 +1,4 @@
 import os
-import upload_social_card
 
 from render_engine import Page
 from render_engine.blog import Blog as Blog 
@@ -64,6 +63,8 @@ class PythonCommunityNews(RSSCollection):
 blog = app.route_list['blog']
 
 if os.environ.get("prod", False):
+    import upload_social_card
+
     for post in collection:
         if not upload_social_card.check_for_image(
             check_tag="used_for",
