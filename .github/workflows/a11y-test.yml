@@ -26,7 +26,7 @@ jobs:
           echo "DATE=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
       - name : Run accessibility tests
         run: |
-          python a11y.py url="https://kjaymiller.com"
+          python a11y.py "https://kjaymiller.com"
       - uses: actions/upload-artifact@v3
         with:
           name: accessibility-report-${{steps.date.outputs.DATE}}-${{github.event.workflow_run.id}}.txt
