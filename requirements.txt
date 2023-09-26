@@ -86,7 +86,7 @@ render-engine-rss==2023.6.1a1
     # via -r requirements.in
 render-engine-tailwindcss==2023.7.1a2
     # via render-engine-theme-kjaymiller
-render-engine-theme-kjaymiller==2023.9.1a8
+render-engine-theme-kjaymiller==2023.9.1a10
     # via -r requirements.in
 render-engine-youtube-embed==2023.9.1a2
     # via -r requirements.in
