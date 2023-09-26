@@ -99,10 +99,33 @@ class AllPosts(AggregateFeed):
     collections = [Blog, MicroBlog]
 
 latest_episodes = {
-    "blog": app.route_list['blog'].latest(),
-    "microblog": app.route_list['microblog'].latest(),
-    "conduit": app.route_list['conduit'].latest(),
-    "pcn": app.route_list['python-community-news'].latest(),
+    "hero": {
+        "target": list(app.route_list['microblog'].archives)[0].url_for(),
+        "title": MicroBlog.title,
+        "content": app.route_list['microblog'].latest()[0].content,
+        },
+    "secondary": {
+        "target": list(app.route_list['blog'].archives)[0].url_for(),
+        "title": Blog.title,
+        "from_template": "secondary_blog.html",
+    },
+    "blog": app.route_list['blog'].latest(5),
+    "other": {
+        "sections": [
+            {
+                "target": list(app.route_list["conduit"].archives)[0].url_for(),
+                "title": "Conduit"
+            },
+            {
+                "target":list(app.route_list['python-community-news'].archives)[0].url_for(),
+                "title": "Python Community News",
+            },
+            {
+                "title": "Find Me",
+                "from_template": "re-kjm-social-cards.html",
+            }
+        ]
+    }   
 }
 
 @app.page
