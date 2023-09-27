@@ -16,24 +16,23 @@ site_vars = {
     'HEADER_LINKS': (
         Link(text="About", url="/about.html"),
         Link(text="Blog", url="/blog/blog1.html"),
-        Link(text="YouTube", url="https://www.youtube.com/channel/kjaymiller"),
         Link(text="Python Community News", url='/pcn/python-community-news'),
         Link(text="Conduit", url='https://relay.fm/conduit'),
         Link(text="Talks", url="https://github.com/stars/kjaymiller/lists/conference-talks"),
         Link(text="Contact", url="/contact"),
         ),
     'timezone': "US/Pacific",
-    'SITE_TITLE': "Jay Miller",
+    'SITE_TITLE': "(K) Jay Miller",
     'SITE_SUBTITLE': "Automation, Podcasting, Development",
     'SITE_URL': "https://kjaymiller.com",
-    'AUTHOR': "Jay Miller",
+    'AUTHOR': {"name": "Jay Miller", "email": "kjaymiller@gmail.com"},
     'theme': {
         "colors": {
             "main1": "purple-500",
             "header_gradient_interval": 100,
         },
-        "links": {
-            "youtube": "https://youtube.com/kjaymiller",
+        "social": {
+            "youtube": "https://www.youtube.com/kjaymiller",
             "twitter": "https://twitter.com/kjaymiller",
             "linkedin": "https://linkedin.com/in/kjaymiller",
             "github": "https://github.com/kjaymiller",

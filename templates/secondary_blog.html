@@ -1,5 +1,7 @@
+<div class="lg:grid grid-cols-3">
 {% for post in blog %}
-<p>
-<a class="hover:font-bold" href="{{post.url_for()}}">{{post.title}}</a>
+<p class="mx-5 my-3 p-3 text-center hover:font-semibold hover:text-{{theme.colors.main1}} rounded-lg border shadow shadow-{{theme.colors.main1}}">
+    <a href="{{post.url_for()}}">{{post.title}}</a>
 </p>
 {% endfor %}
+</div>
