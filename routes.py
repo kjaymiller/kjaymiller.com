@@ -20,6 +20,12 @@ markdown_extras = [
             "mermaid",
 ]
 
+@app.collection
+class Newsletter(RSSCollection):
+    content_path = "https://buttondown.email/kjaymiller/rss"
+    routes = ["newsletter"]
+    template = "blog.html"
+    archive_template = "blog_list.html"
 @app.page
 class Contact(Page):
     template = "contact.html"
