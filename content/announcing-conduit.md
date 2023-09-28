@@ -1,5 +1,5 @@
 ---
-date: 2021-07-12 14:39:00-07:00
+date: 2021-07-12T14:39:00-07:00
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png
 link: https://relay.fm/conduit
 tags: podcast, announcements

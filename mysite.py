@@ -27,10 +27,13 @@ site_vars = {
     'SITE_URL': "https://kjaymiller.com",
     'AUTHOR': {"name": "Jay Miller", "email": "kjaymiller@gmail.com"},
     'theme': {
+        "favicon": "https:fav.farm/☕",
+        "fontawesome": "94d9a219ee",
         "colors": {
             "main1": "purple-500",
             "header_gradient_interval": 100,
         },
+        "footer_column2": "footer_block_2.html",
         "social": {
             "youtube": "https://www.youtube.com/kjaymiller",
             "twitter": "https://twitter.com/kjaymiller",

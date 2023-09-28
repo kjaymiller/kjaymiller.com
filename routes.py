@@ -20,12 +20,6 @@ markdown_extras = [
             "mermaid",
 ]
 
-@app.collection
-class Newsletter(RSSCollection):
-    content_path = "https://buttondown.email/kjaymiller/rss"
-    routes = ["newsletter"]
-    template = "blog.html"
-    archive_template = "blog_list.html"
 @app.page
 class Contact(Page):
     template = "contact.html"
@@ -49,24 +43,6 @@ class Blog(Blog):
     has_archive = True
     items_per_page = 50
 
-@app.collection
-class Conduit(RSSCollection):
-    PageParser = PodcastPageParser
-    template = "blog.html"
-    archive_template = "blog_list.html"
-    routes = ['conduit']
-    content_path = "https://www.relay.fm/conduit/feed"
-
-@app.collection
-class PythonCommunityNews(RSSCollection):
-    title = "Python Community News"
-    PageParser = PodcastPageParser
-    template = "blog.html"
-    archive_template = "blog_list.html"
-    routes = ['pcn']
-    content_path = "https://www.youtube.com/feeds/videos.xml?channel_id=UCA8N-T_aEhHLzwwn47K-UFw"
-
-blog = app.route_list['blog']
 
 if os.environ.get("prod", False):
     import upload_social_card

@@ -70,7 +70,7 @@ python-slugify==8.0.1
     # via render-engine
 pyyaml==6.0.1
     # via python-frontmatter
-render-engine==2023.9.1a1
+render-engine==2023.9.1b1
     # via
     #   -r requirements.in
     #   render-engine-aggregators
@@ -86,7 +86,7 @@ render-engine-rss==2023.6.1a1
     # via -r requirements.in
 render-engine-tailwindcss==2023.7.1a2
     # via render-engine-theme-kjaymiller
-render-engine-theme-kjaymiller==2023.9.1a11
+render-engine-theme-kjaymiller==2023.9.1a12
     # via -r requirements.in
 render-engine-youtube-embed==2023.9.1a2
     # via -r requirements.in
