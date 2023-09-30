@@ -16,7 +16,7 @@ site_vars = {
     'HEADER_LINKS': (
         Link(text="About", url="/about.html"),
         Link(text="Blog", url="/blog/blog1.html"),
-        Link(text="Python Community News", url='/pcn/python-community-news'),
+        Link(text="Python Community News", url='https://pythoncommunitynews.com'),
         Link(text="Conduit", url='https://relay.fm/conduit'),
         Link(text="Talks", url="https://github.com/stars/kjaymiller/lists/conference-talks"),
         Link(text="Contact", url="/contact"),
