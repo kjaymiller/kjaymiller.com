@@ -25,7 +25,7 @@ site_vars = {
     'SITE_TITLE': "(K) Jay Miller",
     'SITE_SUBTITLE': "Automation, Podcasting, Development",
     'SITE_URL': "https://kjaymiller.com",
-    'AUTHOR': {"name": "Jay Miller", "email": "kjaymiller@gmail.com"},
+    'SITE_AUTHOR': {"name": "Jay Miller", "email": "kjaymiller@gmail.com"},
     'theme': {
         "favicon": "https:fav.farm/☕",
         "fontawesome": "94d9a219ee",
