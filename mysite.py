@@ -11,9 +11,8 @@ class Link:
     text: str
     url: str
 
-
 site_vars = {
-    'HEADER_LINKS': (
+    'NAVIGATION': (
         Link(text="About", url="/about.html"),
         Link(text="Blog", url="/blog/blog1.html"),
         Link(text="Python Community News", url='https://pythoncommunitynews.com'),
