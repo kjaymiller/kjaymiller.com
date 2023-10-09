@@ -6,8 +6,6 @@ from render_engine_microblog import MicroBlog
 from render_engine.collection import Collection
 from render_engine.parsers.markdown import MarkdownPageParser
 from render_engine_aggregators.feed import AggregateFeed
-from render_engine_rss.collection import RSSCollection
-from render_engine_rss.parsers import PodcastPageParser
 
 from mysite import app
 
