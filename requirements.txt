@@ -12,18 +12,16 @@ azure-storage-blob==12.18.2
     # via -r requirements.in
 certifi==2023.7.22
     # via requests
-cffi==1.15.1
+cffi==1.16.0
     # via cryptography
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
     # via requests
 click==8.1.7
     # via typer
 cryptography==41.0.4
     # via azure-storage-blob
-dtyper==2.1.0
+dtyper==2.4.0
     # via render-engine
-feedparser==6.0.10
-    # via render-engine-rss
 gitdb==4.0.10
     # via gitpython
 gitpython==3.1.37
@@ -70,32 +68,28 @@ python-slugify==8.0.1
     # via render-engine
 pyyaml==6.0.1
     # via python-frontmatter
-render-engine==2023.9.1b2
+render-engine==2023.10.1
     # via
     #   -r requirements.in
     #   render-engine-aggregators
     #   render-engine-microblog
-    #   render-engine-rss
     #   render-engine-tailwindcss
+    #   render-engine-theme-kjaymiller
     #   render-engine-youtube-embed
 render-engine-aggregators==2023.6.1
     # via -r requirements.in
 render-engine-microblog==2023.6.1
     # via -r requirements.in
-render-engine-rss==2023.6.1a1
-    # via -r requirements.in
 render-engine-tailwindcss==2023.7.1a2
     # via render-engine-theme-kjaymiller
-render-engine-theme-kjaymiller==2023.9.2
+render-engine-theme-kjaymiller==2023.10.2a1
     # via -r requirements.in
-render-engine-youtube-embed==2023.9.1a2
+render-engine-youtube-embed==2023.10.2a1
     # via -r requirements.in
 requests==2.31.0
     # via azure-core
-rich==13.5.3
+rich==13.6.0
     # via render-engine
-sgmllib3k==1.0.0
-    # via feedparser
 six==1.16.0
     # via
     #   azure-core
@@ -115,5 +109,5 @@ typing-extensions==4.8.0
     #   azure-storage-blob
     #   pyee
     #   typer
-urllib3==2.0.5
+urllib3==2.0.6
     # via requests

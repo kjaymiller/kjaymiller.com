@@ -29,7 +29,7 @@ site_vars = {
         "favicon": "https:fav.farm/☕",
         "fontawesome": "94d9a219ee",
         "colors": {
-            "main1": "purple-500",
+            "main": "purple-500",
             "header_gradient_interval": 100,
         },
         "footer_column2": "footer_block_2.html",
@@ -46,5 +46,5 @@ site_vars = {
 
 app = Site()
 app.site_vars.update(site_vars)
-app.register_plugins(SiteMap, TailwindCSS, YouTubeEmbed) 
+app.register_plugins(SiteMap, YouTubeEmbed) 
 app.register_themes(kjaymiller)
