@@ -2,7 +2,7 @@ render-engine>=2023.10.1
 render-engine-microblog==2023.6.1
 render-engine-youtube-embed==2023.10.2a1
 render-engine-aggregators
-render-engine-theme-kjaymiller==2023.10.2a1
+render-engine-theme-kjaymiller==2023.10.2a3
 pillow
 azure-storage-blob
 axe-playwright-python==0.1.4
