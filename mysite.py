@@ -1,7 +1,6 @@
 import dataclasses
 from render_engine.site import Site
 from render_engine.plugins.site_map import SiteMap
-from render_engine_tailwindcss import TailwindCSS
 from render_engine_youtube_embed import YouTubeEmbed
 from render_engine_theme_kjaymiller import kjaymiller
 

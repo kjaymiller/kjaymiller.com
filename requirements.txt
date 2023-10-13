@@ -8,7 +8,7 @@ axe-playwright-python==0.1.4
     # via -r requirements.in
 azure-core==1.29.4
     # via azure-storage-blob
-azure-storage-blob==12.18.2
+azure-storage-blob==12.18.3
     # via -r requirements.in
 certifi==2023.7.22
     # via requests
@@ -68,7 +68,7 @@ python-slugify==8.0.1
     # via render-engine
 pyyaml==6.0.1
     # via python-frontmatter
-render-engine==2023.10.1
+render-engine==2023.10.2a1
     # via
     #   -r requirements.in
     #   render-engine-aggregators
@@ -84,7 +84,7 @@ render-engine-tailwindcss==2023.7.1a2
     # via render-engine-theme-kjaymiller
 render-engine-theme-kjaymiller==2023.10.2a3
     # via -r requirements.in
-render-engine-youtube-embed==2023.10.2a1
+render-engine-youtube-embed==2023.10.2b2
     # via -r requirements.in
 requests==2.31.0
     # via azure-core
