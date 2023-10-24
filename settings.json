@@ -1,0 +1,31 @@
+{
+    "NAVIGATION": [
+        {"text":"About", "url":"/about.html"},
+        {"text":"Blog", "url":"/blog/blog1.html"},
+        {"text":"Python Community News", "url":"https://pythoncommunitynews.com"},
+        {"text":"Conduit", "url":"https://relay.fm/conduit"},
+        {"text":"Talks", "url":"https://github.com/stars/kjaymiller/lists/conference-talks"},
+        {"text":"Contact", "url":"/contact"}
+        ],
+    "timezone": "US/Pacific",
+    "SITE_TITLE": "KJayMiller",
+    "SITE_SUBTITLE": "Automation, Podcasting, Development",
+    "SITE_URL": "https://kjaymiller.com",
+    "OWNER": {"name": "Jay Miller", "email": "kjaymiller@gmail.com"},
+    "theme": {
+        "favicon": "https:fav.farm/☕",
+        "fontawesome": "94d9a219ee",
+        "colors": {
+            "main": "purple-500",
+            "header_gradient_interval": 100
+        },
+        "footer_column2": "footer_block_2.html",
+        "social": {
+            "youtube": "https://www.youtube.com/kjaymiller",
+            "twitter": "https://twitter.com/kjaymiller",
+            "linkedin": "https://linkedin.com/in/kjaymiller",
+            "github": "https://github.com/kjaymiller",
+            "mastodon": "https://mastodon.social/@kjaymiller"
+        }
+    }
+}

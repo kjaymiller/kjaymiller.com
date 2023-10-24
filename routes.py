@@ -1,14 +1,27 @@
+from dataclasses import dataclass
 import os
+import json
+import pathlib
 
 from render_engine import Page
+from render_engine.site import Site
 from render_engine.blog import Blog as Blog 
 from render_engine_microblog import MicroBlog
 from render_engine.collection import Collection
 from render_engine.parsers.markdown import MarkdownPageParser
 from render_engine_aggregators.feed import AggregateFeed
 
-from mysite import app
+from render_engine.plugins.site_map import SiteMap
+from render_engine_youtube_embed import YouTubeEmbed
+from render_engine_theme_kjaymiller import kjaymiller
 
+
+app = Site()
+with open("settings.json") as json_file:
+    settings = json.loads(json_file.read())
+app.site_vars.update(**settings)
+app.register_plugins(SiteMap, YouTubeEmbed) 
+app.register_themes(kjaymiller)
 
 markdown_extras = [
             "admonitions",
@@ -39,7 +52,7 @@ class Blog(Blog):
     content_path = "content"
     archive_template = "blog_list.html"
     has_archive = True
-    items_per_page = 50
+    items_per_page = 20
 
 
 if os.environ.get("prod", False):
@@ -67,12 +80,11 @@ if os.environ.get("prod", False):
 
 @app.collection
 class MicroBlog(MicroBlog):
-    archive_template = "microblog_archive.html"
     template = "blog.html"
     content_path = "content/microblog"
     routes = ["microblog"]
     parser_extras = {"markdown_extras": markdown_extras}
-    items_per_page = 50
+    items_per_page = 20
 
 @app.page
 class AllPosts(AggregateFeed):
