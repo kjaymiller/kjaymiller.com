@@ -18,7 +18,7 @@ charset-normalizer==3.3.1
     # via requests
 click==8.1.7
     # via typer
-cryptography==41.0.4
+cryptography==41.0.5
     # via azure-storage-blob
 dtyper==2.4.0
     # via render-engine
@@ -35,6 +35,7 @@ isodate==0.6.1
 jinja2==3.1.2
     # via
     #   render-engine
+    #   render-engine-fontawesome
     #   render-engine-microblog
     #   render-engine-theme-kjaymiller
 markdown-it-py==3.0.0
@@ -69,15 +70,18 @@ python-slugify==8.0.1
     # via render-engine
 pyyaml==6.0.1
     # via python-frontmatter
-render-engine==2023.10.2b2
+render-engine==2023.10.3a3
     # via
     #   -r requirements.in
     #   render-engine-aggregators
+    #   render-engine-fontawesome
     #   render-engine-microblog
     #   render-engine-tailwindcss
     #   render-engine-theme-kjaymiller
     #   render-engine-youtube-embed
 render-engine-aggregators==2023.6.1
+    # via -r requirements.in
+render-engine-fontawesome==2023.10.3a1
     # via -r requirements.in
 render-engine-microblog==2023.10.3b3
     # via -r requirements.in
