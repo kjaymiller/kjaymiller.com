@@ -85,9 +85,9 @@ render-engine-fontawesome==2023.10.3a5
     # via -r requirements.in
 render-engine-microblog==2023.10.3
     # via -r requirements.in
-render-engine-tailwindcss==2023.7.1a2
+render-engine-tailwindcss==2023.10.2
     # via render-engine-theme-kjaymiller
-render-engine-theme-kjaymiller==2023.10.3a9
+render-engine-theme-kjaymiller==2023.10.4
     # via -r requirements.in
 render-engine-youtube-embed==2023.10.2a8
     # via -r requirements.in
