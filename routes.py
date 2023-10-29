@@ -82,6 +82,7 @@ if os.environ.get("prod", False):
 @app.collection
 class MicroBlog(MicroBlog):
     template = "blog.html"
+    archive_template = "custom_microblog.html"
     content_path = "content/microblog"
     routes = ["microblog"]
     parser_extras = {"markdown_extras": markdown_extras}
