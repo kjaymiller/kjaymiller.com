@@ -14,6 +14,7 @@ from render_engine_aggregators.feed import AggregateFeed
 from render_engine.plugins.site_map import SiteMap
 from render_engine_youtube_embed import YouTubeEmbed
 from render_engine_theme_kjaymiller import kjaymiller
+from render_engine_fontawesome.fontawesome import fontawesome
 
 
 app = Site()
@@ -21,7 +22,7 @@ with open("settings.json") as json_file:
     settings = json.loads(json_file.read())
 app.site_vars.update(**settings)
 app.register_plugins(SiteMap, YouTubeEmbed) 
-app.register_themes(kjaymiller)
+app.register_themes(kjaymiller, fontawesome)
 
 markdown_extras = [
             "admonitions",
