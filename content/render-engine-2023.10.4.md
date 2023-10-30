@@ -56,4 +56,10 @@ I've also created some class entrypoints like `body_class` and `page_title_class
 
 I'm weary of this solution as it will create a brittle point that if overused can break a lot of things. Even the decision of switching from a string to a list of strings (which I've done) could completely screw up a template. But it does make it significantly easier to build off the base templates instead of rolling everything from scratch.
 
+## Other Updates
 
+I also updated many of the supporting repos in the render-engine ecosystem to support these changes:
+- [Render Engine TailwindCSS](https://github.com/kjaymiller/render-engine-tailwindcss)
+- [Render Engine Fontawesome](https://github.com/kjaymiller/render_engine_fontawesome)
+- [Render Engine Kjaymiller Theme](https://github.com/kjaymiller/render_engine_theme_kjaymiller)
+- [Render Engine Microblogging](https://github.com/kjaymiller/render_engine_microblogging)
