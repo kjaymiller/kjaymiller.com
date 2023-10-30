@@ -20,7 +20,6 @@ jobs:
     uses: ./.github/workflows/a11y-test.yml
   build_and_deploy_job:
     needs: runs_a11y
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
