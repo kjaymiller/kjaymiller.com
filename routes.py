@@ -59,29 +59,6 @@ class Blog(Blog):
     items_per_page = 20
 
 
-if os.environ.get("prod", False):
-    import upload_social_card
-
-    for post in app.route_list['blog']:
-        if not upload_social_card.check_for_image(
-            check_tag="used_for",
-            tags= {"used_for": "social_cards"},
-            slug=post._slug,
-            extension=".jpg",
-        ):
-            image = upload_social_card.overlay_text(
-                text=post.title,
-                image_path="static/images/social_card_base.jpg",
-            )
-
-            upload_social_card.upload_blob_stream(
-                container="media",
-                extension=".jpg",
-                image=image,
-                tags={"used_for": "social_cards"},
-                slug=post._slug,
-            )
-
 @app.collection
 class MicroBlog(MicroBlog):
     template = "blog.html"
