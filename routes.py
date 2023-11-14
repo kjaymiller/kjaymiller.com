@@ -1,7 +1,5 @@
-from dataclasses import dataclass
 import os
 import json
-import pathlib
 
 from render_engine import Page
 from render_engine.site import Site
@@ -23,6 +21,11 @@ with open("settings.json") as json_file:
 app.site_vars.update(**settings)
 app.register_plugins(SiteMap, YouTubeEmbed) 
 app.register_themes(kjaymiller, fontawesome)
+
+if os.environ.get("prod", False):
+    app.site_vars.update({"SITE_URL": "https://kjaymiller.com"})
+else:
+    app.site_vars.update({"SITE_URL": "http://localhost:8000"})
 
 markdown_extras = [
             "admonitions",

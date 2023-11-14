@@ -10,7 +10,6 @@
     "timezone": "US/Pacific",
     "SITE_TITLE": "KJayMiller",
     "SITE_SUBTITLE": "Automation, Podcasting, Development",
-    "SITE_URL": "https://kjaymiller.com",
     "OWNER": {"name": "Jay Miller", "email": "kjaymiller@gmail.com"},
     "theme": {
         "favicon": "https:fav.farm/☕",
