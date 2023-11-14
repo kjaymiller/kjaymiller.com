@@ -62,7 +62,7 @@ class Blog(Blog):
 if os.environ.get("prod", False):
     import upload_social_card
 
-    for post in collection:
+    for post in app.route_list['blog']:
         if not upload_social_card.check_for_image(
             check_tag="used_for",
             tags= {"used_for": "social_cards"},
