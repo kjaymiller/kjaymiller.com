@@ -1,5 +1,0 @@
--r requirements.txt
-
-typer
-axe-playwright-python 
-pip-tools
