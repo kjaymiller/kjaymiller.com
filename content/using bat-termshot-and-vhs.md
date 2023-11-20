@@ -1,6 +1,7 @@
 ---
 title: Using bat, termshot, and vhs to create snippets of code for blog posts
 date: 2023-11-17T02:29:21Z
+summary: "Here are some of the tools I'm using to create code snippets for my blog posts"
 ---
 
 When I'm sharing my code in a blog post, I have a few tools to get the job done.
