@@ -38,7 +38,7 @@ pluggy==1.3.0
     # via render-engine
 pyee==11.0.1
     # via playwright
-pygments==2.16.1
+pygments==2.17.1
     # via rich
 pytailwindcss==0.2.0
     # via render-engine-tailwindcss
@@ -50,7 +50,7 @@ python-slugify==8.0.1
     # via render-engine
 pyyaml==6.0.1
     # via python-frontmatter
-render-engine==2023.11.1a3
+render-engine==2023.11.1a5
     # via
     #   -r requirements.in
     #   render-engine-aggregators
@@ -67,7 +67,7 @@ render-engine-microblog==2023.11.1a1
     # via -r requirements.in
 render-engine-tailwindcss==2023.10.2
     # via render-engine-theme-kjaymiller
-render-engine-theme-kjaymiller==2023.11.1a3
+render-engine-theme-kjaymiller==2023.11.1b1
     # via -r requirements.in
 render-engine-youtube-embed==2023.10.2a8
     # via -r requirements.in

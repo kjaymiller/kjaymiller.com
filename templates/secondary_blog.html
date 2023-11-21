@@ -1,7 +1,9 @@
-<div class="lg:grid grid-cols-3">
+<div class="lg:grid grid-cols-3 grid-flow-row">
 {% for post in blog %}
-<p class="mx-5 my-3 p-3 text-center hover:font-semibold hover:text-{{theme.colors.main1}} rounded-lg border shadow shadow-{{theme.colors.main1}}">
-    <a href="{{post.url_for()}}">{{post.title}}</a>
-</p>
+<div class="hover:text-{{theme.colors.main}} hover:shadow-{{theme.colors.main}} p-2 border shadow m-2 align-middle">
+    <a href="{{post.url_for()}} underline font-semibold">
+        {{post.title}}
+    </a>
+</div>
 {% endfor %}
 </div>

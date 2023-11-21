@@ -74,16 +74,14 @@ class AllPosts(AggregateFeed):
 
 latest_episodes = {
     "hero": {
-        "target": list(app.route_list['microblog'].archives)[0].url_for(),
-        "title": MicroBlog.title,
-        "content": app.route_list['microblog'].latest()[0].content,
+        "from_template": "index_hero.html",
         },
     "secondary": {
         "target": list(app.route_list['blog'].archives)[0].url_for(),
         "title": Blog.title,
         "from_template": "secondary_blog.html",
     },
-    "blog": app.route_list['blog'].latest(5),
+    "blog": app.route_list['blog'].latest(3),
 }
 
 @app.page
