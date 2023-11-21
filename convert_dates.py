@@ -1,4 +1,4 @@
-# Create a script that iterates through the content folder and looks 
+# Create a script that iterates through the content folder and looks
 # install dateutil, frontmatter
 # `pip install python-dateutil frontmatter`
 # Run with `python convert_dates.py <CONTENT_DIRECTORY>`
@@ -18,6 +18,7 @@ date_values = [
     "modified_date",
 ]
 
+
 def iterate_through_content(path: pathlib.Path):
     for file in path.rglob("**/*.md"):
         post = frontmatter.loads(file.read_text())
@@ -28,12 +29,15 @@ def iterate_through_content(path: pathlib.Path):
                 if isinstance(post[date_value], str):
                     post[date_value] = parse(post[date_value]).astimezone()
                     changed = True
-                    print(f"Updating {file.name}: {date_value} to {post[date_value]}...")
-        
+                    print(
+                        f"Updating {file.name}: {date_value} to {post[date_value]}..."
+                    )
+
         if changed:
             print(f"Updating {file}...")
             new_post = frontmatter.dumps(post)
             file.write_text(new_post)
+
 
 if __name__ == "__main__":
     path = pathlib.Path(argv[1])

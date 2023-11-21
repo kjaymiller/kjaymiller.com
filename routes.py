@@ -3,7 +3,7 @@ import json
 
 from render_engine import Page
 from render_engine.site import Site
-from render_engine.blog import Blog as Blog 
+from render_engine.blog import Blog as Blog
 from render_engine_microblog import MicroBlog
 from render_engine.collection import Collection
 from render_engine.parsers.markdown import MarkdownPageParser
@@ -19,7 +19,7 @@ app = Site()
 with open("settings.json") as json_file:
     settings = json.loads(json_file.read())
 app.site_vars.update(**settings)
-app.register_plugins(SiteMap, YouTubeEmbed) 
+app.register_plugins(SiteMap, YouTubeEmbed)
 app.register_themes(kjaymiller, fontawesome)
 
 if os.environ.get("prod", False):
@@ -28,16 +28,18 @@ else:
     app.site_vars.update({"SITE_URL": "http://localhost:8000"})
 
 markdown_extras = [
-            "admonitions",
-            "footnotes",
-            "fenced-code-blocks",
-            "header-ids",
-            "mermaid",
+    "admonitions",
+    "footnotes",
+    "fenced-code-blocks",
+    "header-ids",
+    "mermaid",
 ]
+
 
 @app.page
 class Contact(Page):
     template = "contact.html"
+
 
 @app.collection
 class Pages(Collection):
@@ -68,21 +70,24 @@ class MicroBlog(MicroBlog):
     parser_extras = {"markdown_extras": markdown_extras}
     items_per_page = 20
 
+
 @app.page
 class AllPosts(AggregateFeed):
     collections = [Blog, MicroBlog]
 
+
 latest_episodes = {
     "hero": {
         "from_template": "index_hero.html",
-        },
+    },
     "secondary": {
-        "target": list(app.route_list['blog'].archives)[0].url_for(),
+        "target": list(app.route_list["blog"].archives)[0].url_for(),
         "title": Blog.title,
         "from_template": "secondary_blog.html",
     },
-    "blog": app.route_list['blog'].latest(3),
+    "blog": app.route_list["blog"].latest(3),
 }
+
 
 @app.page
 class Index(Page):
