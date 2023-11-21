@@ -1,7 +1,7 @@
 <div class="lg:grid grid-cols-3 grid-flow-row">
 {% for post in blog %}
 <div class="hover:text-{{theme.colors.main}} hover:shadow-{{theme.colors.main}} p-2 border shadow m-2 align-middle">
-    <a href="{{post.url_for()}} underline font-semibold">
+    <a href="{{post.url_for()}}" class="underline font-semibold">
         {{post.title}}
     </a>
 </div>

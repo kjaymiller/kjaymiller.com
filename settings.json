@@ -2,8 +2,7 @@
     "NAVIGATION": [
         {"text":"About", "url":"/about.html"},
         {"text":"Blog", "url":"/blog/blog1.html"},
-        {"text":"Python Community News", "url":"https://pythoncommunitynews.com"},
-        {"text":"Conduit", "url":"https://relay.fm/conduit"},
+        {"text": "MicroBlog", "url":"/microblog/microblog1.html"},
         {"text":"Talks", "url":"https://github.com/stars/kjaymiller/lists/conference-talks"},
         {"text":"Contact", "url":"/contact"}
         ],
