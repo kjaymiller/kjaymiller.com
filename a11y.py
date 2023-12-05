@@ -20,7 +20,7 @@ def run_server():
 
 def main(url: str = "http://localhost", output: str = "test-results.md") -> None:
     """Run Axe on a URL and save the results to a file."""
-    render_engine.build("routes:app")
+    render_engine.build(module_site=("routes","app"))
     proc = Process(target=run_server, daemon=True)
     proc.start()
 
