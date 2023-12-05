@@ -2,9 +2,8 @@
     "NAVIGATION": [
         {"text":"About", "url":"/about.html"},
         {"text":"Blog", "url":"/blog/blog1.html"},
-        {"text": "MicroBlog", "url":"/microblog/microblog1.html"},
-        {"text":"Talks", "url":"https://github.com/stars/kjaymiller/lists/conference-talks"},
-        {"text":"Contact", "url":"/contact"}
+        {"text": "MicroBlog", "url":"/microblog/microblog.html"},
+        {"text":"Talks", "url":"https://github.com/stars/kjaymiller/lists/conference-talks"}
         ],
     "timezone": "US/Pacific",
     "SITE_TITLE": "KJayMiller",

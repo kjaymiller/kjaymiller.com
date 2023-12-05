@@ -9,7 +9,7 @@ from render_engine.collection import Collection
 from render_engine.parsers.markdown import MarkdownPageParser
 from render_engine_aggregators.feed import AggregateFeed
 
-from render_engine.plugins.site_map import SiteMap
+from render_engine.extras.site_map import SiteMap
 from render_engine_youtube_embed import YouTubeEmbed
 from render_engine_theme_kjaymiller import kjaymiller
 from render_engine_fontawesome.fontawesome import fontawesome
@@ -36,11 +36,6 @@ markdown_extras = [
 ]
 
 
-@app.page
-class Contact(Page):
-    template = "contact.html"
-
-
 @app.collection
 class Pages(Collection):
     PageParser = MarkdownPageParser
@@ -64,11 +59,15 @@ class Blog(Blog):
 @app.collection
 class MicroBlog(MicroBlog):
     template = "blog.html"
-    archive_template = "custom_microblog.html"
+    archive_template = "microblog_post.html"
+    template_vars = {
+            "markdown_post": "markdown_post.html",
+            }
     content_path = "content/microblog"
     routes = ["microblog"]
     parser_extras = {"markdown_extras": markdown_extras}
     items_per_page = 20
+
 
 
 @app.page
@@ -93,3 +92,7 @@ latest_episodes = {
 class Index(Page):
     template = "index.html"
     template_vars = latest_episodes
+
+
+if __name__ == "__main__":
+    app.render()
