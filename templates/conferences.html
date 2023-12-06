@@ -16,12 +16,11 @@
         {% endif %}
         
         {% if conference.slides_url %}
-        <p><a href="{{conference.slides_url}}">Slides</a></p>
+        <p><a href="{{conference.slides_url}}">View Slides</a></p>
         {% endif %}
         
         {% if conference.video_url %}
-        
-        <iframe width="560" height="315" src="{{conference.video_url}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p><a href="{{conference.video_url}}">Watch Presentation</a></p>
         {% endif %}
     </div>
     {% endfor %}
