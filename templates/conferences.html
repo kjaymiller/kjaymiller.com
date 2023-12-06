@@ -1,0 +1,29 @@
+{% extends "page.html" %}
+
+{% block content %}
+
+<section class="container">
+
+<h1 class="text-2xl">Conferences</h1>
+
+{% for conference in data %}
+<div class="m-4 p-2 rounded border rounded-xl hover:shadow shadow-{{theme.colors.main}}">
+    <h2 class="text-xl">{{conference.talk_title}}</h2>
+    <p><strong><a href="{{conference.conference_url}}">{{conference.conference}}</a></strong> | {{conference.date}}</h2>
+        
+        {% if conference.description %}
+        <p>{{conference.description}}</p>
+        {% endif %}
+        
+        {% if conference.slides_url %}
+        <p><a href="{{conference.slides_url}}">Slides</a></p>
+        {% endif %}
+        
+        {% if conference.video_url %}
+        
+        <iframe width="560" height="315" src="{{conference.video_url}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {% endif %}
+    </div>
+    {% endfor %}
+</section>
+{% endblock %}

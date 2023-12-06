@@ -13,6 +13,7 @@ from render_engine.extras.site_map import SiteMap
 from render_engine_youtube_embed import YouTubeEmbed
 from render_engine_theme_kjaymiller import kjaymiller
 from render_engine_fontawesome.fontawesome import fontawesome
+from render_engine_json import JSONPageParser
 
 
 app = Site()
@@ -34,6 +35,12 @@ markdown_extras = [
     "header-ids",
     "mermaid",
 ]
+
+@app.page
+class Conferences(Page):
+    template = "conferences.html"
+    Parser = JSONPageParser
+    content_path = "conferences.json"
 
 
 @app.collection
@@ -67,7 +74,6 @@ class MicroBlog(MicroBlog):
     routes = ["microblog"]
     parser_extras = {"markdown_extras": markdown_extras}
     items_per_page = 20
-
 
 
 @app.page

@@ -1,0 +1,17 @@
+[
+    {
+        "conference": "Refactr.Tech",
+        "location": "Atlanta, GA",
+        "date": "2023-10-08",
+        "talk_title": "Python vs Hip Hop: How we can remix culture, community, and code",
+        "conference_url": "https://refactr.tech/",
+        "video_url": "https://www.youtube.com/watch?v=ee1DhKMJ_Kg",
+        "description": "In 1994 - \"The south had something to say\" according to Andre 3000, and two of the greatest rap albums ever were released out of New York City. We also saw the evolution of major programming languages like PHP, CSS, and Python. The modern era of developer has lived in a world where Hip Hop culture went from being considered niche and dangerous to being the definition of popular culture. In that same time we've seen the Python Programming language become a standard bearer for non-traditional developers across many industries. But the development landscape has more in common and still much to learn from the music genre. This talk shares insights that developer communities in large can learn from the raise of modern hip hop culture."
+    },
+    {
+        "conference": "FlaskCon",
+        "location": "Online",
+        "date": "2023-12-15",
+        "talk_title": "End-to-End Flask App Testing with Playwright"
+    }
+]
