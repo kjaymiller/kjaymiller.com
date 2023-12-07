@@ -100,5 +100,33 @@ class Index(Page):
     template_vars = latest_episodes
 
 
+@app.page
+class Corpus(Page):
+    """The Corpus page is a list of all blog posts and their contents."""
+    extension = ".json"
+    pages = app.route_list["blog"]
+
+    @property
+    def _content(self):
+        corpus = []
+        for page in self.pages:
+            entry = {
+                **{
+                "title": page.title,
+                "url": page.url_for(),
+                "content": page.content,
+                },
+                **{
+                    key: value
+                    for key, value in page.to_dict().items()
+                    if isinstance(value, str)
+                }
+            }
+            corpus.append(entry)
+        return json.dumps(corpus)
+
+    def _render_content(self, *args, **kwargs) -> str:
+        return self._content
+
 if __name__ == "__main__":
     app.render()
