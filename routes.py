@@ -1,6 +1,8 @@
 import os
 import json
+from jinja2.environment import Environment as Environment
 
+from lunr import lunr
 from render_engine import Page
 from render_engine.site import Site
 from render_engine.blog import Blog as Blog
@@ -99,7 +101,6 @@ class Index(Page):
     template = "index.html"
     template_vars = latest_episodes
 
-
 @app.page
 class Corpus(Page):
     """The Corpus page is a list of all blog posts and their contents."""
@@ -109,24 +110,29 @@ class Corpus(Page):
     @property
     def _content(self):
         corpus = []
-        for page in self.pages:
+        for _id, page in enumerate(self.pages):
             entry = {
                 **{
+                "id": _id,
                 "title": page.title,
                 "url": page.url_for(),
                 "content": page.content,
-                },
-                **{
-                    key: value
-                    for key, value in page.to_dict().items()
-                    if isinstance(value, str)
                 }
             }
             corpus.append(entry)
-        return json.dumps(corpus)
+        return corpus
 
     def _render_content(self, *args, **kwargs) -> str:
-        return self._content
+        lunr_index = lunr(ref="id", fields=["title", "url", "content"], documents=self._content)
+        return json.dumps(lunr_index.serialize())
+
+@app.page
+class SearchPage(Page):
+    extension = ".json"
+
+    def _render_content(self, *args, **kwargs) -> str:
+        return json.dumps(app.route_list["corpus"]._content)
+    
 
 if __name__ == "__main__":
     app.render()
