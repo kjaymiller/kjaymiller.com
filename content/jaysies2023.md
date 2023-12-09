@@ -1,5 +1,6 @@
 ---
-title: 3 People that Made 2023 😎 (Jaysies 2023)
+title: 4 Moments that Made 😎 (Jaysies 2023)
+slug: jaysies-2023
 date: 2023-12-08T23:10:50Z 
 ---
 
