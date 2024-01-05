@@ -2,16 +2,16 @@ import os
 import json
 from jinja2.environment import Environment as Environment
 
-from lunr import lunr
+from render_engine_lunr import LunrTheme
 from render_engine import Page
 from render_engine.site import Site
 from render_engine.blog import Blog as Blog
 from render_engine_microblog import MicroBlog
 from render_engine.collection import Collection
-from render_engine.parsers.markdown import MarkdownPageParser
+from render_engine_markdown import MarkdownPageParser
 from render_engine_aggregators.feed import AggregateFeed
 
-from render_engine.extras.site_map import SiteMap
+from render_engine.extras import SiteMap
 from render_engine_youtube_embed import YouTubeEmbed
 from render_engine_theme_kjaymiller import kjaymiller
 from render_engine_fontawesome.fontawesome import fontawesome
@@ -23,7 +23,8 @@ with open("settings.json") as json_file:
     settings = json.loads(json_file.read())
 app.site_vars.update(**settings)
 app.register_plugins(SiteMap, YouTubeEmbed)
-app.register_themes(kjaymiller, fontawesome)
+app.register_themes(kjaymiller, fontawesome, LunrTheme)
+app.plugin_manager.plugin_settings["LunrPlugin"].update({"collections": ["blog"]})
 
 if os.environ.get("prod", False):
     app.site_vars.update({"SITE_URL": "https://kjaymiller.com"})
@@ -47,14 +48,14 @@ class Conferences(Page):
 
 @app.collection
 class Pages(Collection):
-    PageParser = MarkdownPageParser
+    Parser = MarkdownPageParser
     content_path = "content/pages"
     template = "page.html"
 
 
 @app.collection
 class Blog(Blog):
-    PageParser = MarkdownPageParser
+    Parser = MarkdownPageParser
     parser_extras = {"markdown_extras": markdown_extras}
     subcollections = ["tags"]
     template = "blog.html"
@@ -98,41 +99,8 @@ latest_episodes = {
 
 @app.page
 class Index(Page):
-    template = "index.html"
+    template = "custom_index.html"
     template_vars = latest_episodes
-
-@app.page
-class Corpus(Page):
-    """The Corpus page is a list of all blog posts and their contents."""
-    extension = ".json"
-    pages = app.route_list["blog"]
-
-    @property
-    def _content(self):
-        corpus = []
-        for _id, page in enumerate(self.pages):
-            entry = {
-                **{
-                "id": _id,
-                "title": page.title,
-                "url": page.url_for(),
-                "content": page.content,
-                }
-            }
-            corpus.append(entry)
-        return corpus
-
-    def _render_content(self, *args, **kwargs) -> str:
-        lunr_index = lunr(ref="id", fields=["title", "url", "content"], documents=self._content)
-        return json.dumps(lunr_index.serialize())
-
-@app.page
-class SearchPage(Page):
-    extension = ".json"
-
-    def _render_content(self, *args, **kwargs) -> str:
-        return json.dumps(app.route_list["corpus"]._content)
-    
 
 if __name__ == "__main__":
     app.render()
