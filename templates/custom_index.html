@@ -7,9 +7,11 @@
 
 {% block header %}
 {{super()}}
-{{search_form()}}
-<div id="lunrSearchResults"></div>
-{% endblock %}
+<div class="float-right text-left">
+    {{search_form()}}
+    <div id="lunrSearchResults" class="text-left"></div>
+</div>
+    {% endblock %}
 
 {% block footer %}
 {{super()}}

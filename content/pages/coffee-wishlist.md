@@ -17,6 +17,38 @@ This will be a landing page for coffee's that I've tried and things. There may b
 
 I have a [Gaggia Classic Pro](https://amzn.to/4aHYZ8l). It's been a great machine. I've only changed the spring to a 9-bar one but I'm looking to do more mods in the future.
 
+ I have the following Mods
+## <span id="spring-mod">Spring Mod</span>
+
+The Gaggia is a great machine but it's set to 15 bars of pressure. This means you have to use pressurized baskets. I've changed the spring to a 9 bar spring. This allows me to use unpressurized baskets.
+
+[Zhiqinge For Gaggia Classic PRO Mod Parts OPV Mod 9 Bar OPV Spring 2PC](https://amzn.to/47qDwhs)
+
+Steps to install can be found at https://www.youtube.com/watch?v=Kyjpe3SdSsE
+
+
+### Espresso Accessories
+#### Portafilter and Baskets
+
+- [E&B Lab NT (NanoTech) Double Espresso Portafilter Basket 58mm Ridgeless (18)](https://amzn.to/47o9quW) (**Requires [Spring Mod](#spring-mod)**)
+- [58mm Bottomless Portafilter, YMWVH Premium Bottomless Portafilter Compatible with Gaggia Espresso Machines,with Walnut Handle - Included Portafilter Filter Basket](https://amzn.to/47rQ2ND)
+
+#### Upgrades
+
+- [58mm Coffee Distributor, Espresso Palm Tamper, Adjustable Height Coffee Leveler Tool for 58mm Coffee Portafilter](https://amzn.to/3TJQGCZ)
+- [Normcore 58.5mm Espresso Coffee Tamper V4 - Spring Loaded Tamper With Stainless Steel Ripple Base - 15lb / 25lb / 30lbs Replacement Springs - Anodized Aluminum Handle and Stand](https://amzn.to/41P2uWy)
+
+#### Measuring and Organization
+
+- [BAGAIL BASICS Coffee Scale with Timer, 0.1g High Precision Kitchen Scale, Pour Over Coffee Scale, Drip Espresso Scale with Auto Tare, Touch Sensor and Silicone Cover - 6.6 lbs/3 kg](https://amzn.to/41LEIuu)
+
+- [58MM Espresso Knock Box, Coffee Tamping Station Organizer Compatible with 58mm Espresso Distributor Coffee Tamper Portafilter, Walnut Base with Knock Bar for Mess-free Disposal of Coffee Puck](https://amzn.to/47oyWjx)
+
+#### Cleaning
+
+- [MHW-3BOMBER Coffee Portafilter Cleaning Brush Espresso Machine Portafilter Brush Speacial for 58mm Portafilter Professional Barista Cleaning Tools Effectively Cleaning B5341](https://amzn.to/3NSXcn1)
+- [Qin Porcelain Cha He Tea Vessel-Weigh Coffee Bean Container-Di Yao Light Greenish-Blue Tea Accessory -Chinese Tea Scoop](https://amzn.to/47ucLsm) (For Measuring Beans)
+
 ### Pour Over
 
 I use a [Chemex](https://amzn.to/47r7TEp). This is what I use to make coffee for myself and guests when I'm not making espresso.
