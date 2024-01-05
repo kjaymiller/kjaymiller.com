@@ -4,13 +4,16 @@ slug: about
 ---
 
 
-## Hey Y'all I'm Jay.
+Sup Y'all. I'm Jay ([They/Them](https://pronouns.org/they-them)) and here is a little bit about me.
 
-My first name begins with K but we don't really talk much
-about that. I've always gone by Jay (Except for in my military days and shortly
-after) and I will probably always go by Jay. Enough about that...
 
-## I'm a Multipotentialite
+## I'm a Pythonista
+
+I've been writing Python for years. Mostly, I've worked with web frameworks (I've even built [my own static site generator](https://github.com/render-engine/render-engine) in Python). I chose Python because the community was so welcoming. Now I'm work as someone who helps build community for Pythonistas.
+
+In 2023 I started Black Python Devs to help build community for [Black Pythonistas](https://blackpythondevs.github.io).
+
+## I'm a Multipotentialite and Developer Advocate
 
 What is a [multipotentialite](https://puttylike.com/terminology)?
 
@@ -26,24 +29,16 @@ I've pursued knowledge around many things include:
 
 These go beyond hobbies in that I've done some form of professional work in all of these, taking many principles from each and applying them in unique ways.
 
-## History
+This evolved into a career into [developer relations]() (That link doesn't work because no one knows what developer relations is, but I'm working on it).
 
-I grew up in Tennessee, moving to Georgia as a teenager. My family grew up fishing, bowling, and enjoying Tennessee Sports. My grandfather allowed me to learn about computing on his gateway 2000 PC. He also showed me my favorite video game of all time, Tetris.
+You may find me speaking at conferences, writing blog posts, or creating videos. I'm also a big fan of [streaming](https://youtube.com/kjaymiller) and [podcasting](https://relay.fm/conduit).
 
-After high school, I joined the United States Marine Corps and spent most of my days deployed across southeast Asia. There, I grew a love for understanding people and how their culture shapes their design, fashion, architecture and art.
+## Podcasting
 
-In 2014 I started podcasting with the _The PIT Show_. That eventually grew into a business where I work with developer creators to make content around their brand. That show eventually evolved into [**Conduit**](https://relay.fm/conduit), my show on Relay.fm.
+I've been podcasting for over a decade! I'm one of the hosts of [**Conduit**](https://relay.fm/conduit), on Relay.fm. It's a show that focuses on accountability and realistic expectations for being productive.
 
-In 2020 (that terrible decade we called a year) I had the privilege of moving into Developer Advocacy. I now work for Elastic where I build awesome things and I love giving [talks](/conference-talks) about them.
-
-These days I've settle in Sunny (Most of the Time) San Diego, California where I (along with my wonderful wife) raise our little J (literally her name is Jae pronouced like my name), along with our two dogs (Alice, and The Loris) and our Cat Boss, Peanut Butter.
-
-## Follow Me On:
+## Learn More About Me On:
 - [Github](https://github.com/kjaymiller)
-- [Twitter](https://twitter.com/kjaymiller)
+- [Mastodon](https://mastodon.social/@kjaymiller)
 - [LinkedIn](https://www.linkedin.com/in/kjaymiller/)
-
-### Other Links:
-- [Talks](/conference-talks)
-- [Projects](/projects)
 - [Resume](https://kjaymiller.s3-us-west-2.amazonaws.com/images/Jay_Miller_-_Developer_Advocate.pdf)

@@ -1,0 +1,19 @@
+{% from 'components/lunrjs/lunr_search.html' import search_form, search_script with context %}
+{% extends "index.html" %}
+{% block head %}
+{{super()}}
+{% include 'components/lunrjs/lunrjs_head.html'%}
+{% endblock %}
+
+{% block header %}
+{{super()}}
+<div class="float-right text-left">
+    {{search_form()}}
+    <div id="lunrSearchResults" class="text-left"></div>
+</div>
+    {% endblock %}
+
+{% block footer %}
+{{super()}}
+{{search_script()}}
+{% endblock %}
