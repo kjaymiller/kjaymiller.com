@@ -18,7 +18,7 @@ This will be a landing page for coffee's that I've tried and things. There may b
 I have a [Gaggia Classic Pro](https://amzn.to/4aHYZ8l). It's been a great machine. I've only changed the spring to a 9-bar one but I'm looking to do more mods in the future.
 
  I have the following Mods
-## <span id="spring-mod">Spring Mod</span>
+### <span id="spring-mod">Spring Mod</span>
 
 The Gaggia is a great machine but it's set to 15 bars of pressure. This means you have to use pressurized baskets. I've changed the spring to a 9 bar spring. This allows me to use unpressurized baskets.
 
@@ -27,7 +27,7 @@ The Gaggia is a great machine but it's set to 15 bars of pressure. This means yo
 Steps to install can be found at https://www.youtube.com/watch?v=Kyjpe3SdSsE
 
 
-### Espresso Accessories
+## Espresso Accessories
 #### Portafilter and Baskets
 
 - [E&B Lab NT (NanoTech) Double Espresso Portafilter Basket 58mm Ridgeless (18)](https://amzn.to/47o9quW) (**Requires [Spring Mod](#spring-mod)**)
@@ -53,13 +53,21 @@ Steps to install can be found at https://www.youtube.com/watch?v=Kyjpe3SdSsE
 
 I use a [Chemex](https://amzn.to/47r7TEp). This is what I use to make coffee for myself and guests when I'm not making espresso.
 
+## Grinders
+
+I have two grinders that I use, one for espresso and one for pour over. This is mostly to prevent having to change grind settings and re-dialing in my espresso.
+
+- [MiiCoffee DF64 II Single Dosing Coffee Grinder (Black)](https://amzn.to/41Uqo2T) (I actually have the older model that is no longer available) - This is my espresso grinder.
+
+- [Baratza Encore Conical Burr Coffee Grinder White](https://amzn.to/3vlwb5n) - This is my pour over grinder. I've had it for years and it's been great. That said trying to dial it in for espresso is a pain because it's not stepless and it clogs easily. 
+
 ## My Coffee Wishlist - In case you want to surprise me!
 
 - [22oz Milk Steaming Pitcher](https://www.slowpoursupply.co/collections/latte-art/products/22oz-matte-gray-cinder)
 
 - [Fellow Atmos Vacuum Coffee Canister & Food Storage Container](https://amzn.to/47nxhLh)
 
-## Coffee I've Tried
+## Coffee
 
 - I support my local roasters
 
