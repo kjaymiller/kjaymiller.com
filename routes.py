@@ -14,6 +14,7 @@ from render_engine_youtube_embed import YouTubeEmbed
 from render_engine_theme_kjaymiller import kjaymiller
 from render_engine_fontawesome.fontawesome import fontawesome
 from render_engine_json import JSONPageParser
+from render_engine_lunr import LunrTheme
 
 
 app = Site()
@@ -21,7 +22,8 @@ with open("settings.json") as json_file:
     settings = json.loads(json_file.read())
 app.site_vars.update(**settings)
 app.register_plugins(SiteMap, YouTubeEmbed)
-app.register_themes(kjaymiller, fontawesome)
+app.register_themes(kjaymiller, fontawesome, LunrTheme)
+app.plugin_manager.plugin_settings["LunrPlugin"].update({"collections": ["blog", "pages"]})
 
 if os.environ.get("prod", False):
     app.site_vars.update({"SITE_URL": "https://kjaymiller.com"})

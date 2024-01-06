@@ -8,3 +8,14 @@
 #microblog-post-metadata {
     @apply font-light text-sm text-right;
 }
+
+#search {
+    @apply border border-gray-300 rounded-lg rounded-bottom p-2;
+    @apply w-full lg:w-1/3 mx-auto;
+    @apply lg:float-right text-left
+}
+
+#lunrSearchResults > div {
+    @apply border border-gray-300 rounded-lg p-2 my-1;
+    @apply hover:bg-purple-100;
+}
