@@ -10,7 +10,7 @@
 }
 
 #search {
-    @apply border border-gray-300 rounded-lg rounded-bottom p-2;
+    @apply border border-gray-300 rounded-lg p-2;
     @apply w-full lg:w-1/3 mx-auto;
     @apply lg:float-right text-left
 }
