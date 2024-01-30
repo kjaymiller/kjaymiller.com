@@ -2,7 +2,8 @@ render-engine>=2024.1.1a3
 
 # Themes
 render-engine-json>=2024.1.1a1
-render-engine-lunr
+# render-engine-lunr
+render-engine-pagefind
 render-engine-microblog>=2023.12.1b2
 render-engine-sitemap
 render-engine-fontawesome>=2024.1.1a1
