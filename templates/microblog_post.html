@@ -2,9 +2,11 @@
 
 {% block content %}
 {% for post in pages %}
+<a href="{{post.url_for()}}">
 <div class="m-4 p-2 border rounded shadow-lg hover:shadow-{{theme.colors.main}}"> 
     {{ post.content }}
     <p id="microblog-post-metadata">on {{ post.date }}</p>
 </div>
+</a>
 {% endfor %}
 {% endblock %}

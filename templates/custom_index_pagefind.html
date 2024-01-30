@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+{% from 'pagefind/pagefind.html' import pagefind with context %}
+{% block head %}
+{{super()}}
+<link rel="stylesheet" href="/static/css/style.css">
+{% endblock %}
+
+{% block header %}
+{{super()}}
+{{pagefind()}}
+{% endblock %}
+
+{% block footer %}
+{{super()}}
+{% endblock %}
