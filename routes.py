@@ -70,7 +70,7 @@ class Blog(Blog):
 
 @app.collection
 class MicroBlog(MicroBlog):
-    template = "blog.html"
+    template = "microblog_entry.html"
     archive_template = "microblog_post.html"
     template_vars = {
             "markdown_post": "markdown_post.html",

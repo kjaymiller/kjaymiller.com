@@ -1,0 +1,7 @@
+{% extends 'page.html' %}
+{% block content %}
+<div class="my-4 p-2 container mx-auto prose lg:prose-xl dark:text-slate-50">
+    {{content}}
+    <p>on {{date|to_pub_date}}</p>
+</div>
+{% endblock %}
