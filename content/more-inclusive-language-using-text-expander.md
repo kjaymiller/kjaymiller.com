@@ -24,13 +24,13 @@ Reality: The instructions may not have been clear to me, or I'm facing a languag
 
 I've used [TextExpander](https://textexpander.com/) for years. This snippet works by removing the word just (the word _just_ followed by a space).
 
-![Text Expander Settings for "Just"](https://kjaymiller.azureedge.net/media/text-expander-just-analytics.png)
+![Text Expander Settings for "Just"](https://kjaymiller.azureedge.net/media/text-expander-just.png)
 
 Now, I have to make a dedicated decision to use the word.
 
 An interesting tidbit is that TextExpander will give analytics so over time (if I really wanted to), I could see how my usage of the word changed.
 
-![TextExpander Reporting on the word "Just"](https://kjaymiller.azureedge.net/media/text-expander-just.png)
+![TextExpander Reporting on the word "Just"](https://kjaymiller.azureedge.net/media/text-expander-just-analytics.png)
 
 ### Future ideas
 
