@@ -1,6 +1,5 @@
 ---
 date: 2024-02-08T20:52:59Z
-tags: 
 title: RANT - No more AI generated videos please
 ---
 
