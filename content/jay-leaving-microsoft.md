@@ -1,6 +1,6 @@
 ---
 title: What 2 Years at Microsoft can do (with the right team)
-date: 2024-02-06T14:11:42Z
+date: 2024-02-09T12:11:42-05:00
 slug: jay-leaving-microsoft
 image: https://kjaymiller.azureedge.net/media/jay-microsoft-start-end.jpg
 ---
