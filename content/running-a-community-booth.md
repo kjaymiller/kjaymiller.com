@@ -5,9 +5,9 @@ image: https://kjaymiller.azureedge.net/media/dawn-wages-at-microsoft-booth-djan
 ---
 
 .. NOTE::
-    My website doesn't have an author flag but Russell added so much information to make this post and deserve equal credit. Go Support him. 
+    My website doesn't have an author flag but Russell added so much information to make this post and deserve equal credit. Go Support [BeeWare](https://beeware.org/) and associated projects. 
 
-I saw that Master Beeware Keeper Russell Keith-Magee was going to be at PyCon US and hopefully running the Project Beeware booth for the 6th year.
+I saw that Master Beeware Keeper Russell Keith-Magee was [going to PyCon US](https://cloudisland.nz/@freakboy3742/111898057174534510) and hopefully running the Project Beeware booth for the 6th year.
 
 Black Python Devs is also hoping to run a community booth and having never done so at PyCon or any other conference I asked if I could grab some time from him.
 
