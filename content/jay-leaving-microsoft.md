@@ -2,6 +2,7 @@
 title: What 2 Years at Microsoft can do (with the right team)
 date: 2024-02-06T14:11:42Z
 slug: jay-leaving-microsoft
+image: https://kjaymiller.azureedge.net/media/jay-microsoft-start-end.jpg
 ---
 
 It's amazing what you can learn in less than two years. 
