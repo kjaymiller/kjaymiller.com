@@ -1,9 +1,13 @@
 ---
 title: Running a Community Booth at PyCon US or Similar Events
 date: 2024-02-08T23:08:35Z
+image: https://kjaymiller.azureedge.net/media/dawn-wages-at-microsoft-booth-djangocon-2022.jpg
 ---
 
-I saw that Master Beeware Keeper Russell Keith-McGee was going to be at PyCon US and hopefully running the Project Beeware booth for the 6th year.
+.. NOTE::
+    My website doesn't have an author flag but Russell added so much information to make this post and deserve equal credit. Go Support him. 
+
+I saw that Master Beeware Keeper Russell Keith-Magee was going to be at PyCon US and hopefully running the Project Beeware booth for the 6th year.
 
 Black Python Devs is also hoping to run a community booth and having never done so at PyCon or any other conference I asked if I could grab some time from him.
 
@@ -13,7 +17,9 @@ Some other folks were also interested so I took some notes in our call and I'm h
 
 My background is from running booths of all sizes for the last 4 years. The largest booths I've worked with is as the tech lead for the Microsoft Booth at PyCon US and a booth at KubeCon. The smallest booths I've ran are the Elastic booth at some fed event and the Microsoft booth at DjangoCon US, were I spent about 90% of the conference staffing the booth by myself and it was the smallest booth there. Literally, we had to use a smaller because the tablecloth we were sent didn't fit the standard tables.
 
-Russell, as mentioned has been running community booths for the last several years at PyCon US. I'm sure he's also ran community booths at other Python events around the world.
+![Photo of me at the Elastic Booth at State of the Maps](https://kjaymiller.azureedge.net/media/Elastic%20at%20SOTM.jpg)
+
+Russell, as mentioned, has been running both community and commercial booths for the last several years at PyCon US and other events all over the world.
 
 Based on my 30 minute conversation with Russell and some prior knowledge, here are some things to know about having a community booth at PyConUS (and likely other conferences)
 
@@ -39,8 +45,7 @@ I chose pricing from [vistaprint.com](https://vistaprint.com) because it was the
 
 - Retractable Banners ($120-$150 each)
 - A hang up banner  (2.5" x 8" - $50)
-- Table cloth with Design (6" - $215)
-- Single Color Fabric Tablecloth (via Amazon - $10)
+- Table cloth with Design (6" - $215) - Your booth comes with a black tablecloth so you can use that for FREE!
 - Stickers -   ($78 for 100 or $100 for 200)
 - Paper information pieces with holders (approx $15 depending on the paper and the stands used)
 - Booth tools (explained in more detail) - ($25 - $100)
@@ -49,6 +54,9 @@ I chose pricing from [vistaprint.com](https://vistaprint.com) because it was the
 If you got everything, it would cost about $500. You can easily be selective and _ball on a budget_ for about half that price.
 
 Also not that most of these expenses are a one time purchase meaning if you take care of these things, you can likely get multiple events out of them.
+
+![The Beeware Booth at PyCon US](https://kjaymiller.azureedge.net/media/beeware-booth.jpg)
+You can also add a variety of things to make your booth FUN. Think baloons streamers. Just remember that you don't know how the setup will be and you don't want to be a nuisance to your neighbors. That said make the most of the opportunity and have fun doing it!
 
 ### Getting things to and from the event
 
@@ -96,6 +104,10 @@ Just a recap, you have spent a few hundred dollars on top of your conference cos
 
 That's the last bit. Make sure that you and your team are prepared for the conversations that you'll have. Have your elevator pitch ready. Have your call to actions (CTAs) out and there for folks. Know whether you should be standing in front of your table luring in folks to talk to or behind the table ready to answer questions from your contributors, members, users, and fans. I highly suggest sending this information to your team in advance so they are also ready. This information isn't for the booth, but also for the hallway track so you can bring folks to the booth to give them more information or lead them to your CTAs.
 
+![BeeWare booth at PyConUS 2016](https://kjaymiller.azureedge.net/media/beeware-booth-with-cool-backdrop.jpg)
+
+This prep can start before the conference. Make sure you leveage social media. Let folks know that you're going to be at the conference and more importantly why! Think of some promotions that you can do entice people to visit the booth. You may also be able to parnter
+
 ## A special word about swag
 
 We live in a post covid world. This is a world where QR Codes have replaced flyers and you can't rely on Swag Bags.
@@ -103,5 +115,7 @@ We live in a post covid world. This is a world where QR Codes have replaced flye
 If you want to go all out on Swag remember that folks may not want it (leaving you with it) or may not have a way to carry it. I would suggest multi-use items or stickers. If you want to go with shirts or socks, you will get more people interested if the quality is better. Don't skimp because then you're left with a bunch of stuff that you don't even want to wear.
 
 Russell is known for giving out Challenge coins to first-time contributors at these events. You can get these coins in a variety of sizes and materials for as low as $1.50 each. If you have a 3d printer and time you can print plenty these coins, medalions, etc, with a spool or two of PLA.
+
+If you have good relationships with some companies you may be able to get them to pitch in. Why don't they help you with their project by using a discounted copy of PyCharm or deploy their project using a cloud provider that's offering $100 or so in free credits (and maybe a cool lego set).
 
 The key is to be creative. Do things that will make your booth stand out.
