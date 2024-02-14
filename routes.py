@@ -24,9 +24,10 @@ with open("settings.json") as json_file:
     settings = json.loads(json_file.read())
 app.site_vars.update(**settings)
 app.register_plugins(SiteMap, YouTubeEmbed)
-# app.register_themes(kjaymiller, fontawesome, pagefind)
 app.register_themes(kjaymiller, fontawesome, LunrTheme)
-app.plugin_manager.plugin_settings["LunrPlugin"].update({"collections": ["blog", "pages"]})
+app.plugin_manager.plugin_settings["LunrPlugin"].update(
+    {"collections": ["blog", "pages"]}
+)
 
 if os.environ.get("prod", False):
     app.site_vars.update({"SITE_URL": "https://kjaymiller.com"})
@@ -40,6 +41,7 @@ markdown_extras = [
     "header-ids",
     "mermaid",
 ]
+
 
 @app.page
 class Conferences(Page):
@@ -70,11 +72,7 @@ class Blog(Blog):
 
 @app.collection
 class MicroBlog(MicroBlog):
-    template = "microblog_entry.html"
-    archive_template = "microblog_post.html"
-    template_vars = {
-            "markdown_post": "markdown_post.html",
-            }
+    template_vars = {"microblog_entry": "custom_microblog_post.html"}
     content_path = "content/microblog"
     routes = ["microblog"]
     parser_extras = {"markdown_extras": markdown_extras}
@@ -103,6 +101,7 @@ latest_episodes = {
 class Index(Page):
     template = "custom_index.html"
     template_vars = latest_episodes
+
 
 if __name__ == "__main__":
     app.render()

@@ -1,0 +1,4 @@
+<div class="prose m-4 p-2 border rounded shadow-lg hover:shadow-{{theme.colors.main}}"> 
+    {{ post._content }}
+    <p id="microblog-post-metadata">on {{ post.date|to_pub_date }} <a href="{{post.url_for()}}">🔗</a></p>
+</div>
