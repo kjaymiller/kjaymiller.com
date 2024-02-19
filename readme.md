@@ -1,3 +1,3 @@
 # kjaymiller.com site
 
-This is the repo that bulds https://kjaymiller.com
+This is the repo that built https://kjaymiller.com
