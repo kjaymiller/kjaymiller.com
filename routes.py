@@ -75,6 +75,7 @@ class MicroBlog(MicroBlog):
     Parser = MarkdownPageParser
     template_vars = {"microblog_entry": "custom_microblog_post.html"}
     content_path = "content/microblog"
+    template = "microblog_post.html"
     routes = ["microblog"]
     parser_extras = {"markdown_extras": markdown_extras}
     items_per_page = 20

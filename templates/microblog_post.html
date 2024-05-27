@@ -1,0 +1,14 @@
+{% extends "page.html" %}
+{% block title %}{{super()}}| {{title}} {% endblock %}
+{% block content %}
+        {% if microblog_entry in template_vars %}
+            {% include template_vars['microblog_entry'] %}
+        {% else %}
+        <div class="microblog-post container mx-auto"> 
+            <div class="prose">
+            {{ content }}
+            <p id="microblog-post-metadata"> on {{ date }}</p>
+            </div>
+        </div>
+        {% endif %}
+{% endblock %}
