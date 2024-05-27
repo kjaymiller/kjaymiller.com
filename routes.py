@@ -72,6 +72,7 @@ class Blog(Blog):
 
 @app.collection
 class MicroBlog(MicroBlog):
+    Parser = MarkdownPageParser
     template_vars = {"microblog_entry": "custom_microblog_post.html"}
     content_path = "content/microblog"
     routes = ["microblog"]
