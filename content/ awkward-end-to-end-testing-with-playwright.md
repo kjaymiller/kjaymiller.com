@@ -14,7 +14,7 @@ Enter [Playwright](https://playwright.dev), the open-source testing platform, to
 ## Connect with me
 
 - [Twitter](https://twitter.com/kjaymiller)
-- [LinkedIn]https://linkedin.com/in/kjaymiller)
+- [LinkedIn](https://linkedin.com/in/kjaymiller)
 - [YouTube](https://youtube.com/kjaymiller)
 
 ## Presentation and resources
