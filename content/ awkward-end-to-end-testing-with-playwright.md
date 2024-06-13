@@ -23,7 +23,7 @@ You can find my slides at - <https://docs.google.com/presentation/d/1KGADWrCXQiC
 
 Here are some links if you're seeing this talk live.
 
-- [Project Repo](https://github.com/kjaymiller/conduit-transcriptions-fastapi)
+- [Project Repo](https://github.com/kjaymiller/conduit-transcripts-fastapi)
 - [Aiven - Learn More](https://aiven.io)
 - [Aiven - Signup and get $400 off your first month](https://go.aiven.io/jay-signup)
 - [Conduit](https://relay.fm/conduit)
