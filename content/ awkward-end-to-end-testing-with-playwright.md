@@ -11,6 +11,8 @@ Maybe if you own all the components or if you have a testing team to make sure e
 
 Enter [Playwright](https://playwright.dev), the open-source testing platform, to help us test what we control and what we don't. This talk will walk through testing your site End-to-End with playwright. We'll address the highlights, concerns and next steps when you need to test things that may or may not be in your control. It won't solve all your testing problems but it will help you identify when you need to have those awkward conversations early before they're with your users.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dBJowtn1lQE?si=izNt-xb-SN9FVhfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Connect with me
 
 - [Twitter](https://twitter.com/kjaymiller)
