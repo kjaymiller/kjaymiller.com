@@ -41,4 +41,5 @@ I've been podcasting for over a decade! I'm one of the hosts of [**Conduit**](ht
 - [Github](https://github.com/kjaymiller)
 - [Mastodon](https://mastodon.social/@kjaymiller)
 - [LinkedIn](https://www.linkedin.com/in/kjaymiller/)
+- [Twitter](https://twitter.com/kjaymiller)
 - [Resume](https://kjaymiller.s3-us-west-2.amazonaws.com/images/Jay_Miller_-_Developer_Advocate.pdf)

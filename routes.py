@@ -46,6 +46,7 @@ markdown_extras = [
 @app.page
 class Conferences(Page):
     template = "conferences.html"
+    parser_extras = {"markdown_extras": markdown_extras}
     Parser = JSONPageParser
     content_path = "conferences.json"
 
@@ -53,6 +54,7 @@ class Conferences(Page):
 @app.collection
 class Pages(Collection):
     Parser = MarkdownPageParser
+    parser_extras = {"markdown_extras": markdown_extras}
     content_path = "content/pages"
     template = "page.html"
 
