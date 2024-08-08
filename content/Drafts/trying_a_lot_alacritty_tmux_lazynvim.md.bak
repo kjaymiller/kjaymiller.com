@@ -1,0 +1,26 @@
+---
+title:
+date:
+---
+
+I've been playing around with
+
+## Purpose
+
+The purpose of this post is to do a few things:
+
+1. Document the things I've done to my system so I can do them again in the future (or maybe set it up as a project with using makefiles or something )
+
+## Why
+
+To be honest I don't know.
+
+When [kjm:I left Microsoft] I realized that I had been using VS Code for that last couple years and while it was fine, I wanted to do better customize my setup. I've found myself moving towards [LazyNVIM] and I remembered why I liked NeoVim so much.
+
+When I was using VS Code I was using [VIM Mode]
+
+I've been using iTerm for a while. There are some folks that are upset with [iTerm's AI decision](https://iterm2.com/ai-plugin.html) but I honestly couldn't care less (I don't have it enabled, though).
+
+I've recently been thinking more about my code editor and
+
+[^1]: It was better than fine to be honest.
