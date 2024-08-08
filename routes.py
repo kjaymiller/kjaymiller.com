@@ -5,7 +5,7 @@ from jinja2.environment import Environment as Environment
 
 from render_engine import Page
 from render_engine.site import Site
-from render_engine.blog import Blog as Blog
+from render_engine.blog import Blog
 from render_engine_microblog import MicroBlog
 from render_engine.collection import Collection
 from render_engine_markdown import MarkdownPageParser
@@ -79,7 +79,7 @@ class MicroBlog(MicroBlog):
     content_path = "content/microblog"
     template = "microblog_post.html"
     routes = ["microblog"]
-    parser_extras = {"markdown_extras": markdown_extras}
+    parser_extra = {"markdown_extras": markdown_extras}
     items_per_page = 20
 
 
