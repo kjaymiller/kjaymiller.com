@@ -1,0 +1,23 @@
+---
+title:
+---
+
+My Friend [Jeff Tripplet](https://@webology@mastodon.social) hosts these python calls on Fridays and he's been asking about how things are tested and if we were team [tox](tox) or team [nox](nox). A lot of folks mentioned using nox, so I thought I would give it a try.
+
+### Why nox
+
+Nox (as the website says) "is a command-line tool that automates testing in multiple Python environments". This is great for making sure that your code works on several versions of Python.
+
+Nox is special because you configure it with Python.
+
+### Why wasn't I testing multiple versions before
+
+That's the thing, I WAS. I was using GitHub Matrices to text.
+
+The problem with this is that I have to push my changes to GitHub to test all the versions.
+
+With Nox, I can test this prior to pushing to GitHub.
+
+### Nox does more than testing
+
+The thing that caught my eye mostly in [the tutorial](https://nox.thea.codes/en/stable/tutorial.html)

@@ -4,7 +4,7 @@ date: 2024-08-18T20:00:00-04:00
 
 Last month I went to London for the [Relay 10th anniversary extravaganza](https://relay.fm/london).
 
-You can catch the [audio replay here].
+You can catch the [audio replay here](https://www.relay.fm/departures/11).
 
 You can hear my thoughts on being a member of Relay here.
 
