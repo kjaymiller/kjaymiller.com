@@ -1,6 +1,6 @@
 ---
 title: "Good First Issues Aren't Always Good (But can be issues)"
-date: 2024-08-26 09:00-04:00
+date: 2024-08-26 14:43:00-04:00
 ---
 
 I'm a big fan of giving people easy tasks to entice them into contributing. In fact, many of my most regular contributors to projects that I work on have been from issues labeled `good first issue`.
