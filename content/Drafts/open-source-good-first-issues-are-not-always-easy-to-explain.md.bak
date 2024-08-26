@@ -1,0 +1,50 @@
+---
+title: "Good First Issues Aren't Always Good (But can be issues)"
+date: 2024-08-26 09:00-04:00
+---
+
+I'm a big fan of giving people easy tasks to entice them into contributing. In fact, many of my most regular contributors to projects that I work on have been from issues labeled `good first issue`.
+
+Most of these issues are ones that I bump into while working on another issue and thing "I could fix this really quick...". That said, sometimes I think the problem is quick but turns out it's more complicated than it seems.
+
+Take, for instance [issue 391 on the Black Python Devs Website][gh issue]. This issue was to mark our Open Source Program as closed. Simple task right. Currently says open, should say closed. Why then did I reject the issue that did exactly that.
+
+> NOTE:
+> I was the one that created this issue so in many ways I have only myself to blame.
+
+## Bad title and body will lead to bad PRs
+
+My first problem was that my title and description was incredibly weak.
+
+> **Title**: Mark the open-source-program-page as closed
+> **Body**: Currently the open source page says that applications are still open. This was closed.
+
+If I'm being honest this was a description for me.
+
+After rejecting a pr changed the word `open` to `closed` in the header I decided if someone else was going to work on it, then I should give them more guidance.
+
+[Here is what I suggested][gh issue], after thinking about it for more that 5 seconds suggested.
+
+> Just changing the header will not suffice on this.
+> The program will open and close throughout the year. I would definitely consider making things a little more dynamic.
+>
+> Example:
+> We can set projects in `_data/data.yml` that can be updated.
+>
+> Some values can be:
+>
+> - list of projects being worked on
+> - status if program is open or closed
+>   I would then create three templates.
+>   A base template that will check it the program in `site.data.open_source_program.open == true/false
+>
+> if true (open):
+> include open_source_program_open.html
+> else:
+> include open_source_program_closed.html
+
+## That doesn't look like a good first issue
+
+I mean if you're familiar with [Jekyll](ruby jekyll) or [Jinja](jinja2)
+
+[gh issue]: https://github.com/blackpythondevs/blackpythondevs.github.io/issues/391

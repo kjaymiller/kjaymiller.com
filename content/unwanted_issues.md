@@ -1,6 +1,6 @@
 ---
 date: 2024-08-24 07:51:00-04:00
-title: [Question] Writing Issues You Don't Want to Implement
+title: "[Question] Writing Issues You Don't Want to Implement"
 ---
 
 Any maintainers in the past post issues that they don’t like purely to see if someone has a good reason that it should implemented?
