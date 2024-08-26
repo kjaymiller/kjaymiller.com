@@ -20,7 +20,7 @@ My first problem was that my title and description was incredibly weak.
 > **Title**: Mark the open-source-program-page as closed
 > **Body**: Currently the open source page says that applications are still open. This was closed.
 
-![gif of jonah hill annoyed saying seriously](https://media1.tenor.com/m/FRU2yGmIf1YAAAAd/seriously.gif)
+![gif of Khaby Lame annoyed](https://media1.tenor.com/m/FRU2yGmIf1YAAAAd/seriously.gif)
 
 If I'm being honest this was a description for me.
 
