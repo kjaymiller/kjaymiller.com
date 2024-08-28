@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - content/**/*.md  
+      - content/**/*.md
       - routes.py
       - mysite.py
 
@@ -43,7 +43,7 @@ jobs:
           AZURE_STORAGE_ACCOUNT_URL: ${{secrets.AZURE_STORAGE_ACCOUNT_URL}}
           AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
           prod: "True"
-          PYTHON_VERSION: "3.11"
+          PYTHON_VERSION: "3.12"
           POST_BUILD_COMMAND: "render-engine build routes:app"
 
   close_pull_request_job:
