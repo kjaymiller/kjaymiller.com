@@ -5,15 +5,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - content/**/*.md
-      - routes.py
-      - mysite.py
-
-  pull_request:
-    types: [opened, synchronize, reopened, closed]
-    branches:
-      - main
 
 jobs:
   runs_a11y:
