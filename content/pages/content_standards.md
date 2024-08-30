@@ -14,7 +14,7 @@ Throughout my career I've been in different industries and have learned about se
 
 Thoughts can change and if they do I'm more than happy to provide updates to those thoughts.
 
-### My employer has no say what I publish on my personal channels with the explicit exception to aggregation channels
+### My employer has no say on what I publish on my personal channels with the explicit exception to aggregation channels
 
 Occasionally I will publish things on an account that is meant to be an aggregation channel. These are platforms like dev.to, micro.blog, ALL SOCIAL MEDIA.
 

@@ -3,6 +3,7 @@
         {"text":"About", "url":"/about.html"},
         {"text":"Blog", "url":"/blog/blog1.html"},
         {"text": "MicroBlog", "url":"/microblog/microblog.html"},
+        {"text": "Conference", "url":"/conferences.html"}
         {"text":"Talks", "url":"https://github.com/stars/kjaymiller/lists/conference-talks"}
         ],
     "timezone": "US/Pacific",
