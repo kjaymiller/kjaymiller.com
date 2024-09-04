@@ -8,12 +8,14 @@
 
 {% block header %}
 {{super()}}
-<div id="search">
-    {{search_form()}}
-    <div id="lunrSearchResults" class="text-left"></div>
+<div class="flex flex-row-reverse">
+  <div id="search">
+      {{search_form()}}
+      <div id="lunrSearchResults" class="text-left"></div>
+  </div>
 </div>
-<div style="clear:both"></div>
-    {% endblock %}
+
+  {% endblock %}
 
 {% block footer %}
 {{super()}}
