@@ -10,6 +10,7 @@
 }
 
 #search {
+  @apply m-3;
   @apply border border-gray-300 rounded-lg p-2;
   @apply w-full xl:w-1/3;
   @apply z-10;

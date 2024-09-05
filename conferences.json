@@ -8,6 +8,14 @@
     "description": "PyCon US 2024, I gave the opening keynote where I introduced the world to Black Python Devs"
   },
   {
+    "conference": "RenderATL 2024",
+    "location": "Atlanta, GA",
+    "date": "2024-06-12",
+    "talk_title": "Awkward End-to-End Testing with Playwright",
+    "video_url": "https://www.youtube.com/watch?v=dBJowtn1lQE",
+    "description": "Testing your project is easy right? Maybe if you own all the components or if you have a testing team to make sure everything is acting the way it should.\n Sadly end-to-end testing is full of pitfalls and things to think about, especially when you don't control the entire stack. Often you end up with awkward conversations with engineering, marketing and others as you all fight for space to get your message across.\n\nEnter Playwright, the open-source testing platform, to help us test what we control and what we don't.\n\nThis talk will walk through testing your site End-to-End with playwright. We'll address the highlights, concerns and next steps when you need to test things that may or may not be in your control. It won't solve all your testing problems but it will help you identify when you need to have those awkward conversations early before they're with your users."
+  },
+  {
     "conference": "Refactr.Tech",
     "location": "Atlanta, GA",
     "date": "2023-10-08",
