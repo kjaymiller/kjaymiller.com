@@ -4,7 +4,7 @@
         {% if microblog_entry in template_vars %}
             {% include template_vars['microblog_entry'] %}
         {% else %}
-        <div class="microblog-post container p-2 mx-auto"> 
+        <div class="microblog-post container p-2 xl:w-1/2 mx-auto"> 
             <div class="prose dark:text-slate-50">
             {{ content }}
             <p id="microblog-post-metadata"> on {{ date }}</p>
