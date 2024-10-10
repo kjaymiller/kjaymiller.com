@@ -3,9 +3,7 @@ date: 2024-10-10 14:28:18.575526+00:00
 link: https://medium.com/@theflyboy/breaking-barriers-a-tech-speakers-plea-for-fair-visa-policies-621b5909e496
 ---
 
-Responding to Julius' post.
-
-<https://medium.com/@theflyboy/breaking-barriers-a-tech-speakers-plea-for-fair-visa-policies-621b5909e496>
+Responding to Julius' post on [their challenges with visa policies](https://medium.com/@theflyboy/breaking-barriers-a-tech-speakers-plea-for-fair-visa-policies-621b5909e496)
 
 > Imagine preparing for months to speak at a prestigious conference or to collaborate on a groundbreaking project abroad, only to have your visa application rejected.
 
