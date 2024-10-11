@@ -1,5 +1,8 @@
 ---
 date: 2020-11-08 22:48:00-08:00
+description: I'm spilling next-level podcasting secrets with fellow professionals
+  - from outlining to limited run shows, and how to keep your audience engaged. Dive
+  in for actionable advice.
 tags: podcasting, career-advice
 title: Amazing Podcasting (and Content Creation) Advice from Professional Podcasters
   (WIP)

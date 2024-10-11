@@ -1,7 +1,12 @@
 ---
+date: 2024-04-07 12:03:49+00:00
+description: I'm not looking for someone who's going to be a passive friend in need
+  of a job. I want to know that you're someone who can contribute to the community
+  and show some effort in building relationships.
+tags:
+- hiring
+- opinion
 title: On Getting Your First Job in Tech (Part 1)
-date: 2024-04-07T12:03:49Z
-tags: ["hiring", "opinion"]
 ---
 
 > This is my opinion based on my experiences. I'm not a professional recruiter and I don't know much about the landscape for folks outside the US.

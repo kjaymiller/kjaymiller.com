@@ -1,6 +1,8 @@
 ---
+date: 2024-01-30 16:09:55+00:00
+description: I'm still learning and figuring out how to contribute - can I be both
+  talented and helpful?
 title: The Most Talented Developer or the Most Helpful Developer
-date: 2024-01-30T16:09:55Z
 ---
 
 Which from the title would you rather be.

@@ -1,7 +1,14 @@
 ---
-title: Create a Custom Query in the GitHub Issues Client
 date: 2023-04-26 17:04:00-07:00
-tags: [github, vscode, extensions, TIL]
+description: I recently discovered how to create custom queries for my GitHub issues
+  using a simple JSON format. Want to learn how I did it and see what new insights
+  it brought?
+tags:
+- github
+- vscode
+- extensions
+- TIL
+title: Create a Custom Query in the GitHub Issues Client
 ---
 
 Did you know that you can create a custom query for your GitHub issues and PRs?

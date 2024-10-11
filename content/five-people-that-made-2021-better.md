@@ -1,5 +1,7 @@
 ---
 date: 2021-12-17 08:14:00-08:00
+description: Get to know the people who made my 2021 shine. From friends who helped
+  me grow professionally and personally, to a podcasting duo and a math whiz kid.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/jaysies-2021.png
 slug: jaysies-2021
 tags: jaysies

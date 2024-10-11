@@ -1,7 +1,10 @@
 ---
 date: 2024-09-30 00:49:40.145844+00:00
+description: Discover how writing tests in your open-source project can lead to new
+  skills and exciting career opportunities - even when it feels like 'boring' work.
+tags:
+- development
 title: What I learned from a "Boring" Contribution
-tags: ["development"]
 ---
 
 Someone in the [_BPD Open Source Program_](https://blackpythondevs.com/open-source-program) mentioned that they were "tired" of doing things like documentation and test updates.

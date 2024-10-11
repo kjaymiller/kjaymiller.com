@@ -1,7 +1,17 @@
 ---
-title:  About Render Engines Themes, Subthemes, and Carve-outs
+date: 2023-10-30 00:56:57+00:00
+description: 'Here''s a subtle description to encourage the reader to read the blog
+  post:
+
+
+  "I recently dove into the world of Render Engine themes and subthemes. As I worked
+  on my first template based on my existing website, I encountered challenges that
+  forced me to rethink how templates are structured and what makes something a theme
+  versus a plugin. In this update, I''ll share my findings and insights on themes,
+  subthemes, and carve-outs, as well as some of the new features and updates that
+  came with the latest Render Engine release.'
 subtitle: Render Engine update 2023.10.4
-date: 2023-10-30T00:56:57Z
+title: About Render Engines Themes, Subthemes, and Carve-outs
 ---
 
 Render Engine update [2023.10.4](https://github.com/render-engine/render-engine/releases/tag/2023.10.4) was a massive update that mostly provided support around themes and created the foundation for `--reload` support to the cli. There are still some things to iron out on the reload site but let's take a look at some things around the theming.

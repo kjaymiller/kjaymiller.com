@@ -1,8 +1,11 @@
 ---
-title: "GitHub Universe: Should I Attend in 2024"
-ref: "~/Documents/GH Universe - KBYG.bike"
-date:  2023-11-11T09:35:50Z
+date: 2023-11-11 09:35:50+00:00
+description: As a developer advocate, I share my honest thoughts on attending GitHub
+  Universe 2024. Will it be worth flying to and spending $1500 for? Find out in my
+  latest blog post.
 image: https://kjaymiller.azureedge.net/media/ghu-2023-jay-pre-talk.jpg
+ref: ~/Documents/GH Universe - KBYG.bike
+title: 'GitHub Universe: Should I Attend in 2024'
 ---
 
 I was happy to be a speaker at GitHub Universe this year which meant I got to attend the conference in person. I had a very mixed experience this year and wanted to capture my thoughts. I also hope to talk about this a little bit on my Youtube Channel.

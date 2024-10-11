@@ -1,5 +1,12 @@
 ---
 date: 2022-09-07 10:34:00-07:00
+description: 'Here''s a subtle description to encourage the reader to read the blog
+  post:
+
+
+  "I''ve recently discovered a game-changing alternative to TailwindCSS - PyTailwindCSS.
+  After switching to this Python-based tool, I was able to simplify my project setup
+  and enjoy more flexibility without sacrificing performance.'
 image: https://kjaymiller.azureedge.net/media/pytailwindcss.png
 slug: switch-to-pytailwindcss
 tags: tailwind, python

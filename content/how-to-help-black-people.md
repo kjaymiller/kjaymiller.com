@@ -1,5 +1,8 @@
 ---
 date: 2020-06-04 08:58:00-07:00
+description: I've spent years researching and living among black communities. It's
+  time to challenge common misconceptions and tackle systemic issues like wage disparities
+  that disproportionately affect us.
 slug: helping-black-people
 title: How Can White People Help Black People. What is the Real Problem
 ---

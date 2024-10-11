@@ -1,7 +1,10 @@
 ---
-title: Fixing my Micro.blog RSS Feed (A Love Letter to Micro.Blog)
 date: 2023-05-15 22:45:00-04:00
+description: Discover how I fixed my Micro.blog RSS feed and learned why this platform
+  is truly special. A personal story of struggle and triumph in a rapidly changing
+  social media landscape.
 image: https://kjaymiller.azureedge.net/media/What%20I%20(Hope)%20to%20Be%20Doing.png
+title: Fixing my Micro.blog RSS Feed (A Love Letter to Micro.Blog)
 ---
 
 .. IMPORTANT:: Disclaimer

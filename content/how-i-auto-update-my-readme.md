@@ -2,6 +2,9 @@
 Title: How I AutoUpdate My Github README using GitHub Actions in 5 Easy Steps
 category: coding
 date: 2020-07-10 15:16:00-07:00
+description: Want to transform your GitHub profile into a mini-website? Learn how
+  to automate your README updates with GitHub Actions and Python, in this step-by-step
+  guide.
 tags: github, github actions, python, automation
 ---
 

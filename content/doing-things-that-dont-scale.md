@@ -1,6 +1,9 @@
 ---
+date: 2023-09-10 16:09:18+00:00
+description: I make things that don't scale well, not for fame or fortune, but to
+  focus on a handful of people and create meaningful impact - read how I've made a
+  difference.
 title: Why I Do Things that Don't Scale (Very Well)
-date: 2023-09-10T16:09:18Z
 ---
 
 I changed my bio when I joined Mastodon.

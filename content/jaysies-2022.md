@@ -1,5 +1,7 @@
 ---
 date: 2022-12-13 09:30:00-08:00
+description: Get to know the folks who made a lasting impact on me in 2022 - tech
+  leaders and innovators who inspired growth and connection.
 image: https://kjaymiller.azureedge.net/media/jaysies%202022.png
 slug: jaysies-2022
 tags: jaysies

@@ -1,5 +1,8 @@
 ---
 date: 2020-05-25 22:59:00-07:00
+description: Join me in streamlining our family's schedule and meal planning - a simple
+  yet game-changing weekly review that's boosted my productivity and harmony with
+  my wife.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-05-25-at-22.50.08.png
 slug: qtp-family-agenda
 title: Quick Productivity Tip - The Upcoming Family Agenda

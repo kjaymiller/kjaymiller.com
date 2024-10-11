@@ -1,7 +1,10 @@
 ---
-title: My List of things that I took (and wish I took)to PyCon US for the Black Python Devs Booth
-date: 2024-05-25T12:46:21Z
+date: 2024-05-25 12:46:21+00:00
+description: Reflections on what worked and what didn't at our Black Python Devs Booth
+  at PyCon US - from what we took to what we wished we'd had.
 image: https://kjaymiller.azureedge.net/media/black-python-devs-booth-day-0.jpeg
+title: My List of things that I took (and wish I took)to PyCon US for the Black Python
+  Devs Booth
 ---
 
 My List of things that I took (and wish I took)to PyCon US for the Black Python Devs Booth

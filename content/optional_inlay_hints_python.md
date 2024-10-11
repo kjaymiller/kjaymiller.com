@@ -1,6 +1,8 @@
 ---
 category: work
 date: 2022-07-27 14:35:00-07:00
+description: Discover how to show/hide inlay type hints in Python code with just a
+  few settings tweaks in VS Code.
 image: https://jmblogstorrage.blob.core.windows.net/media/type_literals.png
 tags: VS Code, Python
 title: Make Inlay Type Hints in Python Appear/Disappear

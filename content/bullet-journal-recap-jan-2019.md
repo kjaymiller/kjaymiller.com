@@ -3,6 +3,9 @@ Category: Analog
 Date: 2019-02-01 16:00:00-08:00
 Tags: Bullet Journal, Reflection
 Title: January 2019 Bullet Journal Recap
+description: I made the switch to full-time analog productivity in January and learned
+  what works - and doesn't. Read how I adapted my bullet journaling routine to stay
+  on track.
 ---
 
 Late last year I made the decision to go full time analog productivity. To me this was a return to my _Midori Traveller's Notebook_ and less reliability on mobile applications to keep track of things. 

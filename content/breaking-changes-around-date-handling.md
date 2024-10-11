@@ -1,5 +1,7 @@
 ---
 date: 2023-04-16 13:09:00-07:00
+description: 'Get ready for a smoother render engine experience: we''re simplifying
+  date handling with two key changes.'
 series: Render Engine DevLog
 tags:
 - render-engine

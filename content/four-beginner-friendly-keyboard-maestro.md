@@ -1,6 +1,8 @@
 ---
 YouTube: https://www.youtube.com/embed/7ZqL-VSdlN0
 date: 2021-05-19 17:33:00-07:00
+description: Discover how I created simple yet powerful Keyboard Maestro macros in
+  just a few actions - perfect for beginners!
 tags: Youtube
 title: 4 Beginner Friendly Keyboard Maestro Macros (3 Actions or Less!)
 ---

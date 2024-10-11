@@ -1,7 +1,10 @@
 ---
-title: I'm not running for the PSF Board this year, but maybe you should
-date: 2023-06-01T15:04:56Z
+date: 2023-06-01 15:04:56+00:00
+description: As a dedicated Python community member who's contributed in new ways,
+  I'm sharing my thought process on why I won't be running for the PSF Board this
+  year - but I hope to inspire you to consider taking on a leadership role.
 tags: psf
+title: I'm not running for the PSF Board this year, but maybe you should
 ---
 
 The Python Software Foundation (PSF) is one of the most important organizations in the Python community. They are responsible for a lot of things including hosting [PyCon US](https://pycon.us), the largest event for Python developers in the world and providing a team to ensure stability in the Python ecosystem for years to come.

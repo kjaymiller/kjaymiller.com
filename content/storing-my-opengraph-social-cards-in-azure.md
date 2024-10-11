@@ -1,8 +1,12 @@
 ---
-title: Storing My Opengraph Social Cards in Azure
-date: 2023-05-20T03:05:40Z
-tags: [azure, static-site-generator]
+date: 2023-05-20 03:05:40+00:00
+description: Discover how to streamline image uploads to Azure Blob Storage and speed
+  up your blog post processing - a crucial step for static site generators.
 image: https://kjaymiller.azureedge.net/media/entries_taged_social_cards.png
+tags:
+- azure
+- static-site-generator
+title: Storing My Opengraph Social Cards in Azure
 ---
 
 Yesterday, I figured out how to [generate social cards](adding-social-cards-to-my-static-site.html). I mentioned in that post that I would need to do something eventually or build times would get out of hand.

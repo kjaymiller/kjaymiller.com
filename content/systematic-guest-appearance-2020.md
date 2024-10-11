@@ -1,6 +1,8 @@
 ---
 category: Guest Appearances
 date: 2020-10-25 20:12:00-07:00
+description: I shared my insights on productivity and growth in my industry with Brett
+  Terpstra on his popular podcast Systematic - check it out!
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/banner-systemcast_ddE0LhiRq.png
 tags: podcast, developer advocacy, podcasting
 title: I Was a Guest on Systematic

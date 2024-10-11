@@ -1,6 +1,9 @@
 ---
+date: 2023-10-23 15:59:07+00:00
+description: I'll share my experiences and tips on moderating technical panels - from
+  research to post-event feedback - to help you host successful and engaging tech
+  discussions.
 title: How I moderate technical panels
-date: 2023-10-23T15:59:07Z
 ---
 
 I love moderating panels. I think it resonates with my values as I'm letting folks to show their expertise instead of relying solely on my own. 
@@ -92,5 +95,4 @@ Thank the audience for their questions and remind them that the conversation can
 
 Once the panel has concluded, quickly thank your panelists. They will be relieved and hopefully happy things went smoothly. 
 
-Later on try to collect feedback 1-on-1 with the panelists. A little removed from the event they may have thought of something that could have been done better. This will help you continue to improve your skills as a panel moderator. 
-
+Later on try to collect feedback 1-on-1 with the panelists. A little removed from the event they may have thought of something that could have been done better. This will help you continue to improve your skills as a panel moderator.

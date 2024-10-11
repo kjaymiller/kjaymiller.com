@@ -1,7 +1,28 @@
 ---
-title: Running a Community Booth at PyCon US or Similar Events
-date: 2024-02-08T23:08:35Z
+date: 2024-02-08 23:08:35+00:00
+description: 'I''ll take care of ordering all the necessary items for the booth, including
+  a cheap keyboard, hand sanitizer, and sanitizing wipes. I''ll also make sure to
+  have a monitor cable that works with my computer and monitor. Additionally, I''ll
+  prepare an elevator pitch and have our team''s call-to-actions ready to engage with
+  attendees.
+
+
+  To ensure we''re well-prepared for conversations, I''ll review our team''s materials,
+  including social media promotions, CTAs, and any special deals or discounts we can
+  offer. We''ll also have a plan in place for distributing swag items, such as stickers
+  or multi-use items, that are both useful and environmentally friendly.
+
+
+  I''ll make sure to assign two people to the booth during busy times and one person
+  when talks are happening, allowing us to split the crowd and keep things moving
+  smoothly. I''ll also remind our team to enjoy the conference, including talks and
+  social events, while keeping an eye on the booth at all times.
+
+
+  With a little creativity and planning, we can make our booth stand out and have
+  valuable conversations with attendees!'
 image: https://kjaymiller.azureedge.net/media/dawn-wages-at-microsoft-booth-djangocon-2022.jpg
+title: Running a Community Booth at PyCon US or Similar Events
 ---
 
 .. NOTE::

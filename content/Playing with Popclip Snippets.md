@@ -1,5 +1,8 @@
 ---
 date: 2021-11-29 11:51:00-08:00
+description: I recently discovered how to make snippets with Popclip even easier -
+  and it's transformed my workflow. Watch my videos or explore my GitHub repo to see
+  the power for yourself.
 tags: popclip, automation
 title: Popclip Extension Snippets
 youtube: https://www.youtube.com/embed/i4ORaFxbHvg

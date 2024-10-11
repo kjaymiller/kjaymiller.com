@@ -1,5 +1,12 @@
 ---
 date: 2022-08-02 08:00:00-07:00
+description: 'Here''s a subtle description that encourages the reader to read the
+  blog post:
+
+
+  "Discover how to deploy your custom Python static site generator to Azure and connect
+  your repo to Azure Static Web Apps. Learn how to build and deploy your site using
+  GitHub Actions and gain control over your build process.'
 image: https://kjaymiller.azureedge.net/media/az%20deployment%20build.png
 slug: static-site-generator-with-python-azure
 title: Deploying a Custom Python Static Site Generator to Azure

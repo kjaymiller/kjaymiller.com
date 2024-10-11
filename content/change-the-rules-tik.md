@@ -1,6 +1,9 @@
 ---
 category: Opinions
 date: 2020-08-12 07:18:00-07:00
+description: I'm frustrated with the current state of data sharing on social media
+  platforms - and think it's time to rethink our approach. Read my take on why changing
+  the rules might be a better solution than banning companies.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/social-media-phone.jpg
 tags: politics, Tik Tok, WeChat
 title: Don't Ban Companies, Change the Rules

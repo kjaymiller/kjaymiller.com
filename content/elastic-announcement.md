@@ -1,6 +1,9 @@
 ---
 category: Life
 date: 2020-08-17 16:41:00-07:00
+description: I'm thrilled to share my journey as I start a new role with @Elastic
+  as a Developer Advocate. Find out what this means for my projects and how you can
+  still be involved.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/brand-elastic-sop-lockup-220x130.svg
 tags: job
 title: My New Job and What that Means for All the Things I Do

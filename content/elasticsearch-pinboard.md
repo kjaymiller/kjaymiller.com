@@ -1,6 +1,8 @@
 ---
 category: Elastic
 date: 2020-10-21 18:51:00-07:00
+description: I recently built a Python script to visualize my Pinboard data using
+  Elasticsearch - now you can too.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot_2020-10-21_at_18.40.49_2x_q7UEnmTnf.png
 link: https://github.com/kjaymiller/elasticsearch-pinboard
 tags: elasticsearch, python, pinboard, bookmarking, visualization

@@ -1,5 +1,7 @@
 ---
 date: 2021-05-04 00:00:00-07:00
+description: I'm sharing my process for transforming incomplete civic data into interactive
+  visualizations with Elasticsearch and geopandas.
 link: https://csvconf.com
 tags: 'CSVConf v6, '
 title: Enhancing Civics Data with Elasticsearch, pandas and Eland

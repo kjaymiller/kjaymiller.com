@@ -1,8 +1,19 @@
 ---
-title: Get System Information for Your GitHub Issues
 date: 2024-08-07 17:00:00-04:00
-tags: ["macos", "github", "system_profiler", "rg"]
-image: "https://kjaymiller.azureedge.net/media/system_profiler_harware_software_filtered.png"
+description: 'Here is a subtle description to encourage the reader to read the blog
+  post:
+
+
+  "Ever feel overwhelmed by technical details? Learn how to get the system information
+  you need for GitHub issues without drowning in unnecessary data - and save yourself
+  time in the process!'
+image: https://kjaymiller.azureedge.net/media/system_profiler_harware_software_filtered.png
+tags:
+- macos
+- github
+- system_profiler
+- rg
+title: Get System Information for Your GitHub Issues
 ---
 
 We've all been there. You o have a problem with a package so you head over to GitHub to file an issue. Then you see the "Please tell us about your environment".

@@ -1,6 +1,9 @@
 ---
 category: Productivity in Tech Podcast
 date: 2020-06-30 08:00:00-07:00
+description: The podcast episode features an in-depth conversation between Jay Miller
+  and Melanie, covering various topics including self-improvement, vulnerability,
+  and relationships.
 github: https://github.com/kjaymiller/kjaymiller.com/blob/master/content/melaniec-2020.md
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pitpodcast-hellomelaniec.png
 slug: pitpodcast-melaniec-2020

@@ -1,5 +1,8 @@
 ---
 date: 2023-01-05 11:30:00-08:00
+description: Learn a handy Vim trick to enclose text in parentheses and other characters
+  without relying on plugins. Discover how to customize your workflow for maximum
+  efficiency.
 image: https://kjaymiller.azureedge.net/media/vim_encap_parens.gif
 link: https://superuser.com/questions/875095/adding-parenthesis-around-highlighted-text-in-vim
 tags: vim

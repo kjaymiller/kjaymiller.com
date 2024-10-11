@@ -1,5 +1,7 @@
 ---
 date: 2021-03-25 08:21:00-07:00
+description: Discover how Joe Buhlig's favorite Omnifocus resources can boost your
+  productivity.
 tags: omnifocus, productivity
 title: Omnifocus Resources via Joe Buhlig
 ---

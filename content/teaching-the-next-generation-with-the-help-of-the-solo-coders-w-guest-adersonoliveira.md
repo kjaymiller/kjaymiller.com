@@ -1,9 +1,11 @@
 ---
-title: Teaching the Next Generation with the Help of the Solo Coders /w guest @AdersonOliveira
-date: 2020-11-30T15:47:32.114Z
+category: The PIT Show
+date: 2020-11-30 15:47:32.114000+00:00
+description: I recently sat down with Aderson Oliveira to talk about how solo coders
+  are shaping the future of teaching and learning.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-logo-v5.jpg
 tags: teaching, podcast
-category: The PIT Show
+title: Teaching the Next Generation with the Help of the Solo Coders /w guest @AdersonOliveira
 ---
 
 My Thanksgiving episode came a little late but I'm still THANKFUL for this wonderful back and forth with professor and podcaster Aderson Oliveira. Aderson is interviewing developers around the world hoping to share insights with his students.

@@ -1,6 +1,8 @@
 ---
 category: Bullet Journaling
 date: 2020-08-12 07:11:00-07:00
+description: Discover how I ditch the frustration of rewriting tasks in my Bullet
+  Journal and keep my journaling system stress-free.
 slug: rewriting-bujo-tasks
 title: The "Problem" with rewriting tasks in your Bullet Journal
 ---

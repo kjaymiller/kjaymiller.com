@@ -1,6 +1,17 @@
 ---
 category: development
 date: 2021-02-15 16:43:00-08:00
+description: 'Here is a subtle description to encourage the reader to read the blog
+  post:
+
+
+  "I recently discovered a clever way to automatically show my ToothFairy icon in
+  macOS only when my AirPods Pro are connected. Want to see how I did it?"
+
+
+  This description aims to pique the reader''s interest by highlighting a specific
+  feature and hinting at the solution, without using clickbait phrases or making exaggerated
+  claims.'
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/ToothFairy%20Toggle.png
 tags: shell, apps, macOS, automation
 title: Showing the Toothfairy Icon only when my Airpods Pro are Connected

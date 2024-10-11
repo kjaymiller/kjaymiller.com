@@ -1,8 +1,12 @@
 ---
-title: My New Favorite 3d Print and My Thoughts on if 3d Printing Is Worth Getting Into
-date: 2024-06-21T22:41:01Z
-tags: 
+date: 2024-06-21 22:41:01+00:00
+description: I recently created a custom 3D print solution for balancing lighting
+  on dark skin tones and discovered the joy of functional prints that solve everyday
+  problems.
 image: https://kjaymiller.azureedge.net/media/key_light_with_j_hooks.jpeg
+tags: null
+title: My New Favorite 3d Print and My Thoughts on if 3d Printing Is Worth Getting
+  Into
 ---
 
 I published a 3d print design to Printables and it once again tells me what some of the best 3d prints are.
@@ -49,4 +53,3 @@ As for my J hook for the Elgato Key Light, you can find that on [Printables][0].
 [5]: https://amzn.to/3KTqfoz
 [6]: https://store.bambulab.com/products/a1-mini
 [7]: https://www.sovol3d.com/collections/3d-printer/products/sovol-sv06-best-budget-3d-printer-for-beginner
-

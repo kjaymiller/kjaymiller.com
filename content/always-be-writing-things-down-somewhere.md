@@ -1,12 +1,13 @@
 ---
-title: Always be Writing things Down (Somewhere)
-date: 2020-12-14T06:20:51.956Z
-image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-logo-v5.jpg
 category: The PIT Show
-tags: speaking, developer advocacy, accessibility, writing
+date: 2020-12-14 06:20:51.956000+00:00
+description: As someone who's been on both sides - speaking and listening - I've come
+  to realize the power of writing down my thoughts.
+image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-logo-v5.jpg
 link: https://share.transistor.fm/s/873fa739
+tags: speaking, developer advocacy, accessibility, writing
+title: Always be Writing things Down (Somewhere)
 ---
-
 
 Jay has been writing a lot of thoughts down lately but hasn't really been sharing all that much.
 

@@ -1,5 +1,8 @@
 ---
 date: 2019-08-05 21:37:00-07:00
+description: I took a risk and priced myself out of my own market - but it was worth
+  it to establish my value as a content editor. Learn how I went from under-selling
+  to setting a competitive price that reflects my expertise.
 tags: business, productivity
 title: Pricing People Out
 ---

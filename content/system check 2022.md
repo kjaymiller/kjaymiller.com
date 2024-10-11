@@ -1,5 +1,8 @@
 ---
 date: 2022-08-18 12:40:00-07:00
+description: Get a peek into my productivity system, from my A4 dashboard to my meeting
+  note templates. I'll share how I use it to stay organized and productive throughout
+  the week.
 image: https://kjaymiller.azureedge.net/media/plotter.jpg
 slug: system-check-summer-2022
 tags: productivity, conduit

@@ -1,5 +1,8 @@
 ---
 date: 2019-08-06 10:46:00-07:00
+description: As someone who's found success in a field once thought too scary, I'm
+  sharing my own journey of passion and perseverance – and how it relates to pigeons,
+  apparently.
 tags: encouragement
 title: Pigeons are Scary
 ---

@@ -1,7 +1,15 @@
 ---
+date: 2023-11-17 02:29:21+00:00
+description: 'Here''s a subtle description to encourage the reader to read the blog
+  post:
+
+
+  "Want to make your code snippets shine in your blog posts? Learn how I''m using
+  four game-changing tools - bat, termshot, vhs, and more - to create visually stunning
+  and engaging code examples that will take your writing to the next level.'
+summary: Here are some of the tools I'm using to create code snippets for my blog
+  posts
 title: Using bat, termshot, and vhs to create snippets of code for blog posts
-date: 2023-11-17T02:29:21Z
-summary: "Here are some of the tools I'm using to create code snippets for my blog posts"
 ---
 
 When I'm sharing my code in a blog post, I have a few tools to get the job done.
@@ -69,7 +77,4 @@ You can manually create the file using the syntax but I prefer to use the record
 
 Lastly when you are ready you can run `vhs < <YOUR TAPE FILE>` to convert it to a gif or mp4 (default is gif).
 
-They also have a server that you can use to upload your tapes to and share them with others. 
-
-
-
+They also have a server that you can use to upload your tapes to and share them with others.

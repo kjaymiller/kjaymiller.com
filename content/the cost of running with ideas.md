@@ -1,5 +1,7 @@
 ---
 date: 2021-02-06 13:41:00-08:00
+description: As I navigate my ADHD-driven projects, I learn to weigh the value of
+  every 'itch scratch' – and what costs come with it.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/cat%20scratch.jpg
 title: The Cost of Running with Scratched Itches
 ---

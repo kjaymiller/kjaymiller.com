@@ -1,6 +1,9 @@
 ---
 Category: Guest Appearances
 date: 2021-01-29 21:55:00-08:00
+description: I recently joined forces with Clay, Colin & Laura on the GTD Jedi Podcast
+  to discuss bullet journaling and explore what's next for this analog productivity
+  system.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/gtdj.png
 tags: productivity, podcasts
 title: I was on a Bullet Journal Roundtable

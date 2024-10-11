@@ -1,8 +1,17 @@
 ---
-title: Render Engine Supports Themes
+date: 2023-07-18 04:28:50+00:00
+description: 'Here is a subtle description to encourage the reader to read the blog
+  post:
+
+
+  "I recently created a theme for my website that brings my design and functionality
+  into a single, shareable package. Now I''m sharing the details of how Render Engine
+  supports themes in an experimental update.'
 image: https://kjaymiller.azureedge.net/media/templates%20dir.jpg
-date: 2023-07-18T04:28:50Z
-tags: ["devlog", "render_engine"]
+tags:
+- devlog
+- render_engine
+title: Render Engine Supports Themes
 ---
 
 >!!!NOTE
@@ -77,6 +86,3 @@ This is important as currently there is a fragile song and dance around how to c
 After that I'll be working on the themes.
 
 Shout out to all the folks that have helped me getting theses updates out the window!
-
-
-

@@ -1,6 +1,9 @@
 ---
 category: opinion
 date: 2021-07-22 23:51:00-07:00
+description: As someone who's seen firsthand how toxic behavior can affect a company's
+  culture, I'm sharing my thoughts on why Blizzard/Activision's recent lawsuit is
+  a wake-up call for all of us.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/Blizzard%20Activision%20Lawsuit.png
 tags: trigger-warning-terrible-men, gaming
 title: On Blizzard/Activision lawsuit

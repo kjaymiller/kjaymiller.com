@@ -1,6 +1,12 @@
 ---
 category: meetups
 date: 2021-01-28 17:00:00-08:00
+description: 'Here''s a subtle description to encourage readers to read the blog post:
+
+
+  "Ever found yourself on the brink of disaster after adding just one too many files
+  to GitHub? Learn how to avoid the dreaded ''volcano'' effect and keep your projects
+  tidy with Jay Miller''s expert tips and tricks.'
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/volcano_presentaion.jpg
 slug: dont-volcano-your-project
 tags: git, talks, lightning-talks

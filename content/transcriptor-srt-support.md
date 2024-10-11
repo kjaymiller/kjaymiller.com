@@ -1,6 +1,13 @@
 ---
 category: Transcriptor
 date: 2020-08-05 13:37:00-07:00
+description: 'Here is a subtle description to encourage the reader to read the blog
+  post:
+
+
+  "I recently dove into a new transcription project that required customizing _Transcriptor_
+  to handle SRT files. Now I''m excited to share my findings and introduce a game-changing
+  feature that will make your work with SRT files a breeze.'
 image: https://s3-us-west-2.amazonaws.com/kjaymiller/images/Transcriptor%20Logo%20V1.1.png
 tags: update, accessibility
 title: Transcriptor now Supports SRT Upload and Conversion

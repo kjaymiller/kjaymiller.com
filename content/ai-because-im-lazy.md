@@ -1,7 +1,10 @@
 ---
-title: Embracing AI because I'm Lazy
-date: 2023-08-17T02:21:59Z
+date: 2023-08-17 02:21:59+00:00
+description: I'm not a fan of AI, but I've found it's a useful crutch for lazy writers
+  like me. Read my story of embracing ChatGPT and how it helped me get started on
+  projects.
 image: https://kjaymiller.azureedge.net/media/ChatGPT%20random%20language%20code.png
+title: Embracing AI because I'm Lazy
 ---
 
 I'm not the biggest fan of AI outside of code completion, even then that tends to be like working with your own junior developer. That said, I've used ChatGPT a few times for things I'm capable of doing but have little/no ambition of doing. Here's my list of "successful" uses of AI. As you'll soon read, it never did exactly what I watned but was at least enough to break through the getting started issues.

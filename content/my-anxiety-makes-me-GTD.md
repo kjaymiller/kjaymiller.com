@@ -1,6 +1,8 @@
 ---
 category: mental-health
 date: 2019-03-25 10:42:00-07:00
+description: Discover how my anxiety fuels my productivity and creativity - but also
+  reveals a deeper truth about the pressures we put on ourselves.
 slug: anxiety-based-gtd
 tags: anxiety, depression
 title: My Anxiety Makes Me Get Things Done

@@ -1,6 +1,8 @@
 ---
 YouTube: https://youtube.com/embed/U_VHfB9b9oE
 date: 2021-03-03 22:15:00-08:00
+description: Unlock your browser's full potential with this clever Keyboard Maestro
+  technique. Get text from websites without typing a thing!
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Get%20Text%20from%20Website/execute%20javascript-squashed.png
 tags: productivity, keyboard maestro, automation
 title: Getting text from websites using Keyboard Maestro

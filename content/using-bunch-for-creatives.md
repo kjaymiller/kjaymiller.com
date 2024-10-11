@@ -1,6 +1,8 @@
 ---
 category: YouTube
 date: 2021-07-06 08:00:00-07:00
+description: Discover how I kickstart my weekly newsletter creation process with a
+  simple yet powerful tool - Bunch.
 tags: YouTube
 title: Using Bunch for Creating Newsletters
 youtube: https://www.youtube.com/embed/zDsyw5uU0wA

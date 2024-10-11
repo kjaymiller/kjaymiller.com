@@ -1,6 +1,8 @@
 ---
 category: productivity
 date: 2021-01-23 21:45:00-08:00
+description: I stumbled upon an email feature that changed my workflow forever - and
+  it's not as complicated as I thought.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/Mailmate%20Change%20Subject%20Box.png
 tags: email, hey
 title: TIL You can change the subject of an Email

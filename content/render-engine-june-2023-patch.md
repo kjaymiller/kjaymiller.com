@@ -1,7 +1,11 @@
 ---
-title: Render Engine Update June 2023 Patch
-tags: [render-engine]
 date: 2023-06-01 10:07:00-07:00
+description: I recently had the chance to dive into our render engine update for June
+  2023 and I'm excited to share what changed. From simplifying design to refreshing
+  how pages are accessed, there's a lot to explore.
+tags:
+- render-engine
+title: Render Engine Update June 2023 Patch
 ---
 
 Here are the changes available in `render-engine 2023.6.1`

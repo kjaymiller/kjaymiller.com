@@ -1,6 +1,8 @@
 ---
 category: links
 date: 2020-07-10 09:37:00-07:00
+description: I explored the shocking disparity between Black Americans and shootings
+  in NYC - learn what I uncovered.
 image: https://s3-us-west-2.amazonaws.com/kjaymiller/images/wayne-blm-dataset-nyc.png
 link: https://data-dashboard-blm.netlify.app
 tags: BlackDevelopers

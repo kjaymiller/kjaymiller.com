@@ -1,6 +1,9 @@
 ---
+date: 2023-09-10 23:17:55+00:00
+description: I'll be updating the Render Engine template to include accessibility
+  fixes for our website. I plan to focus on pages with existing issues, starting with
+  this homepage. My goal is to make testing easier and ensure a better user experience.
 title: Using Python to fix my Accessibility nightmare of a website
-date: 2023-09-10T23:17:55Z
 ---
 
 So earlier this year my colleague Pamela Fox gave a wonderful presentation on [using Playwright to test your accessibility](https://www.youtube.com/watch?v=J-4Qa6PSomM&pp=ygUUcGFtZWxhIGZveCBub3J0aCBiYXk%3D) with the help of [axe-core](https://github.com/dequelabs/axe-core). This led to the creation of her module (you guessed it!) - [axe-playwright-python](https://pypi.org/project/axe-playwright-python/).

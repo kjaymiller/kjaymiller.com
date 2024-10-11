@@ -1,8 +1,11 @@
 ---
-title: What 2 Years at Microsoft can do (with the right team)
-date: 2024-02-09T12:11:42-05:00
-slug: jay-leaving-microsoft
+date: 2024-02-09 12:11:42-05:00
+description: I left Microsoft after two incredible years, learning to play a vital
+  role in shaping their AI focus and empowering Python communities. Read my story
+  of growth, mentorship, and finding confidence as a DevRel professional.
 image: https://kjaymiller.azureedge.net/media/jay-microsoft-start-end.jpg
+slug: jay-leaving-microsoft
+title: What 2 Years at Microsoft can do (with the right team)
 ---
 
 It's amazing what you can learn in less than two years. 

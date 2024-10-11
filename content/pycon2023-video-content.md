@@ -1,7 +1,16 @@
 ---
+date: 2023-06-16 21:21:19+00:00
+description: I recently attended PyCon and created a video series featuring interviews
+  with attendees, speakers, and maintainers. I struggled with time management, editing,
+  and technical issues, including low storage space on my devices. Despite these challenges,
+  I enjoyed attending the event and creating content, but acknowledge that producing
+  high-quality videos requires more support and planning.
+tags:
+- microsoft
+- pycon
+- python
+- videos
 title: Being an Videographer and Interviewer at PyCon 2023
-date: 2023-06-16T21:21:19Z
-tags: [microsoft, pycon, python, videos]
 ---
 
 This [PyCon](https://us.pycon.org/2023/) I wanted to work on an amazing video project.

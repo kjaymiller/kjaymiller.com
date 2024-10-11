@@ -1,5 +1,7 @@
 ---
 date: 2022-01-10 20:59:00-08:00
+description: I've made a simple change to my tech project's domain, and it saved me
+  $35 a year. Here's why I did it.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/tech_diversity_orgs_com.jpg
 slug: name-change-tech-diversity-orgs
 title: name change for diversityorgs.tech (Now Tech Diversity Orgs)

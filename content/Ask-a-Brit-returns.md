@@ -1,6 +1,8 @@
 ---
 category: Ask a Brit
 date: 2020-12-11 21:04:00-08:00
+description: Join me and Jay as we dive into our hilarious misadventures trying to
+  grasp each other's cultures - US politics included!
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/AskABritv4.png
 link: https://share.transistor.fm/s/9d9f5cfe
 slug: podcast announcement

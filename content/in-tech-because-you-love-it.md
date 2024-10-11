@@ -1,5 +1,7 @@
 ---
-date: 2023-09-10T17:08:48Z
+date: 2023-09-10 17:08:48+00:00
+description: I used to think loving tech was a luxury only the passionate few could
+  afford. Now I'm realizing that sometimes it's just smart.
 title: Working in Tech because I love Money (and Tech)
 ---
 

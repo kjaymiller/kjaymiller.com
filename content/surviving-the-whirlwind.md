@@ -1,7 +1,10 @@
 ---
 date: 2024-10-08 19:54:32.786973+00:00
+description: Just survived another layoff round. Reflecting on my experience and sharing
+  lessons learned on how to navigate this uncertainty.
+tags:
+- career
 title: Surviving the Whirlwind. A Ramble after (yet another) round of Layoffs
-tags: [career]
 ---
 
 Another Layoff!

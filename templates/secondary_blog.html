@@ -1,9 +1,17 @@
-<div class="lg:grid grid-cols-3 grid-flow-row">
-{% for post in blog %}
-<div class="hover:text-{{theme.colors.main}} hover:shadow-{{theme.colors.main}} p-2 border shadow m-2 align-middle">
-    <a href="{{post.url_for()}}" class="underline font-semibold">
+<div>
+  {% for post in blog %}
+  <div class="p-2 m-2">
+    <div class="text-xl">
+      <a
+        href="{{post.url_for()}}"
+        class="underline drop-shadow-lg hover:decoration-2 hover:text-{{theme.colors.main}} font-semibold"
+      >
         {{post.title}}
-    </a>
-</div>
-{% endfor %}
+      </a>
+    </div>
+    {% if post.description %}
+    <div>{{post.description}}</div>
+    {% endif %}
+  </div>
+  {% endfor %}
 </div>

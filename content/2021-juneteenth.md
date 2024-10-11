@@ -1,5 +1,7 @@
 ---
 date: 2021-06-19 13:00:00-07:00
+description: Join me as I share my experience speaking at Juneteenth conf 2021 and
+  explore how I applied data to create meaningful insights.
 tags: speaking, talks
 title: Speaking at Juneteenth Conf 2021
 youtube: https://www.youtube.com/embed/OfyqAg2IPfc

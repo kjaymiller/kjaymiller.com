@@ -1,6 +1,8 @@
 ---
 category: code
 date: 2021-03-24 13:21:00-07:00
+description: 'I recently rediscovered a simple yet often-overlooked method for securing
+  my online presence: using CertBot with NGINX. Here''s how I do it.'
 tags: certbox, nginx
 title: How to enable certs with CertBot and NGINX
 ---

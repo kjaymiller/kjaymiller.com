@@ -1,6 +1,8 @@
 ---
 category: programming
 date: 2020-05-25 22:32:00-07:00
+description: I'm excited to share my new project, Transcriptor, a helper package that
+  streamlines transcription tasks for developers like me.
 tags: transcriptor
 title: Announcing Transcriptor
 ---

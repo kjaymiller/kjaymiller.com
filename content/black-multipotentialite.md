@@ -1,6 +1,9 @@
 ---
 category: life
 date: 2020-06-06 22:24:00-07:00
+description: As a black multi-potentialite, I'm breaking free from traditional norms
+  and embracing my diverse passions. Read my story of self-discovery, creativity,
+  and unconventional career paths.
 tags: multipotentiality
 title: In Defense of the Black Multi-Potentialite
 ---

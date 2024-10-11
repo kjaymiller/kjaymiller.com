@@ -1,5 +1,7 @@
 ---
 date: 2022-08-05 22:04:00-07:00
+description: I've found my emotional soundtrack in Regina Spektor's music - and I'm
+  hooked.
 tags: music
 title: Regina Spektor is my brain put to music and I love it!
 ---

@@ -1,5 +1,11 @@
 ---
 date: 2023-04-04 21:03:00-07:00
+description: 'Here''s a subtle description to encourage the reader to read the blog
+  post:
+
+
+  "I recently discovered a game-changing way to chain GitHub Actions - and it''s simplifying
+  my deployment process in the best way possible.'
 tags:
 - gh
 - render-engine devlog

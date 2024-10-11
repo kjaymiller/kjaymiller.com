@@ -1,5 +1,7 @@
 ---
 date: 2020-05-25 23:01:00-07:00
+description: Discover how I'm using my daily walks to boost productivity and maintain
+  a healthy routine during quarantine - with surprising benefits you won't expect!
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-05-25-at-23.01.11.png
 title: Quick Productivity Tip - Walk and Talks
 ---

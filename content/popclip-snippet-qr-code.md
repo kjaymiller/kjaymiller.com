@@ -1,5 +1,11 @@
 ---
 date: 2022-02-25 22:10:00-08:00
+description: 'Here is a subtle description to encourage the reader to read the blog
+  post:
+
+
+  "I recently discovered a clever way to generate QR codes using PopClip and shortcuts
+  - check it out in my latest blog post!'
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/QR%20Code%20Shortcut.png
 link: https://forum.popclip.app/t/generator-qr-code-is-very-needed-thank/660
 tags: popclip, shortcuts

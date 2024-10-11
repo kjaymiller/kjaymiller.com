@@ -1,6 +1,9 @@
 ---
 category: YouTube
 date: 2021-06-11 13:00:00-07:00
+description: I'm frustrated with Craft's Calendar view - but I found a hack using
+  Keyboard Maestro that changes everything. Want to learn how? Check out my latest
+  YouTube video.
 tags: YouTube, craft, Keyboard Maestro, automation
 title: Keyboard Shortcuts in Craft’s Calendar View with Keyboard Maestro
 youtube: https://www.youtube.com/embed/u95TCzGe7eo

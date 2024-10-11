@@ -1,5 +1,19 @@
 ---
 date: 2023-01-03 12:30:00-08:00
+description: "Here's a rewritten version of the text in a more concise and clear format:\n\n**Deploying
+  an Azure Static Web App with Python**\n\nAfter failed builds, you'll see a new file
+  added to your repo: `.github/workflows/azure-static-web-apps-<UNIQUE_STRING>.yml`.
+  This is what we'll use to deploy our site.\n\n**Configuring the Action**\n\nAdd
+  a `POST_BUILD_COMMAND` environment variable and set it to `./build.sh`, which includes
+  any necessary build scripts. If you're using pre-processors like TailwindCSS, add
+  a shell script with your steps and set it as an environment variable or directly
+  in the action's build and deploy step.\n\n**Setting Python Version**\n\nTo use Python
+  3.11, add a `PYTHON_VERSION` environment variable to your action: `env:\n    POST_BUILD_COMMAND:
+  ./build.sh\n    PYTHON_VERSION: \"3.11\"`\n\n**Final Steps**\n\nCommit and push
+  changes to retrigger the workflow. If successful, you'll see a link to your site
+  in the output.\n\nNote:\n\n* Make sure to update your `POST_BUILD_COMMAND` with
+  the correct script.\n* Use Python 3.11 if available.\n* Commit and push changes
+  to retrigger the workflow.\n* Check the Azure portal for your custom domain settings."
 image: https://kjaymiller.azureedge.net/media/Python%203.11%20in%20SWA.png
 slug: azure-static-web-apps-python3.11
 title: Azure Static Web Apps supports Python 3.11. Here's how to build yours with

@@ -1,6 +1,8 @@
 ---
 category: reviews
 date: 2020-11-04 16:19:00-08:00
+description: Discover how I transformed my podcast recordings with a game-changing
+  $200 acoustic solution - and what it means for home studio producers like you.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/kaotica-eyeball.jpeg
 subtitle: The $200 Acoustic Paneling to Replace $400 Audio Plugins
 tags: audio, production, sound-proofing

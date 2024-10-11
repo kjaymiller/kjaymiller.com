@@ -1,7 +1,14 @@
 ---
-title: Website Accessibility Audit Reports via GH Actions
-date: 2023-09-13T01:29:26Z
+date: 2023-09-13 01:29:26+00:00
+description: 'Here''s a subtle description to encourage the reader to read the blog
+  post:
+
+
+  "Want to know how I used GitHub Actions to create an accessible website testing
+  workflow? From running tests on a local server to generating summary reports and
+  comparing accessibility audits, discover my step-by-step approach.'
 image: https://jmblogstorrage.blob.core.windows.net/media/gh-action-a11y-build-and-deploy-job.png
+title: Website Accessibility Audit Reports via GH Actions
 ---
 
 I promise this isn't a stalling tactic. I will be working on the accessibility violations. I wanted to create a way to easily see the report.

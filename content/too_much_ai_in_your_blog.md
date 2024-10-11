@@ -1,9 +1,17 @@
 ---
-title: Personal Blogs are no longer personal when AI gets too involved
-date: 2024-03-18T23:19:22Z
-tags: ["ai", "opinion"]
----
+date: 2024-03-18 23:19:22+00:00
+description: 'Here''s a subtle description to encourage the reader to read the blog
+  post:
 
+
+  "As someone who''s used AI to help with writing, I''m torn about its role in personal
+  blogs. Join me on this nuanced conversation about embracing imperfection and personality
+  in our online sharing.'
+tags:
+- ai
+- opinion
+title: Personal Blogs are no longer personal when AI gets too involved
+---
 
 We're hoping to share resources and content in the _Black Python Devs_ Discord and even promote a few pieces in our [newsletter](https://buttondown.email/black-python-devs) and we've run into a terrible problem.
 

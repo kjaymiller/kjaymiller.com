@@ -1,7 +1,20 @@
 ---
-title: More Inclusive Language Using TextExpander
-date: 2024-02-01T17:25:00-05:00
+date: 2024-02-01 17:25:00-05:00
+description: 'Here is a subtle description to encourage the reader to read the blog
+  post:
+
+
+  "As I''ve grown as a collaborator and contributor in open-source projects, I''ve
+  realized that dropping the word ''just'' can make all the difference - not just
+  for my own productivity, but also for those who are trying to make their first contributions.
+  In this post, I share how I''m using TextExpander to rephrase one of my most common
+  phrases and what I''ve learned along the way."
+
+
+  This description is short, personal, and hints at the benefits of changing one''s
+  language habits without being too promotional or clickbait-y.'
 image: https://kjaymiller.azureedge.net/media/text-expander-just.png
+title: More Inclusive Language Using TextExpander
 ---
 
 It's such a simple productivity hack, but for the last few years, I've been trying to stop saying _just do X_.
