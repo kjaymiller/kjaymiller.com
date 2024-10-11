@@ -1,17 +1,15 @@
 ---
 date: 2024-10-10 15:19:54.563279+00:00
-description: Discover how one Python expert shares their top talk ideas for 2025,
-  covering topics from DevRel careers to open source contributions and cutting-edge
-  tech trends.
+description: "Here is my list of talk ideas that I'm taking into 2025, covering topics from DevRel careers to open source contributions and tech trends."
 tags:
-- python
-- speaking
+  - python
+  - speaking
 title: Talk Ideas for 2025
 ---
 
 I have a feeling that I won't be able to attend as many Python events on behalf of my employer next year so I am throwing out there a list of talks that I'm planning on submitting.
 
-I'm going to break them down into 3 categories: Keynote Level and Standard Talk. I'm happy to talk more about each of these on in detail on social media perhaps.
+I'm going to break them down into 2 categories: Keynote Level and Standard Talk. I'm happy to talk more about each of these on in detail on social media perhaps.
 
 ## Keynote
 
