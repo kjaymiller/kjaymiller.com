@@ -1,7 +1,10 @@
 ---
 date: 2024-10-14 15:06:08.761318+00:00
-title: DjangoCon US 2025 Interview Series
+description: I reflect on this year's DjangoCon US and look ahead to improvements
+  in 2025, exploring what I learned from the experience and how it will shape our
+  future events.
 image: https://kjaymiller.azureedge.net/media/DjangoConUS%202024%20Perspectives%20Monical%20Oyuhgi.webp
+title: DjangoCon US 2025 Interview Series
 ---
 
 [All the videos for _DjangoCon US 2024 Perspectives_](https://www.youtube.com/playlist?list=PL2NFhrDSOxgVFmeAjIMjIyNesLJbwj_-K) are now live.
