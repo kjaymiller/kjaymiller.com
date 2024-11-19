@@ -28,7 +28,7 @@ I was told that my ideas weren't necessarily bad and I should consider running f
 
 But I look at another DSF election and I'm happy to see some new faces (and some old ones).
 
-## I'm and insider looking in
+## I'm an insider looking in
 
 Don't get me wrong. I talk about my friends as if I'm on the same level with them... I'm absolutely NOT. I've deployed perhaps no more than 4 Django apps to a public URL in my lifetime which likely saw a combined 1000 unique visitors and racked up an over $10k AWS bill. Every year (for the last 3) I go to DjangoCon US and spend more time at the sponsor's booths and in the beginner-friendly talks than anywhere else. But lately I've seen something happen.
 
