@@ -52,7 +52,7 @@ Python has changed how it has been managed and governed a few times now. Paul Ev
 
 > Python went into the commons, and the commons was able to administer it.
 
-Guido's _permanent vacation from being BDFL_ gave me (about 4 years into Python) some trepidation about the languages future. Too bad I didn't know Guido at the time. I also didn't read his words.
+Guido's _permanent vacation from being BDFL_ gave me (about 4 years into Python) some trepidation about the languages future. Too bad I didn't know Guido at the time. I also didn't read [his words](https://mail.python.org/pipermail/python-committers/2018-July/005664.html).
 
 > I'm not worried about the day to day decisions in the issue tracker or on GitHub. Very rarely I get asked for an opinion, and usually it's not actually important...
 >
