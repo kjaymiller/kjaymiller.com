@@ -2,6 +2,7 @@
 title: How Long Should We Be in Charge
 description: When you've been involved for a long time, it's hard to let go of it. This piece helps me inspect my feelings of long-term governance.
 date: 2024-11-19T12:14:00-04:00
+image: https://kjaymiller.azureedge.net/media/Frank-and-Jay-mani-pedi.jpeg
 tags: [python, governance]
 ---
 
