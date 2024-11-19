@@ -78,3 +78,27 @@ Ultimately, I believe we continue to have more conversation around governance an
 I'm bringing this up around the DSF election and I've been referencing it mostly because I do think there is a problem with many of the Django community leaders being some of it's founding fathers (that word specifically because they are almost all male or male-identifying). I write this looking at my own decisions as well. BPD has no term limits (again stay tune for announcements at the end of the year). The executor role is a BDFL role. That said my goal is to find my successor as soon as possible. Not so that hopefully in the next 5 years I can find myself in a similar situation as to Guido. _Very rarely I get asked for an opinion, and usually it's not actually important_.
 
 I don't think Python or Django is going away any time soon. But the landscape is varying and we're seeing many of the new leaders coming from different locations speaking different languages. I have no fear that we'll get to a position where Python will continue to set the example for every other language in its welcoming and enchanting community. My only fear is that it will take longer than it needed to because no one stepped down to _make sure there is an opportunity to have some change_.
+
+## Next day updates and acknowledgements
+
+Thank you folks for the warm reception of this post. I did get some feedback that I want to address.
+
+### What is the overall point of this
+
+This isn't an attack on the DSF or a Praise on the PSF or DSF's actions. In fact, I'm not speaking to any particular org or governance model. These are the largest communities that I have **SOME** (not a lot) visibility into their governance model.
+
+The overall point of this is that I hear people say they want to step aside for others to come in. Fast-forward a few years, they are still there. I also see myself sadly moving into that direction so I hope my words will serve as a reminder that _stepping aside IS OKAY_ and doing it earlier than you think you can is also fine.
+
+### some talking-points feeling ageist
+
+I don't want to make it sound anything like "if you are at X age, then step aside." People come to Python from all walks of life at all ages. I also think there is some benefit from folks that have been leading in one place coming to share that expertise in other places. Cannon's words rang loudly as I read and re-read this. _Making sure there is an opportunity for change_. In my own world I don't think I'm at that point but I'm looking for those that could come in and take my place as BPD's executor in the future. I want that future to be earlier than most people think (like in a few years). That replacement probably should be someone that knows how to setup a tech non-profit for longevity and sustained success. I actually hope my role decreases to the point that an executive director can come in without much disruption to day-to-day work. This is likely someone my senior with a long tenure of success in other ventures (but could be anyone. My desire is what's best for the community, even when the answer is not me).
+
+### Examples being specific or not as they seem
+
+YEAH... I'm not perfect or a journalist. My goal was to look at examples I could fine of people stepping down on their own volition.
+
+Guido stepped down but was still very involved with Python's organizational leadership for some time after. This was also after serving as BDFL for over 2 decades.
+
+Cannon stepped down from the PSF Steering Council after 5 years on it and after 30 years of core development work. He's still very much involved in core-development.
+
+These examples are kinda the point. Stepping down, away, aside is different for everyone. Again not to belabor the point but my hope is that no one believes they can't step away from any somewhat stable org without it failing. There is nothing saying that you stepping aside means you have to give up all your things (just some of them).
