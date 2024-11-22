@@ -20,6 +20,7 @@
       "header_gradient_interval": 100
     },
     "title_size": "small",
+    "footer_column1": "footer_block_1.html",
     "footer_column2": "footer_block_2.html",
     "social": {
       "youtube": "https://www.youtube.com/kjaymiller",
