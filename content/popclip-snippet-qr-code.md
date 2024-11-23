@@ -1,18 +1,15 @@
 ---
 date: 2022-02-25 22:10:00-08:00
-description: 'Here is a subtle description to encourage the reader to read the blog
-  post:
-
-
+description:
   "I recently discovered a clever way to generate QR codes using PopClip and shortcuts
-  - check it out in my latest blog post!'
+  - check it out in my latest blog post!"
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/QR%20Code%20Shortcut.png
 link: https://forum.popclip.app/t/generator-qr-code-is-very-needed-thank/660
 tags: popclip, shortcuts
 title: Generate QR Codes Using PopClip and Shortcuts
 ---
 
-While checking email I saw there was a new popclip forum post[^1] where OP was asking for a snippet that generated a qr code... 
+While checking email I saw there was a new popclip forum post[^1] where OP was asking for a snippet that generated a qr code...
 
 I did that thing where I started typing before my brain could stop me.
 
@@ -26,7 +23,7 @@ Also, popclip extension snippets support shortcuts.
 # popclip Generate QR Code
 name:  QR
 requirements: [url]
-icon: square q 
+icon: square q
 shortcut name: QR Code
 ```
 
@@ -36,6 +33,7 @@ Here is a quick demo of it working...
 
 Also I talk about a bunch of different things you can do with Popclip extension snippets in this video.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mF8KHV7s3EE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/mF8KHV7s3EE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [^1]: Yes I get forum notifications via email but only the ones I really like. 😉
+

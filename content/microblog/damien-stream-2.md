@@ -10,5 +10,4 @@ Tune in tomorrow at 12:30 ET.
 
 Get your timezone conversion at - <https://time.is/compare/1230AM_18_Sept_2024_in_Atlanta>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FVgSViFuvx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+<iframe src="https://www.youtube.com/embed/FVgSViFuvx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -1,7 +1,8 @@
 ---
 category: reviews
 date: 2020-11-04 16:19:00-08:00
-description: Discover how I transformed my podcast recordings with a game-changing
+description:
+  Discover how I transformed my podcast recordings with a game-changing
   $200 acoustic solution - and what it means for home studio producers like you.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/kaotica-eyeball.jpeg
 subtitle: The $200 Acoustic Paneling to Replace $400 Audio Plugins
@@ -15,9 +16,10 @@ I was saddened to still have the barks come through in our recording. While I th
 
 I guess I'll be keeping the eyeball. If you want to hear how it sounds, check out this [episode of the PIT Show](https://podcast.productivityintech.com/s2020/25).
 
-<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/6ecb6cf5"></iframe>
+<iframe frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/6ecb6cf5"></iframe>
 
 In that episode I removed my normal [RX Plugins](https://www.izotope.com/en/products/rx/features.htmll):
+
 - Vocal De-Noise
 - De-Reverb
 - De Plosive
@@ -27,3 +29,4 @@ In that episode I removed my normal [RX Plugins](https://www.izotope.com/en/prod
 This retained some of the natural quality in the recording. While I don't think many people would notice a difference in quality, there is definitely a difference. But this also reduces my processing time and resources required on podcast and videos.
 
 I am not ready to say that this is the $200 solution that every producer would need, but for those home-studio podcasters whose space is being encroached on in during the pandemic it will definitely be a help (albeit expensive) to improve audio on your track.
+
