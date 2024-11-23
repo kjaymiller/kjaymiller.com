@@ -1,4 +1,4 @@
-render-engine[cli]
+render-engine[cli]>=2024.11.2a1
 
 # Themes
 render-engine-json>=2024.1.1a1

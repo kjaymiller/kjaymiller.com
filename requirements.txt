@@ -184,7 +184,7 @@ pyyaml==6.0.2
     #   langchain-community
     #   langchain-core
     #   python-frontmatter
-render-engine[cli]==2024.11.1
+render-engine[cli]==2024.11.2a1
     # via
     #   -r requirements.in
     #   render-engine-aggregators
