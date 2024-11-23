@@ -1,5 +1,5 @@
 {% extends "page.html" %}
-{% block title %} {{content | truncate(15, False) }} {% endblock %}
+{% block title %} {{content | striptags | truncate(15, False) }} | {{SITE_TITLE}} {% endblock %}
 {% block content %}
         {% if microblog_entry in template_vars %}
             {% include template_vars['microblog_entry'] %}
