@@ -20,3 +20,7 @@
   @apply border border-gray-300 rounded-lg p-2 my-1;
   @apply hover:bg-purple-100;
 }
+
+.microblog-entry {
+  @apply break-all;
+}

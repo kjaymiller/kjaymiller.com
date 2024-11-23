@@ -4,9 +4,9 @@ from jinja2.environment import Environment as Environment
 
 
 from render_engine import (
-        Page,
-        Site,
-        Collection,
+    Page,
+    Site,
+    Collection,
 )
 from render_engine.blog import Blog as _Blog
 
@@ -35,7 +35,7 @@ app.plugin_manager.plugin_settings["LunrPlugin"].update(
 if os.environ.get("prod", False):
     app.site_vars.update({"SITE_URL": "https://kjaymiller.com"})
 else:
-    app.site_vars.update({"SITE_URL": "http://localhost:8000"})
+    app.site_vars.update({"SITE_URL": ""})
 
 markdown_extras = [
     "admonitions",
@@ -53,12 +53,14 @@ class Conferences(Page):
     Parser = JSONPageParser
     content_path = "conferences.json"
 
+
 @app.page
 class GuestAppearances(Page):
     Parser = JSONPageParser
     content_path = "guest_appearances.json"
     template = "guest_appearances.html"
     parser_extras = {"markdown_extras": markdown_extras}
+
 
 @app.collection
 class Pages(Collection):
@@ -108,7 +110,6 @@ latest_episodes = {
     },
     "blog": app.route_list["blog"].latest(3),
 }
-
 
 
 @app.page

@@ -1,8 +1,8 @@
 <div
-  class="container prose dark:prose-invert mx-auto xl:w-1/2 my-4 p-2 border rounded shadow-lg hover:shadow-{{theme.colors.main}}"
+  class="break-words prose dark:prose-invert xl:w-1/2 mx-2 my-4 p-2 border rounded shadow-lg hover:shadow-{{theme.colors.main}}"
 >
-  {{ post._content }}
-  <p id="microblog-post-metadata">
+  <div class="microblog-post-content">{{ post._content }}</div>
+  <p class="microblog-post-metadata">
     on {{ post.date|to_pub_date }} <a href="{{post.url_for()}}">🔗</a>
   </p>
 </div>
