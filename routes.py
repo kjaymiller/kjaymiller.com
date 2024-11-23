@@ -3,11 +3,14 @@ import json
 from jinja2.environment import Environment as Environment
 
 
-from render_engine import Page
-from render_engine.site import Site
-from render_engine.blog import Blog
+from render_engine import (
+        Page,
+        Site,
+        Collection,
+)
+from render_engine.blog import Blog as _Blog
+
 from render_engine_microblog import MicroBlog
-from render_engine.collection import Collection
 from render_engine_markdown import MarkdownPageParser
 from render_engine_aggregators.feed import AggregateFeed
 
@@ -50,6 +53,12 @@ class Conferences(Page):
     Parser = JSONPageParser
     content_path = "conferences.json"
 
+@app.page
+class GuestAppearances(Page):
+    Parser = JSONPageParser
+    content_path = "guest_appearances.json"
+    template = "guest_appearances.html"
+    parser_extras = {"markdown_extras": markdown_extras}
 
 @app.collection
 class Pages(Collection):
@@ -60,7 +69,7 @@ class Pages(Collection):
 
 
 @app.collection
-class Blog(Blog):
+class Blog(_Blog):
     Parser = MarkdownPageParser
     parser_extras = {"markdown_extras": markdown_extras}
     subcollections = ["tags"]
@@ -99,6 +108,7 @@ latest_episodes = {
     },
     "blog": app.route_list["blog"].latest(3),
 }
+
 
 
 @app.page
