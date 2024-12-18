@@ -5,7 +5,7 @@ tags: ["psf", "awards"]
 description: I was selected as a PSF Fellow. It means a lot and I took some time to reflect on it.
 ---
 
-Last week I received an email that I had hoped to one day received. [The Python Software Foundation (PSF) had given me Fellowship status](https://pyfound.blogspot.com/2024/12/announcing-python-software-foundation.html).
+Last week I received an email that I had hoped to one day receive. [The Python Software Foundation (PSF) had given me Fellowship status](https://pyfound.blogspot.com/2024/12/announcing-python-software-foundation.html).
 
 _I'm a PSF Fellow._ Hmm...
 
@@ -37,9 +37,9 @@ I say this because the most important thing I've learned in Python is that the c
 - Number two is the sustainability of the language. How do we make sure that Python is around in 20 years.
 - Number three is the code.
 
-I think most people look at Python with their complaints because they look at it backwards. I often talk to new community members and they want to talk about the code. I talk with companies (including my own) and they want to talk about the code[^1]
+I think most people look at Python with their complaints because they look at it backwards. I often talk to new community members and they want to talk about the code. I talk with companies (including my own) and they want to talk about the code[^1].
 
-Brett Cannon once told me, "The greatest impact I can make to the Python Community is continuing to be a great communicator." Someone recently told me that my commmunication around Python would impact more people than any line of code I could write. I think they are correct but
+Brett Cannon once told me, "The greatest impact I can make to the Python Community is continuing to be a great communicator." Someone recently told me that my commmunication around Python would impact more people than any line of code I could write.
 
 If there was any lesson in how you can become a PSF fellow, it's care more about the people than the code.
 
