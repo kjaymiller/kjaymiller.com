@@ -15,15 +15,15 @@ _I'm a PSF Fellow._ Hmm...
 
 I've said this many times, I would not be a Python Developer if it weren't for a handful of people that made up my first Python Community.
 
-The first person to have an actual (we won't talk about the very first) conversation around my code and Python was Trey Hunner. He invited me to get boba and shared with me about attending PyCon in Montreal and the local San Diego Python community. I was struggling with some Python concepts (having only been using Python for a few weeks at that time). Ten years later, Trey is still someone that I frequently connect with and learn from. I was amazed to find out that Trey was not a Fellow already, but I'm happy to be joining with him.
+The first person to have an actual (we won't talk about the very first) conversation around my code and Python was [Trey Hunner](https://treyhunner.com/). He invited me to get boba and shared with me about attending PyCon in Montreal and the local San Diego Python community. I was struggling with some Python concepts (having only been using Python for a few weeks at that time). Ten years later, Trey is still someone that I frequently connect with and learn from. I was amazed to find out that Trey was not a Fellow already, but I'm happy to be joining with him.
 
-Another fellow awardee was my good friend Kojo Idrissa. If my ideas could be described as lightning (wild, eratic, turbulent), Kojo is the lightning rod which is crucial to harnessing that lightning, controlling it, and maybe even convert some of it into electricity. I don't think my ideas travel as far as they do without Kojo being there to help clarify them and show how my simplest of thoughts are at the base of more complex ideas that come with multitudes of other issues beyond the control of the Python Community.
+Another fellow awardee was my good friend [Kojo Idrissa](https://github.com/kojoidrissa). If my ideas could be described as lightning (wild, eratic, turbulent), Kojo is the lightning rod which is crucial to harnessing that lightning, controlling it, and maybe even convert some of it into electricity. I don't think my ideas travel as far as they do without Kojo being there to help clarify them and show how my simplest of thoughts are at the base of more complex ideas that come with multitudes of other issues beyond the control of the Python Community.
 
 I'm glad to also see Kojo get his flowers as he has become THE friendly, familiar face across America and Africa for Python devs. Congrats, you deserve it!
 
-Thank you to my good friends Jon Bonafato, Jacob Kaplan Moss, and Melanie Arbor. Sticking with the lightning metaphor, y'all are the people that help catch that lightning in a bottle to make something truly amazing. Y'all were the ones who saw an idea that I had and said "what if I helped with that". I also have amazing folks like Velda Kiara, and Denny Perez, Georgi Kerr, and Anthony Shaw that saw my half-baked ideas and said "What if you did it this way...?"
+Thank you to my good friends [Jon Bonafato](https://www.jonafato.com/), [Jacob Kaplan Moss](https://jacobian.org/), and [Melanie Arbor](https://melaniearbor.com/). Sticking with the lightning metaphor, y'all are the people that help catch that lightning in a bottle to make something truly amazing. Y'all were the ones who saw an idea that I had and said "what if I helped with that". I also have amazing folks like [Velda Kiara](https://veldakiara.notion.site/Velda-Kiara-46aec24028fd4e8dbdba003097c18b5b), and [Denny Perez](https://www.linkedin.com/in/dennyperez18/), [Georgi Ker](https://www.linkedin.com/in/georgiker/), and [Anthony Shaw](https://tonybaloney.github.io/) that saw my half-baked ideas and said "What if you did it this way...?"
 
-And lastly you have the group of enablers like Iqbal Abdullah, Jeff Triplett, Mason Egger, Mario Munoz, Loren Crary, and Tim Schilling that make sure to convince me to volunteer for things. It is truly their fault I'm around as much as I am and I thank you for it.
+And lastly you have the group of enablers like [Iqbal Abdullah](https://www.linkedin.com/in/iqbalabd/), [Jeff Triplett](https://jefftriplett.com/), [Mason Egger](https://mason.dev/), [Mario Munoz](https://pythonbynight.com/), [Loren Crary](https://www.linkedin.com/in/loren-crary/), and [Tim Schilling](https://www.better-simple.com/) that make sure to convince me to volunteer for things. It is truly their fault I'm around as much as I am and I thank you for it.
 
 ## How to become a PSF Fellow
 
@@ -39,7 +39,7 @@ I say this because the most important thing I've learned in Python is that the c
 
 I think most people look at Python with their complaints because they look at it backwards. I often talk to new community members and they want to talk about the code. I talk with companies (including my own) and they want to talk about the code[^1].
 
-Brett Cannon once told me, "The greatest impact I can make to the Python Community is continuing to be a great communicator." Someone recently told me that my commmunication around Python would impact more people than any line of code I could write.
+[Brett Cannon](https://snarky.ca/) once told me, "The greatest impact I can make to the Python Community is continuing to be a great communicator." Someone recently told me that my commmunication around Python would impact more people than any line of code I could write.
 
 If there was any lesson in how you can become a PSF fellow, it's care more about the people than the code.
 
