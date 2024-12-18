@@ -3,6 +3,7 @@ date: 2024-12-18 14:32:58.735946+00:00
 title: On Becoming a PSF Fellow
 tags: ["psf", "awards"]
 description: I was selected as a PSF Fellow. It means a lot and I took some time to reflect on it.
+image: https://kjaymiller.azureedge.net/media/jay_velda_afi_mario_dcus-2024.webp
 ---
 
 Last week I received an email that I had hoped to one day receive. [The Python Software Foundation (PSF) had given me Fellowship status](https://pyfound.blogspot.com/2024/12/announcing-python-software-foundation.html).
