@@ -3,6 +3,7 @@ title: Three Moments that made 2024 🏆
 date: 2024-12-30T15:15:00-04:00
 tags: ["jaysies"]
 description: Congratulations to the 2024 Jaysies winners and honorable mentions!
+image: https://kjaymiller.azureedge.net/media/jaysies-2024.jpg
 ---
 
 Wow 2024 was super busy. Whether it was my departure from Microsoft early in the year to join Aiven, or my exploration as an open source maintainer.
