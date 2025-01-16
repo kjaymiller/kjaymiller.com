@@ -41,8 +41,6 @@ I wanted to see how many events would be impacted by this amount so I checked th
 
 2024:
 
-Event
-
 - PyCon Africa 2024 Accra, Ghana - $22,200
 - PyCon Taiwan 2024 Kaohsiung, Taiwan - $12,000
 - Plone Conference 2024 and Python Cerrado 2024 Brasilia, Brazil - $10,050 (events were combined)
