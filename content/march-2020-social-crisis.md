@@ -8,7 +8,7 @@ title: I Can't Be the Only One Seeing This
 
 What are people yelling about?
 
-I scrolled through a twitter thread about asking people to give a side by side comparison of candidate x and candidate y in regarding how their policy affected underrepresented groups. 
+I scrolled through a twitter thread about asking people to give a side by side comparison of candidate x and candidate y in regarding how their policy affected underrepresented groups.
 
 The responses were:
 
@@ -23,7 +23,7 @@ I don't even know looked at the thread. Maybe I was hoping for an inkling of hum
 
 ![My thoughts](https://media1.giphy.com/media/ZbUOH7pbDiNSmU1x4o/giphy.gif)
 
-I'm considering checking out from ALL SOCIAL MEDIA. I wonder if the perks (sense of community, networking opportunities, learning from amazing folks) are worth dealing with the things I don't care about. I want to hear about so many things. 
+I'm considering checking out from ALL SOCIAL MEDIA. I wonder if the perks (sense of community, networking opportunities, learning from amazing folks) are worth dealing with the things I don't care about. I want to hear about so many things.
 
 - Great new podcasts from people struggling with their Productivity
 - Podcasts of people that are so in love with a topic that they will wax poetic to an audience of 4 on a regular basis
@@ -45,27 +45,27 @@ To expand on that, I would love it so that you can only see the replies. If they
 
 I've met so many wonderful people. I've seen so many wonderful things, and it's been because of social media, but I'm tired.
 
-- I'm tired of being sold to (and I'm a Marketer). 
-- I'm tired of being told to yell at people. 
- 
+- I'm tired of being sold to (and I'm a Marketer).
+- I'm tired of being told to yell at people.
+
 I'm just SO TIRED. 😭
 
 Dear Social Media Companies:
 	I don't care about followers anymore.
 
-	Don't allow me to follow people, allow me to follow ideas and inspiration. 
+	Don't allow me to follow people, allow me to follow ideas and inspiration.
 
-	I know this doesn't help your agenda. I know you don't care about me. I don't affect your bottom line. 
+	I know this doesn't help your agenda. I know you don't care about me. I don't affect your bottom line.
 
 	Don't you realize the pain you cause people? Does that mean nothing to you?
 
-Another tear-filled, anxiety-stricken day. I'm exhausted. I feel I've aged 30 years in the last 10. I want respite, but at the same time, giving up all of this means losing connection all the wonderful people and benefits I can only find online through DMs. 
+Another tear-filled, anxiety-stricken day. I'm exhausted. I feel I've aged 30 years in the last 10. I want respite, but at the same time, giving up all of this means losing connection all the wonderful people and benefits I can only find online through DMs.
 
 I'm literally digging through mountains of excrement to find the occasional life changing connections.
 
 
 I'm okay, I'm just disappearing for a while.
 
-The perfect end to this rant is the exact response I would expect from my fellow millennials. 
+The perfect end to this rant is the exact response I would expect from my fellow millennials.
 
 ... OK BOOMER ...

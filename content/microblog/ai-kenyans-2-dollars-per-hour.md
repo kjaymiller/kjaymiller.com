@@ -12,4 +12,3 @@ The major companies pay these 3rd party companies to train their (in their words
 I would ask that major companies require a minimum contract payment and term length and offering the same mental health care resources or equivalent to those training.
 
 <iframe src="https://www.youtube.com/embed/qZS50KXjAX0?si=hf72lWtjniMCKSCe" title="Kenyans YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-

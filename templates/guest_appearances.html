@@ -11,11 +11,11 @@
     <h2 class="py-1 text-xl">{{episode.podcast}}</h2>
     <img src="{{episode.image}}" alt="{{episode.podcast}} artwork"
     <p class="py-1"><strong><a href="{{episode.url}}">{{episode.title}}</a></strong> | {{episode.date}}</h2>
-        
+
         {% if episode.description %}
         <p>{{episode.description}}</p>
         {% endif %}
-        
+
     </div>
     {% endfor %}
 </section>

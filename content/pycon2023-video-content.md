@@ -15,7 +15,7 @@ title: Being an Videographer and Interviewer at PyCon 2023
 
 This [PyCon](https://us.pycon.org/2023/) I wanted to work on an amazing video project.
 
-I've always dreamed of being one of those folks that is _live on the show-floor_ interviewing folks at a large conference. I was excited to be offered the opportunity to attend PyCon US on behalf of Microsoft, but our limited team kept me at our booth most of the conference. 
+I've always dreamed of being one of those folks that is _live on the show-floor_ interviewing folks at a large conference. I was excited to be offered the opportunity to attend PyCon US on behalf of Microsoft, but our limited team kept me at our booth most of the conference.
 
 ![The Microsoft Booth Pre-PyCon](https://kjaymiller.azureedge.net/media/microsoft-booth-pre-pycon-2023.jpeg)
 
@@ -23,7 +23,7 @@ That said I came up with a plan that I believe worked extremely well.
 
 ## Recorded presentations from the Microsoft Booth.
 
-The first was to ensure that folks had a reason beyond the swag and kiosks to come check out the Microsoft Booth. 
+The first was to ensure that folks had a reason beyond the swag and kiosks to come check out the Microsoft Booth.
 
 ![The crowd during Luciana's VS Code Show and Tell](https://kjaymiller.azureedge.net/media/crowd-at-lucianas-preso-pycon-2023.jpeg)
 
@@ -39,18 +39,18 @@ I also took the opportunity to interview Brett Cannon to get more information ab
 
 ## Python Perspectives
 
-I also took the opportunity to get some perspectives from many different folks attending PyCon. I interviewed several prominent faces in the community. 
+I also took the opportunity to get some perspectives from many different folks attending PyCon. I interviewed several prominent faces in the community.
 
 Author [Al Sweigart](https://alsweigart.com/) talked about [temporary fame and getting insight from the conference](https://www.youtube.com/watch?v=LBI7T3PpbHA). Co-Founder of _ReadTheDocs_ [Erik Holscher](https://www.ericholscher.com/) shared how [he makes PyCon _worth-it_ after 15 years](https://www.youtube.com/watch?v=KGAL1h9m-Es). Python instructor [Trey Hunner](https://treyhunner.com/) shared why [the best part of the conference may not be the conference itself](https://www.youtube.com/watch?v=HzuXmzhFJ6Y
 ). _PyCon Charlas_ Chairs [Dr. Christián Maureira-Fredes](https://maureira.xyz/) and [Denny Perez](https://maureira.xyz/) spoke about [the program and its growth in recent years](https://www.youtube.com/watch?v=PiRvyjwKwmY). Core Maintainer of _Beeware_ [Russell Keith McGee](https://cecinestpasun.com/) [compared the Python Community to others that he works with and the joy of helping people contribute to open source](https://www.youtube.com/watch?v=C3TgQHBEo0Q). Maintainer of Python's most popular package _urllib3_ [Seth Larson](https://sethmlarson.dev/) talked about learning [specific uses of the tools he maintains](https://www.youtube.com/watch?v=_b1rS2dJpiw). Two-Time attendee and workshop presenter [Mario Munoz](https://pythonbynight.com) shares [the difference between his first and second PyCon and getting involved by volunteering](https://www.youtube.com/watch?v=qmD9b0tKT84).
 
-![Selfie with Michael Kennedy and Mario Munoz](https://kjaymiller.azureedge.net/media/michael-and-mario-at-lunch-selfie-pycon-2023.jpeg) 
+![Selfie with Michael Kennedy and Mario Munoz](https://kjaymiller.azureedge.net/media/michael-and-mario-at-lunch-selfie-pycon-2023.jpeg)
 
 And MOST IMPORTANTLY! [Aseda Addai-Deseh](https://twitter.com/AsedaAD) shared what we hope the [76% percent of PyCon attendees, who were attending for the first-time, were feeling](https://www.youtube.com/watch?v=89_JZUGoZJ8).
 
 ## Overall and What I'd do Differently
 
-This was a lot of content (16 videos) and it took some time to get through with editing and getting published (The videos marked for my personal channel were easier to get out the door). To be honest one of the challenges was due to just being out of practice. The biggest thing I would need to do is spend more time creating (and editing content). I think many of the mistakes that I made like forgetting to turn on a mic or my camera not being in focus were just due to not having (and using) a checklist created from years of practice. I would also love to work with someone as well to make sure that things were setup (especially when I'm conducting an interview). We had times where folks would walk in front of the camera. 
+This was a lot of content (16 videos) and it took some time to get through with editing and getting published (The videos marked for my personal channel were easier to get out the door). To be honest one of the challenges was due to just being out of practice. The biggest thing I would need to do is spend more time creating (and editing content). I think many of the mistakes that I made like forgetting to turn on a mic or my camera not being in focus were just due to not having (and using) a checklist created from years of practice. I would also love to work with someone as well to make sure that things were setup (especially when I'm conducting an interview). We had times where folks would walk in front of the camera.
 
 I know that you don't need a lot of technology in order to do what I did. I recorded with a single [Sony A6400](https://amzn.to/3PzGATh) and a set of [RODE wireless mics](https://amzn.to/3qIk0x3). I think with a field recorder grabbing the audio and a multi camera setup, it would have been easier to edit and have been better quality consistently.
 
@@ -58,6 +58,6 @@ Sadly, I did lose a couple of videos due to my memory card filling up - (yes I o
 
 There is an odd balance in this. I want to enjoy the event, but I also want to produce the best quality that I can. Because of my work schedule and all the planning in doing these videos, I only saw 2 talks and **they were the final keynotes**! 😬. This comes with the territory of creating content and I often advise folks to think about this before making the decision to do video (or even blogging) for a living. That said I know that if I had more support in doing this, I would be able to treat it more like a job and less like a _hustle_ and set healthy boundaries and policies to make it happen.
 
-All this said, I'm still excited I was able to do this and that my company gave me the opportunity to attend and create these experiences. 
+All this said, I'm still excited I was able to do this and that my company gave me the opportunity to attend and create these experiences.
 
 You can view the Microsoft specific content on [our Learn platform](https://learn.microsoft.com/en-us/events/microsoft-at-pycon-us-2023/) and the perspectives videos on the [Python Community News YouTube channel](https://youtube.com/@pycommunitynews).

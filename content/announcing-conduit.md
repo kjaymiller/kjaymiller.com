@@ -18,7 +18,7 @@ _Conduit_ is a new show on RelayFM! I'll be joined by [Kathy Campbell](https://t
 
 This show covers productivity topics in both work and life that don't have a hashtag. Topics like _I get jealous of all my friends' success and it makes me feel like a failure!_ or _How can I make my work projects seem as fun as my projects in Minecraft!_
 
-We're not promoting a methodology or a system. We aren't productivity professionals with articles, blog posts, courses, or books to promote! There won't be much talk about the apps or tools that we use (maybe a little in Episode 1, but that's intentional). 
+We're not promoting a methodology or a system. We aren't productivity professionals with articles, blog posts, courses, or books to promote! There won't be much talk about the apps or tools that we use (maybe a little in Episode 1, but that's intentional).
 
 We believe we have the tools to do your best work in that moment. We just need to thinking about how  we're using them and making some small adjustments.
 

@@ -45,6 +45,6 @@ catch (err) {
 }
 ```
 
-I also created [this gist](https://gist.github.com/kjaymiller/c356c81749b98d433b4b117737a8a4a5) that I'll try to update. 
+I also created [this gist](https://gist.github.com/kjaymiller/c356c81749b98d433b4b117737a8a4a5) that I'll try to update.
 
 In the next version, I'll likely try to edit the buttons for followgraph directly so that it open from there instead of loading the window and then opening the app (and closing the window).

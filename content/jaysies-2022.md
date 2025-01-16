@@ -34,7 +34,7 @@ Mario has been an awesome newer face in the Python community. He was someone tha
 
 ![Mario, Myself, and Anthony Shaw at Pycon 2022](https://kjaymiller.azureedge.net/media/mario_jay_anthony_pycon2022.jpeg)
 
-The biggest impact that Mario has provided is his humility and fresh eyes. It's always wonderful to get insight from someone that isn't _jaded_. Mario and I share a similar path into the field so I see a lot of my own journey in his. Also, Mario isn't afraid to share where he's at. Many beginners are hesitant but Mario is open to sharing where he's at and the challenges he faces, like in his DjangoCon Talk this year. 
+The biggest impact that Mario has provided is his humility and fresh eyes. It's always wonderful to get insight from someone that isn't _jaded_. Mario and I share a similar path into the field so I see a lot of my own journey in his. Also, Mario isn't afraid to share where he's at. Many beginners are hesitant but Mario is open to sharing where he's at and the challenges he faces, like in his DjangoCon Talk this year.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/D2CsQXONTxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -42,9 +42,9 @@ I look forward to seeing his growth and hope he's able to keep that same excitem
 
 ## Reginald Davis
 
-All the folks, this year were on the tech side and Reggie is no different. Reggie and I were coworkers but we have known each other for a few years. This March I got a chance to spend some time with him in Houston (one of my favorite places in the US). In those few days, Reggie shared an amazing lifestyle including an excellent work outside the office culture where we connected with other remote workers in 2-3 places around the city. He also showed excellent self-care practices which include Yoga, Aromatherapy, and Therapy. 
+All the folks, this year were on the tech side and Reggie is no different. Reggie and I were coworkers but we have known each other for a few years. This March I got a chance to spend some time with him in Houston (one of my favorite places in the US). In those few days, Reggie shared an amazing lifestyle including an excellent work outside the office culture where we connected with other remote workers in 2-3 places around the city. He also showed excellent self-care practices which include Yoga, Aromatherapy, and Therapy.
 
-Reggie and I are both Black Males, a group that historically stigmatizes self care. Reggie's swagger and style bring a self of coolness to making sure you look at feel your best. I guess that's why he confidently owns the _coolest nerd in the room_ title. 
+Reggie and I are both Black Males, a group that historically stigmatizes self care. Reggie's swagger and style bring a self of coolness to making sure you look at feel your best. I guess that's why he confidently owns the _coolest nerd in the room_ title.
 
 ![(In order) Myself, Jameson Hampton, and Reggie at Refactr.Tech 2022](https://kjaymiller.azureedge.net/media/Jay_Jameson_reggie_refactrtech_2022.jpeg)
 

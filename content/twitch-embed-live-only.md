@@ -9,7 +9,7 @@ tags: twitch, javascript, KISS
 title: How I Made My Twitch Player Appear on My Site Only When I'm Live
 ---
 
-I wanted to write this to show that the easiest answer can often elude us. 
+I wanted to write this to show that the easiest answer can often elude us.
 
 If I asked you to add a twitch frame to a website and make it only appear when you were live, how would you do it?
 
@@ -19,7 +19,7 @@ Following the [documentation](https://dev.twitch.tv/docs/embed/everything) from 
 
 ## Checking the Live Status
 
-After spending an hour on stream trying to build a twitch app, I opted for the more low-tech solution. 
+After spending an hour on stream trying to build a twitch app, I opted for the more low-tech solution.
 
 ```javascript
 if (player.getPlayerState().currentTime != 0) {
@@ -38,7 +38,7 @@ There were a few reasons:
 - RateLimits and things
 - THE JAVASCRIPT WAS EASY
 
-The hardest part about building this listener was keeping it simple. You could add event listeners and things and you could use webhooks and all that stuff. Another option is to look at the `currentTime` value. When you are not streaming, `player.getPlayerState().currentTime == 0`[^2]. This means that I can set  `display="None"` on the element that holds the twitch player. Allowing my website to act like the embed was never there[^3]. 
+The hardest part about building this listener was keeping it simple. You could add event listeners and things and you could use webhooks and all that stuff. Another option is to look at the `currentTime` value. When you are not streaming, `player.getPlayerState().currentTime == 0`[^2]. This means that I can set  `display="None"` on the element that holds the twitch player. Allowing my website to act like the embed was never there[^3].
 
 Don't forget to add an amazing purple background so it looks fantastic!
 

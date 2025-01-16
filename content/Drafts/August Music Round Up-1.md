@@ -1,5 +1,5 @@
 ---
-title: More music 
+title: More music
 
 
 ---
@@ -19,4 +19,4 @@ I'm just learning about _The Internet_ while diving deep into the many members O
 
 But I didn't start with The Internet. I actually started with their frontwoman Syd, formerly Syd the Kyd, It ws just what I needed late at night to start calming down from my manic state. Such a beautiful sound.
 
-Then there was Matt Martians. The overall feeling was just calming. This 
+Then there was Matt Martians. The overall feeling was just calming. This

@@ -13,7 +13,7 @@ I published a 3d print design to Printables and it once again tells me what some
 
 ### The Problem
 
-Lighting with lights such as the [Elgato Key Light][1] can be tricky to balance on white backgrounds, especially with darker skin. I think that's why every video I watched of people explaining what honeycomb grids did always showed them with subjects of darker complexion. 
+Lighting with lights such as the [Elgato Key Light][1] can be tricky to balance on white backgrounds, especially with darker skin. I think that's why every video I watched of people explaining what honeycomb grids did always showed them with subjects of darker complexion.
 
 Sadly [Elgato doesn't make honeycombs for streaming](https://www.reddit.com/r/elgato/comments/snt74d/honeycomb_grid_for_key_lights/) and I kinda get why as most professional streamers often have darker backgrounds full of multi-color Elgato lights.
 
@@ -23,11 +23,11 @@ But I solved that with a design of my own today.
 
 ### 3D Print Community
 
-I found a functionally amazing [3d print for a grid][2] for the Key Light and I was able to get everything working except the mounting brackets which left trying to use [VELCRO dots][3] to keep them on the light(_unsuccessfully_). 
+I found a functionally amazing [3d print for a grid][2] for the Key Light and I was able to get everything working except the mounting brackets which left trying to use [VELCRO dots][3] to keep them on the light(_unsuccessfully_).
 
 ### The kind of best prints
 
-To me the best prints are functional prints that solve a problem that you and some others may have. 
+To me the best prints are functional prints that solve a problem that you and some others may have.
 
 My moonlander reset key is not needed by new models, but while dialing in my keyboard, this designit was a great replacement for scratching my keyboard up with the paperclip from my mortgage paperwork, because really I didn't have a paperclip. My [shortened Gagia Classic drip Tray][4] allows me to fit a cup and scale in while pulling a shot.
 

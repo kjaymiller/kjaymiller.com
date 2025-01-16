@@ -12,7 +12,7 @@ If you want to know the changes coming up, then listen to this.
 
 <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless src="https://share.transistor.fm/e/0e037bba"></iframe>
 
-Now here's the scoop. 
+Now here's the scoop.
 
 **The PIT Podcast will be winding down.** I will be releasing the remaining interviews in their raw format with the aftershow's included.
 

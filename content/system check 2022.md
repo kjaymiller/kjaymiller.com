@@ -9,22 +9,22 @@ tags: productivity, conduit
 title: My productivity check for this quarter.
 ---
 
-Kathy and I, on our previous [Conduit](https://relay.fm/conduit/29) did a _Systems Check_ where we look at how our systems have changed over time. We decided that waiting an entire year to catch up with our system is like doing an annual review (It's not as helpful as regular check-ins). 
+Kathy and I, on our previous [Conduit](https://relay.fm/conduit/29) did a _Systems Check_ where we look at how our systems have changed over time. We decided that waiting an entire year to catch up with our system is like doing an annual review (It's not as helpful as regular check-ins).
 
 As I was explaining my system it seemed like I struggled to effectively explain how I use it. That also reminded me that I don't talk much about my productivity system all that much. (Because I don't like talking about productivity tools and things)
 
-This is a space where I can better explain it. I'll be using this as the base for a [tweet thread](https://twitter.com/kjaymiller/status/1560354547607842816?s=20&t=zekxLpmmkNOKl-DIptk5eA) and discord[^1] thread for the community. So if this is a lot check those other places for more concise explanations. 
+This is a space where I can better explain it. I'll be using this as the base for a [tweet thread](https://twitter.com/kjaymiller/status/1560354547607842816?s=20&t=zekxLpmmkNOKl-DIptk5eA) and discord[^1] thread for the community. So if this is a lot check those other places for more concise explanations.
 
-> NOTE: I'm going to have links to things. They won't be affiliate links because I'm not getting paid to use these products. 
+> NOTE: I'm going to have links to things. They won't be affiliate links because I'm not getting paid to use these products.
 
 ## The Foundation
 
-The foundation of this system is two things, the [Plotter System] and their [A4 Foldable insert](https://plotterusa.com/products/4mm-dot-grid-40-sheets-2-books-plt0014-a4-size/). CGP Gray does a great job explain the A-Sizing System[^2]. 
+The foundation of this system is two things, the [Plotter System] and their [A4 Foldable insert](https://plotterusa.com/products/4mm-dot-grid-40-sheets-2-books-plt0014-a4-size/). CGP Gray does a great job explain the A-Sizing System[^2].
 
 
 ![plotter](https://kjaymiller.azureedge.net/media/plotter.jpg)
 
-Succinctly, the Plotter System is a 6-ring notebook system with inserts serving multiple purposes. I have the [A5 size binder](https://plotterusa.com/products/shrink-6-ring-leather-binder-plt5003-a5-size/) which is 1/2 the size of A4 Paper. The foldable pages serve as a view of the week. When the week is up, I fold along the guides and place the page in the binder. 
+Succinctly, the Plotter System is a 6-ring notebook system with inserts serving multiple purposes. I have the [A5 size binder](https://plotterusa.com/products/shrink-6-ring-leather-binder-plt5003-a5-size/) which is 1/2 the size of A4 Paper. The foldable pages serve as a view of the week. When the week is up, I fold along the guides and place the page in the binder.
 
 ### The Whole Week on One Page
 
@@ -32,11 +32,11 @@ This A4 system serves as an analog dashboard of the week. I have two main sectio
 
 ![one week view](https://kjaymiller.azureedge.net/media/week_view.jpg)
 
-The first sections is for "actionables". These are Projects/Tasks/and Events. 
+The first sections is for "actionables". These are Projects/Tasks/and Events.
 
 **Projects** are for, well projects. Underneath them are some next steps that I need to work on. Usually these projects are being managed elsewhere (sometimes by others) but this is what I'm looking at during the week.
 
-**Tasks** are just loose things that need to be done or that come up in the week. 
+**Tasks** are just loose things that need to be done or that come up in the week.
 
 Since most of the things that come up are future work - They don't get added to this page unless it's
 

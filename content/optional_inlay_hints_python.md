@@ -11,7 +11,7 @@ title: Make Inlay Type Hints in Python Appear/Disappear
 ## A Type Hinting Tip for Those Not Completely Onboard
 
 
-> TLDR: You can set `Inlay Hints: Enabled` to `On/OffUnless pressed` in the settings to show/hide inlay type hints in Python code. 
+> TLDR: You can set `Inlay Hints: Enabled` to `On/OffUnless pressed` in the settings to show/hide inlay type hints in Python code.
 
 In July the VS Code Python Team released an [update for VS Code](https://devblogs.microsoft.com/python/python-in-visual-studio-code-july-2022-release/) that announced inlay Type Hint Support.
 
@@ -44,7 +44,7 @@ kevin = {
 }
 ```
 
-The variable of `kevin` would be typed `dict[str, Any]` because the type of the `employee_id` differs from the `name`. 
+The variable of `kevin` would be typed `dict[str, Any]` because the type of the `employee_id` differs from the `name`.
 
 If we build a function that gets the employee id of multiple entries and sorts by `employee_id`, We'll get a `TypeError`.
 
@@ -60,7 +60,7 @@ sorted_employees = sorted([jay, kevin], key=get_employee_id)
 TypeError: '<' not supported between instances of 'int' and 'str'
 ```
 
-The solution is to return the contact variable as a str.  Type Hints would have told us that the contact would have been `Any` type (like `kevin`). And this would have been a hint we need to make types consistent. 
+The solution is to return the contact variable as a str.  Type Hints would have told us that the contact would have been `Any` type (like `kevin`). And this would have been a hint we need to make types consistent.
 
 We could even create a custom named type as Łukasz Langa mentions in his [PyCon US 2022 Keynote](https://youtu.be/wbohVjhqg7c?t=753). This would provide helpful hints as we're writing the code.
 

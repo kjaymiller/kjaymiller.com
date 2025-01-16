@@ -25,7 +25,7 @@ was rewriting the mail with new headers (Which was why it was saying it would
 appear as a new message in other clients.)
 
 This made me realize that if this was that big of a deal you could simply forward the message to yourself with a
-new subject... 
+new subject...
 
 Sometimes the solution isn't elegant. Still it's a solution.
 

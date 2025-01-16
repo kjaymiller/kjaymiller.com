@@ -73,4 +73,3 @@ I have two grinders that I use, one for espresso and one for pour over. This is 
 ## Previous Systems (Where I Started)
 
 - [Neo Flair Espresso Pro 2](https://amzn.to/3TLWxYo)
-

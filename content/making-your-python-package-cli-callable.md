@@ -13,7 +13,7 @@ title: Making your python package CLI callable
 
 Render Engine has a cli that can be called with `render-engine --help` or `python -m render_engine --help`.
 
-To do the first command you need to have a `[project.scripts]` that points to the code being called. Render engine's cli is in cli.py and can be called with the `cli` function. 
+To do the first command you need to have a `[project.scripts]` that points to the code being called. Render engine's cli is in cli.py and can be called with the `cli` function.
 
 ```python
 [project.scripts]

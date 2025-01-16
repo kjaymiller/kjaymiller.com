@@ -8,9 +8,9 @@ slug: jay-leaving-microsoft
 title: What 2 Years at Microsoft can do (with the right team)
 ---
 
-It's amazing what you can learn in less than two years. 
+It's amazing what you can learn in less than two years.
 
-When I joined Microsoft I had one mission, **help the Python community and few people like me in it**. It was that simple. I was leaving my first DevRel gig and an amazing team of folks that I still try to keep up with to this day (Although it seems they've mostly headed to other places as well). The team I was joining was made up of two people I had looked up to for the majority of my time as a Python developer. 
+When I joined Microsoft I had one mission, **help the Python community and few people like me in it**. It was that simple. I was leaving my first DevRel gig and an amazing team of folks that I still try to keep up with to this day (Although it seems they've mostly headed to other places as well). The team I was joining was made up of two people I had looked up to for the majority of my time as a Python developer.
 
 ![Jay with Nina and Ant - My Python Team when I started at Microsoft](https://kjaymiller.azureedge.net/media/jay-nina-ant-pycon-2022.jpeg)
 
@@ -24,7 +24,7 @@ My first year was about learning how to think like a Microsoft employee. I would
 
 ![Jay and Ashely Willis](https://kjaymiller.azureedge.net/media/jay_ashley_github_universe.jpeg)
 
-You don't go to Microsoft to make a new impact (I'm sure that my mentors will roll their eyes at me saying this). Microsoft is like the New York Yankees in the late 90's/Early 2000's. They were likely going to the World Series (I mean 6 out of 8 years between '96 and '03). If you became a Yankee, your job was to play your part and work hard so that when Jeter raises that trophy you can say you were there. You can flash the ring and then you get ready for next season when you do the same thing. You aren't the star. Shave your face and do your job. 
+You don't go to Microsoft to make a new impact (I'm sure that my mentors will roll their eyes at me saying this). Microsoft is like the New York Yankees in the late 90's/Early 2000's. They were likely going to the World Series (I mean 6 out of 8 years between '96 and '03). If you became a Yankee, your job was to play your part and work hard so that when Jeter raises that trophy you can say you were there. You can flash the ring and then you get ready for next season when you do the same thing. You aren't the star. Shave your face and do your job.
 
 ![Jay at a Braves Game because Like Hell you're catching at a Yankees Game](https://kjaymiller.azureedge.net/media/baseball-field-hispanic-heritage-night.jpeg)
 
@@ -34,7 +34,7 @@ My first year I felt like I did that. I played the role and I still had some big
 
 <small> Photo by Bartek Pawlik - <a href="https://bartpawlik.format.com">bartpawlik.format.com</a></small>
 
-My second year was the one where I wanted to be louder. AI was here to stay. The description of my job (and technically even my job title) had changed. In many ways I did what I could to hold onto my mission. 
+My second year was the one where I wanted to be louder. AI was here to stay. The description of my job (and technically even my job title) had changed. In many ways I did what I could to hold onto my mission.
 
 ![Luciana Rocking the Booth I was responsible for coming up with a lineup for](https://kjaymiller.azureedge.net/media/Luciana%20Drawing%20the%20Crowd.jpeg)
 

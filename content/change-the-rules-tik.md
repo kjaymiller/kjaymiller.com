@@ -33,9 +33,9 @@ This will make it possible to surface ads based on information without selling t
 
 It also creates a level of protection from our government[^1]. Our information would only pass to surveillance organizations from companies with a court order.
 
-**That is why this would never happen.** 
+**That is why this would never happen.**
 
-Governments are trying to pass laws forcing backdoors into their encryption. No government wants to give up the right to spy on folks. 
+Governments are trying to pass laws forcing backdoors into their encryption. No government wants to give up the right to spy on folks.
 
 In Short, America wants to spy on you. They just don't want others to do the same. 🙃
 

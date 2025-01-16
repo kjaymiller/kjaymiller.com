@@ -17,7 +17,7 @@ tags: shell, apps, macOS, automation
 title: Showing the Toothfairy Icon only when my Airpods Pro are Connected
 ---
 
-Recently [Bartender 4][Bartender] released with a couple of features that I was super stoked about. 
+Recently [Bartender 4][Bartender] released with a couple of features that I was super stoked about.
 
 One of those updates was the ability to add custom rules for showing/hiding icons based. Wanting to play with this more I created a watcher shell script for showing/hiding the [ToothFairy][ToothFairy] icon.
 
@@ -28,19 +28,19 @@ The end result of this script is that when my Airpods Pro are connected to the d
 ![Airpods are not connected and the icon is in the secondary Bartender Bar](https://kjaymiller.s3-us-west-2.amazonaws.com/images/bartender-toothfairy-disabled.png)
 
 ## The Script
-I found the command for getting your Bluetooth settings just tabbing through terminal commands. 
+I found the command for getting your Bluetooth settings just tabbing through terminal commands.
 
 `AP_STAT=$(system_profiler SPBluetoothDataType | grep -A9 "Jay’s AirPods Pro:")`
 
 This saves the information for any bluetooth device named _Jay's AirPods Pro_ to `AP_STAT` (Airpods Status).
 
-I got help from this similar idea from [Godbout's Alfred Workflow](https://github.com/godbout/alfred-airpodspro-battery). 
+I got help from this similar idea from [Godbout's Alfred Workflow](https://github.com/godbout/alfred-airpodspro-battery).
 
 `echo $AP_STAT | awk '/Connected: Yes/{print 1}'`
 
 echo prints the data and awk is a _text manipulation_ command. It looks for the pattern `Connnected: Yes` and returns a 1 if it is found (otherwise it returns nothing).
 
-Bartender looks for a _True_ value which `1` is. 
+Bartender looks for a _True_ value which `1` is.
 
 ![Airpods are Enabled and the icon is showing in the main menubar](https://kjaymiller.s3-us-west-2.amazonaws.com/images/toothfairy-bartender-enabled.png)
 

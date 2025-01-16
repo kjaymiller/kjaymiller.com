@@ -10,15 +10,15 @@
 <div class="m-4 p-2 rounded border rounded-xl hover:shadow shadow-{{theme.colors.main}}">
     <h2 class="py-1 text-xl">{{conference.talk_title}}</h2>
     <p class="py-1"><strong><a href="{{conference.conference_url}}">{{conference.conference}}</a></strong> | {{conference.date}}</h2>
-        
+
         {% if conference.description %}
         <p>{{conference.description}}</p>
         {% endif %}
-        
+
         {% if conference.slides_url %}
         <p><a href="{{conference.slides_url}}">View Slides</a></p>
         {% endif %}
-        
+
         {% if conference.video_url %}
         <p class="my-2"><a class="hover:font-bold underline" href="{{conference.video_url}}">Watch Presentation</a></p>
         {% endif %}

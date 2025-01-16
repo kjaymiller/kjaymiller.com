@@ -6,9 +6,9 @@ description: I'll share my experiences and tips on moderating technical panels -
 title: How I moderate technical panels
 ---
 
-I love moderating panels. I think it resonates with my values as I'm letting folks to show their expertise instead of relying solely on my own. 
+I love moderating panels. I think it resonates with my values as I'm letting folks to show their expertise instead of relying solely on my own.
 
-I recently moderated a panel for [DjangoCon 2023](https://2023.djangocon.us/talks/panel-discussion-who-put-me-in-charge/) and the response from the audience and the panelists was really well. 
+I recently moderated a panel for [DjangoCon 2023](https://2023.djangocon.us/talks/panel-discussion-who-put-me-in-charge/) and the response from the audience and the panelists was really well.
 
 ![Jay Leading at Panel for DjangoConUS 2023](https://kjaymiller.azureedge.net/media/jay-leading-panel-DCSU.jpg)
 © 2023 Paolo Melchiorre CC BY-NC-SA
@@ -39,7 +39,7 @@ One of the biggest mistakes is to try to come up with questions that everyone ca
 
 ### Meet before the event (Try within 24 hours)
 
-Start this meeting a few minutes late. This will spark conversation with the panelists and help in creating a rapport between them. If the panelists feel a little awkward, try getting them to open up a little with small chat. 
+Start this meeting a few minutes late. This will spark conversation with the panelists and help in creating a rapport between them. If the panelists feel a little awkward, try getting them to open up a little with small chat.
 
 Start this meeting by reiterating the ground rules. Remind folks of your audience and their experience. Make sure to remind folks that acronyms and initialism should be spelled out. And ask if there should be any disclosures. If it is for one, make it for everyone.
 
@@ -47,7 +47,7 @@ Ensure that everyone knows everyone. Ask for folks to say their name, their pron
 
 Set the expectations for the flow of the conversation. Let panelists know about how much time they should take on their intros and each question.
 
-Take your compiled questions and go over them. While doing so, ask who absolutely wants to cover a topic. This will allow you to help set the pace. If there are a lot of folks wanting to contribute to the conversation, figure out a way to split the question into multiple questions that help with the flow. 
+Take your compiled questions and go over them. While doing so, ask who absolutely wants to cover a topic. This will allow you to help set the pace. If there are a lot of folks wanting to contribute to the conversation, figure out a way to split the question into multiple questions that help with the flow.
 
 Work to find some balance in the questions. If someone didn't contribute to the previous question let them start the next one.
 Wrap up the meeting with some logistics:
@@ -58,7 +58,7 @@ Wrap up the meeting with some logistics:
 - Ask if folks are open to questions from the audience. Let them know that you will discourage questions that are directed to an individual.
 - Finally ask if anyone has concerns about the panel, being on it, or any of the questions.
 
-Let folks know that they can reach out to you 1-on-1 if there are some concerns. 
+Let folks know that they can reach out to you 1-on-1 if there are some concerns.
 
 ## During the Event
 
@@ -66,7 +66,7 @@ At showtime, make sure you have everyone there and together if possible. As chai
 
 ### Be calm, jovial, and most importantly in command
 
-This is your show, the panelists are your guests. Serve them as a host. But as with all parties, make sure you are in control. 
+This is your show, the panelists are your guests. Serve them as a host. But as with all parties, make sure you are in control.
 
 Start the panel by briefly introducing yourself and introducing the panel. If the panel agrees to introduce themselves
 
@@ -76,14 +76,14 @@ Don't be aggressive or rude. Show empathy for your panelists and your audience.
 
 ### Keep your eye on the clock
 
-You know how many questions there are 
+You know how many questions there are
 If a topic is running long, gently pull the conversation.
 
 ### Your feedback is welcome but only a little
 
 Your audience will want to know why the people on the panel are there, but also why you are the one asking the questions. You should have some context around the topic and you should share some of that context. Even if you are inexperienced, you can lean into that. Suggest that, like the audience, you're here to learn. Ask questions that the audience may have.
 
-THAT BEING SAID, this is not about you. You talking means your panelists aren't. Limit your involvement to moving the conversation along. 
+THAT BEING SAID, this is not about you. You talking means your panelists aren't. Limit your involvement to moving the conversation along.
 
 ### Limit questions and suggest following up elsewhere
 
@@ -93,6 +93,6 @@ Thank the audience for their questions and remind them that the conversation can
 
 ## After the Event
 
-Once the panel has concluded, quickly thank your panelists. They will be relieved and hopefully happy things went smoothly. 
+Once the panel has concluded, quickly thank your panelists. They will be relieved and hopefully happy things went smoothly.
 
 Later on try to collect feedback 1-on-1 with the panelists. A little removed from the event they may have thought of something that could have been done better. This will help you continue to improve your skills as a panel moderator.

@@ -9,7 +9,7 @@ from langchain_text_splitters.character import RecursiveCharacterTextSplitter
 
 
 llm = OllamaLLM(model="llama3.2")
-prompt_template = """Write a subtle description to encourage the reader to read the blog post. 
+prompt_template = """Write a subtle description to encourage the reader to read the blog post.
 
 {text}
 

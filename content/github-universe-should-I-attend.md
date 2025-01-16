@@ -26,7 +26,7 @@ I didn't participate in the workshops or certifications so I can't speak to thos
 
 I won't sugar coat this. Attending in-person can be incredibly expensive. If you're used to smaller community-lead conferences you may get some sticker shock from the prices. The All-Access pass is $1500 which gets you into the main room keynotes, all of the talk spaces and an invite to the VIP reception.
 
-This is steep but it's meant to be a more selective option. There are some cheaper options that seem more reasonable in price. The community option is about $450 which sounds about right for the location and the size of the event. Honestly, if my ticket wasn't covered as a speaker and I wanted to attend I would have most likely gone with the community option. 
+This is steep but it's meant to be a more selective option. There are some cheaper options that seem more reasonable in price. The community option is about $450 which sounds about right for the location and the size of the event. Honestly, if my ticket wasn't covered as a speaker and I wanted to attend I would have most likely gone with the community option.
 
 You can also get most of the talks for free virtually (and on the YouTube channel about 1-2 days later). But some content (like the session I ran) was only available in person.
 
@@ -53,7 +53,7 @@ The last group of folks were those there on official business. These were big bu
 
 ## Talks and Learning
 
-Talks were on a different level and this is good to see from time to time. This is a commercial event which means that resources are poured into it. Speakers use professionally designed templates and are provided speaker coaches to ensure the best quality presentation. 
+Talks were on a different level and this is good to see from time to time. This is a commercial event which means that resources are poured into it. Speakers use professionally designed templates and are provided speaker coaches to ensure the best quality presentation.
 
 ![Me Prior to my Talk](https://kjaymiller.azureedge.net/media/ghu-2023-jay-pre-talk.jpg)
 
@@ -62,11 +62,11 @@ Also be sure to take advantage of having GitHub experts at your disposal. While,
 
 ## Conclusion - Should you go?
 
-Of course with most of these things, _it depends_. If you're a solo developer that is just interested in hanging out with other developers, sadly I don't know if this conference is worth flying to and attending. This feels very similar to Twitch Con where you can meet a lot of influencers and have fun, but it's going to be expensive. If you want to dive deep into some technical content, you're better with your local meetups and technical conferences. 
+Of course with most of these things, _it depends_. If you're a solo developer that is just interested in hanging out with other developers, sadly I don't know if this conference is worth flying to and attending. This feels very similar to Twitch Con where you can meet a lot of influencers and have fun, but it's going to be expensive. If you want to dive deep into some technical content, you're better with your local meetups and technical conferences.
 
 If you're an influencer of any level, then you should definitely be there. I met so many folks who I've followed for some time and THERE WILL BE CONTENT that was originally discussed at the event. It wasn't intentional but it definitely happened.
 
-You should go if your company will pay for you to go. Be sure to stop in the ask the experts and sponsors whose products you use. You can also take time to get some certifications while there. 
+You should go if your company will pay for you to go. Be sure to stop in the ask the experts and sponsors whose products you use. You can also take time to get some certifications while there.
 
 Ultimately, it will depend on what you're hoping to get out of the event. I don't know how many core topics that you'll be able to learn here better than at home on YouTube. There is some professional development that you can acquire while there but it will come at a cost that perhaps you should look to your employer paying for if that knowledge will benefit them.
 

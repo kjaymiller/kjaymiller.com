@@ -17,6 +17,6 @@ There are a few applications that are overkill or a little too creepy (exist.io)
 
 ![Word Cloud](https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot_2020-10-21_at_18.40.49_2x_q7UEnmTnf.png)
 
-As with most of my projects I have built this in Python and it's not a commercial tool, but it is open-source and available for you to build and hack away on. 
+As with most of my projects I have built this in Python and it's not a commercial tool, but it is open-source and available for you to build and hack away on.
 
 I hope you'll check it out - <https://github.com/kjaymiller/elasticsearch-pinboard>

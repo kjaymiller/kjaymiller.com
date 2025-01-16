@@ -19,8 +19,8 @@ The goal of transcriptor is to create a single Job object that is responsible (c
 * _Is it documented?_ **Not Yet**
 * _Is it stable?_ **I wouldn't say that...**
 * _Is it open source?_ **Of course it is!**
-* _Am I accepting contributions_ 
- 
+* _Am I accepting contributions_
+
 I am accepting testing and documentation PRs, I'm also looking at incoming issues and If you have a fix (Not a Feature Request), I will accept after testing and reviews.
 
 [Transcriptor]: https://pypi.org/project/transcriptor

@@ -93,7 +93,7 @@ Path('./README.md').write_text(
 ## Step 5: Setup your Github Actions File
 
 I'm not the best at Github Actions. Luckily for me, this action was super
-simple to setup. 
+simple to setup.
 
 You can look at the [.yml file](https://github.com/kjaymiller/kjaymiller/blob/master/.github/workflows/latest_post_readme.yml) I'm not going to talk about the setup of this
 because most of it is prep stuff. Here's the important bit.

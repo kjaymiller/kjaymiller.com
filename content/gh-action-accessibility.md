@@ -34,7 +34,7 @@ def run_server():
     httpd.serve_forever()
 
 
-def main(url: str = "http://localhost", output: str = "test-results.md") -> None: 
+def main(url: str = "http://localhost", output: str = "test-results.md") -> None:
     """Run Axe on a URL and save the results to a file."""
     render_engine.build(site_module="routes:app")
     proc = Process(target=run_server, daemon=True)
@@ -43,7 +43,7 @@ def main(url: str = "http://localhost", output: str = "test-results.md") -> None
     proc.kill()
 ```
 
-For those familiar with render-engine that runserver process is very similar to the `render_engine.cli.serve` module. In fact it's practically identical but I couldn't get it to work as I think you have to supply the function and not call it. I believe this is possible but it would require a change to the render-engine codebase. 
+For those familiar with render-engine that runserver process is very similar to the `render_engine.cli.serve` module. In fact it's practically identical but I couldn't get it to work as I think you have to supply the function and not call it. I believe this is possible but it would require a change to the render-engine codebase.
 
 ## The GitHub action to test
 
@@ -91,7 +91,7 @@ jobs:
 
 Now the goal is improvement. That being said it's very unlikely that a site that is built by a theme will add lots of breaking accessibility changes.
 
-But that is what testing is for (catching the unexpected). My hope is I can set a value based on the `violations_count` parameter.  That said a I do have an issue with how violations are counted. 
+But that is what testing is for (catching the unexpected). My hope is I can set a value based on the `violations_count` parameter.  That said a I do have an issue with how violations are counted.
 
 Even though in [the last post on this](https://kjaymiller.com/blog/using-python-to-fix-my-accessibility-nightmare-of-a-website.html#how-bad-is-it) the report claims 3 violations, there were several errors for each violation. This means that while I can catch errors, I can't check against a total count of issues.
 

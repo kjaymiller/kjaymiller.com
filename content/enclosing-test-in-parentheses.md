@@ -27,7 +27,7 @@ P - Paste one character back which pulls from the buffer returning the last bit 
 
 ## That sounds like a lot
 
-It kinda is (especially if VIM isn't your thing) which is why if you do this a lot you are better off mapping those steps in your config file to a command. 
+It kinda is (especially if VIM isn't your thing) which is why if you do this a lot you are better off mapping those steps in your config file to a command.
 
 ```vim
 vnoremap <C-(> c()<esc>P

@@ -32,7 +32,7 @@ Speaking of, I don't fully like how I implemented fontawesome support but I thin
 site.update_theme_settings = ({"fontawesome": "123456890"})
 ```
 
-This is used by the fontawesome theme to inject a style into the template. This meant that fontawesome became its own theme with only the one template. 
+This is used by the fontawesome theme to inject a style into the template. This meant that fontawesome became its own theme with only the one template.
 
 I'm a little concerned by doing this in that I think there could be some confusion on when a theme is a theme and when a plugin is a plugin. This gets even more confusing when themes can have plugins that they rely on to function properly (like render-engine-tailwindcss). My ruling on this is as such:
 
@@ -42,7 +42,7 @@ If the code modifies created content or modifies a render-engine object (`Page`,
 
 That being said I can already see how folks will want to make themes that should be plugins and plugins that should be themes.
 
-It can also be checked against in [other themes](https://github.com/kjaymiller/render_engine_theme_kjaymiller/blob/main/src/render_engine_theme_kjaymiller/templates/components/social-cards.html). 
+It can also be checked against in [other themes](https://github.com/kjaymiller/render_engine_theme_kjaymiller/blob/main/src/render_engine_theme_kjaymiller/templates/components/social-cards.html).
 
 ### Template injections
 
@@ -60,7 +60,7 @@ I started with creating the `head` key which is checked against in the  `base.ht
         {% endblock %}
 ```
 
-This string of jinja checks for anything in the `head` global attribute and will `include` it into the template. 
+This string of jinja checks for anything in the `head` global attribute and will `include` it into the template.
 
 I've also created some class entrypoints like `body_class` and `page_title_class`. These are strings that can be inserted to add classes in common places.
 

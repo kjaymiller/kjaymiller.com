@@ -31,7 +31,7 @@ To use it, simply search. You can search for things like:
 
 ---
 
-I don't do anything like require user accounts. There's no cookies, trackers and I have none of your information, nor do I want it. There's no need for that. This site is pretty lightweight and free. 
+I don't do anything like require user accounts. There's no cookies, trackers and I have none of your information, nor do I want it. There's no need for that. This site is pretty lightweight and free.
 
 It's just the beginning so there are only about 150 organizations that have been added (most around the python space because that's where I operate).
 

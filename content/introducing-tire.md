@@ -28,11 +28,11 @@ The idea of tire is to have words easily at your disposal in the process and jus
 
 "I don't have time at the moment"...
 
-"My intuition is that ..." 
+"My intuition is that ..."
 
-"At the moment, I don't have the resources to do `THING` to the best of my ability" 
+"At the moment, I don't have the resources to do `THING` to the best of my ability"
 
-"My energy after `THING` doesn't make this feel like a good idea." 
+"My energy after `THING` doesn't make this feel like a good idea."
 
 ---
 ## Use it as a Qualifier
@@ -47,17 +47,17 @@ Acronym aside, there are many different analogies you can use when you think aro
 
 ---
 
-"You have to keep your tires inflated/you need to check your air pressure from time to time" 
+"You have to keep your tires inflated/you need to check your air pressure from time to time"
 
-"Tires can flatten out of nowhere" 
+"Tires can flatten out of nowhere"
 
-"You don't drive on your spare as you do on your regular tires" 
+"You don't drive on your spare as you do on your regular tires"
 
-"Different Tires can Handle Roads/Trails differently" 
+"Different Tires can Handle Roads/Trails differently"
 
 ---
 
-I hope this tool can help you in your endless journey of practicing decision making. 
+I hope this tool can help you in your endless journey of practicing decision making.
 
 feature image: by Dids from Pexels
 

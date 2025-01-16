@@ -56,7 +56,7 @@ Here's an example for one a previous blog post:
   <meta name="twitter:card" content="summary_large_image">
 ```
 
-To add this, I updated the `<head></head>` section of my blog template to grab the slug of generated image and add the contents based on the page's metadata. 
+To add this, I updated the `<head></head>` section of my blog template to grab the slug of generated image and add the contents based on the page's metadata.
 
 ```html
 {% block head %}
@@ -82,4 +82,3 @@ You can use one of the many opengraph validators on the internet to test this.
 ![Social Cards](https://kjaymiller.azureedge.net/media/opengraph_cards.png)
 
 Figuring out how to generate social media cards will be an extremely light entrance into **theme-based extensions** or adding _theme_ template paths to your website's engine so that you could add some great features without much complexity on your part.
-

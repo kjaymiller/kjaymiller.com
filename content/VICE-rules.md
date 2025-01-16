@@ -35,31 +35,31 @@ You can verbalize this rule to other by saying _"Can you send me a quick email a
 
 Anyone that doesn't respect the rules you create for yourself, doesn't respect you.
 
-The more people work with you the more they will remember that your rule exists and you can 
+The more people work with you the more they will remember that your rule exists and you can
 
 ### Identify Scope
-Let's look at that original rule about asking for an email or a meeting invite. Who does this apply to? My mother wouldn't appreciate me telling her to schedule a meeting. Also if the request is urgent then perhaps you should let another rule take precedence. 
+Let's look at that original rule about asking for an email or a meeting invite. Who does this apply to? My mother wouldn't appreciate me telling her to schedule a meeting. Also if the request is urgent then perhaps you should let another rule take precedence.
 
-Think of how a computer works. It processes the requests from the input and runs it through a program that produces a response based on the programmed instructions. This means it looks at all the options and applies the expected outcome (hopefully). Luckily our brains are capable of processing multiple rules faster than most computers. 
+Think of how a computer works. It processes the requests from the input and runs it through a program that produces a response based on the programmed instructions. This means it looks at all the options and applies the expected outcome (hopefully). Luckily our brains are capable of processing multiple rules faster than most computers.
 
-We can also shortcut these decisions by adding them to the rules. 
+We can also shortcut these decisions by adding them to the rules.
 
-> ... for family members if you are currently working make a reminder to call them back when you are off the clock. Allow them to interrupt if it is an emergency. 
+> ... for family members if you are currently working make a reminder to call them back when you are off the clock. Allow them to interrupt if it is an emergency.
 
-You can then respond to that resource accordingly. 
+You can then respond to that resource accordingly.
 
 
 ### Consitency (makes enforcement easier)
-If you do for one, you will need to do for all. I understand at times we need to be flexible but our goal is to protect your productivity. A crack in your shield will spread with each hit. 
+If you do for one, you will need to do for all. I understand at times we need to be flexible but our goal is to protect your productivity. A crack in your shield will spread with each hit.
 
 Make sure you are consistent with your rules. They apply to everyone (inside scope) and that means YOU as well!
 
 If you believe that you are struggling to to be consistent with your rules, this could mean that they are too generic. Be sure to continue to adapt them.
 
 ### Evolve
-Your rules should be _evolutionary_. This means they came from a focus on survival. As your needs change so should your rules. 
+Your rules should be _evolutionary_. This means they came from a focus on survival. As your needs change so should your rules.
 
-A VICE isn't to clamp down on fun or flexibility. in fact over-tightening is just as dangerous as not tightening enough. 
+A VICE isn't to clamp down on fun or flexibility. in fact over-tightening is just as dangerous as not tightening enough.
 
 Most vices can be adjusted to fit the size and scope of the things you need to secure. I encourage you to be firm in your rules but have many rules and adjust them slightly as needed. I also recommend letting folks know what's changed and what that means for you.
 

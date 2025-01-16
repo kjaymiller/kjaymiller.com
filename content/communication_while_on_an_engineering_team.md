@@ -41,4 +41,3 @@ Old me would have had an API built already and it would have not taken into cons
 Our team made a very early decision that no one works alone. That means simply put, no one is allowed to implement things because THEY thought it was the right thing to do and no one cosigned.
 
 That means that we are in almost constant communication and it's so important that when there is an agreement (or disagreement) people are eager to communicate their thoughts and ideas quickly as to not hinder production. The best part about this is that high-pace means you iterate quickly purely out of needing to.
-

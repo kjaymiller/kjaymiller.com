@@ -24,7 +24,7 @@ TailScale - This was new for me. I love the idea. I wonder how it compares to ng
 Jeff’s First Tweet in 300+ days:
 📷
 
-Amazing and poignant article about a Torah trainer app and its legacy. 
+Amazing and poignant article about a Torah trainer app and its legacy.
 I'm happy that things like repo-ownership can help prevent this. Sadly, I don't know who I would pass my code off to 🙃.
 
 Anish Athalye - The link is broken in the shownotes

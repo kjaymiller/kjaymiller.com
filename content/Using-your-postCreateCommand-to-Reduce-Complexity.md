@@ -12,7 +12,7 @@ Something that I recently did was use the `PostStartCommand` for my GH Action.
 
 My original thought was to just use the dev container as my environment. Currently that doesn't seem possible.
 
-That said, I can use the same file that I have for my dev container to prep my GH Actions.  
+That said, I can use the same file that I have for my dev container to prep my GH Actions.
 
 Here is a cleaner version of my [devcontainer.json](https://github.com/kjaymiller/render_engine/blob/main/.devcontainer/devcontainer.json)
 

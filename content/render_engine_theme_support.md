@@ -73,9 +73,9 @@ This also created a simple LIFO (Last in First Out) order to provide a little sa
 
 ## What's next
 
-Of course there are docs and tests that need to happen. I needed a working theme to start documenting potential gotchas. 
+Of course there are docs and tests that need to happen. I needed a working theme to start documenting potential gotchas.
 
-I'd also like to start combining plugins and themes such as [my personal theme](https://github.com/kjaymiller/render-engine-theme-kjaymiller) and my [render-engine-tailwindcss](https://github.com/kjaymiller/render-engine-tailwind) plugin. 
+I'd also like to start combining plugins and themes such as [my personal theme](https://github.com/kjaymiller/render-engine-theme-kjaymiller) and my [render-engine-tailwindcss](https://github.com/kjaymiller/render-engine-tailwind) plugin.
 
 ![site missing style from bad config](https://kjaymiller.azureedge.net/media/no%20style.jpg)
 

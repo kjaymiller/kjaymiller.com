@@ -26,7 +26,7 @@ This sets the standard that if you need to reference an object. You can find the
 site = Site()
 
 # previously to access Page1 in your build you had to call `site.page(Page1)` or create an out-of-site instance of the page.
-# class Page1(Page):  
+# class Page1(Page):
 #    pass
 #
 # out_of_site_page =  site.page(Page1)
@@ -51,7 +51,7 @@ This creates a little more consistency in how plugins operate as referenced.
 
 ### `render_content` hookspec is called in `site.render()` for Page objects and `site.render_partial_collection`/`site.render_full_collection` for collection objects.
 
-**SIDE EFFECT**: If you are calling the content from one page into another the `render_content` hookspec is not called. This should be fixed in future updates (perhaps with an extension to render pages as partials) 
+**SIDE EFFECT**: If you are calling the content from one page into another the `render_content` hookspec is not called. This should be fixed in future updates (perhaps with an extension to render pages as partials)
 
 **SIDE EFFECT**: `render_content` is now called on parsed content and not preparsed content. This means that you are looking for the rendered html and not the pre-existing content. This ensures that plugin developers don't need to think about the content's base type and instead can focus on the ensured HTML-formatted string.
 

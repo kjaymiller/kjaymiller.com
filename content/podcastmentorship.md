@@ -23,7 +23,7 @@ announced he was launching a mentorship program. I was hesitant to sign up as
 I've been podcasting for about 5 years now.
 
 Here's something that I recently came to terms with thanks to a great
-conversation with [Brian Douglas](https://twitter.com/bdougieyo). 
+conversation with [Brian Douglas](https://twitter.com/bdougieyo).
 
 ### You need to let people help you.
 
@@ -32,7 +32,7 @@ interview on the show have been doing what they are doing professionally for
 many years and have the experience of that journey to help them grow.
 
 In my [interview with Tom Merritt](https://share.transistor.fm/s/671c723f), he
-covers a secret to his success as a community builder and podcaster. 
+covers a secret to his success as a community builder and podcaster.
 
 > I worked for a company called Tech TV back in the early two thousands, which had an incredible community. I saw how a good community works there and at CNet tried to take a lot of those lessons that I learned there and bring them to creating content there and then doing the same a twit with Leo Laporte, who is also masterful at managing a community. Ah, and then by the time I got to daily tech news show, I felt like I knew the things to do to make sure that you had a fun, healthy community that was beneficial not only for your show but for the people in it.
 

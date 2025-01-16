@@ -29,7 +29,7 @@ On that whole, _too many things_ problem. I'm loving the work that I'm doing at 
 
 ## Reason 3: I'm not entirely sure how I would contribute to the PSF at this time
 
-My [Python Community News](https://youtube.com/@pycommunitynews) cohost [Jon](https://twitter.com/jonafato) is intending on running (and you should absolutely vote for him). I'm not avoiding running because he is (although there is some level of ensuring that we can provide unbiased content), but I marvel at the focus and dedication that he is running under. I also know of others that would be excellent directors with plans that will have great impact. 
+My [Python Community News](https://youtube.com/@pycommunitynews) cohost [Jon](https://twitter.com/jonafato) is intending on running (and you should absolutely vote for him). I'm not avoiding running because he is (although there is some level of ensuring that we can provide unbiased content), but I marvel at the focus and dedication that he is running under. I also know of others that would be excellent directors with plans that will have great impact.
 
 Personally, I just want to help out where I can, I'm sure that I would do fine as a board member but I would rather someone with a better direction and goal for the community run and win.
 

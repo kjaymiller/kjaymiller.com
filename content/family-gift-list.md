@@ -11,7 +11,7 @@ I recently created [millerfamilygifts.netlify.app](https://millerfamilygifts.net
 
 Here's Why:
 
-## Family asks me 
+## Family asks me
 
 My family is pretty extended between the 4 sets of parental units (including inlaws) and many of their grandparents still being around. Now when they ask me what I want. I can send them a list.
 
@@ -21,7 +21,7 @@ This list is built using [Render Engine][Render Engine], [GitHub][GitHub], and [
 
 It seems like a lot but really it's the same system this site runs on (but much simpler.)
 
-## Small Projects are Fun 
+## Small Projects are Fun
 
 Recently, Merlin dropped some more wisdom on [DBF](https://dobyfriday.com/episodes/266) (Maybe it was the aftershow so sorry for stolen content).
 

@@ -29,4 +29,3 @@ In that episode I removed my normal [RX Plugins](https://www.izotope.com/en/prod
 This retained some of the natural quality in the recording. While I don't think many people would notice a difference in quality, there is definitely a difference. But this also reduces my processing time and resources required on podcast and videos.
 
 I am not ready to say that this is the $200 solution that every producer would need, but for those home-studio podcasters whose space is being encroached on in during the pandemic it will definitely be a help (albeit expensive) to improve audio on your track.
-

@@ -36,4 +36,3 @@ Also I talk about a bunch of different things you can do with Popclip extension 
 <iframe src="https://www.youtube.com/embed/mF8KHV7s3EE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [^1]: Yes I get forum notifications via email but only the ones I really like. 😉
-

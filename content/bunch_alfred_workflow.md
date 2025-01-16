@@ -8,14 +8,14 @@ description: Discover how I use Bunch and Alfred to streamline my workflow with 
 
 [Bunch](https://brettterpstra.com/projects/bunch/) is an environment setup/teardown tool by the [mad genius and yoga maestro of the internet][0] Brett Terpstra.
 
-Bunch uses small configuration files to quickly manipulate your desktop environment. 
+Bunch uses small configuration files to quickly manipulate your desktop environment.
 
 With it you can:
 
 * Open/Close/Focus Applications, Files, and URLs
 * Run shell and Applescript scripts to expand the functionality event more
 
-Because I prefer to keep my hands on the keyboard and the Application's main method of use is the Dock, I opted to take advantage of Bunch's URL-Scheme. 
+Because I prefer to keep my hands on the keyboard and the Application's main method of use is the Dock, I opted to take advantage of Bunch's URL-Scheme.
 
 ```
 x-bunch://open?bunch=[Bunch Name]

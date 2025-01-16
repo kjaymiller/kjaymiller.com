@@ -55,7 +55,7 @@ I'm also not saying you can't teach AI to sound more and more like you. The ques
 
 I think there are folks that can benefit from having AI train on your data and write things to sound like you. But I doubt you should do that for your personal blog. (Unless you're getting paid for what you write and then I argue that it's not really your personal blog anymore).
 
-Even if you include in your prompt _be whimsical, personal, and funny_, it will feel inauthentic. It also devalues the sentiment for beginners to "document what you did, because how you explain it can help someone else". If we're telling ChatGPT to "explain this concept using X outline", then we're not getting the personality or **MOST IMPORTANTLY** the trained skill in documenting experiences. 
+Even if you include in your prompt _be whimsical, personal, and funny_, it will feel inauthentic. It also devalues the sentiment for beginners to "document what you did, because how you explain it can help someone else". If we're telling ChatGPT to "explain this concept using X outline", then we're not getting the personality or **MOST IMPORTANTLY** the trained skill in documenting experiences.
 
 Writing personal blogs outlining your experiences help you build those communication skills that you WILL need the further you go in your development career.
 
@@ -74,7 +74,7 @@ What's better: To write content in your most comfortable language and encourage 
 
 ## My Advice (for what it's worth)
 
-Obviously if you're reading this and not getting ChatGPT to summarize it for you. You care about my words to some degree. 
+Obviously if you're reading this and not getting ChatGPT to summarize it for you. You care about my words to some degree.
 
 ### If you're doing this to get hired... stop
 
@@ -102,9 +102,9 @@ I used AI in this post. It didn't write any words for me but I did check for voi
 
 ![GIR Doom](https://media1.tenor.com/m/Bs--cHZ4FfsAAAAC/doom-song.gif)
 
-Personal Blogs are **_personal_**. Don't be afraid to be unprofessional or imperfect. 
+Personal Blogs are **_personal_**. Don't be afraid to be unprofessional or imperfect.
 
-If I find your blog because of your catchy title and then feel a sense of betrayal because you didn't share your experience and instead shared that of AI, I'm clicking away and never coming back... 
+If I find your blog because of your catchy title and then feel a sense of betrayal because you didn't share your experience and instead shared that of AI, I'm clicking away and never coming back...
 
 ### Praise in personality
 

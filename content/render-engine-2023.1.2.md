@@ -10,7 +10,7 @@ title: Render Engine 2023.1.2 brings CLI, Parsers, and Begins Extensions Work an
   More
 ---
 
-[Render Engine](https://render-engine.readthedocs.io/en/latest/), my long term static site generator project, has been updated to version `2023.1.2`. This was the biggest update I've made and also begins creating a more structured update cycle. 
+[Render Engine](https://render-engine.readthedocs.io/en/latest/), my long term static site generator project, has been updated to version `2023.1.2`. This was the biggest update I've made and also begins creating a more structured update cycle.
 
 I talked about some of the development process and reasoning in a recent _Developer Journal_ update.
 
@@ -19,11 +19,11 @@ https://www.youtube.com/watch/8WYK_9Nk2i8
 There are many updates (sorry I'm not that great at managing my changelog), but here are a few of the big topics.
 
 ## Return of the Route List and `{{url_for}}`
-A few years ago, Render Engine had a `route-list` that held all the pages prior to being generated. Due to issues with performance, `route_list` was removed and instead pages were generated in-place. 
+A few years ago, Render Engine had a `route-list` that held all the pages prior to being generated. Due to issues with performance, `route_list` was removed and instead pages were generated in-place.
 
-With recent versions of Python stressing performance, I've brought back the `route_list` to allow for pages to be able to reference one another. 
+With recent versions of Python stressing performance, I've brought back the `route_list` to allow for pages to be able to reference one another.
 
-`{{url_for}}` creates the ability to reference a page in your `content` or jinja template . 
+`{{url_for}}` creates the ability to reference a page in your `content` or jinja template .
 
 ```frontmatter
 ---
@@ -43,7 +43,7 @@ Say <a href={{url_for 'hello'}}>Hello</a>
 This will allow for internal site references to help prevent breaking links from being created.
 
 ## [BREAKING] Changes to how pages/collections are rendered
-A minor yet breaking change is the commands that render the pages and collections. The rendering for the pages has completely changed internally which called for a rewrite of the rendering methods as well. 
+A minor yet breaking change is the commands that render the pages and collections. The rendering for the pages has completely changed internally which called for a rewrite of the rendering methods as well.
 
 Instead of `render_page` and `render_collection` now sites use `page` for single page entries and `collection` for collection-based entries.
 
@@ -62,7 +62,7 @@ class Index(Page):
 
 ## [BREAKING] More Structure and Removal of `site_vars` in `Page` Objects
 
-`site_vars` were originally setup to give you access to site variables in jinja templates. This responsibility has been moved to Jinja which means page objects no longer store `site_vars` in every page. 
+`site_vars` were originally setup to give you access to site variables in jinja templates. This responsibility has been moved to Jinja which means page objects no longer store `site_vars` in every page.
 
 ## Collection Variables now in `collection_vars`
 
@@ -99,7 +99,7 @@ This is perhaps the biggest change for Render Engine.
 Since the beginning, Render Engine primarily used Markdown ([Markdown 2](https://github.com/trentm/python-markdown2) to be specific). That said I've used many hacks to build pages from custom datatypes. This update does two things:
 
 - Removes all parsing out of the Render Engine components.
-- Parsing is done using Parsers 
+- Parsing is done using Parsers
 
 ## PageParsers
 
@@ -118,7 +118,7 @@ class MyPage(Page):
 
 class MyCollection(Collection):
     PageParser=MarkdownPageParser # sets the parser for all pages
-``` 
+```
 
 ## Custom Collections
 
@@ -127,7 +127,7 @@ Along with `PageParsers`, Custom Collections now exist. This has always been sup
 A few of these already exist and can be found in the [discussions section]((https://github.com/kjaymiller/render_engine/discussions/categories/extensions)) of the repo.
 
 ## CLI
-You can now setup and build your Render Engine site using the cli command `render-engine`. 
+You can now setup and build your Render Engine site using the cli command `render-engine`.
 
 Create a new site with `render-engine init`. You can also pass several commands to create the base template quickly.
 

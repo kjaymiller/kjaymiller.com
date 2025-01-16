@@ -8,7 +8,7 @@ title: My Guide to Considering a PSF Board Member
 
 I started writing this to give my recommendation for who I am supporting and I sincerely cannot give my nod to any 4 individuals over another. So in lieu of personal endorsements I will share what my personal desires are. I encourage if you don't know who you intend to vote for, consider using these as a metric for yourself as well.
 
-This should not be a popularity contest so be sure to read ALL of the statements and not just rely on recommendations from people you know. 
+This should not be a popularity contest so be sure to read ALL of the statements and not just rely on recommendations from people you know.
 
 Lastly, I doubt there will be a candidate that has all of these traits. In my selection, I will need to weigh each of these and ultimately use them as a map to choose folks I think can best fill the role. This is just how I would gage
 With that said, let's get started.
@@ -35,9 +35,9 @@ If you're working on a PSF working group or are heavily involved in your local c
 
 ## The candidate brings a skill I PERSONALLY believe the PSF Needs
 
-The PSF is a non-profit. This comes with many roles that need to be filled. Programming prowess isn't necessarily the biggest thing needed. 
+The PSF is a non-profit. This comes with many roles that need to be filled. Programming prowess isn't necessarily the biggest thing needed.
 
-Folks who have experience being on a board 
+Folks who have experience being on a board
 
 ## You have a clear goal for what you intend to accomplish and being a board member is the only way to achieve it
 
@@ -55,7 +55,7 @@ That being said, I believe that there are still some areas that would benefit fr
 
 I try to find examples of candidates voicing their concerns or criticisms of the community publicly.
 
-The PSF Board is selected by people who contribute to Python financially or attest to committing at least 5 hours a month to the Python community as a volunteer or contributor. The goal should be that this number increases every year and the only way that happens is by education and awareness. I talk to people all over the world that don't feel as if the PSF represents them. This may be because they are not heavily involved in the community or may not know what the PSF is doing. 
+The PSF Board is selected by people who contribute to Python financially or attest to committing at least 5 hours a month to the Python community as a volunteer or contributor. The goal should be that this number increases every year and the only way that happens is by education and awareness. I talk to people all over the world that don't feel as if the PSF represents them. This may be because they are not heavily involved in the community or may not know what the PSF is doing.
 
 If you are shouting into the echo chamber, that does not help. My hope is that you're speaking at generalist events about topics that raise awareness of your/PSF goals that will increase the number of folks contributing to the community. This will make for a healthier foundation in which the Python Community rests.
 

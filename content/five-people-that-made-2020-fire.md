@@ -51,9 +51,9 @@ Brian was one of the first advocates that I met that was able to successfully pi
 
 ![Alex Cox](https://kjaymiller.s3-us-west-2.amazonaws.com/images/AlexCox-SpaceHelmet.jpeg?tr=w-400)
 
-I've wanted to interview Alex for years! Now that it's finally happened (This weeks episode of _the PIT show_!). 
+I've wanted to interview Alex for years! Now that it's finally happened (This weeks episode of _the PIT show_!).
 
-Alex is a wonderful person that has so much experience. They've been podcasting since before it was cool. They've evolve their mentality around productivity, learning, experimentation and progress. It's amazing that they are able to shape and impact folks considered legendary in tech podcasting. 
+Alex is a wonderful person that has so much experience. They've been podcasting since before it was cool. They've evolve their mentality around productivity, learning, experimentation and progress. It's amazing that they are able to shape and impact folks considered legendary in tech podcasting.
 
 Accompanying their technical prowess, they also are a wealth of knowledge and understanding in challenging life-topics such as mental-health, gender, and transitions. On top of that, Alex has the ability to ask questions that get to the heart of the matter. This is an excellent skill that I hope I can improve on.
 
@@ -62,9 +62,9 @@ More than anything, since recording with Alex we've kept in touch and I've learn
 ## Honorable Mention
 
 ### You
-I mean this. I've met so many wonderful people this year that have been nothing but supportive to me. I don't have the largest audience on the internet so if you are reading this, we've probably spoken at least once. 
+I mean this. I've met so many wonderful people this year that have been nothing but supportive to me. I don't have the largest audience on the internet so if you are reading this, we've probably spoken at least once.
 
-If we haven't spoken yet, be sure to [reach out to me][contact]. 
+If we haven't spoken yet, be sure to [reach out to me][contact].
 
 
 [Compassionate Coding]: https://compassionatecoding.com

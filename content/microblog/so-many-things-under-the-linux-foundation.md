@@ -9,4 +9,3 @@ I'm not saying they aren't doing a good job, I'm amazed at the sheer number.
 Seeing two more additions this week (one being Jupyter with creation of the new Jupyter foundation)
 
 <https://www.linuxfoundation.org/projects>
-

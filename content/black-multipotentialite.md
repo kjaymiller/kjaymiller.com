@@ -21,7 +21,7 @@ Some of us are born knowing what we will do. I have worked for family-owned comp
 
 For many of us, the only family legacy is filled with gang involvement, drug dealing, and a life of violence.
 
-For me, it was a legacy of the military, but that was still something that I was not sold on. My military career came from being tired of living in self-placed poverty and the desire not to return to college. Still, my father was in the Army, my grandfather was in the Army, so I did what any respectable young man with a history of Army veterans would do. 
+For me, it was a legacy of the military, but that was still something that I was not sold on. My military career came from being tired of living in self-placed poverty and the desire not to return to college. Still, my father was in the Army, my grandfather was in the Army, so I did what any respectable young man with a history of Army veterans would do.
 
 I joined the Marine Corps.
 
@@ -39,7 +39,7 @@ I joined the Marine Corps.
 
 > And did it my way - My Way, Frank Sinatra
 
-I have never wanted to do a thing because that is how it's been done. I've never wanted to walk the path that was paved for me. 
+I have never wanted to do a thing because that is how it's been done. I've never wanted to walk the path that was paved for me.
 
 In my opinion, being told, "I can't" is the biggest motivator.
 
@@ -63,9 +63,9 @@ My _podcasting_ and _streaming_ skills gave me the ability to identify ways that
 side-business clients** in **their** content-creating journey.
 
 They may not seem connected at first, but it is ALL the things I do that
-qualifies me to do what I do, how I do it. 
+qualifies me to do what I do, how I do it.
 
-I know it's a lot, but the people that inspired me, are the people that made careers doing the things they enjoyed and finding ways to connect the dots. 
+I know it's a lot, but the people that inspired me, are the people that made careers doing the things they enjoyed and finding ways to connect the dots.
 
 Donald Glover became one of the most influential black artists in America by combining his ability to act with an ability to direct and create amazing and thoughtful music.
 

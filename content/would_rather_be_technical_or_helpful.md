@@ -11,7 +11,7 @@ I ask because I consistently continue to learn how much I don't know. I see y'al
 
 That said I'm confused at how I'm able to navigate myself into positions of what I'd call success in work and in my career. But slowly I find myself sharing more about my experience as a Python Developer and less about advanced topics in tech.
 
-I want to bring this to the attention of folks that think they don't have anything to contribute to the conversation due to lack of knowledge. 
+I want to bring this to the attention of folks that think they don't have anything to contribute to the conversation due to lack of knowledge.
 
 ## Is having the best opinion the right answer
 

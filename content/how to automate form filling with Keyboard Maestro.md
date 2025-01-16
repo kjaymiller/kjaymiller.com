@@ -26,7 +26,7 @@ With Safari open go to **Preferences** and select the advanced column.
 Check the box _Show Develop menu in menu bar_
 
 ![check the box show develop menu in menu bar](https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Safari%20Show%20Develop%20Menu%20from%20MenuBar.png)
- 
+
 In the menu bar select the _Develop_ menu and select the option _Allow Javascript from Apple Events_.
 
 ![Enable Javascript from Apple Events](https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Safari%20Allow%20Javascript%20from%20Apple%20Events.png)
@@ -36,17 +36,17 @@ In the menu bar select the _Develop_ menu and select the option _Allow Javascrip
 Chrome makes this a little easier. In the menu bar select _View_, then _Develop_ (already visible) and select _Allow Javascript from Apple Events_.
 
 In both cases, you will see a check mark that indicates you are ready to Automate!
-[Keyboard Maestro]: https://keyboardmaestro.com 
+[Keyboard Maestro]: https://keyboardmaestro.com
 
 ## Step 2: Find the XPath of the field you want to Enter ##
 
 This is where the magic happens 🧙🏾‍♂️. Finding the right field to target with information can be a challenge as websites come in many different sizes and accesssibility forms.That said you can use the tools built into Keyboard Maestro or the browser to find the correct XPath.
 
-Don't worry too much about what an [XPath](https://developer.mozilla.org/en-US/docs/Web/XPath) is. You just need to know how to find it. 
+Don't worry too much about what an [XPath](https://developer.mozilla.org/en-US/docs/Web/XPath) is. You just need to know how to find it.
 
 ### Using Keyboard Maestro  ###
 
-In Keyboard Maestro, when you select the _Set Safari Field to Text_ the _Safari ˇ_ will look for forms on the active tab of in your browswer and show all of the input fields available. Find the field that you want to automate with text and select it. Enter the text you wish to fill in. 
+In Keyboard Maestro, when you select the _Set Safari Field to Text_ the _Safari ˇ_ will look for forms on the active tab of in your browswer and show all of the input fields available. Find the field that you want to automate with text and select it. Enter the text you wish to fill in.
 
 ![Choosing the XPath from Keyboard Maestro](https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Keyboard%20Maestro%20Set%20Safari%20Field.png)
 
@@ -54,7 +54,7 @@ In Keyboard Maestro, when you select the _Set Safari Field to Text_ the _Safari 
 
 ### Using Safari/Chrome  ###
 
-If you have a lot of fields that you want need to identify you can figure out the exact text field you want to add to by right-clicking the field in your browser and selecting _Inspect Element_ (_Inspect_ for Chrome) to view the source code. 
+If you have a lot of fields that you want need to identify you can figure out the exact text field you want to add to by right-clicking the field in your browser and selecting _Inspect Element_ (_Inspect_ for Chrome) to view the source code.
 
 ![inspect element](https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Safari%20Inspect%20Element.png)
 

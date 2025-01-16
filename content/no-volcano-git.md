@@ -15,8 +15,8 @@ youtube: https://www.youtube.com/embed/V_5FV4LkQyc
 ---
 
 # Talk Slides
- 
-## Definition 
+
+## Definition
 
 > Volcano - Take a small issue in git and have it erupt into a massive issue.
 
@@ -59,7 +59,7 @@ commit hash before the one you want to drop
 
 ---
 
-## **Preventative Measures** 
+## **Preventative Measures**
 
 ---
 

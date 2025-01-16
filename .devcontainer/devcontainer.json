@@ -26,7 +26,7 @@
 
 		// Set *default* container specific settings.json values on container create.
 	"customizations": {
-		"settings": { 
+		"settings": {
 			"python.defaultInterpreterPath": "/usr/local/bin/python",
 			"python.linting.enabled": true,
 			"python.linting.pylintEnabled": true,
@@ -46,7 +46,7 @@
 			"python.testing.unittestEnabled": false,
 			"python.testing.pytestEnabled": true
 		},
-	
+
 		// Add the IDs of extensions you want installed when the container is created.
 		"extensions": [
 			"ms-python.python",

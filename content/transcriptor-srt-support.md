@@ -15,9 +15,9 @@ title: Transcriptor now Supports SRT Upload and Conversion
 
 A few weeks ago, I was tasked with a new transcription project.
 
-The project was to create subtitles for a few videos with the intention of expanding the job to several hours of work if the work was good enough quality. While I was certain that I could figure it out, _Transcriptor_ was designed for custom text templates, not the standard SRT format. So instead of doing manual conversion of these files I decided to put the work in to make _Transcriptor_ support both the importing and exporting of SRT files. This meant also for the first time working with the end_times in text markers and focusing on getting timing down to the exact word. 
+The project was to create subtitles for a few videos with the intention of expanding the job to several hours of work if the work was good enough quality. While I was certain that I could figure it out, _Transcriptor_ was designed for custom text templates, not the standard SRT format. So instead of doing manual conversion of these files I decided to put the work in to make _Transcriptor_ support both the importing and exporting of SRT files. This meant also for the first time working with the end_times in text markers and focusing on getting timing down to the exact word.
 
-While there were wonderful options to work with SRT files I knew that I would want to build my own variation of an SRT engine. This was mostly because of future plans for transcriptor which for the first time I'm putting out there. 
+While there were wonderful options to work with SRT files I knew that I would want to build my own variation of an SRT engine. This was mostly because of future plans for transcriptor which for the first time I'm putting out there.
 
 
 You can create a `Job` object from an srt using `Job.from_srt()`. and passing in the filepath of the object.

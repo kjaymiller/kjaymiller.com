@@ -1,0 +1,14 @@
+# .frontmatter_check.YAML
+
+# Pattern-specific rules
+patterns:
+  - name: "Blog Posts"
+    pattern: "content/*.md" # match ALL `.md` files in the content folder
+    rules:
+      - field_name: title
+      - field_name: description
+      - field_name: date
+  - name: "Pages"
+    pattern: "content/*.md" # match ALL `.md` files in the content folder
+    rules:
+      - field_name: title

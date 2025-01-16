@@ -26,7 +26,7 @@ bat \
 ripgrep \
 bat-extras \
 homeport/tap/termshot\
-vhs 
+vhs
 ```
 
 ### Getting code snippets with bat, batgrep
@@ -55,7 +55,7 @@ With both of these you can append `| pbcopy` to your command to save the output 
 
 ### Capturing the output as a screenshot
 
-We've been showing the contents of files but what about the output of commands? You can use [termshot](https://github.com/homeport/termshot) to run a command and capture the output as a screenshot. 
+We've been showing the contents of files but what about the output of commands? You can use [termshot](https://github.com/homeport/termshot) to run a command and capture the output as a screenshot.
 
 Here's a capture of the help for `render-engine serve`
 
@@ -71,7 +71,7 @@ Earlier I created some gifs of commands being ran. For that I'm using one of the
 
 vhs allows you to run a command and create a `tape` file that can be used to generate a gif or video of the command being ran.
 
-You can manually create the file using the syntax but I prefer to use the record feature. This creates a new shell where your commands can be recorded. It can also record things like backspaces and Enter keypresses. When you're done type `exit` and then you are given a `tape` file. This file can be edited to fix any mistakes and even add some configuration for your output file. 
+You can manually create the file using the syntax but I prefer to use the record feature. This creates a new shell where your commands can be recorded. It can also record things like backspaces and Enter keypresses. When you're done type `exit` and then you are given a `tape` file. This file can be edited to fix any mistakes and even add some configuration for your output file.
 
 ![vhs record doing "hello world"](https://jmblogstorrage.blob.core.windows.net/media/hello_world_vhs.gif)
 

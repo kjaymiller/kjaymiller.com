@@ -42,7 +42,7 @@ We were planning on doing a pass the aux for folks who donate but we didn't real
 
 ### _Support_ stickers
 
-I bought 200 Black Python Devs stickers. Most of them went. 
+I bought 200 Black Python Devs stickers. Most of them went.
 
 Some folks were hesitant to rock a Black Python Devs sticker while not being a Black Python Dev.
 

@@ -93,6 +93,6 @@ Then you can modify your Github Action to reference the `${secrets.AZURE_STORAGE
 
 ## What's Next
 
-If we're using the **Make it work, Make it right, Make it fast**, we're in the _make it right_ section. This works but still has some issues in that it has to check every blog post instead of the ones that are being created. 
+If we're using the **Make it work, Make it right, Make it fast**, we're in the _make it right_ section. This works but still has some issues in that it has to check every blog post instead of the ones that are being created.
 
 The next step is somewhat of a toss-up. We can create the card at render-time via plugin which means if you use Render-Engine's partial collection update, only modified pages will be checked. With all the custom code required, I'm not sure a plugin would be helpful without making options for other cloud providers that I don't use. This adds more weight to adding a file-watcher so I can link into that part of the code.

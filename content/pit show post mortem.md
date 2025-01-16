@@ -12,7 +12,7 @@ title: The PIT Show Post Mortem
 Let's talk about what success was in the show. At its peak the show got about 1,500 downloads per episode. The show ended with approximately 250 downloads per episode.
 
 ### Short Term Success in Cliches
-The show started out talking about the apps that people I saw on the internet used. I soon became bored feeling that the show was exactly the same, but the numbers didn't lie. There was a significant drop off after the topics shifted. 
+The show started out talking about the apps that people I saw on the internet used. I soon became bored feeling that the show was exactly the same, but the numbers didn't lie. There was a significant drop off after the topics shifted.
 
 **In the future**, projects like this should limited in length. Each run, try to get unique uses and a connection between the episodes to be cohesive.
 
@@ -20,7 +20,7 @@ The show started out talking about the apps that people I saw on the internet us
 
 I was able to do interviews for several years. I made amazing friends and connections to people. Those connections lead to bigger projects. My current boss mentioned my interview skills made me a  good candidate for my current role.
 
-**In the future**, remember the people you connect with. Make friends and have great conversations. It's these things that will make you more money/exposure/etc. 
+**In the future**, remember the people you connect with. Make friends and have great conversations. It's these things that will make you more money/exposure/etc.
 
 ## Never Nuke a Project Twice
 
@@ -58,7 +58,7 @@ A big change was adding the questionnaire. It made the prep-work easier. That sa
 
 ## Experiments are Good
 
-I tried many things. some worked and some didn't. 
+I tried many things. some worked and some didn't.
 
 **In the future**, have a place to try things. If they go well keep doing it. If not, oh well.
 
@@ -68,9 +68,9 @@ I ran several polls asking about the interview format vs the solo-reflection for
 
 **In the future**, make your project single-focused. It's okay to have many projects especially if you have help.
 
-## Just Ask (Sometimes More Than Once) 
+## Just Ask (Sometimes More Than Once)
 
-It did take a couple of asks to bring people onto the show. Sometimes they were down but not available. 
+It did take a couple of asks to bring people onto the show. Sometimes they were down but not available.
 **In the future**, be patient and do  (unless they say "No" then respect their wishes)
 
 ## Engagement > Listeners
@@ -79,7 +79,7 @@ Engagement gives you insight to what your most engaged fans want. You will make 
 **In the future**, focus on your audience. Make content for them. Growth will happen until it doesn't. It's the folks that support you that you should be connecting with and learning from and serving.
 
 ## Communities are best when small
-The community around PIT's podcast was at its best when it was never about PIT. 
+The community around PIT's podcast was at its best when it was never about PIT.
 
 **In the future**, if your podcast is in service to a community, just serve the community. If they feel a podcast is necessary, then do the podcast.
 

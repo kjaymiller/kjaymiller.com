@@ -16,13 +16,13 @@ title: Fish Resources
 
 I do a lot of work in the terminal. I understand that for many it's the lack of glitz and glamour that keeps people away from it, and while the majority of my computer usage is in some GUI, there are still many things that I can do much faster using a script that I can launch from my terminal.
 
-Fish (Short for Friendly Interactive Shell) was a great attempt to add some modern-ness to the terminal environment. That said it has been around since the 90's as this boutique experience that some love, many ignore, and even more fear. 
+Fish (Short for Friendly Interactive Shell) was a great attempt to add some modern-ness to the terminal environment. That said it has been around since the 90's as this boutique experience that some love, many ignore, and even more fear.
 
 Well, fear not. Here are a few links that can help introduce you to fish and help you get out the gate quickly.
 
 ### NOTE: This is just a list. I am not doing a review of these items.
 
-## GitHub Repos 
+## GitHub Repos
 
 - [jorgebucaran/awesome-fish: A curated list of packages, prompts, and resources for the fish shell.](https://github.com/jorgebucaran/awesome-fish)
 - [joseluisq/gitnow: Speed up your Git workflow.](https://github.com/joseluisq/gitnow)

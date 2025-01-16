@@ -42,7 +42,7 @@ My answer to this challenge would be "to a certain degree". I do believe that th
 
 This topic of thought probably belongs in a blog post called "Multipotentiality vs Minimalism" which is something that I considered writing and but I'm not the most versed on minimalism (by choice), so I don't feel comfortable speaking on it with any level of expertise.
 
-One of the biggest areas of _Mindfulness_ is questioning the value and ultimately choosing to not do something. When you are a multipotentialite, you often tend to naturally collect a lot of things, as you are doing more. To make room, you may need to remove a few things both physically and mentally. 
+One of the biggest areas of _Mindfulness_ is questioning the value and ultimately choosing to not do something. When you are a multipotentialite, you often tend to naturally collect a lot of things, as you are doing more. To make room, you may need to remove a few things both physically and mentally.
 
 Our interests change over time. A multipotentialite's superpower is the ability to push their passions (however many there are) as far as possible given their constraints. By removing many of the constraints we maximize the time and energy that we can devote to the things that matter to us.
 
@@ -66,9 +66,9 @@ At the heart of multipotentiality, there is a need for flexibility. At the heart
 
 [^1]: Many of those friends would consider me a part of the productivity space as well. I wouldn't disagree 😜
 
-[^2]: I wanted to find an inspiring quote about creativity but after about 5 minutes of looking for verified quotes from people that are known across 
+[^2]: I wanted to find an inspiring quote about creativity but after about 5 minutes of looking for verified quotes from people that are known across
 
-[^3]: Probably one of the best quotes of my generation. I wish I could use more. Of course the real question...Almost did it again. 
+[^3]: Probably one of the best quotes of my generation. I wish I could use more. Of course the real question...Almost did it again.
 
 [^4]: Photo by [Andrea Piacquadio](https://www.pexels.com/@olly) from [Pexels](https://www.pexels.com/photo/photo-of-a-woman-thinking-941555/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
 

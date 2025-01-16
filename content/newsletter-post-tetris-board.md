@@ -27,9 +27,9 @@ As I'm writing this. I can think of several things that I need to do instead. He
 - Edit and finish another blog post
 - Clean my bedroom
 
-But instead I'm writing you. 
+But instead I'm writing you.
 
-Sure finish this, I may open my notebook or a digital project manager and think about the best way to tackle any of these projects. Or I'll play Tetris. Tetris seems to have the same level of brain activity (or work) with less of the stakes. In fact my life is analogous to a game of Tetris where I'm constantly trying to spin activities and place them strategically in my life until I either fill the board (burn out) or complete a line (project) and open a little more space for the next batch of shapes. 
+Sure finish this, I may open my notebook or a digital project manager and think about the best way to tackle any of these projects. Or I'll play Tetris. Tetris seems to have the same level of brain activity (or work) with less of the stakes. In fact my life is analogous to a game of Tetris where I'm constantly trying to spin activities and place them strategically in my life until I either fill the board (burn out) or complete a line (project) and open a little more space for the next batch of shapes.
 
 Of the next piece is coming. I should probably do something with it.
 
