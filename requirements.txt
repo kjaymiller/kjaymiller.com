@@ -52,7 +52,9 @@ gitdb==4.0.11
 gitpython==3.1.43
     # via render-engine
 greenlet==3.1.1
-    # via playwright
+    # via
+    #   playwright
+    #   sqlalchemy
 h11==0.14.0
     # via httpcore
 httpcore==1.0.7
@@ -82,13 +84,13 @@ jsonpatch==1.33
     # via langchain-core
 jsonpointer==3.0.0
     # via jsonpatch
-langchain==0.3.12
+langchain==0.3.14
     # via
     #   -r requirements.in
     #   langchain-community
 langchain-community==0.3.12
     # via -r requirements.in
-langchain-core==0.3.26
+langchain-core==0.3.29
     # via
     #   langchain
     #   langchain-community
