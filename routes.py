@@ -43,6 +43,7 @@ markdown_extras = [
     "fenced-code-blocks",
     "header-ids",
     "mermaid",
+    "tables",
 ]
 
 
