@@ -52,7 +52,9 @@ gitdb==4.0.11
 gitpython==3.1.43
     # via render-engine
 greenlet==3.1.1
-    # via playwright
+    # via
+    #   playwright
+    #   sqlalchemy
 h11==0.14.0
     # via httpcore
 httpcore==1.0.7
@@ -88,13 +90,13 @@ langchain==0.3.12
     #   langchain-community
 langchain-community==0.3.12
     # via -r requirements.in
-langchain-core==0.3.26
+langchain-core==0.3.29
     # via
     #   langchain
     #   langchain-community
     #   langchain-ollama
     #   langchain-text-splitters
-langchain-ollama==0.2.1
+langchain-ollama==0.2.2
     # via -r requirements.in
 langchain-text-splitters==0.3.4
     # via langchain
