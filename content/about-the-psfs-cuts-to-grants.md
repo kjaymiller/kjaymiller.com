@@ -41,21 +41,25 @@ I wanted to see how many events would be impacted by this amount so I checked th
 
 2024:
 
-- PyCon Africa 2024 Accra, Ghana - $22,200
-- PyCon Taiwan 2024 Kaohsiung, Taiwan - $12,000
-- Plone Conference 2024 and Python Cerrado 2024 Brasilia, Brazil - $10,050 (events were combined)
-- PyCon Uganda 2024 Kampala, Uganda - $11,000
-- Kiwi PyCon XIII 2024 Wellington, New Zealand - $12,000
+| Event                                         | Location                | Amount                         |
+| --------------------------------------------- | ----------------------- | ------------------------------ |
+| PyCon Africa 2024                             | Accra, Ghana            | $22,200                        |
+| PyCon Taiwan 2024                             | Kaohsiung, Taiwan       | $12,000                        |
+| Plone Conference 2024 and Python Cerrado 2024 | Brasilia, Brazil        | $10,050 (events were combined) |
+| PyCon Uganda 2024                             | Kampala, Uganda         | $11,000                        |
+| Kiwi PyCon XIII 2024                          | Wellington, New Zealand | $12,000                        |
 
 2023:
 
-- DjangoCon Africa 2023 Zanzibar, Tanzania - $9,000
-- Python Brasil 2023 Caxias do Sul, Brazil - $15,000
-- PyCon CZ 2023 Prague, Czech Republic - $10,000
-- PyCon APAC 2023 Tokyo, Japan - $15,000
-- PyCon Korea 2023 Seoul, South Korea - $11,160
-- PyCon AU 2023 Adelaide, Australia - $10,000
-- PyCon Uganda 2023 Kampala, Uganda - $15,000
+| Event                 | Location               | Amount  |
+| --------------------- | ---------------------- | ------- |
+| DjangoCon Africa 2023 | Zanzibar, Tanzania     | $9,000  |
+| Python Brasil 2023    | Caxias do Sul, Brazil  | $15,000 |
+| PyCon CZ 2023         | Prague, Czech Republic | $10,000 |
+| PyCon APAC 2023       | Tokyo, Japan           | $15,000 |
+| PyCon Korea 2023      | Seoul, South Korea     | $11,160 |
+| PyCon AU 2023         | Adelaide, Australia    | $10,000 |
+| PyCon Uganda 2023     | Kampala, Uganda        | $15,000 |
 
 Notice that no US events were awarded at this amount event requested at this amount.
 
