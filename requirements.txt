@@ -121,7 +121,7 @@ render-engine-tailwindcss==2024.1.1b1
     # via render-engine-theme-kjaymiller
 render-engine-theme-kjaymiller==2024.12.2
     # via -r requirements.in
-render-engine-youtube-embed==2023.10.2a8
+render-engine-youtube-embed==2023.10.2b3
     # via -r requirements.in
 requests==2.32.3
     # via cookiecutter
