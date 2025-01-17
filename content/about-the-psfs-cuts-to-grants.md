@@ -12,7 +12,7 @@ description: Here are my thoughts on the the PSF's decision to pause funding som
 
     I also noticed that grants were issued to other US events that were near the capped amount. This brings the 4% saved closer to 10% which is an understandable amount to want to save. Only $1000 would be removed from the US with the rest coming primarily from some major events in Europe and Africa. It also sheds light as to why the number $8000 made sense. It was a target that seems to work for so many events.
 
-    That said, I the sentiment of this post has not changed. I readers read this as a call to action for supporting your local communities over and not condemning one the PSF.
+    That said, I hope the sentiment of this post has not changed. I readers read this as a call to action for supporting your local communities over and not condemning one the PSF.
 
     That said my initial frustations with the disparity of the announcement prevented me from seeing my mistakes. I take sole responsibility on the missed data points.
 
