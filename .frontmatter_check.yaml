@@ -9,6 +9,6 @@ patterns:
       - field_name: description
       - field_name: date
   - name: "Pages"
-    pattern: "content/*.md" # match ALL `.md` files in the content folder
+    pattern: "content/pages/*.md" # match ALL `.md` files in the content folder
     rules:
       - field_name: title
