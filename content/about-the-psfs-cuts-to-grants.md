@@ -4,6 +4,22 @@ title: My Thoughts on the PSF Grant Funding Changes
 description: Here are my thoughts on the the PSF's decision to pause funding some events and cap others.
 ---
 
+.. IMPORTANT:: Missing Data Added
+
+    It appears that in trying to search for data in the resolutions page. I missed 4 events in 2024 and 4 in 2023.
+
+    One of the events missing was in the United States.
+
+    I also noticed that grants were issued to other US events that were near the capped amount. This brings the 4% saved closer to 10% which is an understandable amount to want to save. Only $1000 would be removed from the US with the rest coming primarily from some major events in Europe and Africa. It also sheds light as to why the number $8000 made sense. It was a target that seems to work for so many events.
+
+    That said, I the sentiment of this post has not changed. I readers read this as a call to action for supporting your local communities over and not condemning one the PSF.
+
+    That said my initial frustations with the disparity of the announcement prevented me from seeing my mistakes. I take sole responsibility on the missed data points.
+
+<!-- markdownlint-disable>
+
+<!-- markdownlint-enable -->
+
 The Python Software Foundation (PSF) announced [updates to the Grants Work Group Charter](https://pyfound.blogspot.com/2024/12/psf-grants-program-charter-updates-tldr.html), effective March 1, 2025, to ensure the program's sustainability:
 
 > Pausing funding for certain grant types. Paused categories include Development Work, Kids Coding Camps, Sprints, Training Programs, Workshops requiring equipment, and Other.
@@ -41,31 +57,40 @@ I wanted to see how many events would be impacted by this amount so I checked th
 
 2024:
 
-| Event                                         | Location                | Amount                         |
-| --------------------------------------------- | ----------------------- | ------------------------------ |
-| PyCon Africa 2024                             | Accra, Ghana            | $22,200                        |
-| PyCon Taiwan 2024                             | Kaohsiung, Taiwan       | $12,000                        |
-| Plone Conference 2024 and Python Cerrado 2024 | Brasilia, Brazil        | $10,050 (events were combined) |
-| PyCon Uganda 2024                             | Kampala, Uganda         | $11,000                        |
-| Kiwi PyCon XIII 2024                          | Wellington, New Zealand | $12,000                        |
+| Event                                         | Location                 | Amount                         |
+| --------------------------------------------- | ------------------------ | ------------------------------ |
+| PyCon Africa 2024                             | Accra, Ghana             | $22,200                        |
+| PyCon Latam                                   | Mazatlan, Mexico         | $9,810                         |
+| PyCon Taiwan 2024                             | Kaohsiung, Taiwan        | $12,000                        |
+| Plone Conference 2024 and Python Cerrado 2024 | Brasilia, Brazil         | $10,050 (events were combined) |
+| PyCon Uganda 2024                             | Kampala, Uganda          | $11,000                        |
+| Kiwi PyCon XIII 2024                          | Wellington, New Zealand  | $12,000                        |
+| PyCascades 2024                               | Seattle, Washington, USA | $9,000                         |
+| PyCon DE and PyData Berlin                    | Berlin, Germany          | $16,500                        |
+| PuCon Lithuania                               | Vilnius, Lithuania       | $13,500                        |
+| EuroPython Prague                             | Prage, Czech Republic    | $15,000                        |
 
 2023:
 
-| Event                 | Location               | Amount  |
-| --------------------- | ---------------------- | ------- |
-| DjangoCon Africa 2023 | Zanzibar, Tanzania     | $9,000  |
-| Python Brasil 2023    | Caxias do Sul, Brazil  | $15,000 |
-| PyCon CZ 2023         | Prague, Czech Republic | $10,000 |
-| PyCon APAC 2023       | Tokyo, Japan           | $15,000 |
-| PyCon Korea 2023      | Seoul, South Korea     | $11,160 |
-| PyCon AU 2023         | Adelaide, Australia    | $10,000 |
-| PyCon Uganda 2023     | Kampala, Uganda        | $15,000 |
+| Event                      | Location                | Amount  |
+| -------------------------- | ----------------------- | ------- |
+| DjangoCon Africa 2023      | Zanzibar, Tanzania      | $9,000  |
+| Python Brasil 2023         | Caxias do Sul, Brazil   | $15,000 |
+| PyCon CZ 2023              | Prague, Czech Republic  | $10,000 |
+| PyCon APAC 2023            | Tokyo, Japan            | $15,000 |
+| PyCon Korea 2023           | Seoul, South Korea      | $11,160 |
+| PyCon AU 2023              | Adelaide, Australia     | $10,000 |
+| PyCon Uganda 2023          | Kampala, Uganda         | $15,000 |
+| Kiwi PyCon XII 2023        | Wellington, New Zealand | $10,000 |
+| PyCon Italia 2023          | Florence, Italy         | $8,500  |
+| PyCascades 2023            | Vancouver, BC, Canada   | $9,000  |
+| PyCon DE and PyData Berlin | Berlin, Germany         | $11,000 |
 
-Notice that no US events were awarded at this amount event requested at this amount.
+Notice that one US event was awarded at this amount event requested at this amount.
 
 Black Python Devs sponsored two of these events in 2024 and would have considered sponsoring two additional events in 2024 and at least 4 events in 2023 (we did not have a non-profit status at that time). Our sponsorships were between $500-600. **It is clear we and other small orgs cannot makeup the difference.**
 
-While it's safe to assume that these events would still receive funding, we don't know what the difference those thousands of dollars would make. The PSF would have saved $27,250 in 2024 had this gone in effect last year. That amount is about 4% of [their estimated $600k they gave last year](<https://pyfound.blogspot.com/2024/12/psf-grants-program-charter-updates-part-1.html>). It is not known what workshops and other types of events will have been impacted, but I assume that larger grants supporting other important communities have also received funding cuts.
+While it's safe to assume that these events would still receive funding, we don't know what the difference those thousands of dollars would make. The PSF would have saved $44,060 in 2024 had this gone in effect last year. That amount is about 9% of [their estimated $600k they gave last year](<https://pyfound.blogspot.com/2024/12/psf-grants-program-charter-updates-part-1.html>). It is not known what workshops and other types of events will have been impacted, but I assume that larger grants supporting other important communities have also received funding cuts[^1].
 
 ## Communities of all sizes are hurting and it's not your (as an individual) fault
 
@@ -96,3 +121,5 @@ We need to make sure these communities are cared for. Most of these orgs can be 
 You as an individual can directly sponsor an event or community. In fact 99% of Black Python Devs funding is from [individual's donations](https://blackpythondevs.com/support). If there is a community or conference you care about, consider donating directly to them.
 
 The PSF does a lot for Python as a language. I hope over time more smaller community orgs can work to do more for one another and not push much of that burden onto the PSF. **THAT SAID**, I hope the PSF can continue to push itself out of its comfort zone and find new and exciting ways to build a strong sustainable community worth sticking around to enjoy.
+
+[^1]: I noticed incredibly large donations for several events at one time so I now understand how the cap limitations could save over 10% of there total donation amount. That is several more events they would be able to support at that smaller level.
