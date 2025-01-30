@@ -47,7 +47,7 @@ lunr==0.7.0.post1
     # via render-engine-lunr
 markdown-it-py==3.0.0
     # via rich
-markdown2==2.5.2
+markdown2==2.5.3
     # via
     #   render-engine
     #   render-engine-markdown
@@ -149,7 +149,7 @@ typing-extensions==4.12.2
     #   anyio
     #   pyee
     #   typer
-tzdata==2024.2
+tzdata==2025.1
     # via render-engine
 urllib3==2.3.0
     # via requests
