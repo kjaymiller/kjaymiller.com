@@ -7,7 +7,7 @@
 <h1 class="text-2xl">Conferences</h1>
 
 {% for conference in data %}
-<div class="m-4 p-2 rounded border rounded-xl hover:shadow shadow-{{theme.colors.main}}">
+<div class="mx-4 my-4 p-2 border rounded-xl hover:shadow shadow-{{theme.colors.main}}">
     <h2 class="py-1 text-xl">{{conference.talk_title}}</h2>
     <p class="py-1"><strong><a href="{{conference.conference_url}}">{{conference.conference}}</a></strong> | {{conference.date}}</h2>
 

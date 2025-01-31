@@ -1,13 +1,4 @@
-.microblog-post {
-  /* @apply border m-4 p-3 rounded-xl shadow-md; */
-}
-.microblog-post p {
-  @apply my-1;
-}
-
-#microblog-post-metadata {
-  @apply font-light text-sm text-right;
-}
+@import "tailwindcss";
 
 #search {
   @apply m-3;
