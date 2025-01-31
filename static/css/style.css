@@ -1,5 +1,5 @@
 .microblog-post {
-  @apply border m-4 p-3 rounded-xl shadow-md;
+  /* @apply border m-4 p-3 rounded-xl shadow-md; */
 }
 .microblog-post p {
   @apply my-1;
