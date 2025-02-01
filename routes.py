@@ -37,6 +37,8 @@ if os.environ.get("prod", False):
 else:
     app.site_vars.update({"SITE_URL": "http://localhost:8000"})
 
+app.site_vars.update(head=["_head.html"])
+
 markdown_extras = [
     "admonitions",
     "footnotes",
