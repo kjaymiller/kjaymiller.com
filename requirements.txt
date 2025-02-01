@@ -12,7 +12,7 @@ axe-playwright-python==0.1.4
     # via -r requirements.in
 binaryornot==0.4.4
     # via cookiecutter
-certifi==2024.12.14
+certifi==2025.1.31
     # via requests
 chardet==5.2.0
     # via binaryornot
@@ -117,9 +117,9 @@ render-engine-parser==2024.9.0
     #   render-engine-markdown
 render-engine-sitemap==2024.1.1a1
     # via -r requirements.in
-render-engine-tailwindcss==2024.1.1b1
+render-engine-tailwindcss==2025.1.1a1
     # via render-engine-theme-kjaymiller
-render-engine-theme-kjaymiller==2024.12.2
+render-engine-theme-kjaymiller==2025.1.1a2
     # via -r requirements.in
 render-engine-youtube-embed==2023.10.2b3
     # via -r requirements.in

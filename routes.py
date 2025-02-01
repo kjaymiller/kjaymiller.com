@@ -35,7 +35,7 @@ app.plugin_manager.plugin_settings["LunrPlugin"].update(
 if os.environ.get("prod", False):
     app.site_vars.update({"SITE_URL": "https://kjaymiller.com"})
 else:
-    app.site_vars.update({"SITE_URL": ""})
+    app.site_vars.update({"SITE_URL": "http://localhost:8000"})
 
 markdown_extras = [
     "admonitions",
