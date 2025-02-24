@@ -6,9 +6,9 @@ description: My team at Aiven is hiring and I wanted to share my thoughts on the
 
 So my team is [hiring a Developer Advocate](https://aiven.io/careers/job/4515899101) and I want to share with you what I think we need for the role.
 
-> [!NOTE]
->
-> This is not meant to be disqualifying... I genuinely believe that if you want to apply, you definitely should for a many reasons including letting us know you exist in case you don't fit here but fit somewhere better in the future.
+.. NOTE::
+
+    This is not meant to be disqualifying... I genuinely believe that if you want to apply, you definitely should for a many reasons including letting us know you exist in case you don't fit here but fit somewhere better in the future.
 
 ## About Aiven and our team
 
