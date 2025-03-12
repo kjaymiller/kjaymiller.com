@@ -1,10 +1,36 @@
-[
-  {
-    "podcast": "Overtired",
-    "title": "421: Give Yourself A Five",
-    "date": "2024-10-28",
-    "url": "https://overtiredpod.com/ep/421/",
-    "description": "Brett, Jeff, and the fabulous Jay Miller dive into hilarious and chaotic tales of surviving corporate reorgs, handling ADHD, and wrestling with DevRel magic. From API designing demands to repeated layoffs, they share hearty laughs and personal struggles. Jeff finds mental solace in his organized workshop, crafting metal art while Brett recounts school rebellions. The trio also discuss AI tools, secret SkunkWorks projects, and quirky app designs. Expect tech talk tangents, live coding passion, and a touch of corporate drama – all with a dose of irreverent humor!",
-    "image": "https://kjaymiller.azureedge.net/media/overtired.webp"
+{
+  "Overtired": {
+    "image": "https://kjaymiller.azureedge.net/media/overtired.webp",
+    "appearances": [
+      {
+        "title": "421: Give Yourself A Five",
+        "date": "2024-10-28",
+        "url": "https://overtiredpod.com/ep/421/",
+        "description": "Brett, Jeff, and the fabulous Jay Miller dive into hilarious and chaotic tales of surviving corporate reorgs, handling ADHD, and wrestling with DevRel magic. From API designing demands to repeated layoffs, they share hearty laughs and personal struggles. Jeff finds mental solace in his organized workshop, crafting metal art while Brett recounts school rebellions. The trio also discuss AI tools, secret SkunkWorks projects, and quirky app designs. Expect tech talk tangents, live coding passion, and a touch of corporate drama – all with a dose of irreverent humor!"
+      },
+      {
+        "title": "412: Weirdly, A Sports Episode",
+        "date": "2024-06-17",
+        "url": "https://overtiredpod.com/ep/412/",
+        "description": "In this episode of Overtired, Brett and Christina are joined by guest Jay Miller for an impromptu sports-centric discussion that spans the globe from baseball to European soccer. Along the way, they dive into the logistics of crazy travel schedules, the trials of corporate events, and the importance of happy birthday attention. They also discuss the latest in Mac tools, including Launch Control, Ecamm Live, and the rising star, Mise. All this while periodically engaging in sidebar rants about loud tech conferences and the struggles of navigating evolving relationships during Father’s Day. Grab your AeroPress, sit back, and enjoy the tangents."
+      },
+      {
+        "title": "401: Faster Than Hypertapping With Jay Miller",
+        "date": "2024-16-01",
+        "url": "https://overtiredpod.com/ep/401/",
+        "description": "Yeah, it’s another 2-hour episode. Jay Miller is back to talk retail therapy, keyboards, and Tetris. We threw in the usual grAPPtitude picks, so don’t miss 'em!"
+      }
+    ]
+  },
+  "The MonkCast": {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/af/a1/fe/afa1fe70-cbcb-0871-431d-fcc5bb578f2a/mza_11011126992100301679.jpg/600x600bb.webp",
+    "appearances": [
+      {
+        "title": "A RedMonk Conversation: Jay Miller on the Satanic Panic of Developer Relations and the AI Chainsaw",
+        "date": "2024-09-09",
+        "url": "https://open.spotify.com/episode/3ZJGwY87OaJLUiUMSFkFcP",
+        "description": "Jay Miller, staff developer advocate at Aiven and founder of Black Python Devs, joins Kate Holterhoff, senior analyst at RedMonk, for this RedMonk Conversation. Jay discusses what his military service taught him about the importance of real-world problem-solving. He shares his thoughts on the connection between Python and AI, highlighting the importance of responsible AI usage and critical thinking. Jay talks about the state of developer relations and developer advocacy as a profession. He also speaks about Black Python Devs, an organization extending the ecosystem of Python communities to black and colo(u)red communities around the world through initiatives such as supporting conference travel, providing mentorship, and promoting open source contributions."
+      }
+    ]
   }
-]
+}

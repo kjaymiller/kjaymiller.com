@@ -6,17 +6,27 @@
 
 <h1 class="text-2xl">Guest Appearances</h1>
 
-{% for episode in data %}
+{% for _podcast in content %}
+{% set podcast = content[_podcast] %}
+
 <div class="mx-4 my-4 p-2 border rounded-xl hover:shadow shadow-{{theme.colors.main}}">
-    <h2 class="py-1 text-xl">{{episode.podcast}}</h2>
-    <img src="{{episode.image}}" alt="{{episode.podcast}} artwork"
-    <p class="py-1"><strong><a href="{{episode.url}}">{{episode.title}}</a></strong> | {{episode.date}}</h2>
-
-        {% if episode.description %}
+    <h2 class="py-1 text-xl">{{_podcast}}</h2>
+<div class="flex">
+ <div>
+      <img src="{{podcast["image"]}}" class="max-h-64 max-w-64" alt="{{_podcast}} artwork">
+  </div>
+  <div class="px-3">
+    {% for episode in podcast["appearances"] %}
+    <div class="mb-3">
+      <p class="py-1"><strong><a href="{{episode.url}}">{{episode.title}}</a></strong> | {{episode.date}}</h2>
+      {% if episode.description %}
         <p>{{episode.description}}</p>
-        {% endif %}
-
-    </div>
-    {% endfor %}
+      {% endif %}
+  </div>
+      {% endfor %}
+  </div>
+  </div>
+</div>
+{% endfor %}
 </section>
 {% endblock %}
