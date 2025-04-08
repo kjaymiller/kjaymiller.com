@@ -1,6 +1,6 @@
 ---
 date: 2025-04-08 22:13:38.720004+00:00
-title: I Deleted My Twitter Account bug someone is pretending to be me.
+title: I Deleted My Twitter Account but someone is pretending to be me.
 description: A warning about someone impersonating my identity on X.com. Twitter offers no recourse without rejoining the platform.
 ---
 
