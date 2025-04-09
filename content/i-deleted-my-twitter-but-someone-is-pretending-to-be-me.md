@@ -30,7 +30,7 @@ Apparently I can give them my ID and they will hold it for processing for 30 day
 
 I'm writing this purely in the event that some future employer looks at something from an account on Twitter that is not me. I deleted my account back in January 2025 and have email proof of deactivating 2FA (which you have to do to delete your account) and others verifying that my account was deleted.
 
-## What can you don
+## What can you do
 
 If you see content from a twitter account using @kjaymiller as a username and my face is on it, report it for spam because you can't report it for impersonation.
 
