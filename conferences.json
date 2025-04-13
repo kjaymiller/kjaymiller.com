@@ -5,12 +5,15 @@
     "date": "2025-04-13",
     "talk_title": "A Community Managers Guide to Open Source/Open Source Guide to Community Management",
     "video_url": null,
+    "conference_url": "https://pytexas.org/2025",
+    "slides_url": "https://www.canva.com/design/DAGiAYFJdxU/PdfZCJg3cFQkuJVkkjZ9ag/view?utlId=he478dcce13",
     "description": "I had the privelige of Keynoting PyTexas, where I talked about the lessons learned as a developer who has contributed and maintained open source projects and built worldwide communities."
   },
   {
     "conference": "PyCon US 2024",
     "location": "Pittsburgh, PA",
     "date": "2024-05-20",
+    "conference_url": "https://us.pycon.org/2025/",
     "talk_title": "Black Python Devs x PyCon US",
     "video_url": "https://www.youtube.com/watch?v=jYZBpoYjxLo&list=PLfDBFPSIcChU_nuhdLibx6R-TrYJwZjid",
     "description": "PyCon US 2024, I gave the opening keynote where I introduced the world to Black Python Devs"
