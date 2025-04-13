@@ -42,4 +42,4 @@ I've been podcasting for over a decade! I'm one of the hosts of [**Conduit**](ht
 - [Github](https://github.com/kjaymiller)
 - [Mastodon](https://mastodon.social/@kjaymiller)
 - [LinkedIn](https://www.linkedin.com/in/kjaymiller/)
-- [Resume](https://kjaymiller.s3-us-west-2.amazonaws.com/images/Jay_Miller_-_Developer_Advocate.pdf)
+- [Resume](https://jmblogstorrage.blob.core.windows.net/media/Developer%20Advocate%20Resume.pdf)
