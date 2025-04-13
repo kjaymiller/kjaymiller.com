@@ -1,5 +1,13 @@
 [
   {
+    "conference": "PyTexas 2025",
+    "location": "Pittsburgh, PA",
+    "date": "2025-04-13",
+    "talk_title": "A Community Managers Guide to Open Source/Open Source Guide to Community Management",
+    "video_url": null,
+    "description": "I had the privelige of Keynoting PyTexas, where I talked about the lessons learned as a developer who has contributed and maintained open source projects and built worldwide communities."
+  },
+  {
     "conference": "PyCon US 2024",
     "location": "Pittsburgh, PA",
     "date": "2024-05-20",
