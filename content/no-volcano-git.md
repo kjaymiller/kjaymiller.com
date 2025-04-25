@@ -1,6 +1,6 @@
 ---
 category: meetups
-date: 2021-01-28 17:00:00-08:00
+date: 2021-01-29 01:00:00
 description: 'Here''s a subtle description to encourage readers to read the blog post:
 
 
@@ -9,7 +9,10 @@ description: 'Here''s a subtle description to encourage readers to read the blog
   tidy with Jay Miller''s expert tips and tricks.'
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/volcano_presentaion.jpg
 slug: dont-volcano-your-project
-tags: git, talks, lightning-talks
+tags:
+- git
+- talks
+- lightning-talks
 title: "How to Not \U0001F30B your Project"
 youtube: https://www.youtube.com/embed/V_5FV4LkQyc
 ---

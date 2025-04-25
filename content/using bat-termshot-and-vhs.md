@@ -1,5 +1,5 @@
 ---
-date: 2023-11-17 02:29:21+00:00
+date: 2023-11-17 02:29:21
 description: 'Here''s a subtle description to encourage the reader to read the blog
   post:
 

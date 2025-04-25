@@ -1,8 +1,10 @@
 ---
-date: 2021-04-23 07:00:00-07:00
+date: 2021-04-23 14:00:00
 description: I've ditched my custom parser in Render Engine and switched to Frontmatter,
   unlocking new customization possibilities - here's how I did it.
-tags: development, render-engine
+tags:
+- development
+- render-engine
 title: Frontmatter replacing custom parser in Render Engine
 ---
 

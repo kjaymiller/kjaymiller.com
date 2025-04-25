@@ -1,8 +1,9 @@
 ---
-date: 2023-03-28 22:36:00-07:00
+date: 2023-03-29 05:36:00
 description: I recently learned a crucial lesson setting up testing for my Postgres
   Django app - and you can too. Here's how I did it.
-tags: gh-actions
+tags:
+- gh-actions
 title: Lesson Learned from Setting Up Testing for a Postgres Django App (Crash Course)
 ---
 

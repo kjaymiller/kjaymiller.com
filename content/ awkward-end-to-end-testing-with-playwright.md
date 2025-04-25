@@ -1,5 +1,5 @@
 ---
-date: 2024-06-13 01:15:00-04:00
+date: 2024-06-13 01:15:00
 description: Discover how to navigate the pitfalls of end-to-end testing without losing
   control - with Playwright as your guide.
 title: Awkward End-to-End Testing with Playwright

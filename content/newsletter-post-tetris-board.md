@@ -1,10 +1,12 @@
 ---
 category: productivity
-date: 2021-01-23 22:59:00-08:00
+date: 2021-01-24 06:59:00
 description: Stuck in a cycle of multitasking and overwhelm, I find solace in Tetris
   - until it becomes my life. Read how one ADHD tech worker finds meaning in the chaos.
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Emacs_Tetris_vector_based_detail.svg/558px-Emacs_Tetris_vector_based_detail.svg.png
-tags: introspection, tetris
+tags:
+- introspection
+- tetris
 title: My Life is a Tetris Board
 ---
 

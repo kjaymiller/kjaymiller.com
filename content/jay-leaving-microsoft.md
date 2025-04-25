@@ -1,5 +1,5 @@
 ---
-date: 2024-02-09 12:11:42-05:00
+date: 2024-02-09 12:11:42
 description: I left Microsoft after two incredible years, learning to play a vital
   role in shaping their AI focus and empowering Python communities. Read my story
   of growth, mentorship, and finding confidence as a DevRel professional.

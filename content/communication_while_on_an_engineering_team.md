@@ -1,11 +1,10 @@
 ---
-date: 2024-10-24 11:25:23.024269+00:00
-description:
-  As a newcomer to my new team, I'm discovering that the key to success
+date: 2024-10-24 11:25:23.024269
+description: As a newcomer to my new team, I'm discovering that the key to success
   lies not in technical expertise alone. Read about how written communication and
   documentation can make or break your projects.
-title: On Being a Communicator on an Engineering Team
 image: https://kjaymiller.azureedge.net/media/problem-to-code-workflow.webp
+title: On Being a Communicator on an Engineering Team
 ---
 
 I'm on a new team at work temporarily and I this was something that I was so excited about.

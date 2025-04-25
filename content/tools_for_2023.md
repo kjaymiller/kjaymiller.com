@@ -1,8 +1,9 @@
 ---
-date: 2023-01-02 13:42:00-08:00
+date: 2023-01-02 21:42:00
 description: I share my go-to development tools and workflows for Python 3.10 and
   3.11 - from code editors to version management, and everything in between.
-tags: development
+tags:
+- development
 title: My Development Tools - Python 2023
 ---
 

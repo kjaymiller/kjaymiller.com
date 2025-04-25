@@ -1,11 +1,15 @@
 ---
 category: software
-date: 2021-01-25 14:37:00-08:00
+date: 2021-01-25 22:37:00
 description: Discover a new platform that connects underrepresented groups in tech
   and provides resources for allies. Learn how to use DiversityOrgs.Tech and support
   inclusivity initiatives.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/Pyladies-Seattle-snippet.png
-tags: diversity, projects, react, AppSearch
+tags:
+- diversity
+- projects
+- react
+- AppSearch
 title: Introducing DiversityOrgs.Tech
 ---
 

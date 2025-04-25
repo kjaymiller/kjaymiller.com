@@ -1,10 +1,11 @@
 ---
-YouTube: https://www.youtube.com/embed/7ZqL-VSdlN0
-date: 2021-05-19 17:33:00-07:00
+date: 2021-05-20 00:33:00
 description: Discover how I created simple yet powerful Keyboard Maestro macros in
   just a few actions - perfect for beginners!
-tags: Youtube
+tags:
+- Youtube
 title: 4 Beginner Friendly Keyboard Maestro Macros (3 Actions or Less!)
+youtube: https://www.youtube.com/embed/7ZqL-VSdlN0
 ---
 
 [Keyboard Maestro][keyboard maestro] is the most versatile automation tool you can get for the Mac. That said, getting started always seems like a challenge.

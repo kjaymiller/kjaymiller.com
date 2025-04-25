@@ -1,9 +1,11 @@
 ---
-date: 2021-10-06 07:16:00-07:00
+date: 2021-10-06 14:16:00
 description: Discover how I ditched Homebrew's version management woes and found simplicity
   with asdf and direnv, for a better Python development experience.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/python_3_10_asdf_errors_python_versions.png
-tags: python, code
+tags:
+- python
+- code
 title: asdf, direnv and the upgrade to python 3.10
 ---
 

@@ -1,9 +1,11 @@
 ---
-date: 2021-03-21 00:00:00-07:00
+date: 2021-03-21 07:00:00
 description: I'm using Elastic to help a diversity org unlock new features for users,
   all while respecting their privacy.
 link: ''
-tags: 'Python Web Conf, '
+tags:
+- Python Web Conf
+- ''
 title: Telling The Server User Story Through The Elastic Stack
 youtube: https://www.youtube.com/embed/qITZSvVO2As
 ---

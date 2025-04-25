@@ -1,5 +1,5 @@
 ---
-date: 2023-11-11 09:35:50+00:00
+date: 2023-11-11 09:35:50
 description: As a developer advocate, I share my honest thoughts on attending GitHub
   Universe 2024. Will it be worth flying to and spending $1500 for? Find out in my
   latest blog post.

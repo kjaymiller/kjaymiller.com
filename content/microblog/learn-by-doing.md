@@ -1,5 +1,5 @@
 ---
-date: 2024-09-05 15:03:00-04:00
+date: 2024-09-05 15:03:00
 ---
 
 It's hard to get started but also walking a beginner through something can be a challenge.

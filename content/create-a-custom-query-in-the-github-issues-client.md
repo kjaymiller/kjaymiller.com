@@ -1,5 +1,5 @@
 ---
-date: 2023-04-26 17:04:00-07:00
+date: 2023-04-26 17:04:00
 description: I recently discovered how to create custom queries for my GitHub issues
   using a simple JSON format. Want to learn how I did it and see what new insights
   it brought?

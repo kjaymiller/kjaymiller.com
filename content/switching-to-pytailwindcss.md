@@ -1,5 +1,5 @@
 ---
-date: 2022-09-07 10:34:00-07:00
+date: 2022-09-07 17:34:00
 description: 'Here''s a subtle description to encourage the reader to read the blog
   post:
 
@@ -9,7 +9,9 @@ description: 'Here''s a subtle description to encourage the reader to read the b
   and enjoy more flexibility without sacrificing performance.'
 image: https://kjaymiller.azureedge.net/media/pytailwindcss.png
 slug: switch-to-pytailwindcss
-tags: tailwind, python
+tags:
+- tailwind
+- python
 title: Switching from TailwindCSS to PyTailwindCSS
 ---
 

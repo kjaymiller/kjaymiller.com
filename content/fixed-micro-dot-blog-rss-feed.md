@@ -1,5 +1,5 @@
 ---
-date: 2023-05-15 22:45:00-04:00
+date: 2023-05-15 22:45:00
 description: Discover how I fixed my Micro.blog RSS feed and learned why this platform
   is truly special. A personal story of struggle and triumph in a rapidly changing
   social media landscape.

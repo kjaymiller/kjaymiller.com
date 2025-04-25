@@ -1,5 +1,5 @@
 ---
-date: 2024-11-23 17:46:23.239627+00:00
+date: 2024-11-23 17:46:23.239627
 ---
 
 I'm so interested in how one foundation can be responsible for so many massive projects.

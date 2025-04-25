@@ -1,8 +1,10 @@
 ---
-date: 2025-01-21 02:03:45.848219+00:00
+date: 2025-01-21 02:03:45.848219
+description: BambuLabs latest moves are scaring a lot of users, but My hope is the
+  backlash will keep them from going too far.
+tags:
+- 3d printing
 title: Bambu Lab, You aren't Apple
-description: BambuLabs latest moves are scaring a lot of users, but My hope is the backlash will keep them from going too far.
-tags: ["3d printing"]
 ---
 
 Two of my colleagues convinced me to make the switch from Creality[^1] to Bambu Lab. One of the big talking points was that the company had really invested in user experience. The setup was easy and I've had no problems with my A1 or the AMS since I got it in November. I was just telling a friend today that I was considering starting to save for the P1S.

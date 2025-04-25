@@ -1,5 +1,5 @@
 ---
-date: 2024-02-08 20:52:59+00:00
+date: 2024-02-08 20:52:59
 description: I'm fed up with AI-generated videos on YouTube - and I think it's time
   for a change.
 title: RANT - No more AI generated videos please

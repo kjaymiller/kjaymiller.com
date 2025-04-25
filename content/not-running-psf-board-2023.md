@@ -1,9 +1,10 @@
 ---
-date: 2023-06-01 15:04:56+00:00
+date: 2023-06-01 15:04:56
 description: As a dedicated Python community member who's contributed in new ways,
   I'm sharing my thought process on why I won't be running for the PSF Board this
   year - but I hope to inspire you to consider taking on a leadership role.
-tags: psf
+tags:
+- psf
 title: I'm not running for the PSF Board this year, but maybe you should
 ---
 

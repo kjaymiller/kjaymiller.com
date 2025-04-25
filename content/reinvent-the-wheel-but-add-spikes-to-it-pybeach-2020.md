@@ -1,9 +1,11 @@
 ---
-date: 2020-02-01 00:00:00-08:00
+date: 2020-02-01 08:00:00
 description: As a Python developer, I learned valuable lessons by creating custom
   wheels – and you can too.
 link: ''
-tags: 'PyBeach 2020, '
+tags:
+- PyBeach 2020
+- ''
 title: Reinvent the Wheel (But Add Spikes to It)
 youtube: ''
 ---

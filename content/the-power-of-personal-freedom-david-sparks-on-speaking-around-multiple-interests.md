@@ -1,5 +1,5 @@
 ---
-date: 2020-11-08 08:30:00-08:00
+date: 2020-11-08 08:30:00
 description: I recently discovered my newfound freedom to make decisions in a new
   role and I'm excited to share how it's transformed my career. Join me as I chat
   with David Sparks about his journey and insights on personal freedom.

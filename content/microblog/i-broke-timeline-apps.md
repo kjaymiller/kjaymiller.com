@@ -1,5 +1,5 @@
 ---
-date: 2025-02-06 00:17:21.755350+00:00
+date: 2025-02-06 00:17:21.755350
 ---
 
 I added all of the podcasts that I'm subscribed to (All 400 of them) into both the new Reeder and Tapestry...

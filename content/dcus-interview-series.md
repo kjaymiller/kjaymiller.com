@@ -1,5 +1,5 @@
 ---
-date: 2024-10-14 15:06:08.761318+00:00
+date: 2024-10-14 15:06:08.761318
 description: I reflect on this year's DjangoCon US and look ahead to improvements
   in 2025, exploring what I learned from the experience and how it will shape our
   future events.

@@ -1,9 +1,11 @@
 ---
-date: 2020-06-01 08:17:00-07:00
+date: 2020-06-01 15:17:00
 description: 'I''ve been silent on racism and police brutality for too long - it''s
   time I share my thoughts and ask: can we fix this?'
 slug: can-we-fix-this
-tags: police brutality, racism
+tags:
+- police brutality
+- racism
 title: Can we fix this?
 ---
 

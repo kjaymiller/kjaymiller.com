@@ -1,9 +1,10 @@
 ---
-title: Adding Social Cards to my Static Site
-date: 2023-05-18T18:54:44Z
-tags:  [render-engine]
-image: https://kjaymiller.azureedge.net/media/opengraph_cards.png
+date: 2023-05-18 18:54:44
 description: I've given my static website the ability to create opengraph social cards.
+image: https://kjaymiller.azureedge.net/media/opengraph_cards.png
+tags:
+- render-engine
+title: Adding Social Cards to my Static Site
 ---
 
 In the process of getting [Render-Engine](https://github.com/kjaymiller/render_engine) ready to be considered stable and me trying to showcase what is possible, I turned to my personal blog to see what little additions could be made and made easy with render-engine.

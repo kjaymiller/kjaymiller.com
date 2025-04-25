@@ -1,11 +1,13 @@
 ---
-Category: Marketing
-Date: 2019-04-17 09:24:00-07:00
-Tags: networking, lead-capture
-Title: Friends have been my Greatest Asset!
+category: Marketing
+date: 2019-04-17 09:24:00
 description: 'I''ve learned a valuable secret in my own business: the best clients
   and promoters are those I''ve built relationships with over time. Read how establishing
   connections has become my greatest asset to growing my business.'
+tags:
+- networking
+- lead-capture
+title: Friends have been my Greatest Asset!
 ---
 
 I've been letting folks know about my [coaching](https://productivityintech.com/coaching) and [editing](https://productivityintech.com/editing) services more and more these days.

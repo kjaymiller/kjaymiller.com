@@ -1,5 +1,5 @@
 ---
-date: 2024-08-22 20:23:00-04:00
+date: 2024-08-22 20:23:00
 ---
 
 I am now using some tools to make my terminal configs in sync.

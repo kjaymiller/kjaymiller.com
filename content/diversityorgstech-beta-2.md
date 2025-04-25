@@ -1,10 +1,13 @@
 ---
-date: 2022-06-29 00:00:00-07:00
+date: 2022-06-29 07:00:00
 description: I'm excited to share the latest updates to Diversityorgs.Tech, my passion
   project that brings together underrepresented folks in tech. Discover new features
   like map-based searching, improved organization management & a basic API for programmatic
   access.
-tags: diversity, azure, technology
+tags:
+- diversity
+- azure
+- technology
 title: DiversityOrgs.Tech (Beta 2)
 ---
 

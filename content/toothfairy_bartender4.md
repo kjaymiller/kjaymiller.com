@@ -1,6 +1,6 @@
 ---
 category: development
-date: 2021-02-15 16:43:00-08:00
+date: 2021-02-16 00:43:00
 description: 'Here is a subtle description to encourage the reader to read the blog
   post:
 
@@ -13,7 +13,11 @@ description: 'Here is a subtle description to encourage the reader to read the b
   feature and hinting at the solution, without using clickbait phrases or making exaggerated
   claims.'
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/ToothFairy%20Toggle.png
-tags: shell, apps, macOS, automation
+tags:
+- shell
+- apps
+- macOS
+- automation
 title: Showing the Toothfairy Icon only when my Airpods Pro are Connected
 ---
 

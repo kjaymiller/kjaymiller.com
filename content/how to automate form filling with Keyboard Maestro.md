@@ -1,10 +1,13 @@
 ---
-date: 2021-03-03 11:12:00-08:00
+date: 2021-03-03 19:12:00
 description: Unlock seamless form filling with Keyboard Maestro. Learn how to troubleshoot
   common issues and automate your way to productivity in this step-by-step guide for
   Big Sur users.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/Keyboard%20Maestro%20Form%20Automation/Keyboard%20Maestro%20Set%20Safari%20Field.png
-tags: Keyboard Maestro, automation, productivity
+tags:
+- Keyboard Maestro
+- automation
+- productivity
 title: How to Automate Form Filling with Keyboard Maestro (For Big Sur)
 ---
 

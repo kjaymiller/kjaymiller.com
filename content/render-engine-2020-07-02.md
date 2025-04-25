@@ -1,10 +1,11 @@
 ---
 category: Render Engine
-date: 2020-07-01 14:43:00-07:00
+date: 2020-07-01 21:43:00
 description: Discover how render_engine's latest update unlocks new levels of collection
   organization and site customization - read on to learn more.
 image: https://s3-us-west-2.amazonaws.com/kjaymiller/images/render-engine-subcollections.png
-tags: update
+tags:
+- update
 title: SubCollections now available in Render Engine
 ---
 

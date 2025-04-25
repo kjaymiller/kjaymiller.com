@@ -1,12 +1,14 @@
 ---
-date: 2021-07-12 14:39:00-07:00
+date: 2021-07-12 21:39:00
 description: I'm excited to share my new podcast Conduit with you, where I explore
   productivity in a personal and realistic way, without pretenses or expert jargon.
   Join me and co-host Kathy Campbell as we tackle life's challenges one small experiment
   at a time.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/conduit_artwork.png
 link: https://relay.fm/conduit
-tags: podcast, announcements
+tags:
+- podcast
+- announcements
 title: Announcing Conduit on Relay.FM
 ---
 

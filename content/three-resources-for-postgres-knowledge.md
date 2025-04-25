@@ -1,8 +1,11 @@
 ---
-date: 2025-02-05 19:59:12.774842+00:00
+date: 2025-02-05 19:59:12.774842
+description: Here are three great resources for those hoping to dive more into the
+  PostgreSQL community. As shared with me from a PGUS Director.
+tags:
+- postgresql
+- community
 title: Three Resources to Start your journey in the PostgreSQL Community
-tags: ["postgresql", "community"]
-description: Here are three great resources for those hoping to dive more into the PostgreSQL community. As shared with me from a PGUS Director. #PostgreSQL
 ---
 
 I recently made the decision to become better versed in PostgreSQL. A part of my growth in the Python community came from learning about reliable publications for content. This is extremely important where now AI can quickly generate inconsistent content for ad-farms.

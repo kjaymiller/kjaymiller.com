@@ -1,11 +1,13 @@
 ---
-YouTube: https://www.youtube.com/embed/GVGnN-EIZhs
 category: Guest Appearances
-date: 2021-07-07 13:00:00-07:00
+date: 2021-07-07 20:00:00
 description: Just watched an insightful talk on analyzing Kickstarter campaigns with
   Python - want to know my takeaways?
-tags: python, talks
+tags:
+- python
+- talks
 title: Analyzing Kickstarter Campaigns with Python
+youtube: https://www.youtube.com/embed/GVGnN-EIZhs
 ---
 
 Full show notes: https://pythonbytes.fm/241

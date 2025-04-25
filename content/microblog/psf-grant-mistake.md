@@ -1,5 +1,5 @@
 ---
-date: 2025-01-17 01:31:52.058507+00:00
+date: 2025-01-17 01:31:52.058507
 ---
 
 I made mistakes in my running through the data points in my [last post](https://kjaymiller.com/blog/my-thoughts-on-the-psf-grant-funding-changes.html).

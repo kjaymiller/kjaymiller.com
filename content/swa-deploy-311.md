@@ -1,5 +1,5 @@
 ---
-date: 2023-01-03 12:30:00-08:00
+date: 2023-01-03 12:30:00
 description: "Here's a rewritten version of the text in a more concise and clear format:\n\n**Deploying
   an Azure Static Web App with Python**\n\nAfter failed builds, you'll see a new file
   added to your repo: `.github/workflows/azure-static-web-apps-<UNIQUE_STRING>.yml`.

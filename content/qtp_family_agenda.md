@@ -1,5 +1,5 @@
 ---
-date: 2020-05-25 22:59:00-07:00
+date: 2020-05-25 22:59:00
 description: Join me in streamlining our family's schedule and meal planning - a simple
   yet game-changing weekly review that's boosted my productivity and harmony with
   my wife.

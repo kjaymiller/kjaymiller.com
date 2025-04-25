@@ -1,5 +1,5 @@
 ---
-date: 2024-10-10 14:28:18.575526+00:00
+date: 2024-10-10 14:28:18.575526
 link: https://medium.com/@theflyboy/breaking-barriers-a-tech-speakers-plea-for-fair-visa-policies-621b5909e496
 ---
 

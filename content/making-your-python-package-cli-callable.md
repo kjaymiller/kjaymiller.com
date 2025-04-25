@@ -1,5 +1,5 @@
 ---
-date: 2023-11-17 01:59:43+00:00
+date: 2023-11-17 01:59:43
 description: 'Here''s a subtle description to encourage the reader to read the blog
   post:
 
@@ -7,7 +7,8 @@ description: 'Here''s a subtle description to encourage the reader to read the b
   "I recently discovered a convenient way to turn my Python package into a CLI. Want
   to learn how I did it?'
 image: https://kjaymiller.azureedge.net/media/__main__dot_py.png
-tags: python
+tags:
+- python
 title: Making your python package CLI callable
 ---
 

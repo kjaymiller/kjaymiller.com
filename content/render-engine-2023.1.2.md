@@ -1,5 +1,5 @@
 ---
-date: 2023-01-16 21:00:00-08:00
+date: 2023-01-17 05:00:00
 description: Render Engine's latest update (2023.1.2) brings CLI, parsers, and extensions
   work. Discover how it refines static site generation and introduces new features
   to take your site to the next level.

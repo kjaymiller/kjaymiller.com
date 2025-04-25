@@ -1,5 +1,5 @@
 ---
-date: 2020-10-21 16:33:00-07:00
+date: 2020-10-21 16:33:00
 description: I've curated a list of talented BIPOC devs to support & uplift - read
   on for inspiration.
 link: https://github.com/kjaymiller/awesome-bipocit-dev-advocates

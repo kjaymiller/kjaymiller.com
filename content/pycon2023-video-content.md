@@ -1,5 +1,5 @@
 ---
-date: 2023-06-16 21:21:19+00:00
+date: 2023-06-16 21:21:19
 description: I recently attended PyCon and created a video series featuring interviews
   with attendees, speakers, and maintainers. I struggled with time management, editing,
   and technical issues, including low storage space on my devices. Despite these challenges,

@@ -1,5 +1,5 @@
 ---
-date: 2024-08-18T20:00:00-04:00
+date: 2024-08-18 20:00:00
 ---
 
 Last month I went to London for the [Relay 10th anniversary extravaganza](https://relay.fm/london).

@@ -1,5 +1,5 @@
 ---
-date: 2025-04-02 13:54:02.250347+00:00
+date: 2025-04-02 13:54:02.250347
 ---
 
 Last week, I gave a 2 hour workshop called - Terraform Ain't Terrafying!

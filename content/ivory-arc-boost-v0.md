@@ -1,5 +1,5 @@
 ---
-date: 2023-09-11 13:43:01+00:00
+date: 2023-09-11 13:43:01
 description: Got a Mastodon account, but wish you could seamlessly follow new users?
   I recently discovered a browser hack that makes opening their profiles in Ivory
   a breeze.

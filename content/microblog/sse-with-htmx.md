@@ -1,5 +1,5 @@
 ---
-date: 2025-03-11 16:39:43.728177+00:00
+date: 2025-03-11 16:39:43.728177
 ---
 
 For the second time, I'm tried to use HTMX for server-sent-events and for the second time, I resorted to just doing it with 10 lines of javascript.

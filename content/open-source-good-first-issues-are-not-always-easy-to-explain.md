@@ -1,5 +1,5 @@
 ---
-date: 2024-08-26 14:43:00-04:00
+date: 2024-08-26 14:43:00
 description: Discover why I rejected a 'good first issue' despite having created it
   - and what I learned from the experience.
 slug: good-first-issues-are-hard

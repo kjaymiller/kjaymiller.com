@@ -1,5 +1,5 @@
 ---
-date: 2025-01-16 03:26:20.938839+00:00
+date: 2025-01-16 03:26:20.938839
 ---
 
 I was reminded today that when creating case-insensitive strings, Use `.casefold()` instead `lower()`.

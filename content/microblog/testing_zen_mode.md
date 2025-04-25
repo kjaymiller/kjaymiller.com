@@ -1,5 +1,5 @@
 ---
-date: 2024-09-04 11:55:00-04:00
+date: 2024-09-04 11:55:00
 ---
 
 Trying out [ZenMode][0347-0001] and [Twilight][0347-0002] for my NVIM config. I'm not sure I can tell a difference.

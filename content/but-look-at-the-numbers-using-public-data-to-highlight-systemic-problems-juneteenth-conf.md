@@ -1,9 +1,11 @@
 ---
-date: 2021-06-20 00:00:00-07:00
+date: 2021-06-20 07:00:00
 description: 'Exploring the data behind systemic problems: how public records reveal
   a disturbing pattern of issues in policing practices.'
 link: http://www.juneteenthconf.com
-tags: 'Juneteenth Conf, '
+tags:
+- Juneteenth Conf
+- ''
 title: 'But Look at the Numbers: Using Public Data to Highlight Systemic Problems'
 youtube: https://www.youtube.com/embed/OfyqAg2IPfc
 ---

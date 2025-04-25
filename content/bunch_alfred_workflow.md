@@ -1,9 +1,13 @@
 ---
-Date: 2019-10-01 11:00:00-07:00
-Tags: Brett Terpstra, Bunch, Alfred, Workflow
-Title: Quickly Set Your Environment with Bunch and Alfred
+date: 2019-10-01 11:00:00
 description: Discover how I use Bunch and Alfred to streamline my workflow with a
   simple URL scheme and custom workflows.
+tags:
+- Brett Terpstra
+- Bunch
+- Alfred
+- Workflow
+title: Quickly Set Your Environment with Bunch and Alfred
 ---
 
 [Bunch](https://brettterpstra.com/projects/bunch/) is an environment setup/teardown tool by the [mad genius and yoga maestro of the internet][0] Brett Terpstra.
@@ -12,8 +16,8 @@ Bunch uses small configuration files to quickly manipulate your desktop environm
 
 With it you can:
 
-* Open/Close/Focus Applications, Files, and URLs
-* Run shell and Applescript scripts to expand the functionality event more
+- Open/Close/Focus Applications, Files, and URLs
+- Run shell and Applescript scripts to expand the functionality event more
 
 Because I prefer to keep my hands on the keyboard and the Application's main method of use is the Dock, I opted to take advantage of Bunch's URL-Scheme.
 
@@ -23,9 +27,9 @@ x-bunch://open?bunch=[Bunch Name]
 
 This plus smart use of the [_File Filter_][1] in Alfred's workflow feature allowed me to quickly setup an [Alfred Workflow][2] that not only lets you run your bunches but also lets you:
 
-* Display the Config File of the Bunch.
-* Edit the Bunch in your default application.
-* Refresh your Bunches (After making a change)
+- Display the Config File of the Bunch.
+- Edit the Bunch in your default application.
+- Refresh your Bunches (After making a change)
 
 The workflow is available on [Packal][3] to modify via my [Github Repo][2]
 

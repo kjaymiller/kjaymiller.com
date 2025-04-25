@@ -1,5 +1,5 @@
 ---
-date: 2025-01-30 13:52:45.699382+00:00
+date: 2025-01-30 13:52:45.699382
 ---
 
 I was reminded by a friend of Kojo's keynote of PyGotham 2019 -

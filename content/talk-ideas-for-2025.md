@@ -1,9 +1,10 @@
 ---
-date: 2024-10-10 15:19:54.563279+00:00
-description: "Here is my list of talk ideas that I'm taking into 2025, covering topics from DevRel careers to open source contributions and tech trends."
+date: 2024-10-10 15:19:54.563279
+description: Here is my list of talk ideas that I'm taking into 2025, covering topics
+  from DevRel careers to open source contributions and tech trends.
 tags:
-  - python
-  - speaking
+- python
+- speaking
 title: Talk Ideas for 2025
 ---
 

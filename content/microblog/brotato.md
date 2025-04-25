@@ -1,5 +1,5 @@
 ---
-date: 2024-11-26 08:20:23.568649+04:00
+date: 2024-11-26 08:20:23.568649
 ---
 
 I'm over a year late on this one but there was a Steam sale and I wound up getting Brotato.

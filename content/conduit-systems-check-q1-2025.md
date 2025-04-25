@@ -1,7 +1,8 @@
 ---
-date: 2025-02-20 01:54:00.133982+00:00
+date: 2025-02-20 01:54:00.133982
+description: We recorded a mini systems check for conduit as the aftershow and here
+  are the notes for it.
 title: Systems Check for Conduit Q1 2025
-description: We recorded a mini systems check for conduit as the aftershow and here are the notes for it.
 ---
 
 Unfortunately we had several things get in the way this quarter so we did a mini systems-check in our post show. If you want to get second topics with each conduit become a member of [Conduit](https://relay.fm/conduit).

@@ -1,5 +1,5 @@
 ---
-date: 2024-08-07 17:00:00-04:00
+date: 2024-08-07 17:00:00
 description: 'Here is a subtle description to encourage the reader to read the blog
   post:
 

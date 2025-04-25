@@ -1,5 +1,5 @@
 ---
-date: 2024-09-30 00:49:40.145844+00:00
+date: 2024-09-30 00:49:40.145844
 description: Discover how writing tests in your open-source project can lead to new
   skills and exciting career opportunities - even when it feels like 'boring' work.
 tags:

@@ -1,12 +1,13 @@
 ---
 category: Announcements
-date: 2020-07-14 12:08:00-07:00
+date: 2020-07-14 19:08:00
 description: I recently found a game-changer in podcasting - mentorship. Join me as
   I learn from industry experts and share my own journey.
 image: https://s3-us-west-2.amazonaws.com/kjaymiller/images/podcastmentorship.png
 link: https://www.podcastmentorship.net/mentees
 slug: podcast-mentorship-mentee
-tags: podcasting
+tags:
+- podcasting
 title: I Was Selected as a Mentee for the First Podcast Mentorship Cohort
 ---
 

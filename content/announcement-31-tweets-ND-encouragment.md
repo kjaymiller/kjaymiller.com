@@ -1,11 +1,12 @@
 ---
-date: 2022-08-17 10:15:00-07:00
+date: 2022-08-17 17:15:00
 description: I'm sharing my personal journey with neurodivergence and creating a project
   to spread encouragement among fellow neurodiverse individuals through daily motivational
   tweets.
 image: https://jmblogstorrage.blob.core.windows.net/media/CLO20b_Gabriel_Jordan_outside_001.jpg
 slug: 31-tweets-nd-encouragment
-tags: mental-health
+tags:
+- mental-health
 title: New Project 31 Tweets of Neurodiverse Encouragement
 ---
 

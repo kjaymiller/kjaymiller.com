@@ -1,8 +1,11 @@
 ---
-date: 2022-03-29 18:50:00-07:00
+date: 2022-03-30 01:50:00
 description: Just dug into my favorite episode of Overtired and I'm still reeling
   from Brett's take on BeeGees. Dive in to see what else caught my attention.
-tags: podcast, Brett Terpstra, overtired
+tags:
+- podcast
+- Brett Terpstra
+- overtired
 title: Overtired \#278 Link Breakdown
 ---
 

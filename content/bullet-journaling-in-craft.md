@@ -1,9 +1,11 @@
 ---
 category: YouTube
-date: 2021-06-02 22:17:00-07:00
+date: 2021-06-03 05:17:00
 description: I've started exploring the intersection of creativity and productivity
   - can Bullet Journaling and crafting coexist?
-tags: craft, productivity
+tags:
+- craft
+- productivity
 title: Bullet Journaling in Craft?
 youtube: https://www.youtube.com/embed/no7CvJeZ8W0
 ---

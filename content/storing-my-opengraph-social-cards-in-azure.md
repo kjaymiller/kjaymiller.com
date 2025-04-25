@@ -1,5 +1,5 @@
 ---
-date: 2023-05-20 03:05:40+00:00
+date: 2023-05-20 03:05:40
 description: Discover how to streamline image uploads to Azure Blob Storage and speed
   up your blog post processing - a crucial step for static site generators.
 image: https://kjaymiller.azureedge.net/media/entries_taged_social_cards.png

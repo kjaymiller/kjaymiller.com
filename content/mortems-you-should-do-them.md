@@ -1,8 +1,9 @@
 ---
-date: 2021-03-25 08:40:00-07:00
+date: 2021-03-25 15:40:00
 description: I reflect on past projects to identify what worked and what didn't. Want
   to learn how I use pre-mortems and post-mortems to drive future success?
-tags: productivity
+tags:
+- productivity
 title: 'Mortems: You Should Do Those'
 ---
 

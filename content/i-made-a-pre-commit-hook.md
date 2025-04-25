@@ -1,8 +1,12 @@
 ---
+date: 2024-11-05 10:21:00
+description: In order to solve a problem I used AI and only to find another problem
+  and create a precommit hook
+tags:
+- git
+- pre-commit
+- code-story
 title: I made a precommit hook (it wasn't that bad)
-date: 2024-11-05T10:21:00-04:00
-tags: [git, pre-commit, code-story]
-description: In order to solve a problem I used AI and only to find another problem and create a precommit hook
 ---
 
 So at work I'm on this amazing project and one of the things that I'm learning in the process is the idea of validation and pre-validation.

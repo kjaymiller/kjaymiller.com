@@ -1,5 +1,5 @@
 ---
-date: 2025-02-13 01:49:19.419329+00:00
+date: 2025-02-13 01:49:19.419329
 ---
 
 With the power of PostgreSQL, Python, and claude, I:

@@ -1,5 +1,5 @@
 ---
-date: 2023-12-08 23:10:50+00:00
+date: 2023-12-08 23:10:50
 description: Reflecting on the year that brought music and Python coding moments together.
 slug: jaysies-2023
 title: "4 Moments that Made \U0001F60E (Jaysies 2023)"

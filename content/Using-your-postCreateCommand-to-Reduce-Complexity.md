@@ -1,8 +1,9 @@
 ---
-date: 2023-03-01 21:03:00-08:00
+date: 2023-03-02 05:03:00
 description: I recently discovered how my `postCreateCommand` can simplify GitHub
   Actions and reduce complexity in our development systems - read on to learn how.
-tags: github
+tags:
+- github
 title: Using your `postCreateCommand`to Reduce Complexity
 ---
 

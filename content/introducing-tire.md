@@ -1,9 +1,11 @@
 ---
-date: 2022-02-25 23:24:00-08:00
+date: 2022-02-26 07:24:00
 description: Discover a flexible framework for making decisions that lets you weigh
   'time', 'intuition', 'resources' and 'energy' to guide your choices.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/tire-with-wheels.jpg
-tags: conduit, productivity
+tags:
+- conduit
+- productivity
 title: Introducing the TIRE Method
 ---
 

@@ -1,11 +1,13 @@
 ---
 category: jaysies
-date: 2020-12-27 11:18:00-08:00
+date: 2020-12-27 19:18:00
 description: Meet the individuals who ignited growth and connection in my 2020 - from
   mentors to community champions.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/jay-sies-2020.jpg
 slug: five-people-that-made-2020-fire
-tags: reflection, people
+tags:
+- reflection
+- people
 title: "5 People that made my 2020 \U0001F525"
 ---
 

@@ -1,10 +1,12 @@
 ---
 category: Productivity
-date: 2020-07-23 17:08:00-07:00
+date: 2020-07-24 00:08:00
 description: As a multipotentialite myself, I'm exploring the intersection of mindfulness
   and embracing chaos - can these two philosophies coexist and thrive?
 image: https://s3-us-west-2.amazonaws.com/kjaymiller/images/photo-of-a-woman-thinking-941555.jpg
-tags: multipotentiality, mindfulness
+tags:
+- multipotentiality
+- mindfulness
 title: Multipotentiality vs Mindfulness
 ---
 

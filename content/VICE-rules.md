@@ -1,10 +1,12 @@
 ---
-date: 2022-03-19 08:30:00-07:00
+date: 2022-03-19 15:30:00
 description: Learn how I set boundaries with external factors using the VICE strategy
   - a simple yet powerful tool for protecting your productivity and prioritizing what
   matters most.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/vise-1.jpg
-tags: conduit, productivity
+tags:
+- conduit
+- productivity
 title: The VICE Strategy for setting Boundaries and Rules
 ---
 

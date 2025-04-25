@@ -1,5 +1,5 @@
 ---
-date: 2024-09-17 20:34:27.268565+00:00
+date: 2024-09-17 20:34:27.268565
 ---
 
 Damien and I are back to see what he has done on his own in the last week with Django!

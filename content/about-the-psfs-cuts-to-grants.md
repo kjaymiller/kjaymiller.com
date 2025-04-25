@@ -1,7 +1,8 @@
 ---
-date: 2025-01-16 21:35:58.674065+00:00
+date: 2025-01-16 21:35:58.674065
+description: Here are my thoughts on the the PSF's decision to pause funding some
+  events and cap others.
 title: My Thoughts on the PSF Grant Funding Changes
-description: Here are my thoughts on the the PSF's decision to pause funding some events and cap others.
 ---
 
 .. IMPORTANT:: Missing Data Added

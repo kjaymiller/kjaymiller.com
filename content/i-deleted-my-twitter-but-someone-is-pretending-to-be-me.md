@@ -1,7 +1,8 @@
 ---
-date: 2025-04-08 22:13:38.720004+00:00
+date: 2025-04-08 22:13:38.720004
+description: A warning about someone impersonating my identity on X.com. Twitter offers
+  no recourse without rejoining the platform.
 title: I Deleted My Twitter Account but someone is pretending to be me.
-description: A warning about someone impersonating my identity on X.com. Twitter offers no recourse without rejoining the platform.
 ---
 
 I didn't want to write a break up letter with X.com (formerly Twitter). I hate these kinds of posts...

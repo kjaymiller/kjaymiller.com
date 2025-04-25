@@ -1,5 +1,5 @@
 ---
-date: 2025-01-21 03:54:35.688210+00:00
+date: 2025-01-21 03:54:35.688210
 ---
 
 I've been writing a lot more and I'm pretty happy about that. Even when it kicks my butt.

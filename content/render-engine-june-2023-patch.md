@@ -1,5 +1,5 @@
 ---
-date: 2023-06-01 10:07:00-07:00
+date: 2023-06-01 10:07:00
 description: I recently had the chance to dive into our render engine update for June
   2023 and I'm excited to share what changed. From simplifying design to refreshing
   how pages are accessed, there's a lot to explore.

@@ -1,5 +1,5 @@
 ---
-date: 2022-11-19 03:05:00-08:00
+date: 2022-11-19 03:05:00
 description: I used to think 'underrepresented' was enough. Now I'm convinced that's
   just a Band-Aid for a deeper problem. Read my latest post to learn why 'Historically
   Excluded' is the more accurate term.

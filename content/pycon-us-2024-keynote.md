@@ -1,5 +1,5 @@
 ---
-date: 2024-07-02 14:20:00-05:00
+date: 2024-07-02 14:20:00
 description: I'm excited to share my PyCon US 2024 keynote on building with Black
   Python Devs - watch now and learn from my experience!
 title: Black Python Devs Keynote at PyCon US 2024

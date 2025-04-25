@@ -1,9 +1,11 @@
 ---
-date: 2021-12-11 23:53:00-08:00
+date: 2021-12-12 07:53:00
 description: I created a simple family gift site to help me keep track of what I want
   from my extended and lovable but opinionated family.
 slug: why-family-gifts
-tags: development, opinion
+tags:
+- development
+- opinion
 title: Benefits of a Family Gift Site
 ---
 

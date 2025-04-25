@@ -1,5 +1,5 @@
 ---
-date: 2025-04-13 22:19:52.908760+00:00
+date: 2025-04-13 22:19:52.908760
 ---
 
 It was an honor to be the afternoon Keynote at PyTexas today. Thank you to an amazing audience for playing my silly game and vibing (no-code) with me.

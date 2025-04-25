@@ -1,7 +1,7 @@
 ---
-date: 2025-02-13 03:24:21.588072+00:00
-title: Akamai Partners with Black Tech Pipeline (Maybe there is hope for Humanity)
+date: 2025-02-13 03:24:21.588072
 description: Akamai Partners with Black Tech Pipeline (Maybe there is hope for Humanity)
+title: Akamai Partners with Black Tech Pipeline (Maybe there is hope for Humanity)
 ---
 
 So happy to see [Akamai](https://akamai.com) posting roles on Black Tech Pipeline.

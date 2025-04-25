@@ -1,7 +1,8 @@
 ---
+date: 2025-02-24 16:00:00
+description: My team at Aiven is hiring and I wanted to share my thoughts on the qualities
+  I would find to be an excellent fit
 title: Who I think is the perfect candidate for our new opening
-date: 2025-02-24T16:00:00+04:00
-description: My team at Aiven is hiring and I wanted to share my thoughts on the qualities I would find to be an excellent fit
 ---
 
 So my team is [hiring a Developer Advocate](https://aiven.io/careers/job/4515899101) and I want to share with you what I think we need for the role.

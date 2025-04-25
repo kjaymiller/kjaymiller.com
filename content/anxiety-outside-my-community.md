@@ -1,7 +1,8 @@
 ---
-date: 2025-01-21 04:08:50.557768+00:00
+date: 2025-01-21 04:08:50.557768
+description: I submitted some talks to events that I normally wouldn't be attending
+  or speaking at. I forgot how scary that is.
 title: Anxiety Submitting Talks Outside the Python Community
-description: I submitted some talks to events that I normally wouldn't be attending or speaking at. I forgot how scary that is.
 ---
 
 I'm spoiled... It's been 6 years since my first conference talk was accepted and North Bay Python took a chance on my goofy talk, "How I turned a podcast into a business with Python (and some Other Tools we won't talk about".

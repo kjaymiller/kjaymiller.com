@@ -1,9 +1,12 @@
 ---
 category: code
-date: 2021-03-24 14:22:00-07:00
+date: 2021-03-24 21:22:00
 description: I recently set up a new GitHub key on my freshly acquired server - now
   I wish I had written this down sooner.
-tags: github, server, new machine
+tags:
+- github
+- server
+- new machine
 title: Setup New Github Key
 ---
 

@@ -1,5 +1,5 @@
 ---
-date: 2023-01-26 10:15:00-08:00
+date: 2023-01-26 10:15:00
 description: Join me for exclusive coworking sessions, bi-weekly invites to help you
   stay focused and get things done - a unique perk for Conduit's Super Conductor members.
 image: https://kjaymiller.azureedge.net/media/SuperConductor.jpeg

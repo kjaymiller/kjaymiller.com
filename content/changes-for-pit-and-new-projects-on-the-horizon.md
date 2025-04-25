@@ -1,10 +1,11 @@
 ---
 category: Productivity in Tech Podcast
-date: 2020-10-31 02:10:40.973000+00:00
+date: 2020-10-31 02:10:40.973000
 description: Get the inside scoop on my podcast's future, from winding down to a new
   premium audio newsletter.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/pit-logo-v5.jpg
-tags: announcements
+tags:
+- announcements
 title: Changes for PIT and New Projects on the Horizon
 ---
 

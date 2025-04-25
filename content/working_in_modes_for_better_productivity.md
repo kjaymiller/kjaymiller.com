@@ -1,10 +1,13 @@
 ---
 category: meetups
-date: 2020-12-19 10:06:00-08:00
+date: 2020-12-19 18:06:00
 description: I recently shared my favorite productivity hacks at a meetup for Apple
   enthusiasts – here's what I'm talking about.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/SCAU-POSTER-12-19-2020-FINAL.jpg
-tags: bunch, hook, productivity
+tags:
+- bunch
+- hook
+- productivity
 title: Presenting Working in Modes for Better Productivity
 ---
 

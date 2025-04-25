@@ -1,5 +1,5 @@
 ---
-date: 2024-02-08 23:08:35+00:00
+date: 2024-02-08 23:08:35
 description: 'I''ll take care of ordering all the necessary items for the booth, including
   a cheap keyboard, hand sanitizer, and sanitizing wipes. I''ll also make sure to
   have a monitor cable that works with my computer and monitor. Additionally, I''ll

@@ -1,5 +1,5 @@
 ---
-date: 2020-06-11 22:07:00-07:00
+date: 2020-06-11 22:07:00
 ---
 
 [![Questionable Content Post for 12 Jun 2020](https://questionablecontent.net/comics/4285.png)](https://questionablecontent.net/comics/4285)

@@ -1,11 +1,14 @@
 ---
 category: Code
-date: 2020-08-12 11:27:00-07:00
+date: 2020-08-12 18:27:00
 description: I spent an hour on stream trying to solve this problem - but it turned
   out to be the easiest solution all along.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/purple-background-twitch-embed.png
 slug: twitch-player-live-only
-tags: twitch, javascript, KISS
+tags:
+- twitch
+- javascript
+- KISS
 title: How I Made My Twitch Player Appear on My Site Only When I'm Live
 ---
 

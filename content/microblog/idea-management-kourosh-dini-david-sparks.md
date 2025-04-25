@@ -1,5 +1,5 @@
 ---
-date: 2020-11-09 08:35:00-08:00
+date: 2020-11-09 08:35:00
 link: https://www.beingproductive.org/2020/11/the-dawning-of-idea-management-a-conversation-with-david-sparks/
 ---
 

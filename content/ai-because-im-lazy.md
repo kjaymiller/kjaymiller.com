@@ -1,5 +1,5 @@
 ---
-date: 2023-08-17 02:21:59+00:00
+date: 2023-08-17 02:21:59
 description: I'm not a fan of AI, but I've found it's a useful crutch for lazy writers
   like me. Read my story of embracing ChatGPT and how it helped me get started on
   projects.

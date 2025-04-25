@@ -1,5 +1,5 @@
 ---
-date: 2024-11-22 23:58:25.350857+00:00
+date: 2024-11-22 23:58:25.350857
 ---
 
 I recently added a [linkding](https://github.com/sissbruecker/linkding) container and I'm happy about two things.
