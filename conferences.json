@@ -40,5 +40,13 @@
     "location": "Online",
     "date": "2023-12-15",
     "talk_title": "End-to-End Flask App Testing with Playwright"
+  },
+  {
+    "conference": "CSVConf v6",
+    "location": "Online",
+    "date": "2021-05-04",
+    "talk_title": "Enhancing Civics Data with Elasticsearch, pandas, and Eland",
+    "description": "I'm sharing my process for transforming incomplete civic data into interactive visualizations with Elasticsearch and geopandas.",
+    "video_url": "https://www.youtube.com/embed/YM0zQ2OdWT0"
   }
 ]

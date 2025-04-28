@@ -1,6 +1,6 @@
 ---
 title: Shut up and Dribble
-date: 2024-04-28 17:00:00
+date: 2025-04-28 17:00:00
 tags: ["mood", "devrel"]
 description: "I'm fighting the attitude of being told what I should be doing. I'm not here to say I'm right or wrong. I just wish the conversation was more collaborative"
 ---
