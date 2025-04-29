@@ -1,10 +1,10 @@
 ---
-date: 2025-04-29 00:58:27.703892+00:00
+date: 2025-04-29 00:58:27.703892
 title: A Python Community Vet becomes a newbie at a PostgreSQL event
 tags: ["confefence"]
 description: "I've been to a lot of Python conferences, but my first PostgreSQL conference has me already looking forward to the next one!"
+image: https://jmblogstorrage.blob.core.windows.net/media/britannica-building-chicago.webp
 ---
-
 
 I spent the last week in Chicago ~watching the Cubs play~ participating in a week of PostgreSQL. I didn't have any expectations going in but I think the results were beyond any expectation that I would have expected.
 
@@ -28,6 +28,8 @@ Something that I like is that presenters all had their style and it was great! F
 
 Another amazing talk style was that of [Chelsea Dole](https://www.linkedin.com/in/chelsea-dole/) who admitted that her talk had been given so many times that she was extremely comfortable presenting it.
 
+![Chelsea presenting confidently](https://jmblogstorrage.blob.core.windows.net/media/chelsea-dole-slides-pgday-chi-2025-1.webp)
+
 Throughout the talks it felt like people were extremely confident, even when giving your first presentation like [Doğaç Eldenk](https://www.linkedin.com/in/dogacel/), the level of confidence that came from the presenters intimidated me a little which I felt in my talk.
 
 ## I only had to say it once
@@ -50,4 +52,4 @@ In the end, I was still trying to push [my project](https://github.com/kjaymille
 
 ## Am I slowly becoming a member of two communities
 
-It feels weird to say but I'm definitely feeling more and more like a member of the PG community, if only at the beginning of my journey. I didn't want to compare the Python community and the PG community but the PG community feels like it embraces its smaller environment where Python seems to constantly want it to grow.  At a couple times, I felt at home welcome with the cadre of speakers I had met from the dinner the night before who worked hard to make me feel at home. Up to the afternoon after the event where the philosophical discussion started the night before with a cheers of Malört eased into the buffet at that Chicago Curryhouse where folks wanted to learn more and more about me, devrel, my career, passions and more. I look forward to the next time I'll get to hang with friends and hope they see me as the same.
+It feels weird to say but I'm definitely feeling more and more like a member of the PG community, if only at the beginning of my journey. I didn't want to compare the Python community and the PG community but the PG community feels like it embraces its smaller environment where Python seems to constantly want it to grow. At a couple times, I felt at home welcome with the cadre of speakers I had met from the dinner the night before who worked hard to make me feel at home. Up to the afternoon after the event where the philosophical discussion started the night before with a cheers of Malört eased into the buffet at that Chicago Curryhouse where folks wanted to learn more and more about me, devrel, my career, passions and more. I look forward to the next time I'll get to hang with friends and hope they see me as the same.
