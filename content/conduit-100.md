@@ -3,6 +3,7 @@ date: 2025-05-01 18:58:20.798127+00:00
 title: Reflecting on 100 Episodes of Conduit
 description: I reflect on 100 episodes of 'Conduit' and its personal impact.
 tags: ["podcasting", "conduit"]
+image: https://relayfm.s3.amazonaws.com/uploads/broadcast/image_3x/62/conduit_artwork_e33c9b8a-fb95-48af-9731-efacfa31588c.png
 ---
 
 Earlier today, the [100th Episode of Conduit][Conduit 100] came out.
