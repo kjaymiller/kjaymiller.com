@@ -1,5 +1,5 @@
 ---
-date: 2025-05-01 18:58:20.798127+00:00
+date: 2025-05-01 18:58:20.798127
 title: Reflecting on 100 Episodes of Conduit
 description: I reflect on 100 episodes of 'Conduit' and its personal impact.
 tags: ["podcasting", "conduit"]
