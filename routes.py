@@ -1,6 +1,5 @@
 import os
 import json
-from jinja2.environment import Environment as Environment
 
 
 from render_engine import (
@@ -63,6 +62,17 @@ class GuestAppearances(Page):
     content_path = "guest_appearances.json"
     template = "guest_appearances.html"
     parser_extras = {"markdown_extras": markdown_extras}
+
+
+@app.collection
+class NotestoSelf(_Blog):
+    Parser = MarkdownPageParser
+    title = "Notes to Self"
+    parser_extras = {"markdown_extras": markdown_extras}
+    content_path = "content/notes"
+    template = "blog.html"
+    archive_template = "blog_list.html"
+    routes = ["notes"]
 
 
 @app.collection

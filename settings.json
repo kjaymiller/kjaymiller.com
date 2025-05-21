@@ -3,6 +3,7 @@
     { "text": "About", "url": "/about.html" },
     { "text": "Blog", "url": "/blog/blog1.html" },
     { "text": "MicroBlog", "url": "/microblog/microblog.html" },
+    { "text": "Notes to Self", "url": "/notes/" },
     {
       "text": "Talks",
       "url": "/conferences.html"
