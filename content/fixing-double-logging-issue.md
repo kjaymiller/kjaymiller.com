@@ -3,7 +3,11 @@ title: Fixing the double logging issue with a logging.filter
 date: 2025-05-22T10:22:46
 tags:
   - frontmatter-check
+description: "I fixed my issue with double logging issues"
 ---
+
+> UPDATE::
+> This apparently broke frontmatter-check but I'm not sure how... it may be an issue with the versioning... Testing now...
 
 I finally fixed a very annoying issue with [frontmatter-check](https://github.com/kjaymiller/frontmatter-check).
 
