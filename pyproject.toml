@@ -1,4 +1,3 @@
 [render-engine.cli]
 module = "routes"
 site = "app"
-collection = "Blog"
