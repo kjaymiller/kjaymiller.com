@@ -1,9 +1,14 @@
 ---
 date: 2025-05-28 17:12:53
-description:
-  I just learned the hard way that pgvectorscale needs explicit vector
+description: I just learned the hard way that pgvectorscale needs explicit vector
   dimensions, even when it claims to support 16k. Three lines to add the extension,
   but forgetting `vector(768)` cost me my entire index.
+tags:
+- postgresql
+- ai
+- TIL
+- development
+- code
 title: pgvectorscale is easy to add onto pgvector
 ---
 
