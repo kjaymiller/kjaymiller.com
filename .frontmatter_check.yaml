@@ -8,6 +8,16 @@ patterns:
       - field_name: title
       - field_name: description
       - field_name: date
+  - name: "Notes"
+    pattern: "content/notes/*.md" # match ALL `.md` files in the content folder
+    rules:
+      - field_name: title
+      - field_name: description
+      - field_name: date
+  - name: "Microblog"
+    pattern: "content/microblog/*.md" # match ALL `.md` files in the content folder
+    rules:
+      - field_name: date
   - name: "Pages"
     pattern: "content/pages/*.md" # match ALL `.md` files in the content folder
     rules:

@@ -21,7 +21,7 @@ model.key = os.getenv("CLAUDE_API_KEY")
 
 
 @app.command(name="describe")
-def describe(filepath: pathlib.Path, write: bool = False):
+def describe(filepath: pathlib.Path, write: bool = False, confirm: bool = True):
     """Read the contents of a filepath and return the description"""
     post = frontmatter.loads(filepath.read_text())
     response = model.prompt(
@@ -32,9 +32,12 @@ def describe(filepath: pathlib.Path, write: bool = False):
     text = response.text()
 
     if write:
+        if confirm:
+            print(text)
+            typer.confirm("Do you want to apply this description?", abort=True)
         post.metadata["description"] = text
         filepath.write_text(frontmatter.dumps(post))
-        print("Success! %s " % filepath.name)
+        print("Success! - %s " % filepath.name)
 
     else:
         print(text)
@@ -86,7 +89,7 @@ def tag(
     )
 
     results = response.text()
-    tags = [tag["tag"] for tag in json.loads(results)["items"]]
+    tags: list[str] = [tag["tag"] for tag in json.loads(results)["items"]]
 
     if write:
         if confirm:
@@ -100,7 +103,7 @@ def tag(
         print_json(results)
 
     else:
-        print_json(tags)
+        print("\n".join(tags))
 
 
 if __name__ == "__main__":
