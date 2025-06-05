@@ -176,6 +176,14 @@ and if we look at the content that was changed, we can see that tags that were a
 
 ![tags added to a post](https://jmblogstorrage.blob.core.windows.net/media/llm-tag-content-with-tags.webp)
 
+## What's the cost
+
+I'm using `llm` with `claude-4-sonnet`. I was worried about my consumption but honestly I think it turned out okay.
+
+Running the project and testing cost about $0.40 USD and consumed about 125,000 tokens. Token usage was based on the length of the content.
+
+![Cost from Anthropic Dashboard](https://jmblogstorrage.blob.core.windows.net/media/llm-tags-token-cost.webp)
+
 ## Long-term application
 
 This is a somewhat one-shot script but we can do a lot with the knowledge we've gained here.
@@ -210,6 +218,8 @@ Now, I'll add this script to my `.pre-commit-config.yaml`
       types: [markdown]
 ```
 
----
+## And what about updating the content in PostgreSQL
+
+You may have noticed I didn't update the SQL with the new information. There is a lot of chunking that needs to happen to transcribe that content. I will be making that post very very soon!
 
 You can check out the final code [on github](https://github.com/kjaymiller/kjaymiller.com/blob/main/tools/no_tags.py).
