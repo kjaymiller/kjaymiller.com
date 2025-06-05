@@ -22,5 +22,5 @@ repos:
         name: Check posts for tags
         entry: python tools/no_tags.py
         language: system
+        files: "content"
         types: [markdown]
-        files: "content/*.md"
