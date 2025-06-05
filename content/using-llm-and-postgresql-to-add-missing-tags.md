@@ -209,3 +209,7 @@ Now, I'll add this script to my `.pre-commit-config.yaml`
       files: "content"
       types: [markdown]
 ```
+
+---
+
+You can check out the final code [on github](https://github.com/kjaymiller/kjaymiller.com/blob/main/tools/no_tags.py).
