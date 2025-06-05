@@ -1,6 +1,6 @@
 ---
 date: 2025-06-04 17:58:52
-description: I've been working to clean up my
+description: "I've been working to add consistent tagging to my blog. This update uses AI to make sure there is always tagging."
 tags:
   - automation
   - ai
