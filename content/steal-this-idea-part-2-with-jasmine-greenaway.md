@@ -3,6 +3,10 @@ date: 2020-11-03 03:34:33.078000
 description: I'm sharing my 'post mortem' of recent ideas - come see what's worth
   taking and running with!
 image: https://images.transistor.fm/file/transistor/images/episode/390744/1604374753-artwork.jpg
+tags:
+- reflection
+- encouragement
+- podcast
 title: Steal this idea & Part 2 with Jasmine Greenaway
 ---
 

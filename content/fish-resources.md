@@ -4,6 +4,10 @@ description: I still swear by Fish Shell - a terminal alternative that's gained 
   speed and efficiency over GUI tools.
 image: https://fishshell.com/assets/img/Terminal_Logo_CRT_Small.png
 slug: fish-resources
+tags:
+- shell
+- development
+- productivity
 title: Fish Resources
 ---
 

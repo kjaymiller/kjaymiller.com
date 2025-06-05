@@ -3,6 +3,10 @@ date: 2024-08-26 14:43:00
 description: Discover why I rejected a 'good first issue' despite having created it
   - and what I learned from the experience.
 slug: good-first-issues-are-hard
+tags:
+- open source
+- community
+- github
 title: Good First Issues Aren't Always Good (But can be issues)
 ---
 

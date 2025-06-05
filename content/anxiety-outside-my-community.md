@@ -2,6 +2,10 @@
 date: 2025-01-21 04:08:50.557768
 description: I submitted some talks to events that I normally wouldn't be attending
   or speaking at. I forgot how scary that is.
+tags:
+- speaking
+- community
+- career
 title: Anxiety Submitting Talks Outside the Python Community
 ---
 

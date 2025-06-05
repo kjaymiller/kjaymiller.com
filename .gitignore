@@ -174,3 +174,5 @@ test-results.md
 .vscode/settings.json
 *.bak*
 .python-version
+out.png
+out.webp

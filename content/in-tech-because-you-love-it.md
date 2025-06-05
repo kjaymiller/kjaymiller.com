@@ -2,6 +2,10 @@
 date: 2023-09-10 17:08:48
 description: I used to think loving tech was a luxury only the passionate few could
   afford. Now I'm realizing that sometimes it's just smart.
+tags:
+- career
+- diversity
+- reflection
 title: Working in Tech because I love Money (and Tech)
 ---
 

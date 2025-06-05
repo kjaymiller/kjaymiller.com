@@ -4,6 +4,10 @@ description: I've curated a list of talented BIPOC devs to support & uplift - re
   on for inspiration.
 link: https://github.com/kjaymiller/awesome-bipocit-dev-advocates
 subtitle: Because Discovery is Hard
+tags:
+- PIT Show
+- diversity
+- announcements
 title: BIPOCIT Dev Advocates Awesome List
 ---
 

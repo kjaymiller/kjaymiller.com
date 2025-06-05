@@ -3,6 +3,10 @@ date: 2024-05-25 12:46:21
 description: Reflections on what worked and what didn't at our Black Python Devs Booth
   at PyCon US - from what we took to what we wished we'd had.
 image: https://kjaymiller.azureedge.net/media/black-python-devs-booth-day-0.jpeg
+tags:
+- pycon
+- community
+- BlackDevelopers
 title: My List of things that I took (and wish I took)to PyCon US for the Black Python
   Devs Booth
 ---

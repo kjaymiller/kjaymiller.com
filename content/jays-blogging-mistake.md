@@ -2,6 +2,11 @@
 date: 2025-01-17 01:37:22.345271
 description: I gave AI a little too much credit and yup... you guessed it. I paid
   for it.
+tags:
+- reflection
+- psf
+- ai
+- Python
 title: How (A)I Messed Up My Data Gathering
 ---
 

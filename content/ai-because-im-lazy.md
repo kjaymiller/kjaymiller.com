@@ -4,6 +4,10 @@ description: I'm not a fan of AI, but I've found it's a useful crutch for lazy w
   like me. Read my story of embracing ChatGPT and how it helped me get started on
   projects.
 image: https://kjaymiller.azureedge.net/media/ChatGPT%20random%20language%20code.png
+tags:
+- ai
+- opinion
+- development
 title: Embracing AI because I'm Lazy
 ---
 

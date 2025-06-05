@@ -9,6 +9,10 @@ description: 'Here''s a subtle description that encourages the reader to read th
   GitHub Actions and gain control over your build process.'
 image: https://kjaymiller.azureedge.net/media/az%20deployment%20build.png
 slug: static-site-generator-with-python-azure
+tags:
+- azure
+- python
+- static-site-generator
 title: Deploying a Custom Python Static Site Generator to Azure
 ---
 

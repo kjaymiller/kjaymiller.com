@@ -2,6 +2,10 @@
 date: 2021-08-17 07:30:00
 description: I reflect on my experience hosting The PIT Show, sharing what I learned
   about success, community, and growth - lessons that can be applied to any project.
+tags:
+- PIT Show
+- podcasting
+- reflection
 title: The PIT Show Post Mortem
 ---
 

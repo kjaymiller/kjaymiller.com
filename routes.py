@@ -53,13 +53,13 @@ class Conferences(Page):
     template = "conferences.html"
     parser_extras = {"markdown_extras": markdown_extras}
     Parser = JSONPageParser
-    content_path = "conferences.json"
+    content_path = "data/conferences.json"
 
 
 @app.page
 class GuestAppearances(Page):
     Parser = JSONPageParser
-    content_path = "guest_appearances.json"
+    content_path = "data/guest_appearances.json"
     template = "guest_appearances.html"
     parser_extras = {"markdown_extras": markdown_extras}
 

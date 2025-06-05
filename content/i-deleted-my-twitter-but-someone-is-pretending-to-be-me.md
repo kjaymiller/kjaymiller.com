@@ -2,6 +2,10 @@
 date: 2025-04-08 22:13:38.720004
 description: A warning about someone impersonating my identity on X.com. Twitter offers
   no recourse without rejoining the platform.
+tags:
+- technology
+- ai
+- business
 title: I Deleted My Twitter Account but someone is pretending to be me.
 ---
 

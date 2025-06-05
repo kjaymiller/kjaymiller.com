@@ -4,6 +4,10 @@ description: I recently discovered my newfound freedom to make decisions in a ne
   role and I'm excited to share how it's transformed my career. Join me as I chat
   with David Sparks about his journey and insights on personal freedom.
 image: https://images.transistor.fm/file/transistor/images/episode/395855/1604811210-artwork.jpg
+tags:
+- podcast
+- career
+- reflection
 title: 'The Power of Personal Freedom: David Sparks on Speaking Around Multiple Interests'
 ---
 

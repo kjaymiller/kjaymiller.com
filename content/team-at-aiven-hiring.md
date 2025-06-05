@@ -2,6 +2,10 @@
 date: 2025-02-24 16:00:00
 description: My team at Aiven is hiring and I wanted to share my thoughts on the qualities
   I would find to be an excellent fit
+tags:
+- hiring
+- developer advocacy
+- career
 title: Who I think is the perfect candidate for our new opening
 ---
 

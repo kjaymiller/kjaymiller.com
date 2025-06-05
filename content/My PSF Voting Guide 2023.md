@@ -3,6 +3,10 @@ date: 2023-06-17 12:40:21
 description: I'm sharing my criteria for evaluating potential PSF board members. Let's
   focus on substance over popularity and consider what skills and qualities are truly
   needed to serve this community.
+tags:
+- psf
+- governance
+- python
 title: My Guide to Considering a PSF Board Member
 ---
 

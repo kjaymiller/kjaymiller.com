@@ -4,6 +4,10 @@ date: 2020-08-12 07:11:00
 description: Discover how I ditch the frustration of rewriting tasks in my Bullet
   Journal and keep my journaling system stress-free.
 slug: rewriting-bujo-tasks
+tags:
+- Bullet Journal
+- productivity
+- opinion
 title: The "Problem" with rewriting tasks in your Bullet Journal
 ---
 

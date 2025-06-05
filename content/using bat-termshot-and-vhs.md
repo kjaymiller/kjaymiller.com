@@ -9,6 +9,10 @@ description: 'Here''s a subtle description to encourage the reader to read the b
   and engaging code examples that will take your writing to the next level.'
 summary: Here are some of the tools I'm using to create code snippets for my blog
   posts
+tags:
+- code
+- vscode
+- productivity
 title: Using bat, termshot, and vhs to create snippets of code for blog posts
 ---
 

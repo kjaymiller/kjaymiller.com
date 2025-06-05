@@ -5,6 +5,11 @@ description: As a developer advocate, I share my honest thoughts on attending Gi
   latest blog post.
 image: https://kjaymiller.azureedge.net/media/ghu-2023-jay-pre-talk.jpg
 ref: ~/Documents/GH Universe - KBYG.bike
+tags:
+- github
+- speaking
+- YouTube
+- reflection
 title: 'GitHub Universe: Should I Attend in 2024'
 ---
 

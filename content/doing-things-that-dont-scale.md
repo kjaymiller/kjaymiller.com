@@ -3,6 +3,10 @@ date: 2023-09-10 16:09:18
 description: I make things that don't scale well, not for fame or fortune, but to
   focus on a handful of people and create meaningful impact - read how I've made a
   difference.
+tags:
+- reflection
+- community
+- devrel
 title: Why I Do Things that Don't Scale (Very Well)
 ---
 

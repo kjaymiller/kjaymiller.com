@@ -3,6 +3,10 @@ date: 2023-10-23 15:59:07
 description: I'll share my experiences and tips on moderating technical panels - from
   research to post-event feedback - to help you host successful and engaging tech
   discussions.
+tags:
+- speaking
+- career
+- community
 title: How I moderate technical panels
 ---
 

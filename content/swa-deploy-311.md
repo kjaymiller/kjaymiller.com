@@ -16,6 +16,10 @@ description: "Here's a rewritten version of the text in a more concise and clear
   to retrigger the workflow.\n* Check the Azure portal for your custom domain settings."
 image: https://kjaymiller.azureedge.net/media/Python%203.11%20in%20SWA.png
 slug: azure-static-web-apps-python3.11
+tags:
+- python
+- azure
+- static-site-generator
 title: Azure Static Web Apps supports Python 3.11. Here's how to build yours with
   Azure CLI.
 ---

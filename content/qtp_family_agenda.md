@@ -5,6 +5,10 @@ description: Join me in streamlining our family's schedule and meal planning - a
   my wife.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/CleanShot-2020-05-25-at-22.50.08.png
 slug: qtp-family-agenda
+tags:
+- omnifocus
+- productivity
+- reflection
 title: Quick Productivity Tip - The Upcoming Family Agenda
 ---
 

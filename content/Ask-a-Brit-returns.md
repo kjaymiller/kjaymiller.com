@@ -6,6 +6,10 @@ description: Join me and Jay as we dive into our hilarious misadventures trying 
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/AskABritv4.png
 link: https://share.transistor.fm/s/9d9f5cfe
 slug: podcast announcement
+tags:
+- podcast
+- politics
+- announcements
 title: Ask a Brit is back for Season 2
 ---
 

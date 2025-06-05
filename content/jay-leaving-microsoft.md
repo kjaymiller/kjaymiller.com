@@ -5,6 +5,10 @@ description: I left Microsoft after two incredible years, learning to play a vit
   of growth, mentorship, and finding confidence as a DevRel professional.
 image: https://kjaymiller.azureedge.net/media/jay-microsoft-start-end.jpg
 slug: jay-leaving-microsoft
+tags:
+- career
+- microsoft
+- reflection
 title: What 2 Years at Microsoft can do (with the right team)
 ---
 

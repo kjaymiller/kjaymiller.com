@@ -1,32 +1,17 @@
 ---
 date: 2024-02-08 23:08:35
-description: 'I''ll take care of ordering all the necessary items for the booth, including
-  a cheap keyboard, hand sanitizer, and sanitizing wipes. I''ll also make sure to
-  have a monitor cable that works with my computer and monitor. Additionally, I''ll
-  prepare an elevator pitch and have our team''s call-to-actions ready to engage with
-  attendees.
-
-
-  To ensure we''re well-prepared for conversations, I''ll review our team''s materials,
-  including social media promotions, CTAs, and any special deals or discounts we can
-  offer. We''ll also have a plan in place for distributing swag items, such as stickers
-  or multi-use items, that are both useful and environmentally friendly.
-
-
-  I''ll make sure to assign two people to the booth during busy times and one person
-  when talks are happening, allowing us to split the crowd and keep things moving
-  smoothly. I''ll also remind our team to enjoy the conference, including talks and
-  social events, while keeping an eye on the booth at all times.
-
-
-  With a little creativity and planning, we can make our booth stand out and have
-  valuable conversations with attendees!'
+description:
+  "With a little creativity and planning, we can make our booth stand out and have
+  valuable conversations with attendees!"
 image: https://kjaymiller.azureedge.net/media/dawn-wages-at-microsoft-booth-djangocon-2022.jpg
+tags:
+  - conferences
+  - community
 title: Running a Community Booth at PyCon US or Similar Events
 ---
 
 .. NOTE::
-    My website doesn't have an author flag but Russell added so much information to make this post and deserves equal credit. Go Support [BeeWare](https://beeware.org/) and associated projects.
+My website doesn't have an author flag but Russell added so much information to make this post and deserves equal credit. Go Support [BeeWare](https://beeware.org/) and associated projects.
 
 I saw that Master Beeware Keeper Russell Keith-Magee was [going to PyCon US](https://cloudisland.nz/@freakboy3742/111898057174534510) and hopefully running the Project Beeware booth for the 6th year.
 
@@ -65,9 +50,9 @@ You can do a lot for very little. Here is a list of materials that you can inves
 I chose pricing from [vistaprint.com](https://vistaprint.com) because it was the first service that came to mind that can get your materials anywhere but you can get all of this with other print shops for varying prices.
 
 - Retractable Banners ($120-$150 each)
-- A hang up banner  (2.5" x 8" - $50)
+- A hang up banner (2.5" x 8" - $50)
 - Table cloth with Design (6" - $215) - Your booth comes with a black tablecloth so you can use that for FREE!
-- Stickers -   ($78 for 100 or $100 for 200)
+- Stickers - ($78 for 100 or $100 for 200)
 - Paper information pieces with holders (approx $15 depending on the paper and the stands used)
 - Booth tools (explained in more detail) - ($25 - $100)
 - Walmart monitor ($75-100)

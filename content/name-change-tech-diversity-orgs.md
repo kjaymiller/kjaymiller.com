@@ -4,6 +4,9 @@ description: I've made a simple change to my tech project's domain, and it saved
   $35 a year. Here's why I did it.
 image: https://kjaymiller.s3-us-west-2.amazonaws.com/images/tech_diversity_orgs_com.jpg
 slug: name-change-tech-diversity-orgs
+tags:
+- diversity
+- business
 title: name change for diversityorgs.tech (Now Tech Diversity Orgs)
 ---
 

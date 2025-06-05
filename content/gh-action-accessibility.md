@@ -1,13 +1,12 @@
 ---
 date: 2023-09-13 01:29:26
-description: 'Here''s a subtle description to encourage the reader to read the blog
-  post:
-
-
-  "Want to know how I used GitHub Actions to create an accessible website testing
-  workflow? From running tests on a local server to generating summary reports and
-  comparing accessibility audits, discover my step-by-step approach.'
+description: "I used GitHub Actions to create an accessible website testing
+  workflow"
 image: https://jmblogstorrage.blob.core.windows.net/media/gh-action-a11y-build-and-deploy-job.png
+tags:
+  - accessibility
+  - gh-actions
+  - render-engine
 title: Website Accessibility Audit Reports via GH Actions
 ---
 
@@ -48,6 +47,7 @@ For those familiar with render-engine that runserver process is very similar to 
 ## The GitHub action to test
 
 The GitHub action is relatively simple as we're doing the same process that we normally do with many Python-based workflows
+
 1. Install the dependencies
 2. Run the workflow
 3. _Generate a Summary and Artifact the File??_
@@ -59,14 +59,14 @@ You can [output results](https://github.blog/2022-05-09-supercharging-github-act
 I `cat` the output of our accessibilty report to the value.
 
 ```yaml
-    run: |
-          python a11y.py --output "accessibility-report-${{steps.date.outputs.DATE}}-${{github.run_id}}.txt"
-          cat "accessibility-report-${{steps.date.outputs.DATE}}-${{github.run_id}}.txt" >> $GITHUB_STEP_SUMMARY
+run: |
+  python a11y.py --output "accessibility-report-${{steps.date.outputs.DATE}}-${{github.run_id}}.txt"
+  cat "accessibility-report-${{steps.date.outputs.DATE}}-${{github.run_id}}.txt" >> $GITHUB_STEP_SUMMARY
 ```
 
 ![snippet of action step summary](https://jmblogstorrage.blob.core.windows.net/media/action-step-summary.png)
 
-But what if I want to compare two reports? This is where using the [upload-artifact action](https://github.com/actions/upload-artifact) comes into play.  Upload Artifact allows us to take the report file and make it available as a download.
+But what if I want to compare two reports? This is where using the [upload-artifact action](https://github.com/actions/upload-artifact) comes into play. Upload Artifact allows us to take the report file and make it available as a download.
 
 ![Accessibility Artifact in GitHub actions](https://jmblogstorrage.blob.core.windows.net/media/accessibility-audit-gh-actions.png)
 
@@ -82,7 +82,6 @@ jobs:
     uses: ./.github/workflows/a11y-test.yml
   build_and_deploy_job:
     needs: runs_a11y
-...
 ```
 
 ![deploy post relying on a11y.yml](https://jmblogstorrage.blob.core.windows.net/media/gh-action-a11y-build-and-deploy-job.png)
@@ -91,7 +90,7 @@ jobs:
 
 Now the goal is improvement. That being said it's very unlikely that a site that is built by a theme will add lots of breaking accessibility changes.
 
-But that is what testing is for (catching the unexpected). My hope is I can set a value based on the `violations_count` parameter.  That said a I do have an issue with how violations are counted.
+But that is what testing is for (catching the unexpected). My hope is I can set a value based on the `violations_count` parameter. That said a I do have an issue with how violations are counted.
 
 Even though in [the last post on this](https://kjaymiller.com/blog/using-python-to-fix-my-accessibility-nightmare-of-a-website.html#how-bad-is-it) the report claims 3 violations, there were several errors for each violation. This means that while I can catch errors, I can't check against a total count of issues.
 

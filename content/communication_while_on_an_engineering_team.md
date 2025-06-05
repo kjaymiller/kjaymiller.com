@@ -4,6 +4,10 @@ description: As a newcomer to my new team, I'm discovering that the key to succe
   lies not in technical expertise alone. Read about how written communication and
   documentation can make or break your projects.
 image: https://kjaymiller.azureedge.net/media/problem-to-code-workflow.webp
+tags:
+- career
+- development
+- devrel
 title: On Being a Communicator on an Engineering Team
 ---
 

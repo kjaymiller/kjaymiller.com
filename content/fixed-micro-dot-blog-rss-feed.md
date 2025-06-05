@@ -4,6 +4,10 @@ description: Discover how I fixed my Micro.blog RSS feed and learned why this pl
   is truly special. A personal story of struggle and triumph in a rapidly changing
   social media landscape.
 image: https://kjaymiller.azureedge.net/media/What%20I%20(Hope)%20to%20Be%20Doing.png
+tags:
+- technology
+- content
+- render-engine
 title: Fixing my Micro.blog RSS Feed (A Love Letter to Micro.Blog)
 ---
 

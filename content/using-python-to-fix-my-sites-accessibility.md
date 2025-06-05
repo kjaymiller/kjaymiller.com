@@ -3,6 +3,10 @@ date: 2023-09-10 23:17:55
 description: I'll be updating the Render Engine template to include accessibility
   fixes for our website. I plan to focus on pages with existing issues, starting with
   this homepage. My goal is to make testing easier and ensure a better user experience.
+tags:
+- accessibility
+- python
+- render-engine
 title: Using Python to fix my Accessibility nightmare of a website
 ---
 

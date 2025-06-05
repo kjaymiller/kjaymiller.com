@@ -14,6 +14,10 @@ description: 'Here is a subtle description to encourage the reader to read the b
   This description is short, personal, and hints at the benefits of changing one''s
   language habits without being too promotional or clickbait-y.'
 image: https://kjaymiller.azureedge.net/media/text-expander-just.png
+tags:
+- productivity
+- career-advice
+- automation
 title: More Inclusive Language Using TextExpander
 ---
 

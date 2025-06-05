@@ -3,6 +3,10 @@ date: 2023-09-11 13:43:01
 description: Got a Mastodon account, but wish you could seamlessly follow new users?
   I recently discovered a browser hack that makes opening their profiles in Ivory
   a breeze.
+tags:
+- javascript
+- automation
+- macOS
 title: Arc Boost for Opening in Ivory v0
 ---
 

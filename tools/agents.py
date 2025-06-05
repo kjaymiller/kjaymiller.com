@@ -3,6 +3,7 @@
 import json
 import os
 import pathlib
+import subprocess
 
 import psycopg
 import frontmatter
@@ -98,6 +99,10 @@ def tag(
         post.metadata["tags"] = tags
         filepath.write_text(frontmatter.dumps(post))
         print("Success! - %s " % filepath.name)
+
+        if typer.confirm("Would you like to edit the file"):
+            editor = os.getenv("EDITOR", "vi")
+            subprocess.run([editor, filepath])
 
     elif detailed:
         print_json(results)

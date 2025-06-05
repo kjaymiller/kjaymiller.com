@@ -2,6 +2,10 @@
 date: 2024-08-24 07:51:00
 description: I've learned that even questionable ideas in maintainers can lead to
   valuable insights and a better understanding of what truly matters.
+tags:
+- render-engine
+- development
+- opinion
 title: '[Question] Writing Issues You Don''t Want to Implement'
 ---
 

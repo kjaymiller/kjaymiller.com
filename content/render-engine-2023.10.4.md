@@ -11,6 +11,10 @@ description: 'Here''s a subtle description to encourage the reader to read the b
   subthemes, and carve-outs, as well as some of the new features and updates that
   came with the latest Render Engine release.'
 subtitle: Render Engine update 2023.10.4
+tags:
+- render-engine
+- devlog
+- tailwind
 title: About Render Engines Themes, Subthemes, and Carve-outs
 ---
 

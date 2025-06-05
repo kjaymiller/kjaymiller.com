@@ -3,6 +3,10 @@ date: 2020-03-05 13:58:00
 description: I'm questioning whether the benefits of social media are worth the toxicity
   and noise. What's being lost in the chaos?
 slug: march-2020-crisis-social-issues
+tags:
+- mental-health
+- reflection
+- politics
 title: I Can't Be the Only One Seeing This
 ---
 
