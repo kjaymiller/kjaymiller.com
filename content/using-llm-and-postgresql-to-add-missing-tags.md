@@ -170,7 +170,7 @@ for filepath in target_path.glob("*.md"):
 
 I added the logging statements in so we could get a look at the posts that changed.
 
-![log-results](https://jmblogstorrage.blob.core.windows.net/media/llm-tag-log-output.webp")
+![log-results](https://jmblogstorrage.blob.core.windows.net/media/llm-tag-log-output.webp)
 
 and if we look at the content that was changed, we can see that tags that were applied now exist.
 
