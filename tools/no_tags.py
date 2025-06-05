@@ -19,6 +19,8 @@ import psycopg
 import typer
 
 
+app = typer.Typer()
+
 db_connection = psycopg.connect(
     os.getenv("POSTGRES_SERVICE_URI"),
 )
@@ -58,27 +60,36 @@ def get_tags(post_content: str) -> list[str]:
 def check_for_tags(filepath: pathlib.Path) -> bool:
     post = frontmatter.loads(filepath.read_text())
 
+    typer.echo(post.metadata)
+
     if "tags" in post.metadata:
-        logging.info("tags exists for %s" % str(filepath))
+        typer.echo("tags exists for %s" % str(filepath))
         return True
 
-    logging.warning(f"Creating Tags for - {filepath}")
+    typer.echo(f"Creating Tags for - {filepath}")
     tags = get_tags(post.content)
-    logging.warning(", ".join(tags))
+    typer.echo(", ".join(tags))
     post.metadata["tags"] = tags
     filepath.write_text(frontmatter.dumps(post))
     return False
 
 
-def main(target_files: typing.List[pathlib.Path]):
+@app.command()
+def cli(target_files: typing.List[pathlib.Path]):
     return_code = 0
 
     for filepath in target_files:
-        if check_for_tags:
+        typer.echo("Processing %s" % filepath)
+        if not check_for_tags(filepath):
             return_code = 1
 
+    typer.echo(f"{return_code=}")
     typer.Exit(code=return_code)
 
 
+def main():
+    app()
+
+
 if __name__ == "__main__":
-    typer.run(main)
+    app()

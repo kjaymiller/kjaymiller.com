@@ -1,7 +1,10 @@
 ---
-title: Using llm and PostgreSQL to Add Missing Tags to Blog Posts
-date: 2025-06-04T17:58:52
+date: 2025-06-04 17:58:52
 description: I've been working to clean up my
+tags:
+  - automation
+  - ai
+title: Using llm and PostgreSQL to Add Missing Tags to Blog Posts
 ---
 
 I've been working on making my content more accessible by people and large language models alike.
@@ -185,7 +188,7 @@ def main(target_files: typing.List[pathlib.Path]):
     return_code = 0
 
     for filepath in target_files:
-        if check_for_tags:
+        if not check_for_tags: # means that tags were missing
             return_code = 1
 
     typer.Exit(code=return_code)
@@ -201,8 +204,8 @@ Now, I'll add this script to my `.pre-commit-config.yaml`
   hooks:
     - id: tags
       name: Check posts for tags
-      entry: python tools/no_tags.py
-      language: system
+      entry: no-tags
+      language: python
+      files: "content"
       types: [markdown]
-      files: "content/*.md"
 ```

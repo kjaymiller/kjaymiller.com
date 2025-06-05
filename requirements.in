@@ -13,3 +13,7 @@ render-engine-theme-kjaymiller>=2025.1.1a2
 render-engine-youtube-embed==2023.10.2b3
 render-engine-aggregators
 axe-playwright-python==0.1.4
+
+
+# tools
+llm

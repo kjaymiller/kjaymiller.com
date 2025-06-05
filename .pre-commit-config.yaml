@@ -20,7 +20,7 @@ repos:
     hooks:
       - id: tags
         name: Check posts for tags
-        entry: python tools/no_tags.py
-        language: system
+        entry: no-tags
+        language: python
         files: "content"
         types: [markdown]

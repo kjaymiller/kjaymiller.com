@@ -1,3 +1,31 @@
 [render-engine.cli]
 module = "routes"
 site = "app"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["tools*"]
+exclude = ["data*", "output*", "static*", "content*", "templates*"]
+
+[project]
+name = "kjayiller.com"
+version = "0.0.0"
+dependencies = [
+  "render-engine[cli]>=2024.11.2a1",
+  "render-engine-json>=2024.1.1a1",
+  "render-engine-lunr",
+  "render-engine-sitemap",
+  "render-engine-fontawesome>=2024.1.1a1",
+  "render-engine-theme-kjaymiller>=2025.1.1a2",
+  "render-engine-youtube-embed==2023.10.2b3",
+  "render-engine-aggregators",
+  "axe-playwright-python == 0.1.4",
+  "typer",
+  "llm",
+]
+
+[project.scripts]
+no-tags = "tools.no_tags:main"
