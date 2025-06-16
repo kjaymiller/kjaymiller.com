@@ -13,7 +13,8 @@ tags:
 title: I Am No Longer a Developer Advocate
 ---
 
-..UPDATE: My title was recently changed to Staff Product Advocate which only strengthens the argument that these titles don't matter.
+.. NOTE::
+   My title was recently changed AGAIN to _Staff Product Advocate_ which only strengthens the argument that these titles don't matter.
 
 I'm not a Developer Advocate any more...
 
