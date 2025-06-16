@@ -13,6 +13,8 @@ tags:
 title: I Am No Longer a Developer Advocate
 ---
 
+..UPDATE: My title was recently changed to Staff Product Advocate which only strengthens the argument that these titles don't matter.
+
 I'm not a Developer Advocate any more...
 
 This is a small career update. This week, I started my new role as a Product Evangelist. I had my reservations, but I want to share with you why I think this is actually a positive move for my career.
