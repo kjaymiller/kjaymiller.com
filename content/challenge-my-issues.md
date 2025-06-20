@@ -7,7 +7,7 @@ description: I get a lot of folks that will contribute blindly and never challen
 
 Working with beginning contributors (and their AI tools), I notice they are eager to do the task and not eager to question should the task even be done.
 
-I have [this issue that I'm considering](https://githubn.com/render-engine/render-engine/issues/950) that brings up the question of should we move some tests into their own file.
+I have [this issue that I'm considering](https://github.com/render-engine/render-engine/issues/950) that brings up the question of should we move some tests into their own file.
 
 I don't know if this is the right move or not. Someone may have a valid reason why we shouldn't do it.
 
