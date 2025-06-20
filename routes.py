@@ -65,7 +65,7 @@ class GuestAppearances(Page):
 
 
 @app.collection
-class NotestoSelf(_Blog):
+class Notes(_Blog):
     Parser = MarkdownPageParser
     title = "Notes to Self"
     parser_extras = {"markdown_extras": markdown_extras}
@@ -112,23 +112,20 @@ class AllPosts(AggregateFeed):
     collections = [Blog, MicroBlog]
 
 
-latest_episodes = {
-    "hero": {
-        "from_template": "index_hero.html",
-    },
-    "secondary": {
-        "target": list(app.route_list["blog"].archives)[0].url_for(),
-        "title": Blog.title,
-        "from_template": "secondary_blog.html",
-    },
-    "blog": app.route_list["blog"].latest(3),
-}
-
-
 @app.page
 class Index(Page):
     template = "custom_index.html"
-    template_vars = latest_episodes
+    template_vars = {
+        "hero": {
+            "from_template": "index_hero.html",
+        },
+        "secondary": {
+            "target": list(app.route_list["blog"].archives)[0].url_for(),
+            "title": Blog.title,
+            "from_template": "secondary_blog.html",
+        },
+        "blog": app.route_list["blog"].latest(3),
+    }
 
 
 if __name__ == "__main__":
