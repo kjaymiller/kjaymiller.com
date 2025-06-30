@@ -14,7 +14,7 @@ exclude = ["data*", "output*", "static*", "content*", "templates*"]
 name = "kjayiller.com"
 version = "0.0.0"
 dependencies = [
-  "render-engine[cli]>=2024.11.2a1",
+  "render-engine[cli]==2025.6.1",
   "render-engine-json>=2024.1.1a1",
   "render-engine-lunr",
   "render-engine-sitemap",
