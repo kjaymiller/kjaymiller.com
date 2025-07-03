@@ -30,7 +30,7 @@ Using `vars` I was able to learn about all the data that I had in my
   }
   ```
 
-I saw `_new_data': Fase` and that pushed me to check `help` again and I saw there was an `active` parameter.
+I saw `_new_data': False` and that pushed me to check `help` again and I saw there was an `active` parameter.
 
 This allowed me to update my plant tracker code to work with devices that would only collect sensor data from sensors that are active.
 That means if remove a sensor (often to water a plant) I don't get misleading `0` data points anymore.
