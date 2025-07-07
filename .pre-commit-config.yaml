@@ -16,11 +16,3 @@ repos:
         description: Validates frontmatter in markdown files
         entry: frontmatter-check
         types: [markdown]
-  - repo: local
-    hooks:
-      - id: tags
-        name: Check posts for tags
-        entry: no-tags
-        language: python
-        files: "content"
-        types: [markdown]
