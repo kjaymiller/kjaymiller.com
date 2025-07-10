@@ -6,6 +6,6 @@ I added all of the podcasts that I'm subscribed to (All 400 of them) into both t
 
 Neither app will refresh now without crashing... 🙃
 
-![homescreen with reeder and tapestry](https://jmblogstorrage.blob.core.windows.net/media/media/reeder-v-tapestry.jpeg)
+![homescreen with reeder and tapestry](https://jmblogstorrage.blob.core.windows.net/media/reeder-v-tapestry.jpeg)
 
 Happy to test the betas of either app...

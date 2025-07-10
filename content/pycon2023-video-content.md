@@ -17,7 +17,7 @@ This [PyCon](https://us.pycon.org/2023/) I wanted to work on an amazing video pr
 
 I've always dreamed of being one of those folks that is _live on the show-floor_ interviewing folks at a large conference. I was excited to be offered the opportunity to attend PyCon US on behalf of Microsoft, but our limited team kept me at our booth most of the conference.
 
-![The Microsoft Booth Pre-PyCon](https://jmblogstorrage.blob.core.windows.net/media/media/microsoft-booth-pre-pycon-2023.jpeg)
+![The Microsoft Booth Pre-PyCon](https://jmblogstorrage.blob.core.windows.net/media/microsoft-booth-pre-pycon-2023.jpeg)
 
 That said I came up with a plan that I believe worked extremely well.
 
@@ -25,11 +25,11 @@ That said I came up with a plan that I believe worked extremely well.
 
 The first was to ensure that folks had a reason beyond the swag and kiosks to come check out the Microsoft Booth.
 
-![The crowd during Luciana's VS Code Show and Tell](https://jmblogstorrage.blob.core.windows.net/media/media/crowd-at-lucianas-preso-pycon-2023.jpeg)
+![The crowd during Luciana's VS Code Show and Tell](https://jmblogstorrage.blob.core.windows.net/media/crowd-at-lucianas-preso-pycon-2023.jpeg)
 
 We had an amazing lineup of presenters including members of the booth staff [Savannah Ostrowski](https://savannahostrowski.com/) and [Lucianna Abud](https://twitter.com/luumelo14), as well as amazing guest presenters [Brett Cannon](https://snarky.ca/), [Andrew Knight](https://automationpanda.com), and [Michael Kennedy](https://talkpython.com). We covered exciting new tools like [Azure Developer CLI](https://aka.ms/azd). We also hit popular tools like [VS Code](https://learn.microsoft.com/en-us/events/microsoft-at-pycon-us-2023/a-python-vs-code-show-and-tell-live-from-pycon-2023/) and [Playwright](https://learn.microsoft.com/en-us/events/microsoft-at-pycon-us-2023/playwright-and-python-feat-andrew-knight-automationpanda-live-at-pycon-us/) and I had the pleasure of interviewing long-time Python course creator and host of Python's most popular podcast [Talk Python to Me](https://talkpython.fm/episodes/show/413/live-from-pycon-2023). [Brett Cannon](https://twitter.com/brettsky) answered questions around Python, [VS Code](https://code.visualstudio.com/?utm_source=kjaymiller.com), philosophy, and more in our first ever [ABBA (Ask Brett 'Bout Anything)](https://learn.microsoft.com/en-us/events/microsoft-at-pycon-us-2023/20-years-of-core-development-with-brett-cannon-ama/). Many presentations that were seating room only.
 
-![The crowd at Andrew's Playwright Presentation](https://jmblogstorrage.blob.core.windows.net/media/media/andrew-knight-crowd-playwright-pycon-2023.jpeg)
+![The crowd at Andrew's Playwright Presentation](https://jmblogstorrage.blob.core.windows.net/media/andrew-knight-crowd-playwright-pycon-2023.jpeg)
 
 ## 1-on-1 Interviews with Microsoft Employees that heavily work on Python
 
@@ -44,7 +44,7 @@ I also took the opportunity to get some perspectives from many different folks a
 Author [Al Sweigart](https://alsweigart.com/) talked about [temporary fame and getting insight from the conference](https://www.youtube.com/watch?v=LBI7T3PpbHA). Co-Founder of _ReadTheDocs_ [Erik Holscher](https://www.ericholscher.com/) shared how [he makes PyCon _worth-it_ after 15 years](https://www.youtube.com/watch?v=KGAL1h9m-Es). Python instructor [Trey Hunner](https://treyhunner.com/) shared why [the best part of the conference may not be the conference itself](https://www.youtube.com/watch?v=HzuXmzhFJ6Y
 ). _PyCon Charlas_ Chairs [Dr. Christián Maureira-Fredes](https://maureira.xyz/) and [Denny Perez](https://maureira.xyz/) spoke about [the program and its growth in recent years](https://www.youtube.com/watch?v=PiRvyjwKwmY). Core Maintainer of _Beeware_ [Russell Keith McGee](https://cecinestpasun.com/) [compared the Python Community to others that he works with and the joy of helping people contribute to open source](https://www.youtube.com/watch?v=C3TgQHBEo0Q). Maintainer of Python's most popular package _urllib3_ [Seth Larson](https://sethmlarson.dev/) talked about learning [specific uses of the tools he maintains](https://www.youtube.com/watch?v=_b1rS2dJpiw). Two-Time attendee and workshop presenter [Mario Munoz](https://pythonbynight.com) shares [the difference between his first and second PyCon and getting involved by volunteering](https://www.youtube.com/watch?v=qmD9b0tKT84).
 
-![Selfie with Michael Kennedy and Mario Munoz](https://jmblogstorrage.blob.core.windows.net/media/media/michael-and-mario-at-lunch-selfie-pycon-2023.jpeg)
+![Selfie with Michael Kennedy and Mario Munoz](https://jmblogstorrage.blob.core.windows.net/media/michael-and-mario-at-lunch-selfie-pycon-2023.jpeg)
 
 And MOST IMPORTANTLY! [Aseda Addai-Deseh](https://twitter.com/AsedaAD) shared what we hope the [76% percent of PyCon attendees, who were attending for the first-time, were feeling](https://www.youtube.com/watch?v=89_JZUGoZJ8).
 

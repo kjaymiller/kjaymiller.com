@@ -3,7 +3,7 @@ date: 2024-10-14 15:06:08.761318
 description: I reflect on this year's DjangoCon US and look ahead to improvements
   in 2025, exploring what I learned from the experience and how it will shape our
   future events.
-image: https://jmblogstorrage.blob.core.windows.net/media/media/DjangoConUS%202024%20Perspectives%20Monical%20Oyuhgi.webp
+image: https://jmblogstorrage.blob.core.windows.net/media/DjangoConUS%202024%20Perspectives%20Monical%20Oyuhgi.webp
 tags:
 - videos
 - speaking

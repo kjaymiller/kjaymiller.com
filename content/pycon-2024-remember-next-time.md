@@ -2,7 +2,7 @@
 date: 2024-05-25 12:46:21
 description: Reflections on what worked and what didn't at our Black Python Devs Booth
   at PyCon US - from what we took to what we wished we'd had.
-image: https://jmblogstorrage.blob.core.windows.net/media/media/black-python-devs-booth-day-0.jpeg
+image: https://jmblogstorrage.blob.core.windows.net/media/black-python-devs-booth-day-0.jpeg
 tags:
 - pycon
 - community

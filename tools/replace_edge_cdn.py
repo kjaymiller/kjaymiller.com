@@ -13,8 +13,8 @@ for path in base_paths:
         for entry in p.rglob(f"*.{file_type}"):
             print(entry)
             new_string, count = re.subn(
-                "https://kjaymiller.azureedge.net",
-                "https://jmblogstorrage.blob.core.windows.net/media",
+                "media/media",
+                "media",
                 entry.read_text(),
             )
             if count:

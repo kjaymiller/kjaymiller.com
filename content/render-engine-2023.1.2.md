@@ -4,7 +4,7 @@ description:
   Render Engine's latest update (2023.1.2) brings CLI, parsers, and extensions
   work. Discover how it refines static site generation and introduces new features
   to take your site to the next level.
-image: https://jmblogstorrage.blob.core.windows.net/media/media/render-engine-logo.png
+image: https://jmblogstorrage.blob.core.windows.net/media/render-engine-logo.png
 link: https://render-engine.readthedocs.io/en/latest/
 tags:
   - render-engine
@@ -137,11 +137,11 @@ You can now setup and build your Render Engine site using the cli command `rende
 
 Create a new site with `render-engine init`. You can also pass several commands to create the base template quickly.
 
-![`render-engine init --help`](https://jmblogstorrage.blob.core.windows.net/media/media/render-engine-init.png)
+![`render-engine init --help`](https://jmblogstorrage.blob.core.windows.net/media/render-engine-init.png)
 
 You can build your site with `render-engine build`. This is akin to using `@site.render` in your actual render-engine build file.
 
-![`render-engine build` where `routes.py` is the script and `mysite` is the Site object](https://jmblogstorrage.blob.core.windows.net/media/media/render-engine-build.gif)
+![`render-engine build` where `routes.py` is the script and `mysite` is the Site object](https://jmblogstorrage.blob.core.windows.net/media/render-engine-build.gif)
 
 I've been thinking a lot about what to expose in the CLI. Expect a few more commands in the future.
 

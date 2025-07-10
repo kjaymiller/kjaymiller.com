@@ -2,7 +2,7 @@
 date: 2022-12-13 17:30:00
 description: Get to know the folks who made a lasting impact on me in 2022 - tech
   leaders and innovators who inspired growth and connection.
-image: https://jmblogstorrage.blob.core.windows.net/media/media/jaysies%202022.png
+image: https://jmblogstorrage.blob.core.windows.net/media/jaysies%202022.png
 slug: jaysies-2022
 tags:
 - jaysies
@@ -33,7 +33,7 @@ I look forward to each of our conversations.
 
 Mario has been an awesome newer face in the Python community. He was someone that I followed online for a while and recognized me at PyCon US. We shared a few conversations and I'm really excited every time we get to connect.
 
-![Mario, Myself, and Anthony Shaw at Pycon 2022](https://jmblogstorrage.blob.core.windows.net/media/media/mario_jay_anthony_pycon2022.jpeg)
+![Mario, Myself, and Anthony Shaw at Pycon 2022](https://jmblogstorrage.blob.core.windows.net/media/mario_jay_anthony_pycon2022.jpeg)
 
 The biggest impact that Mario has provided is his humility and fresh eyes. It's always wonderful to get insight from someone that isn't _jaded_. Mario and I share a similar path into the field so I see a lot of my own journey in his. Also, Mario isn't afraid to share where he's at. Many beginners are hesitant but Mario is open to sharing where he's at and the challenges he faces, like in his DjangoCon Talk this year.
 
@@ -47,7 +47,7 @@ All the folks, this year were on the tech side and Reggie is no different. Reggi
 
 Reggie and I are both Black Males, a group that historically stigmatizes self care. Reggie's swagger and style bring a self of coolness to making sure you look at feel your best. I guess that's why he confidently owns the _coolest nerd in the room_ title.
 
-![(In order) Myself, Jameson Hampton, and Reggie at Refactr.Tech 2022](https://jmblogstorrage.blob.core.windows.net/media/media/Jay_Jameson_reggie_refactrtech_2022.jpeg)
+![(In order) Myself, Jameson Hampton, and Reggie at Refactr.Tech 2022](https://jmblogstorrage.blob.core.windows.net/media/Jay_Jameson_reggie_refactrtech_2022.jpeg)
 
 Reggies openness encouraged me to seek therapy for myself as well as introducing my own self-care routines.
 

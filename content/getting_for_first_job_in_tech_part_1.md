@@ -29,7 +29,7 @@ I had a job as a system administrator after I left the military and then network
 
  I met several people from local user groups that I volunteered for and helped organized like San Diego Python, CodeNewbie, WeAll.js and Operation Code. I setup chairs helped serve food and volunteered to speek as often as I could. I couldn't use my company's data so I swapped it with public data from my local communities or federal and public data portals. This meant that anyone could replicate my work.
 
-![Setting up for an event to talk to high school students](https://jmblogstorrage.blob.core.windows.net/media/media/jay_setup_for_an_event.jpeg)
+![Setting up for an event to talk to high school students](https://jmblogstorrage.blob.core.windows.net/media/jay_setup_for_an_event.jpeg)
 
 I shared what I knew and tried to learn more all the time. I wasn't game theorist my way through it I just wanted to keep learning Python tactics. I built solutions to the problems in my non-tech job and shared them with everyone in my friend's group. They helped me make them better.
 
@@ -44,7 +44,7 @@ The other mistake I see is folks only trying to game theory their way into FAANG
 
 My first job was a company that sold cleaning and janitorial supplies (from toilet paper to floor buffers and large machines). I saw the trucks for this company everywhere but no one ever knew the name of the company that was on the labels of the urinal trays they were peeing on. (That visual is intentional. Think about the name of the company that you see all the time and you're like I wonder if that is a $600 Million dollar company)
 
-![Urinal Tray](https://jmblogstorrage.blob.core.windows.net/media/media/urinal_tray.jpg)
+![Urinal Tray](https://jmblogstorrage.blob.core.windows.net/media/urinal_tray.jpg)
 
 Imagine the technical complexity in a company that does construction or large scale landscaping. What needs do your local government services need, like trash pickup.
 
@@ -101,7 +101,7 @@ Getting a recommendation isn't a guarantee nor will it ensure you get the job. I
 
 Did you know Bootstrap (not tailwind) is the most popular CSS framework. Python is great and used a lot but it's not the thing driving most the websites on the planet. Thats HTML and JavaScript and most importantly PHP.
 
-![Drake Meme preferring old technology](https://jmblogstorrage.blob.core.windows.net/media/media/drake_meme_popular_framwork.jpg)
+![Drake Meme preferring old technology](https://jmblogstorrage.blob.core.windows.net/media/drake_meme_popular_framwork.jpg)
 
 I’m not saying to not learn Python but knowing a little PHP or at least how to read what’s going on will help you.
 

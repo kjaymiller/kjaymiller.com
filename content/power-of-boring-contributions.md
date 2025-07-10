@@ -33,7 +33,7 @@ Here are is an example I've stumbled into.
 
 I recieved a [PR that thins out the CSS](https://github.com/blackpythondevs/blackpythondevs.github.io/pull/473) of our deployment of [picocss](picocss). I mentioned to the author of the PR that I wanted to generate screenshots of the site so I could verify that the change would not have any visual issues.
 
-![screenshot of comments from PR](https://jmblogstorrage.blob.core.windows.net/media/media/css-pr-review-comments.webp)
+![screenshot of comments from PR](https://jmblogstorrage.blob.core.windows.net/media/css-pr-review-comments.webp)
 
 This was something that I had been playing with on my personal website since I had learned about using device emulation with Playwright for [my talk at RenderATL](https://www.youtube.com/watch?v=dBJowtn1lQE).
 
@@ -98,6 +98,6 @@ It also resulted in creating a conference talk **IN WHICH I WAS PAID TO GIVE** a
 
 There is this cycle that comes from doing things a lot and there are a lot of _boring_ things.
 
-![image of a loop between boring tasks and exciting tasks](https://jmblogstorrage.blob.core.windows.net/media/media/boring-and-exciting-cycle.webp)
+![image of a loop between boring tasks and exciting tasks](https://jmblogstorrage.blob.core.windows.net/media/boring-and-exciting-cycle.webp)
 
 I'm not saying every open-source contribution needs to be a learning opportunity but let's not assume that the smallest of PRs don't have HUGE opportunities to learn.

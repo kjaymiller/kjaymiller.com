@@ -3,7 +3,7 @@ date: 2024-06-21 22:41:01
 description: I recently created a custom 3D print solution for balancing lighting
   on dark skin tones and discovered the joy of functional prints that solve everyday
   problems.
-image: https://jmblogstorrage.blob.core.windows.net/media/media/key_light_with_j_hooks.jpeg
+image: https://jmblogstorrage.blob.core.windows.net/media/key_light_with_j_hooks.jpeg
 tags:
 - 3d printing
 title: My New Favorite 3d Print and My Thoughts on if 3d Printing Is Worth Getting
@@ -20,7 +20,7 @@ Sadly [Elgato doesn't make honeycombs for streaming](https://www.reddit.com/r/el
 
 But I solved that with a design of my own today.
 
-![KeyLight with Grid held by my J Hooks](https://jmblogstorrage.blob.core.windows.net/media/media/key_light_with_j_hooks.jpeg)
+![KeyLight with Grid held by my J Hooks](https://jmblogstorrage.blob.core.windows.net/media/key_light_with_j_hooks.jpeg)
 
 ### 3D Print Community
 
@@ -34,7 +34,7 @@ My moonlander reset key is not needed by new models, but while dialing in my key
 
 Today I added to my list of best prints when trying to decide if I would sacrifice two [Goody Extra Thick Hair Ties][5] and instead took several measurements and [made a _J hook_ that would clip around the grid's outer edge and the other end nestles snugly into the fins on the outer edge locking in place][0].
 
-![J Hook](https://jmblogstorrage.blob.core.windows.net/media/media/j-hook-3d-print.jpeg)
+![J Hook](https://jmblogstorrage.blob.core.windows.net/media/j-hook-3d-print.jpeg)
 
 Printing 4 of these clips was less than $1 and about 30 minutes of design and 20 minutes to print.
 

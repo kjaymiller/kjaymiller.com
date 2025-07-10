@@ -3,7 +3,7 @@ date: 2023-08-17 02:21:59
 description: I'm not a fan of AI, but I've found it's a useful crutch for lazy writers
   like me. Read my story of embracing ChatGPT and how it helped me get started on
   projects.
-image: https://jmblogstorrage.blob.core.windows.net/media/media/ChatGPT%20random%20language%20code.png
+image: https://jmblogstorrage.blob.core.windows.net/media/ChatGPT%20random%20language%20code.png
 tags:
 - ai
 - opinion
@@ -27,7 +27,7 @@ Earlier this year, my daughter was denied enrollment to our first choice school.
 
 I've been working on a demo and needed some boilerplate code that felt more realistic than "Go here because fun fun fun fun".
 
-![My prompt and an excerpt of the response](https://jmblogstorrage.blob.core.windows.net/media/media/ChatGPT%20Solar%20System%20.png)
+![My prompt and an excerpt of the response](https://jmblogstorrage.blob.core.windows.net/media/ChatGPT%20Solar%20System%20.png)
 
 This was cool because I had the dataset and the scenario. I just said okay write me a couple paragraphs for each of these situations and ChatGPT basically said here's a sample for like 2 of the 10 you need. It totally didn't follow instructions but it was better than what we had so yay! A few more prompts saying "keep going. I believe in you (kinda)" and we were set.
 
@@ -37,11 +37,11 @@ Again stakes were low because this was glorified Lorem Ipsum. Looks better and m
 
 I've had this little project for [Conduit](https://relay.fm/conduit) for like 4 months now. I've honestly been too lazy to write the 10 lines of code that actually does this and was definitely overthinking the process...
 
-![prompt for random language code](https://jmblogstorrage.blob.core.windows.net/media/media/ChatGPT%20random%20language%20code.png)
+![prompt for random language code](https://jmblogstorrage.blob.core.windows.net/media/ChatGPT%20random%20language%20code.png)
 
 Two prompts later and I have the code written. Did I know how to write it, you bet absolutely. But getting the data (literally "Thanks in 50 languages") had me stalled... I hope they got it right because I'll probably mispronounce them and tell someone nicely and humbly to "suck a butt" on accident is a great way to get cancelled. That being said it was on the list and now it's not so yay!
 
-![Modified version of that generated code in action](https://jmblogstorrage.blob.core.windows.net/media/media/Random%20Language%20Code%20Example.png)
+![Modified version of that generated code in action](https://jmblogstorrage.blob.core.windows.net/media/Random%20Language%20Code%20Example.png)
 In the end, I do think that AI is useful but like a pocket knife is useful. All of the examples required my proofreading and some simple modifications but even getting a good starting point was enough to get me moving through the project.
 
 I love some folks are coming up with funny businesses and things with it (Shout out to my Conduit Co-host for an amazing business I won't spoil) but I still believe that investing in people over AI and community over product won't make me filthy rich but will definitely give me that feeling that I'm helping people achieve more than they could have imagined before (with or without AI's help).

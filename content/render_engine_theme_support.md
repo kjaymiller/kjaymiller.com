@@ -7,7 +7,7 @@ description: 'Here is a subtle description to encourage the reader to read the b
   "I recently created a theme for my website that brings my design and functionality
   into a single, shareable package. Now I''m sharing the details of how Render Engine
   supports themes in an experimental update.'
-image: https://jmblogstorrage.blob.core.windows.net/media/media/templates%20dir.jpg
+image: https://jmblogstorrage.blob.core.windows.net/media/templates%20dir.jpg
 tags:
 - devlog
 - render_engine
@@ -77,11 +77,11 @@ Of course there are docs and tests that need to happen. I needed a working theme
 
 I'd also like to start combining plugins and themes such as [my personal theme](https://github.com/kjaymiller/render-engine-theme-kjaymiller) and my [render-engine-tailwindcss](https://github.com/kjaymiller/render-engine-tailwind) plugin.
 
-![site missing style from bad config](https://jmblogstorrage.blob.core.windows.net/media/media/no%20style.jpg)
+![site missing style from bad config](https://jmblogstorrage.blob.core.windows.net/media/no%20style.jpg)
 
 This is important as currently there is a fragile song and dance around how to configure tailwind to get your site's style.
 
-![site with styling set from output](https://jmblogstorrage.blob.core.windows.net/media/media/with_style.jpg)
+![site with styling set from output](https://jmblogstorrage.blob.core.windows.net/media/with_style.jpg)
 
 After that I'll be working on the themes.
 

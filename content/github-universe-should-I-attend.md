@@ -3,7 +3,7 @@ date: 2023-11-11 09:35:50
 description: As a developer advocate, I share my honest thoughts on attending GitHub
   Universe 2024. Will it be worth flying to and spending $1500 for? Find out in my
   latest blog post.
-image: https://jmblogstorrage.blob.core.windows.net/media/media/ghu-2023-jay-pre-talk.jpg
+image: https://jmblogstorrage.blob.core.windows.net/media/ghu-2023-jay-pre-talk.jpg
 ref: ~/Documents/GH Universe - KBYG.bike
 tags:
 - github
@@ -17,7 +17,7 @@ I was happy to be a speaker at GitHub Universe this year which meant I got to at
 
 Ultimately, I want to answer the question perhaps for 2024 and Beyond, _Is GitHub Universe Worth Going To_.
 
-![GitHub Universe Set PreStage](https://jmblogstorrage.blob.core.windows.net/media/media/ghu-2023-set-pre-conf.jpg)
+![GitHub Universe Set PreStage](https://jmblogstorrage.blob.core.windows.net/media/ghu-2023-set-pre-conf.jpg)
 
 I didn't participate in the workshops or certifications so I can't speak to those, but I will talk about the main conference days.
 
@@ -25,7 +25,7 @@ I didn't participate in the workshops or certifications so I can't speak to thos
 
 [GitHub Universe](https://githubuniverse.com) is an annual conference designed to showcase new and upcoming advancements around the GitHub Platform. It differs from more traditional companies in that GitHub has always labelled itself as being Developer focused. This means that while you can expect the normal pageantry of a company-ran conference, there is a feeling of excitement as we look at all the improvements for where millions of developers call home.
 
-![In front of the livestream set](https://jmblogstorrage.blob.core.windows.net/media/media/ghu-2023-jay-in-front-of-set.jpg)
+![In front of the livestream set](https://jmblogstorrage.blob.core.windows.net/media/ghu-2023-jay-in-front-of-set.jpg)
 
 ## Price
 
@@ -45,7 +45,7 @@ Finally I do encourage you to check out some financial aid opportunities as they
 
 There are a lot of people there. The event seems to have a few thousand folks in person, ranging from GitHub Employees and sponsors to sales reps, startup founders, and most importantly open source community influencers.
 
-![Jay with Mariatta and Simon Willison](https://jmblogstorrage.blob.core.windows.net/media/media/ghu-2023-python-leaders.jpg)
+![Jay with Mariatta and Simon Willison](https://jmblogstorrage.blob.core.windows.net/media/ghu-2023-python-leaders.jpg)
 
 I know we give the term influencer a negative connotation these days. Don't worry most of the people that i bumped into were not constantly holding their phones out and demanding special treatment. In fact it was quite the opposite. I had many folks come up to me and tell me they've followed my work on social media and wanted to learn how they could get involved. These weren't just video personalities but also maintainers of quite impressive open source projects. While I have a small audience I'm by no means a superstar and to be able to talk with folks like Jason Lengstorf (Learn with Jason), Corey Quinn (Last week in AWS), Elio Struyf (FrontMatter)
 , Mariatta Wijaya (PyLadies, and the Python Software Foundation), and Simon Willison (Datasette and many AI-focused Data Journalism Endeavours) among many others is always worth a trip.
@@ -60,7 +60,7 @@ The last group of folks were those there on official business. These were big bu
 
 Talks were on a different level and this is good to see from time to time. This is a commercial event which means that resources are poured into it. Speakers use professionally designed templates and are provided speaker coaches to ensure the best quality presentation.
 
-![Me Prior to my Talk](https://jmblogstorrage.blob.core.windows.net/media/media/ghu-2023-jay-pre-talk.jpg)
+![Me Prior to my Talk](https://jmblogstorrage.blob.core.windows.net/media/ghu-2023-jay-pre-talk.jpg)
 
 Also be sure to take advantage of having GitHub experts at your disposal. While, there I also was able to ask Github Actions engineers for solutions to complex action workflows (which they hadn't seen someone try before so yay... I think)
 

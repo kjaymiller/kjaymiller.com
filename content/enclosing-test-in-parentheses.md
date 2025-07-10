@@ -3,7 +3,7 @@ date: 2023-01-05 19:30:00
 description: Learn a handy Vim trick to enclose text in parentheses and other characters
   without relying on plugins. Discover how to customize your workflow for maximum
   efficiency.
-image: https://jmblogstorrage.blob.core.windows.net/media/media/vim_encap_parens.gif
+image: https://jmblogstorrage.blob.core.windows.net/media/vim_encap_parens.gif
 link: https://superuser.com/questions/875095/adding-parenthesis-around-highlighted-text-in-vim
 tags:
 - vim
@@ -36,6 +36,6 @@ vnoremap <C-(> c()<esc>P
 
 Most of the commands are the same. The `vnoremap` ensures that this only runs in VISUAL Mode (When you select text) and `<C-(>` is the command for `ctrl+(`.
 
-![Running the Command in VIM](https://jmblogstorrage.blob.core.windows.net/media/media/vim_encap_parens.gif)
+![Running the Command in VIM](https://jmblogstorrage.blob.core.windows.net/media/vim_encap_parens.gif)
 
 [SuperUser post]: https://superuser.com/questions/875095/adding-parenthesis-around-highlighted-text-in-vim

@@ -14,7 +14,7 @@ description: "Here's a rewritten version of the text in a more concise and clear
   in the output.\n\nNote:\n\n* Make sure to update your `POST_BUILD_COMMAND` with
   the correct script.\n* Use Python 3.11 if available.\n* Commit and push changes
   to retrigger the workflow.\n* Check the Azure portal for your custom domain settings."
-image: https://jmblogstorrage.blob.core.windows.net/media/media/Python%203.11%20in%20SWA.png
+image: https://jmblogstorrage.blob.core.windows.net/media/Python%203.11%20in%20SWA.png
 slug: azure-static-web-apps-python3.11
 tags:
 - python
@@ -96,7 +96,7 @@ az staticwebapp create \
 
 When you execute that last command, you will need to authenticate with GitHub. Login using the webserver and Authorize the app.
 
-![Authorize Azure Cli Page](https://jmblogstorrage.blob.core.windows.net/media/media/Authorize%20Azure%20CLI.png)
+![Authorize Azure Cli Page](https://jmblogstorrage.blob.core.windows.net/media/Authorize%20Azure%20CLI.png)
 
 It will take a couple seconds but once completed, you should get some output. We can ignore this because most likely our deployment has failed. We'll fix that soon but looking at GitHub Actions for that repo we should now see a new action called _Azure Static Web Apps CI/CD_.
 
@@ -107,7 +107,7 @@ We should also see a failed action trigger called add Azure Static Web Apps work
 The action failed because we didn't have
 a _build command_ setup.
 
-![No Output Path](https://jmblogstorrage.blob.core.windows.net/media/media/no_output_path_swa_fail_build.png)
+![No Output Path](https://jmblogstorrage.blob.core.windows.net/media/no_output_path_swa_fail_build.png)
 
 Azure Static Web Apps notices the `requirements.txt` file and runs `pip install -r requirements.txt` to install the dependencies but that's it for us.
 
@@ -152,12 +152,12 @@ env:
 
 Once you make these changes you can commit and push them to your repo. This will retrigger the workflows. If all goes well, you should see a successful build and deploy. Selecting will reveal in the output a link to your site.
 
-![Complete Deployment Output with Link](https://jmblogstorrage.blob.core.windows.net/media/media/SWA%20Deployment%20Complete%20311.png
+![Complete Deployment Output with Link](https://jmblogstorrage.blob.core.windows.net/media/SWA%20Deployment%20Complete%20311.png
 )
 
 Higher in the action output, we can see that the site was built using Python 3.11
 
-![Complete Deployment Output showing 3.11.1 was used](https://jmblogstorrage.blob.core.windows.net/media/media/SWA%20Successful%203.11%20Deployment.png)
+![Complete Deployment Output showing 3.11.1 was used](https://jmblogstorrage.blob.core.windows.net/media/SWA%20Successful%203.11%20Deployment.png)
 
 You've built your site but its probably not at the URL that you would like. You can change that by going into the Azure portal and [setting a custom domain][custom domain].
 

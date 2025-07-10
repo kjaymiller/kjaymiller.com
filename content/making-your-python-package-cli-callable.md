@@ -6,7 +6,7 @@ description: 'Here''s a subtle description to encourage the reader to read the b
 
   "I recently discovered a convenient way to turn my Python package into a CLI. Want
   to learn how I did it?'
-image: https://jmblogstorrage.blob.core.windows.net/media/media/__main__dot_py.png
+image: https://jmblogstorrage.blob.core.windows.net/media/__main__dot_py.png
 tags:
 - python
 title: Making your python package CLI callable
