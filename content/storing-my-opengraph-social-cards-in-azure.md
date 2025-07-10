@@ -2,7 +2,7 @@
 date: 2023-05-20 03:05:40
 description: Discover how to streamline image uploads to Azure Blob Storage and speed
   up your blog post processing - a crucial step for static site generators.
-image: https://kjaymiller.azureedge.net/media/entries_taged_social_cards.png
+image: https://jmblogstorrage.blob.core.windows.net/media/media/entries_taged_social_cards.png
 tags:
 - azure
 - static-site-generator
@@ -87,7 +87,7 @@ To do this:
 3. Under _Secrets and Variables_ on the side menu, select actions
 4. Select Create New Repository Secret for your AZURE_STORAGE_CONNECTION_STRING and your AZURE_STORAGE_ACCOUNT_URL
 
-![Configure GitHub Action Secrets](https://kjaymiller.azureedge.net/media/Add%20Github%20Actions%20Secrets.png)
+![Configure GitHub Action Secrets](https://jmblogstorrage.blob.core.windows.net/media/media/Add%20Github%20Actions%20Secrets.png)
 
 Then you can modify your Github Action to reference the `${secrets.AZURE_STORAGE_CONNECTION_STRING}` and `${secrets.AZURE_STORAGE_ACCOUNT_URL}`.
 

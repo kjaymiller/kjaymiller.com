@@ -8,4 +8,4 @@ I recently added a [linkding](https://github.com/sissbruecker/linkding) containe
 
 2. <https://nojack.easydns.ca/@ttscoff/> created a [custom tiling css layout](https://brettterpstra.com/2024/11/18/a-card-based-layout-for-linkding/). It looks great!
 
-![Layout of my linkding](https://kjaymiller.azureedge.net/media/linkding_ttscoff_css_personal.webp)
+![Layout of my linkding](https://jmblogstorrage.blob.core.windows.net/media/media/linkding_ttscoff_css_personal.webp)

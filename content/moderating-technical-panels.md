@@ -14,7 +14,7 @@ I love moderating panels. I think it resonates with my values as I'm letting fol
 
 I recently moderated a panel for [DjangoCon 2023](https://2023.djangocon.us/talks/panel-discussion-who-put-me-in-charge/) and the response from the audience and the panelists was really well.
 
-![Jay Leading at Panel for DjangoConUS 2023](https://kjaymiller.azureedge.net/media/jay-leading-panel-DCSU.jpg)
+![Jay Leading at Panel for DjangoConUS 2023](https://jmblogstorrage.blob.core.windows.net/media/media/jay-leading-panel-DCSU.jpg)
 © 2023 Paolo Melchiorre CC BY-NC-SA
 
 I'm not a pro but I do get asked to interview and lead panels more these days. Here are some things that I try to do with panels to make sure that they go smoothly. Please note that this is for tech panels and may not translate well to other industries.

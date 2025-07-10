@@ -1,7 +1,7 @@
 ---
 date: 2024-12-30 15:15:00
 description: Congratulations to the 2024 Jaysies winners and honorable mentions!
-image: https://kjaymiller.azureedge.net/media/jaysies-2024.jpg
+image: https://jmblogstorrage.blob.core.windows.net/media/media/jaysies-2024.jpg
 tags:
 - jaysies
 title: "Three Moments that made 2024 \U0001F3C6"
@@ -55,7 +55,7 @@ The honorable mentions:
 
 This one was hard because normally I try not to let work colleagues or events win. In a moment where I needed time away from a work event, some very amazing colleagues and I took in the amazing city of Tarragona, Spain.
 
-![Tarragona](https://kjaymiller.azureedge.net/media/tarragona-2024.webp)
+![Tarragona](https://jmblogstorrage.blob.core.windows.net/media/media/tarragona-2024.webp)
 
 A special thanks to Jenn and Celeste for saving me and creating the wonderful team that will be forever known as "Ibiza, No Pleasa". Thank you for giving me a memorable time of exploring monuments, trying amazing coffee, and some of the best fish I've ever had.
 
@@ -81,7 +81,7 @@ This year's shout out is rigged because we have history. There has now been a Mo
 
 While waiting for our group to finish the Tower of London tour, I got to have a conversation with my cohost Kathy's mother about them, life, getting older and still being surprised. It's great because I talk to Kathy all the time and to be able to learn more about how her opinions were developed gives me so much respect for her. I also love conversations that feel so small in the moment but can really make someone's day.
 
-![Gathering Area outside the Tower London](https://kjaymiller.azureedge.net/media/tower-london.webp)
+![Gathering Area outside the Tower London](https://jmblogstorrage.blob.core.windows.net/media/media/tower-london.webp)
 
 Cindy, it was lovely meeting you! Thank you for the brief but delightful conversation and I'm so happy that you were able to join us in London.
 

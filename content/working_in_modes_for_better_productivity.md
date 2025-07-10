@@ -15,6 +15,6 @@ I had the privilege of presenting to the [Suburban Chicago Apple Users](https://
 
 A big shoutout to [Brett Terpstra](https://twitter.com/ttscoff) and [Luc P. Beaudoin](https://twitter.com/LucCogZest) for hanging out in the chat and the excellent feedback!
 
-You can view my slides [here](https://kjaymiller.azureedge.net/media/Working%20in%20Modes%20for%20Better%20Productivity.pdf) and a video will be made available in the near future.
+You can view my slides [here](https://jmblogstorrage.blob.core.windows.net/media/media/Working%20in%20Modes%20for%20Better%20Productivity.pdf) and a video will be made available in the near future.
 
 ![flyer](https://kjaymiller.s3-us-west-2.amazonaws.com/images/SCAU-POSTER-12-19-2020-FINAL.jpg)

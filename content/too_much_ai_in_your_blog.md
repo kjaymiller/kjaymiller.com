@@ -27,7 +27,7 @@ Nah that isn't it at all. I've used ChatGPT to help write blog posts in the past
 
 I write what I would. If I'm stuck on a particular sentence I would say "Help me convey '<INSERT LONG AAH TEXT HERE>' in 1-2 sentences."  Then I would read that statement and then put it in my words and keep it moving. Or if it lost that _personal touch_ I'd skip it and keep it moving.
 
-![ChatGPT missing the mark](https://kjaymiller.azureedge.net/media/asking%20chatgpt%20to%20make%20more%20concise.png)
+![ChatGPT missing the mark](https://jmblogstorrage.blob.core.windows.net/media/media/asking%20chatgpt%20to%20make%20more%20concise.png)
 
 I may also feel like my grammar is atrocious and say, "Can you WITHOUT changing my words correct my grammar. Put the output in markdown format". Then I diff the text to see what changed and make a judgement on a case-by-case basis.
 
@@ -92,13 +92,13 @@ It also helps to establish "Who this content is for" and you can often make a no
 
 An easy way to do this is to use AI and ask for information about the usual tone of voice in written content for that language.
 
-![Using AI to help you figure out the tone of your content](https://kjaymiller.azureedge.net/media/translating%20to%20german.png)
+![Using AI to help you figure out the tone of your content](https://jmblogstorrage.blob.core.windows.net/media/media/translating%20to%20german.png)
 
 ## Conclusion
 
 I used AI in this post. It didn't write any words for me but I did check for voice by asking of a summary and checking to see if I sounded like yet another "AI will doom us all".
 
-![Doom](https://kjaymiller.azureedge.net/media/AI-doom-check.png)
+![Doom](https://jmblogstorrage.blob.core.windows.net/media/media/AI-doom-check.png)
 
 ![GIR Doom](https://media1.tenor.com/m/Bs--cHZ4FfsAAAAC/doom-song.gif)
 

@@ -2,7 +2,7 @@
 date: 2023-01-26 10:15:00
 description: Join me for exclusive coworking sessions, bi-weekly invites to help you
   stay focused and get things done - a unique perk for Conduit's Super Conductor members.
-image: https://kjaymiller.azureedge.net/media/SuperConductor.jpeg
+image: https://jmblogstorrage.blob.core.windows.net/media/media/SuperConductor.jpeg
 link: https://imasuperconductor.com
 no_feature_image: true
 tags:
@@ -14,7 +14,7 @@ title: Introducing Super Conductor
 
 Today is the official launch of Conduit's  Membership Show - [Super Conductor](https://www.relay.fm/conduit/join).
 
-![Super Conductor](https://kjaymiller.azureedge.net/media/SuperConductor.jpeg)
+![Super Conductor](https://jmblogstorrage.blob.core.windows.net/media/media/SuperConductor.jpeg)
 
 We wanted to do something different so one top of all the normal benefits people get we decided to give you MORE!
 

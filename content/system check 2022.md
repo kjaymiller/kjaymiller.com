@@ -3,7 +3,7 @@ date: 2022-08-18 19:40:00
 description: Get a peek into my productivity system, from my A4 dashboard to my meeting
   note templates. I'll share how I use it to stay organized and productive throughout
   the week.
-image: https://kjaymiller.azureedge.net/media/plotter.jpg
+image: https://jmblogstorrage.blob.core.windows.net/media/media/plotter.jpg
 slug: system-check-summer-2022
 tags:
 - productivity
@@ -24,7 +24,7 @@ This is a space where I can better explain it. I'll be using this as the base fo
 The foundation of this system is two things, the [Plotter System] and their [A4 Foldable insert](https://plotterusa.com/products/4mm-dot-grid-40-sheets-2-books-plt0014-a4-size/). CGP Gray does a great job explain the A-Sizing System[^2].
 
 
-![plotter](https://kjaymiller.azureedge.net/media/plotter.jpg)
+![plotter](https://jmblogstorrage.blob.core.windows.net/media/media/plotter.jpg)
 
 Succinctly, the Plotter System is a 6-ring notebook system with inserts serving multiple purposes. I have the [A5 size binder](https://plotterusa.com/products/shrink-6-ring-leather-binder-plt5003-a5-size/) which is 1/2 the size of A4 Paper. The foldable pages serve as a view of the week. When the week is up, I fold along the guides and place the page in the binder.
 
@@ -32,7 +32,7 @@ Succinctly, the Plotter System is a 6-ring notebook system with inserts serving 
 
 This A4 system serves as an analog dashboard of the week. I have two main sections and 3 subsections.
 
-![one week view](https://kjaymiller.azureedge.net/media/week_view.jpg)
+![one week view](https://jmblogstorrage.blob.core.windows.net/media/media/week_view.jpg)
 
 The first sections is for "actionables". These are Projects/Tasks/and Events.
 
@@ -48,7 +48,7 @@ Since most of the things that come up are future work - They don't get added to 
 
 The Plotter system A4 Page has markers that allow me to 3 sections (one A5 size and 2A6 (or narrow) sizes). When the week is over I fold the paper and then make the template on the next page.
 
-![The week view folded](https://kjaymiller.azureedge.net/media/folded_week_view.jpg)
+![The week view folded](https://jmblogstorrage.blob.core.windows.net/media/media/folded_week_view.jpg)
 
 ### Meeting Notes (The Back Page)
 

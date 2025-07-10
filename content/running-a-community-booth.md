@@ -3,7 +3,7 @@ date: 2024-02-08 23:08:35
 description:
   "With a little creativity and planning, we can make our booth stand out and have
   valuable conversations with attendees!"
-image: https://kjaymiller.azureedge.net/media/dawn-wages-at-microsoft-booth-djangocon-2022.jpg
+image: https://jmblogstorrage.blob.core.windows.net/media/media/dawn-wages-at-microsoft-booth-djangocon-2022.jpg
 tags:
   - conferences
   - community
@@ -23,7 +23,7 @@ Some other folks were also interested so I took some notes in our call and I'm h
 
 My background is from running booths of all sizes for the last 4 years. The largest booths I've worked with is as the tech lead for the Microsoft Booth at PyCon US and a booth at KubeCon. The smallest booths I've ran are the Elastic booth at some fed event and the Microsoft booth at DjangoCon US, were I spent about 90% of the conference staffing the booth by myself and it was the smallest booth there. Literally, we had to use a smaller because the tablecloth we were sent didn't fit the standard tables.
 
-![Photo of me at the Elastic Booth at State of the Maps](https://kjaymiller.azureedge.net/media/Elastic%20at%20SOTM.jpg)
+![Photo of me at the Elastic Booth at State of the Maps](https://jmblogstorrage.blob.core.windows.net/media/media/Elastic%20at%20SOTM.jpg)
 
 Russell, as mentioned, has been running both community and commercial booths for the last several years at PyCon US and other events all over the world.
 
@@ -61,7 +61,7 @@ If you got everything, it would cost about $500. You can easily be selective and
 
 Also not that most of these expenses are a one time purchase meaning if you take care of these things, you can likely get multiple events out of them.
 
-![The Beeware Booth at PyCon US](https://kjaymiller.azureedge.net/media/beeware-booth.jpg)
+![The Beeware Booth at PyCon US](https://jmblogstorrage.blob.core.windows.net/media/media/beeware-booth.jpg)
 You can also add a variety of things to make your booth FUN. Think baloons streamers. Just remember that you don't know how the setup will be and you don't want to be a nuisance to your neighbors. That said make the most of the opportunity and have fun doing it!
 
 ### Getting things to and from the event
@@ -110,7 +110,7 @@ Just a recap, you have spent a few hundred dollars on top of your conference cos
 
 That's the last bit. Make sure that you and your team are prepared for the conversations that you'll have. Have your elevator pitch ready. Have your call to actions (CTAs) out and there for folks. Know whether you should be standing in front of your table luring in folks to talk to or behind the table ready to answer questions from your contributors, members, users, and fans. I highly suggest sending this information to your team in advance so they are also ready. This information isn't for the booth, but also for the hallway track so you can bring folks to the booth to give them more information or lead them to your CTAs.
 
-![BeeWare booth at PyConUS 2016](https://kjaymiller.azureedge.net/media/beeware-booth-with-cool-backdrop.jpg)
+![BeeWare booth at PyConUS 2016](https://jmblogstorrage.blob.core.windows.net/media/media/beeware-booth-with-cool-backdrop.jpg)
 
 This prep can start before the conference. Make sure you leveage social media. Let folks know that you're going to be at the conference and more importantly why! Think of some promotions that you can do entice people to visit the booth. You may also be able to parnter
 

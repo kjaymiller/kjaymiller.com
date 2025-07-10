@@ -2,7 +2,7 @@
 date: 2024-12-18 14:32:58.735946
 description: I was selected as a PSF Fellow. It means a lot and I took some time to
   reflect on it.
-image: https://kjaymiller.azureedge.net/media/jay_velda_afi_mario_dcus-2024.webp
+image: https://jmblogstorrage.blob.core.windows.net/media/media/jay_velda_afi_mario_dcus-2024.webp
 tags:
 - psf
 - awards

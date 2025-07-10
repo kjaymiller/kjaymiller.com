@@ -43,7 +43,7 @@ The easiest way of getting all of the code for a specific file is to run `bat` a
 bat pyproject.toml 0:5
 ```
 
-![bat pyproject.toml 0:5](https://kjaymiller.azureedge.net/media/bat_pyproject_toml.gif)
+![bat pyproject.toml 0:5](https://jmblogstorrage.blob.core.windows.net/media/media/bat_pyproject_toml.gif)
 
 But what if you don't know the file name. This is where you can use [batgrep](https://github.com/eth-p/bat-extras/tree/master). batgrep uses bat and [ripgrep](https://github.com/BurntSushi/ripgrep) to search for a portion of the code. You can also use `B` and `A` to count how many lines you want to add around it.
 

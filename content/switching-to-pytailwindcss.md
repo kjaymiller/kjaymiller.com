@@ -7,7 +7,7 @@ description: 'Here''s a subtle description to encourage the reader to read the b
   "I''ve recently discovered a game-changing alternative to TailwindCSS - PyTailwindCSS.
   After switching to this Python-based tool, I was able to simplify my project setup
   and enjoy more flexibility without sacrificing performance.'
-image: https://kjaymiller.azureedge.net/media/pytailwindcss.png
+image: https://jmblogstorrage.blob.core.windows.net/media/media/pytailwindcss.png
 slug: switch-to-pytailwindcss
 tags:
 - tailwind

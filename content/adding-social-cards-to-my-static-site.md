@@ -1,7 +1,7 @@
 ---
 date: 2023-05-18 18:54:44
 description: I've given my static website the ability to create opengraph social cards.
-image: https://kjaymiller.azureedge.net/media/opengraph_cards.png
+image: https://jmblogstorrage.blob.core.windows.net/media/media/opengraph_cards.png
 tags:
 - render-engine
 title: Adding Social Cards to my Static Site
@@ -11,7 +11,7 @@ In the process of getting [Render-Engine](https://github.com/kjaymiller/render_e
 
 Something that I wanted to add was social media cards. Social cards are those image cards that you see when you share your dev.to blogs, youtube videos, and other sites.
 
-![Example of a Twitter Social Card](https://kjaymiller.azureedge.net/media/yt-social-card-twitter.png)
+![Example of a Twitter Social Card](https://jmblogstorrage.blob.core.windows.net/media/media/yt-social-card-twitter.png)
 
 Neither Render Engine, nor any Python-based static site generator is in the business of adding things to your site for you. So you wouldn't get social media cards by default. This is where themes and customizability are very helpful.
 
@@ -80,6 +80,6 @@ This greatly increases the build time of the site and again would definitely nee
 
 You can use one of the many opengraph validators on the internet to test this.
 
-![Social Cards](https://kjaymiller.azureedge.net/media/opengraph_cards.png)
+![Social Cards](https://jmblogstorrage.blob.core.windows.net/media/media/opengraph_cards.png)
 
 Figuring out how to generate social media cards will be an extremely light entrance into **theme-based extensions** or adding _theme_ template paths to your website's engine so that you could add some great features without much complexity on your part.

@@ -2,7 +2,7 @@
 date: 2024-11-19 12:14:00
 description: When you've been involved for a long time, it's hard to let go of it.
   This piece helps me inspect my feelings of long-term governance.
-image: https://kjaymiller.azureedge.net/media/Frank-and-Jay-mani-pedi.jpeg
+image: https://jmblogstorrage.blob.core.windows.net/media/media/Frank-and-Jay-mani-pedi.jpeg
 tags:
 - python
 - governance

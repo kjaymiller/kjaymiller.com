@@ -3,7 +3,7 @@ date: 2024-10-24 11:25:23.024269
 description: As a newcomer to my new team, I'm discovering that the key to success
   lies not in technical expertise alone. Read about how written communication and
   documentation can make or break your projects.
-image: https://kjaymiller.azureedge.net/media/problem-to-code-workflow.webp
+image: https://jmblogstorrage.blob.core.windows.net/media/media/problem-to-code-workflow.webp
 tags:
 - career
 - development
@@ -33,7 +33,7 @@ I was assigned the design, documentation, and development of our user API. This 
 
 Two days into work and what I had was an amazing diagram, one decision record about how the API would be developed (no specifics) and about 5 more proposals for myself and others to make a bunch of decisions on.
 
-![The problem to code workflow diagram](https://kjaymiller.azureedge.net/media/problem-to-code-workflow.webp)
+![The problem to code workflow diagram](https://jmblogstorrage.blob.core.windows.net/media/media/problem-to-code-workflow.webp)
 
 Then I jumped into some of the first endpoints and repeated the process. I have yet to write a single line of code on this.
 

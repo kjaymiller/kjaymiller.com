@@ -31,14 +31,14 @@ This was a talk that I wanted to do since 2022. It was so encouraging to get on 
 
 I've often felt like the only black person in the room when I go to these events. For the first time I was able to connect with folks BEFORE starting a conference and it was one of the coolest moments in my history as a Python Developer.
 
-![Black Python Devs Members at the Parlour](https://kjaymiller.azureedge.net/media/DCUS%20IceCream%20Social.jpg)
+![Black Python Devs Members at the Parlour](https://jmblogstorrage.blob.core.windows.net/media/media/DCUS%20IceCream%20Social.jpg)
 
 
 ### Best 1:1 Moment Mani-Pedi's with Frank Wiles
 
 I've been on a mission to improve my self-care. When I suggested getting Mani/Pedis with RevSyS founder Frank Wiles to discuss Python community, leadership and other things I didn't know what I was signing up for.
 
-![Mani-Pedi with Frank](https://kjaymiller.azureedge.net/media/Frank-and-Jay-mani-pedi.jpeg)
+![Mani-Pedi with Frank](https://jmblogstorrage.blob.core.windows.net/media/media/Frank-and-Jay-mani-pedi.jpeg)
 
 Thank you for one of the coolest moments in Salt Lake City! Always down to get our nails did in the sketchiest parts of town. (_Okay maybe not_)
 
@@ -46,7 +46,7 @@ Thank you for one of the coolest moments in Salt Lake City! Always down to get o
 
 I'm not going to share everything that I watched my work homie accomplish this year, but let me just say I worked my butt off to keep up. Dang Dawn, you are doing so phenomenal with your work and your work with [Djanonauts.space](https://djangonaut.space) and the PSF.
 
-![Dawn and Jay](https://kjaymiller.azureedge.net/media/jay-dawn-pyconus-2023.jpeg)
+![Dawn and Jay](https://jmblogstorrage.blob.core.windows.net/media/media/jay-dawn-pyconus-2023.jpeg)
 
 You're doing fantastic and I'm looking forward to how you move in 2024 with this momentum you've built up.
 

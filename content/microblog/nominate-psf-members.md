@@ -10,4 +10,4 @@ I definitely don't feel like I want to nominate more individuals from this respo
 
 Maybe a form that you need to log in with your PSF membership account to access or something is a way to validate users.
 
-![Moderation Bounced Email Response post PSF Fellow Nomination](https://kjaymiller.azureedge.net/media/psf-fellow-bounce.png)
+![Moderation Bounced Email Response post PSF Fellow Nomination](https://jmblogstorrage.blob.core.windows.net/media/media/psf-fellow-bounce.png)

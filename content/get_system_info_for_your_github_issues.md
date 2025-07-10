@@ -7,7 +7,7 @@ description: 'Here is a subtle description to encourage the reader to read the b
   "Ever feel overwhelmed by technical details? Learn how to get the system information
   you need for GitHub issues without drowning in unnecessary data - and save yourself
   time in the process!'
-image: https://kjaymiller.azureedge.net/media/system_profiler_harware_software_filtered.png
+image: https://jmblogstorrage.blob.core.windows.net/media/media/system_profiler_harware_software_filtered.png
 tags:
 - macos
 - github
@@ -22,13 +22,13 @@ We've all been there. You o have a problem with a package so you head over to Gi
 
 Traditionally, I would get my system information with
 
-![MacOS System Information](https://kjaymiller.azureedge.net/media/macos_system_info.gif)
+![MacOS System Information](https://jmblogstorrage.blob.core.windows.net/media/media/macos_system_info.gif)
 
 ## Using `system_profiler`
 
 Open your terminal (if it isn't already open) and type `system_profiler`. This will give you a lot of information about your system. I mean **A LOT**.
 
-![too much information meme](https://kjaymiller.azureedge.net/media/oh_no_system_profiler_millionaire.jpg)
+![too much information meme](https://jmblogstorrage.blob.core.windows.net/media/media/oh_no_system_profiler_millionaire.jpg)
 
 We don't need all of it. In fact I've boiled it down to the following bits:
 
@@ -46,7 +46,7 @@ system_profiler SPHardwareDataType SPSoftwareDataType
 
 That gives you a much shorter entry but it's still more than what you need.
 
-![too much information](https://kjaymiller.azureedge.net/media/system_profiler_hardware_software_full.png)
+![too much information](https://jmblogstorrage.blob.core.windows.net/media/media/system_profiler_hardware_software_full.png)
 
 ## RipGrep to the rescue
 
@@ -60,7 +60,7 @@ system_profiler SPHardwareDataType SPSoftwareDataType | rg -e "Chip|Model|System
 
 The `-e` allows you to pass in a regular expression which means you can search for multiple strings at once. The `^\w` means that Memory needs to be at the beginning of the line. Lastly, the `--trim` removes the leading whitespace.
 
-![system_profiler with rg](https://kjaymiller.azureedge.net/media/system_profiler_harware_software_filtered.png)
+![system_profiler with rg](https://jmblogstorrage.blob.core.windows.net/media/media/system_profiler_harware_software_filtered.png)
 
 ## Let's apply the finishing touches
 
@@ -78,4 +78,4 @@ alias devinfo="system_profiler SPHardwareDataType SPSoftwareDataType | rg -e 'Ch
 
 Now when you run `devinfo` you'll get the system information copied to your clipboard.
 
-![final run and paste into github](https://kjaymiller.azureedge.net/media/devinfo_final.gif)
+![final run and paste into github](https://jmblogstorrage.blob.core.windows.net/media/media/devinfo_final.gif)

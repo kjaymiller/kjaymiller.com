@@ -7,7 +7,7 @@ description: 'Here''s a subtle description that encourages the reader to read th
   "Discover how to deploy your custom Python static site generator to Azure and connect
   your repo to Azure Static Web Apps. Learn how to build and deploy your site using
   GitHub Actions and gain control over your build process.'
-image: https://kjaymiller.azureedge.net/media/az%20deployment%20build.png
+image: https://jmblogstorrage.blob.core.windows.net/media/media/az%20deployment%20build.png
 slug: static-site-generator-with-python-azure
 tags:
 - azure
@@ -22,7 +22,7 @@ Modern Static Sites (popularly referred to as [JAMstack Apps](https://jamstack.o
 
 I've been working on [my own static site generator](https://render-engine.readthedocs.io/en/latest/) for going on 5 years now. It's developed a lot over time, but one thing is consistent. It's modern python!
 
-![output of my static site generator building files](https://kjaymiller.azureedge.net/media/render-engine-output.png)
+![output of my static site generator building files](https://jmblogstorrage.blob.core.windows.net/media/media/render-engine-output.png)
 
 Many folks have used tools like [github pages](https://pages.github.com), [Netlify](https://netlify.com) or [Vercel](https://vercel.com), since joining Microsoft, I wanted to learn more about how to make both static and dynamic sites using Python and [Azure](https://azure.microsoft.com/en-us/).
 
@@ -48,7 +48,7 @@ The next step is where things begin to differ.
 2. Set your app location to "/" path of your project or wherever your Python code lives.
 3. Set the output path to the location where your code will create HTML.
 
-![gif of building out the steps in VS Code](https://kjaymiller.azureedge.net/media/NewSWAApp.gif)
+![gif of building out the steps in VS Code](https://jmblogstorrage.blob.core.windows.net/media/media/NewSWAApp.gif)
 
 ## Getting your site up and running
 
@@ -91,7 +91,7 @@ For more than one command, use `|-` at the beginning which each command being on
 
 I don't think there is much of a difference performance-wise. You're code is doing the same thing, just in a different place. Use this method to bypass Python version limits of Oryx (or separate concerns in your build).
 
-![The build in GH Actions](https://kjaymiller.azureedge.net/media/Build%20in%20github%20actions.png)
+![The build in GH Actions](https://jmblogstorrage.blob.core.windows.net/media/media/Build%20in%20github%20actions.png)
 
 ### Build Before Pushing to Github
 There is another way. Build your site locally and push its contents to GithHub.
@@ -103,11 +103,11 @@ The advantage of doing this is if you do granular changes, you don't have to reb
 ## Viewing your Site
 After you push your code to GitHub. You'll be able to see your site live. If you aren't sure of the URL, check the GitHub Actions Build and it will tell you in the build steps.
 
-![The Successful build with url](https://kjaymiller.azureedge.net/media/az%20deployment%20build.png)
+![The Successful build with url](https://jmblogstorrage.blob.core.windows.net/media/media/az%20deployment%20build.png)
 
 You can also refresh the Azure Section of VS Code and it should be visible.
 
-![The new SWA in VS Code](https://kjaymiller.azureedge.net/media/swa-output-vs-code.png)
+![The new SWA in VS Code](https://jmblogstorrage.blob.core.windows.net/media/media/swa-output-vs-code.png)
 
 Once it's running you can [add a custom domain](https://docs.microsoft.com/en-us/azure/static-web-apps/custom-domain) in the Azure Portal.
 
