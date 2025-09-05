@@ -1,4 +1,4 @@
-[render-engine.cli]
+[tool.render-engine.cli]
 module = "routes"
 site = "app"
 
@@ -13,8 +13,9 @@ exclude = ["data*", "output*", "static*", "content*", "templates*"]
 [project]
 name = "kjayiller.com"
 version = "0.0.0"
+requires-python = ">=3.13"
 dependencies = [
-  "render-engine[cli]==2025.6.1",
+  "render-engine[cli]>=2025.9.1a1",
   "render-engine-json>=2024.1.1a1",
   "render-engine-lunr",
   "render-engine-sitemap",
@@ -25,6 +26,7 @@ dependencies = [
   "axe-playwright-python == 0.1.4",
   "typer",
   "llm",
+  "render-engine-microblog>=2024.1.1",
 ]
 
 [project.scripts]
