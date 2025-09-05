@@ -326,6 +326,7 @@ requires-dist = [
     { name = "render-engine-fontawesome", specifier = ">=2024.1.1a1" },
     { name = "render-engine-json", specifier = ">=2024.1.1a1" },
     { name = "render-engine-lunr" },
+    { name = "render-engine-microblog" },
     { name = "render-engine-microblog", specifier = ">=2024.1.1" },
     { name = "render-engine-sitemap" },
     { name = "render-engine-theme-kjaymiller", specifier = ">=2025.1.1a2" },
