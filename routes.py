@@ -44,6 +44,12 @@ markdown_extras = [
 
 
 @app.page
+class _404(Page):
+    template = "404.html"
+    path_name = "_404.html"
+
+
+@app.page
 class Conferences(Page):
     template = "conferences.html"
     parser_extras = {"markdown_extras": markdown_extras}
