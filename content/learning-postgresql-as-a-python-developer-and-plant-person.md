@@ -45,6 +45,7 @@ When I think of PostgreSQL, the ceiling and floor feel incredibly vast. If you a
 
 If you want to optimize your work load, you can likely do so. If you want to optimize your database to work beyond the singular app experience, you have countless things you can do but also need to understand that you can accomplish this overtime, learning as you go. Best thing you can do, whether building your app or database, is make a plan and try to think about your development before you start building.
 
+Per usual my slides are kinda useless without the context of the presentation (because I don't use speakers notes). So I'll share them once the video is live.
 
 [sf pug]: https://www.meetup.com/postgresql-1/
 [plant-tracker]: https://github.com/kjaymiller/plant-tracker
