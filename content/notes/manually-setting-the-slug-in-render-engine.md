@@ -3,8 +3,7 @@ date: 2025-09-11 21:21:00
 title: Manually Settings the file_path in Render Engine
 ---
 
-Based on Dan's suggestion if you need to create a non-slugified file_path in render engine, you can just use the `file_path` attribute.
-
+Based on Dan's suggestion if you need to create a non-slugified file_path in render engine, you can just use the `path_name` attribute.
 
 In my current site:
 
