@@ -127,7 +127,7 @@ pyyaml==6.0.2
     #   cookiecutter
     #   llm
     #   python-frontmatter
-render-engine[cli]==2025.9.1a1
+render-engine[cli]==2025.9.1a2
     # via
     #   -r requirements.in
     #   render-engine-aggregators
