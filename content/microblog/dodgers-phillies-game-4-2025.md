@@ -9,3 +9,5 @@ It's been exciting watching the Phillies and Dodgers game.
 I'm just thinking how I was watching this matchup last month and it was just as energetic.
 
 Don't ask me who I'm rooting for because it hurts my soul either way.
+
+![Git Commit](https://jmblogstorrage.blob.core.windows.net/media/NLDS-git-commit.webp)
