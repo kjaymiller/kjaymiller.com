@@ -21,8 +21,8 @@ The thing that made PGConf NYC was that what I made of it.
 
 I wish that talks were recorded. Apparently not recording talks is a common trait of many PostgreSQL conferences. That said I was able to record my talks (slides and my voice) which you can catch on my youtube channel. With respect to the conference, I am not going to make them public but I will link to the unlisted videos here.
 
-[Talk 1 - The 5 Levels of JSON Tables](https://youtu.be/M_yrxFQhPzI)
-[Talk 2 - PostgreSQL vs other Technologies](https://youtu.be/RYRNRYd6TqM)
+- [Talk 1 - The 5 Levels of JSON Tables](https://youtu.be/M_yrxFQhPzI)
+- [Talk 2 - PostgreSQL vs other Technologies](https://youtu.be/RYRNRYd6TqM)
 
 The not recording of talks in the past has been one of the reasons that I have wanted to go to now defunct conferences such as PyCon Tennessee. The big challenge is that, with no talks to help market future events, I don't know how easy it is to bring new people to the conference.
 
