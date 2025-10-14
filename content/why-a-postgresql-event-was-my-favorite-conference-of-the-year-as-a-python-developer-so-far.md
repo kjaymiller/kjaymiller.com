@@ -44,6 +44,12 @@ The biggest and most important conversation that I had was with two of the organ
 I spoke with a couple of recent graduates and they all mentioned feeling like much of what was happening was _over their heads_. The challenge that the organizers mentioned was that beginner tracks don't tend to be well attended. It was my hope that CFP committees would be open to talks showcasing DB features and functionality in applications. This could change the dynamic of these events but would reflect the outlook that [49% of Stack Overflow respondents use PG but those learning to code are still preferring MySQL](https://survey.stackoverflow.co/2023/#most-popular-technologies-database-prof).
 
 
+### Where it fell short
+
+The outside the conference times. Perhaps it was me not knowing anyone, or the large swaths of people there with their employers, but my dinners were mostly spent alone which is strange for a conference. I noticed this wasn't the case in Chicago so I have to assume that it was just based on not knowing anyone and not being invited.
+
+That said, I had some amazing meals. I'm not too upset, just surprised and I hope that other first timers didn't have the same experience.
+
 ### What's Next
 
 Next week I'll be in Riga for [PostgreSQL Conference Europe](https://2025.pgconf.eu/) presenting a couple of talks:
