@@ -13,7 +13,6 @@ from render_engine_microblog import MicroBlog
 from render_engine_markdown import MarkdownPageParser
 from render_engine_aggregators.feed import AggregateFeed
 
-from render_engine.extras import SiteMap
 from render_engine_theme_kjaymiller import kjaymiller
 from render_engine_fontawesome.fontawesome import fontawesome
 from render_engine_json import JSONPageParser
@@ -24,7 +23,6 @@ app = Site()
 with open("settings.json") as json_file:
     settings = json.loads(json_file.read())
 app.site_vars.update(**settings)
-app.register_plugins(SiteMap)
 app.register_themes(kjaymiller, fontawesome, LunrTheme)
 app.plugin_manager.plugin_settings["LunrPlugin"].update(
     {"collections": ["blog", "pages"]}
@@ -32,6 +30,7 @@ app.plugin_manager.plugin_settings["LunrPlugin"].update(
 
 app.site_vars.update({"SITE_URL": "https://kjaymiller.com"})
 app.site_vars.update(head=["_head.html"])
+app.render_html_site_map = True
 
 markdown_extras = [
     "admonitions",
@@ -45,6 +44,8 @@ markdown_extras = [
 
 @app.page
 class _404(Page):
+    skip_site_map = True
+    no_prerender = True
     template = "404.html"
     path_name = "_404.html"
 
