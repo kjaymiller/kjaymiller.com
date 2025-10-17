@@ -15,8 +15,8 @@ It reminded me that the internet and AI in many ways, want to generate the most 
 
 Reminders:
 
-- ChatGPT (or whatever you use) is not a human (except when it copy/pasting content from humans)
-- These companies have an opportunity to give you content that is free of bias and it is not which was an intentional decision made by humans.
+- ChatGPT (or whatever you use) is not a human (except when it copy/pastes content from humans)
+- These companies have an opportunity to give you content that is free of bias, and the fact they don't is an intentional decision made by humans.
 - You are smart but marketing will leverage how smart you are against you.
 - Any time you "Feel a way" about a result, you need to examine that feeling and determine was it engineered by the LLM.
 
