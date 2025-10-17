@@ -1,6 +1,6 @@
 {
   "Overtired": {
-    "image": "https://kjaymiller.azureedge.net/media/overtired.webp",
+    "image": "https://jmblogstorrage.blob.core.windows.net/media/overtired.webp",
     "appearances": [
       {
         "title": "421: Give Yourself A Five",
@@ -19,6 +19,12 @@
         "date": "2024-16-01",
         "url": "https://overtiredpod.com/ep/401/",
         "description": "Yeah, it’s another 2-hour episode. Jay Miller is back to talk retail therapy, keyboards, and Tetris. We threw in the usual grAPPtitude picks, so don’t miss 'em!"
+      },
+      {
+        "title": "437: This Time It's Love",
+        "date": "2025-10-17",
+        "url": "https://overtiredpod.com/ep/437/",
+        "description": "On this episode of Overtired, Christina Warren, Jeff Severns Guntzel, and Jay Miller dive into tech talk, nonprofit initiatives, and some unexpected baseball chat. Jeff raves about his foray into Linux, while Jay updates us on Black Python Devs and their efforts to support developers in Latin America. Christina brings her Mac app gratitude like a pro, and baseball makes its way into the conversation more than once. Expect laughs, tech tips, and a lot of goodwill."
       }
     ]
   },
