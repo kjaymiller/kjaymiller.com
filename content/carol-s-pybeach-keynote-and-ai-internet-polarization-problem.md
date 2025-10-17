@@ -20,7 +20,7 @@ Reminders:
 - You are smart but marketing will leverage how smart you are against you.
 - Any time you "Feel a way" about a result, you need to examine that feeling and determine was it engineered by the LLM.
 
-This isn't me slandering it, it's me having used these exact strategies against other humans in a past life when I was in marketing. I hope I brought on feelings of mistrust towards these companies and their intentions to make trillions of you and your feelings.
+This isn't me slandering it, it's me having used these exact strategies against other humans in a past life when I was in marketing. I hope I brought on feelings of mistrust towards these companies and their intention of making trillions off you and your feelings.
 
 I'm just as bad as them.
 
