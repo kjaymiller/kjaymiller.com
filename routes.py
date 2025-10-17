@@ -74,7 +74,7 @@ class Notes(_Blog):
     content_path = "content/notes"
     template = "blog.html"
     archive_template = "blog_list.html"
-    routes = ["notes"]
+    slug = "notes"
 
 
 @app.collection
@@ -107,6 +107,7 @@ class MicroBlog(MicroBlog):
     routes = ["microblog"]
     parser_extra = {"markdown_extras": markdown_extras}
     items_per_page = 20
+    skip_site_map = True
 
 
 @app.page
