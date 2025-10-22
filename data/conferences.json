@@ -1,5 +1,13 @@
 [
   {
+    "conference": "PGDay Chicago",
+    "location": "Chicago, IL",
+    "date": "2025-04-25",
+    "talk_title": "Getting advice from Myself using PGVector, RAG, Flat Files and JSON_TABLEs",
+    "conference_url": "https://2025.pgdaychicago.org/",
+    "description": "Cicero said - there is no one who can give you wiser advice than you can give yourself. That's why when I started generating transcripts from my productivity podcast, I decided to start using it to give myself productivity advice. \n This talk dives in a journey of using PGVector as the base for ingesting transcriptions stored as flat files and how Postgres 17's new JSON_TABLES has completely encouraged me to expand beyond my podcast and begin the diving into all my public content."
+  },
+  {
     "conference": "PyCon US 2025",
     "location": "Pittsburgh, PA",
     "date": "2025-05-17",
