@@ -74,7 +74,7 @@ class Notes(_Blog):
     content_path = "content/notes"
     template = "blog.html"
     archive_template = "blog_list.html"
-    slug = "notes"
+    routes = ["notes"]
 
 
 @app.collection
