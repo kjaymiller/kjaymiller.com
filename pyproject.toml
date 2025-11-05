@@ -53,7 +53,7 @@ dependencies = [
   "typer",
   "llm",
   "render-engine-microblog>=2024.1.1",
-  "render-engine-pg>=2025.11.1b1",
+  "render-engine-pg>=2025.11.1b2",
 ]
 
 [project.scripts]
