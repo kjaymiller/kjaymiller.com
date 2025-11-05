@@ -25,6 +25,8 @@ jobs:
           python-version: "3.14"
       - name: Build the site
         run: uv run --no-dev --prerelease=allow render-engine build
+        env:
+          CONNECTION_STRING: ${{ secrets.CONNECTION_STRING }}
       - uses: actions/upload-artifact@v4
         with:
           name: website
