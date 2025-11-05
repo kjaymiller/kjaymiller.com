@@ -316,7 +316,7 @@ requires-dist = [
     { name = "render-engine-lunr" },
     { name = "render-engine-microblog" },
     { name = "render-engine-microblog", specifier = ">=2024.1.1" },
-    { name = "render-engine-pg", specifier = ">=2025.11.1b2" },
+    { name = "render-engine-pg", directory = "../render-engine-pg-parser" },
     { name = "render-engine-sitemap" },
     { name = "render-engine-theme-kjaymiller", specifier = ">=2025.6.1" },
     { name = "render-engine-youtube-embed", specifier = "==2023.10.2b3" },
@@ -824,8 +824,7 @@ wheels = [
 
 [[package]]
 name = "render-engine-pg"
-version = "2025.11.1b2"
-source = { registry = "https://pypi.org/simple" }
+source = { directory = "../render-engine-pg-parser" }
 dependencies = [
     { name = "click" },
     { name = "psycopg", extra = ["binary"] },
@@ -834,10 +833,19 @@ dependencies = [
     { name = "render-engine-markdown" },
     { name = "tomli-w" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/1b/c8/6ec5903e95a828a9a3045a7864fefbe2ef2eaf9c4031709bcd4faa66ed05/render_engine_pg-2025.11.1b2.tar.gz", hash = "sha256:44bc0704571cff04bdcf357335a9a7e91a6bddf2db3817d417a03d865eab1ccd", size = 83368, upload-time = "2025-11-05T02:37:38.607Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/cd/66/fd04de799bced0fd931482d375ff8a9cb1293e90fe9bf5933fa96e55068a/render_engine_pg-2025.11.1b2-py3-none-any.whl", hash = "sha256:41d6cd3e61900da9b6a94892d677ec8bc4a17d4c7c9670b8efa5efa41eef7c90", size = 22117, upload-time = "2025-11-05T02:37:37.37Z" },
+
+[package.metadata]
+requires-dist = [
+    { name = "click", specifier = ">=8.3.0" },
+    { name = "psycopg", extras = ["binary"], specifier = ">=3.0" },
+    { name = "pytest", marker = "extra == 'test'", specifier = ">=7.0" },
+    { name = "pytest-mock", marker = "extra == 'test'", specifier = ">=3.10" },
+    { name = "python-frontmatter", specifier = ">=1.0" },
+    { name = "render-engine", specifier = ">=2025.10.2a1" },
+    { name = "render-engine-markdown", specifier = ">=2023.12.1" },
+    { name = "tomli-w", specifier = ">=1.0.0" },
 ]
+provides-extras = ["test"]
 
 [[package]]
 name = "render-engine-sitemap"

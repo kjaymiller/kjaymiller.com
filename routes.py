@@ -87,6 +87,7 @@ class Notes(_Blog):
     archive_template = "blog_list.html"
     has_archive = True
     items_per_page = 20
+    parser_extras = {"markdown_extras": markdown_extras}
 
     @staticmethod
     def _metadata_attrs() -> dict[str, str]:
@@ -115,6 +116,7 @@ class Blog(_Blog):
     archive_template = "blog_list.html"
     has_archive = True
     items_per_page = 20
+    parser_extras = {"markdown_extras": markdown_extras}
 
     @staticmethod
     def _metadata_attrs() -> dict[str, str]:
