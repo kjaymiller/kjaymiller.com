@@ -34,7 +34,7 @@ app.site_vars.update(**settings)
 app.register_themes(kjaymiller, fontawesome, LunrTheme)
 app.plugin_manager.plugin_settings["LunrPlugin"].update({"collections": ["pages"]})
 
-app.site_vars.update({"SITE_URL": "http://localhost:8000"})
+app.site_vars.update({"SITE_URL": os.getenv("RE_SITE_URL", "http://localhost:8000")})
 app.site_vars.update(head=["_head.html"])
 app.render_html_site_map = True
 
