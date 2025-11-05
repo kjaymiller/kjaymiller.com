@@ -27,7 +27,7 @@ jobs:
         run: uv run --no-dev --prerelease=allow render-engine build
         env:
           CONNECTION_STRING: ${{ secrets.CONNECTION_STRING }}
-          RE_SITE_URL: ${{env.RE_SITE_URL}}
+          RE_SITE_URL: ${{env.RE_SITE_URL || "https://kjaymiller.com"}}
       - uses: actions/upload-artifact@v4
         with:
           name: website
