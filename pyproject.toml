@@ -32,8 +32,6 @@ build-backend = "setuptools.build_meta"
 include = ["tools*"]
 exclude = ["data*", "output*", "static*", "content*", "templates*"]
 
-[tool.uv.sources]
-render-engine-pg = { path = "../render-engine-pg-parser" }
 
 [project]
 name = "kjayiller.com"
