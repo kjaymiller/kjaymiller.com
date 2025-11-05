@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "content-editor-tui"
+version = "0.1.0"
+description = "TUI for editing blog content stored in PostgreSQL"
+requires-python = ">=3.10"
+dependencies = [
+    "textual>=1.0.0",
+    "psycopg[binary]>=3.0.0",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+content-editor = "content_editor.main:run"

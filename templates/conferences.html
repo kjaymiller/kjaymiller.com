@@ -2,27 +2,39 @@
 
 {% block content %}
 
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
 <section class="container mx-auto">
 
-<h1 class="text-2xl">Conferences</h1>
+<h1 class="text-2xl mb-4">Conferences</h1>
+
+<div id="map" style="height: 500px; width: 100%; border-radius: 8px; margin-bottom: 2rem;"></div>
+<script>
+var map = L.map('map').setView([33.74, -84.38], 4);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+{% for conference in data%}
+var marker = L.marker([{{conference.latitude}}, {{conference.longitude}}]).addTo(map)
+marker.bindPopup("<strong>{{conference.conference}}</strong>")
+{% endfor %}
+</script>
 
 {% for conference in data %}
-<div class="mx-4 my-4 p-2 border rounded-xl hover:shadow shadow-{{theme.colors.main}}">
-    <h2 class="py-1 text-xl">{{conference.talk_title}}</h2>
-    <p class="py-1"><strong><a href="{{conference.conference_url}}">{{conference.conference}}</a></strong> | {{conference.date}}</h2>
-
-        {% if conference.description %}
-        <p>{{conference.description}}</p>
-        {% endif %}
-
-        {% if conference.slides_url %}
-        <p><a href="{{conference.slides_url}}">View Slides</a></p>
-        {% endif %}
-
-        {% if conference.video_url %}
-        <p class="my-2"><a class="hover:font-bold underline" href="{{conference.video_url}}">Watch Presentation</a></p>
-        {% endif %}
-    </div>
-    {% endfor %}
+<div class="border rounded-lg p-4 mb-4">
+  <h2 class="text-xl font-bold">{{conference.conference}}</h2>
+  <small class="text-gray-600">{{conference.event_date}}</small>
+  {% if conference.latitude %}
+  <p class="text-sm mt-2">📍 Lat: {{conference.latitude}}, Lng: {{conference.longitude}}</p>
+  {% endif %}
+</div>
+{% endfor %}
 </section>
+
 {% endblock %}

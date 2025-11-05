@@ -1,6 +1,14 @@
+import tempfile
+import pdb
 import os
 import json
 
+from render_engine_pg import (
+    get_db_connection,
+    PostgresContentManager,
+    PGMarkdownCollectionParser,
+    PostgresQuery,
+)
 
 from render_engine import (
     Page,
@@ -24,11 +32,9 @@ with open("settings.json") as json_file:
     settings = json.loads(json_file.read())
 app.site_vars.update(**settings)
 app.register_themes(kjaymiller, fontawesome, LunrTheme)
-app.plugin_manager.plugin_settings["LunrPlugin"].update(
-    {"collections": ["blog", "pages"]}
-)
+app.plugin_manager.plugin_settings["LunrPlugin"].update({"collections": ["pages"]})
 
-app.site_vars.update({"SITE_URL": "https://kjaymiller.com"})
+app.site_vars.update({"SITE_URL": "http://localhost:8000"})
 app.site_vars.update(head=["_head.html"])
 app.render_html_site_map = True
 
@@ -40,6 +46,9 @@ markdown_extras = [
     "mermaid",
     "tables",
 ]
+
+# Initialize database connection early for collections
+conn = get_db_connection(os.getenv("CONNECTION_STRING"))
 
 
 @app.page
@@ -68,13 +77,23 @@ class GuestAppearances(Page):
 
 @app.collection
 class Notes(_Blog):
-    Parser = MarkdownPageParser
-    title = "Notes to Self"
-    parser_extras = {"markdown_extras": markdown_extras}
-    content_path = "content/notes"
-    template = "blog.html"
-    archive_template = "blog_list.html"
     routes = ["notes"]
+    title = "Notes to Self"
+    template = "blog.html"
+    Parser = PGMarkdownCollectionParser
+    ContentManager = PostgresContentManager
+    content_path = tempfile.gettempdir()
+    content_manager_extras = {"connection": conn}
+    archive_template = "blog_list.html"
+    has_archive = True
+    items_per_page = 20
+
+    @staticmethod
+    def _metadata_attrs() -> dict[str, str]:
+        return {
+            "connection": conn,
+            "table": "notes",
+        }
 
 
 @app.collection
@@ -87,32 +106,48 @@ class Pages(Collection):
 
 @app.collection
 class Blog(_Blog):
-    Parser = MarkdownPageParser
-    parser_extras = {"markdown_extras": markdown_extras}
-    subcollections = ["tags"]
-    template = "blog.html"
     routes = ["blog"]
-    content_path = "content"
+    template = "blog.html"
+    Parser = PGMarkdownCollectionParser
+    ContentManager = PostgresContentManager
+    content_path = tempfile.gettempdir()
+    content_manager_extras = {"connection": conn}
     archive_template = "blog_list.html"
     has_archive = True
     items_per_page = 20
 
+    @staticmethod
+    def _metadata_attrs() -> dict[str, str]:
+        return {
+            "connection": conn,
+            "table": "blog",
+        }
+
 
 @app.collection
 class MicroBlog(MicroBlog):
-    Parser = MarkdownPageParser
+    Parser = PGMarkdownCollectionParser
+    ContentManager = PostgresContentManager
     template_vars = {"microblog_entry": "custom_microblog_post.html"}
-    content_path = "content/microblog"
+    content_path = tempfile.gettempdir()
+    content_manager_extras = {"connection": conn}
     template = "microblog_post.html"
     routes = ["microblog"]
     parser_extra = {"markdown_extras": markdown_extras}
     items_per_page = 20
     skip_site_map = True
 
+    @staticmethod
+    def _metadata_attrs() -> dict[str, str]:
+        return {
+            "connection": conn,
+            "table": "microblog",
+        }
+
 
 @app.page
 class AllPosts(AggregateFeed):
-    collections = [Blog, MicroBlog]
+    collections = [MicroBlog]
 
 
 @app.page
@@ -122,12 +157,6 @@ class Index(Page):
         "hero": {
             "from_template": "index_hero.html",
         },
-        "secondary": {
-            "target": list(app.route_list["blog"].archives)[0].url_for(),
-            "title": Blog.title,
-            "from_template": "secondary_blog.html",
-        },
-        "blog": app.route_list["blog"].latest(3),
     }
 
 

@@ -1,0 +1,55 @@
+{% extends "page.html" %}
+
+{% block content %}
+<section class="container mx-auto">
+  <h1 class="text-2xl mb-4">Conferences Map</h1>
+
+<link rel="stylesheet" href="https://leafletjs.com/dist/leaflet.css" />
+
+<script src="https://leafletjs.com/dist/leaflet.js"></script>
+<script>
+// Initialize map centered on US
+const map = L.map('map').setView([39, -95], 4);
+
+// Add OpenStreetMap tiles
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  maxZoom: 19
+}).addTo(map);
+
+// Conference data from template
+const conferences = [
+  {% for conference in data %}
+  {
+    name: '{{ conference.conference }}',
+    date: '{{ conference.event_date | date("%Y-%m-%d") }}',
+    lat: {{ conference.latitude }},
+    lng: {{ conference.longitude }}
+  }{% if not loop.last %},{% endif %}
+  {% endfor %}
+];
+
+// Add markers for each conference
+conferences.forEach(conf => {
+  L.marker([conf.lat, conf.lng])
+    .addTo(map)
+    .bindPopup(`<strong>${conf.name}</strong><br>${conf.date}`);
+});
+</script>
+  <div id="map" style="height: 500px; width: 100%; border-radius: 8px; margin-bottom: 2rem;"></div>
+
+  <h2 class="text-xl mb-4">Conferences</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    {% for conference in data %}
+    <div class="border rounded-lg p-4">
+      <h3 class="font-bold">{{ conference.conference }}</h3>
+      <p class="text-sm text-gray-600">{{ conference.event_date | date("%Y-%m-%d") }}</p>
+      {% if conference.latitude %}
+      <p class="text-sm">📍 {{ conference.latitude }}, {{ conference.longitude }}</p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% endblock %}
