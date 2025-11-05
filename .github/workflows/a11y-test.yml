@@ -23,7 +23,7 @@ jobs:
           python a11y.py --output "accessibility-report-${{steps.date.outputs.DATE}}-${{github.run_id}}.txt"
           cat "accessibility-report-${{steps.date.outputs.DATE}}-${{github.run_id}}.txt" >> $GITHUB_STEP_SUMMARY
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: accessibility-report-${{steps.date.outputs.DATE}}-${{github.run_id}}.txt
           path: accessibility-report-${{steps.date.outputs.DATE}}-${{github.run_id}}.txt
