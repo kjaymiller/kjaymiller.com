@@ -323,7 +323,7 @@ requires-dist = [
     { name = "render-engine-lunr" },
     { name = "render-engine-microblog" },
     { name = "render-engine-microblog", specifier = ">=2024.1.1" },
-    { name = "render-engine-pg", directory = "../render-engine-pg-parser" },
+    { name = "render-engine-pg", specifier = "==2025.11.1" },
     { name = "render-engine-sitemap" },
     { name = "render-engine-theme-kjaymiller", specifier = "==2025.11.1a5" },
     { name = "render-engine-youtube-embed", specifier = "==2023.10.2b3" },
@@ -879,7 +879,8 @@ wheels = [
 
 [[package]]
 name = "render-engine-pg"
-source = { directory = "../render-engine-pg-parser" }
+version = "2025.11.1"
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
     { name = "psycopg", extra = ["binary"] },
@@ -888,19 +889,10 @@ dependencies = [
     { name = "render-engine-markdown" },
     { name = "tomli-w" },
 ]
-
-[package.metadata]
-requires-dist = [
-    { name = "click", specifier = ">=8.3.0" },
-    { name = "psycopg", extras = ["binary"], specifier = ">=3.0" },
-    { name = "pytest", marker = "extra == 'test'", specifier = ">=7.0" },
-    { name = "pytest-mock", marker = "extra == 'test'", specifier = ">=3.10" },
-    { name = "python-frontmatter", specifier = ">=1.0" },
-    { name = "render-engine", specifier = ">=2025.10.2a1" },
-    { name = "render-engine-markdown", specifier = ">=2023.12.1" },
-    { name = "tomli-w", specifier = ">=1.0.0" },
+sdist = { url = "https://files.pythonhosted.org/packages/f5/8f/e5f39c72b8b9d1fe36d5b38fce55095ce57ece49446d32724bd7172f6e59/render_engine_pg-2025.11.1.tar.gz", hash = "sha256:edfd75f4e0d7efc951d0e9c83625ae64c5ff7020b5182d7c61f5e5915458c207", size = 96056, upload-time = "2025-11-06T23:51:36.579Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/98/f2/b2952b4fe9581f3d83029ecc3e8a959ab4e4ee74bbadc5bdf0eb18562e29/render_engine_pg-2025.11.1-py3-none-any.whl", hash = "sha256:5a7e6b2307a659107fb3e3958de10f8a0f372673c7ee938bf92885f695e9f933", size = 28332, upload-time = "2025-11-06T23:51:35.28Z" },
 ]
-provides-extras = ["test"]
 
 [[package]]
 name = "render-engine-sitemap"
