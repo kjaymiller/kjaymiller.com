@@ -30,4 +30,4 @@ if [ -z "$CONNECTION_STRING" ]; then
 fi
 
 # Run the app
-uv run content-editor
+uv run --directory content-editor-tui content-editor

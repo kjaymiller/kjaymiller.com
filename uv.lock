@@ -2,9 +2,6 @@ version = 1
 revision = 3
 requires-python = ">=3.14"
 
-[options]
-prerelease-mode = "allow"
-
 [[package]]
 name = "annotated-types"
 version = "0.7.0"
@@ -316,9 +313,9 @@ requires-dist = [
     { name = "render-engine-lunr" },
     { name = "render-engine-microblog" },
     { name = "render-engine-microblog", specifier = ">=2024.1.1" },
-    { name = "render-engine-pg", specifier = ">=2025.11.1b2" },
+    { name = "render-engine-pg", specifier = ">=2025.11.1b5" },
     { name = "render-engine-sitemap" },
-    { name = "render-engine-theme-kjaymiller", specifier = ">=2025.11.1a1" },
+    { name = "render-engine-theme-kjaymiller", specifier = "==2025.11.1a5" },
     { name = "render-engine-youtube-embed", specifier = "==2023.10.2b3" },
     { name = "typer" },
 ]
@@ -824,7 +821,7 @@ wheels = [
 
 [[package]]
 name = "render-engine-pg"
-version = "2025.11.1b3"
+version = "2025.11.1b5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -834,9 +831,9 @@ dependencies = [
     { name = "render-engine-markdown" },
     { name = "tomli-w" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ad/e8/76712faec3524ea2bd25579687eb61a0424c902994a30c45354fffb29715/render_engine_pg-2025.11.1b3.tar.gz", hash = "sha256:43e01522510768675b0ad5083ea830afef9ca2e245a06a52e58b6ccfdf627b16", size = 84853, upload-time = "2025-11-05T20:48:53.844Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ed/b6/682220653e817c16c6af95fc7c9f1c50dfd292d7b6295eb97bca430c8449/render_engine_pg-2025.11.1b5.tar.gz", hash = "sha256:5cd88154951cd1ca746bf84405c305504f35d8773e24215b9f546df605943d0c", size = 95414, upload-time = "2025-11-06T16:56:02.175Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ad/8a/9e59b44d33b3df5b767d54fb0d170400bd2538729608ba0335466436bb31/render_engine_pg-2025.11.1b3-py3-none-any.whl", hash = "sha256:5de844da2ef5e379220cf8c0f06d923f3c1b8cf3abf8e87b21b6b8ce7fecd9a9", size = 22371, upload-time = "2025-11-05T20:48:52.401Z" },
+    { url = "https://files.pythonhosted.org/packages/52/bd/3309b340aa3ae23e0a7242da4172fbc41d8b05da3db42756e0462121a976/render_engine_pg-2025.11.1b5-py3-none-any.whl", hash = "sha256:705eba018e82873ef5c7709eacbd647e0fdcd6cdc90ddb708f2aae4cfb7707d5", size = 28147, upload-time = "2025-11-06T16:56:00.887Z" },
 ]
 
 [[package]]
@@ -867,7 +864,7 @@ wheels = [
 
 [[package]]
 name = "render-engine-theme-kjaymiller"
-version = "2025.11.1a1"
+version = "2025.11.1a5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jinja2" },
@@ -875,9 +872,9 @@ dependencies = [
     { name = "render-engine-markdown" },
     { name = "render-engine-tailwindcss" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/25/e3/f082f15727ac7f9a2c339dcad74f335763934cf4201e4ac29ff7746afbbc/render_engine_theme_kjaymiller-2025.11.1a1.tar.gz", hash = "sha256:02256854c93857b37ae88c6b23ebf318e355fc0f088740d464545b69950180bf", size = 2803783, upload-time = "2025-11-06T00:48:22.606Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/96/2a/4021adb3e3d5e46775f28e83b3c1f0734ef0dbcdc7cca58c970b53a581b6/render_engine_theme_kjaymiller-2025.11.1a5.tar.gz", hash = "sha256:2b44d929b2b060a2e53adabd294c29846e7b88ef4638dad4164f253977ace330", size = 2803594, upload-time = "2025-11-06T01:46:30.868Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/43/42/31e9208cdb1e8f6a79f4b2cb53d4c6f04ce5347f754611f8ddc14a59cf76/render_engine_theme_kjaymiller-2025.11.1a1-py3-none-any.whl", hash = "sha256:6f95cdb7447187519b440201b71b44c009685b63ed2d6bec0e1bc1b77c106fdd", size = 2778589, upload-time = "2025-11-06T00:48:21.354Z" },
+    { url = "https://files.pythonhosted.org/packages/7c/09/331efa188cf877dbd796eda14675f44150d039889f3c0165ad7a660e05f3/render_engine_theme_kjaymiller-2025.11.1a5-py3-none-any.whl", hash = "sha256:fa485717d0bef37f622cdacb320476b4294f59a261c893c69b4afb779386abc9", size = 2778602, upload-time = "2025-11-06T01:46:28.989Z" },
 ]
 
 [[package]]

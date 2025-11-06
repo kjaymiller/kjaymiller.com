@@ -2,28 +2,6 @@
 module = "routes"
 site = "app"
 
-[tool.render-engine.pg.insert_sql]
-microblog = [
-  "INSERT INTO microblog (slug, content, external_link, created_at) VALUES ({slug}, {content}, {external_link}, {created_at});",
-  "INSERT INTO tags (name) VALUES ({name}) ON CONFLICT (name) DO UPDATE SET name = EXCLUDED.name RETURNING id;",
-  "INSERT INTO microblog_tags (microblog_id, tag_id, created_at) VALUES ({microblog_id}, {tag_id}, {created_at});",
-]
-blog = [
-  "INSERT INTO tags (name) VALUES ({name}) ON CONFLICT (name) DO UPDATE SET name = EXCLUDED.name RETURNING id;",
-  "INSERT INTO blog (slug, title, content, description, external_link, image_url, date) VALUES ({slug}, {title}, {content}, {description}, {external_link}, {image_url}, {date});",
-  "INSERT INTO blog_tags (blog_id, tag_id, created_at) VALUES ({blog_id}, {tag_id}, {created_at});",
-]
-notes = [
-  "INSERT INTO tags (name) VALUES ({name}) ON CONFLICT (name) DO UPDATE SET name = EXCLUDED.name RETURNING id;",
-  "INSERT INTO notes (slug, title, content, description, external_link, image_url, date) VALUES ({slug}, {title}, {content}, {description}, {external_link}, {image_url}, {date});",
-  "INSERT INTO notes_tags (notes_id, tag_id, created_at) VALUES ({notes_id}, {tag_id}, {created_at});",
-]
-
-[tool.render-engine.pg.read_sql]
-microblog = "SELECT microblog.id, microblog.slug, microblog.content, microblog.external_link, microblog.date, array_agg(DISTINCT tags.name) as tags_names FROM microblog LEFT JOIN microblog_tags ON microblog.id = microblog_tags.microblog_id LEFT JOIN tags ON microblog_tags.tag_id = tags.id GROUP BY microblog.id, microblog.slug, microblog.content, microblog.external_link, microblog.created_at ;"
-blog = "SELECT blog.id, blog.slug, blog.title, blog.content, blog.description, blog.external_link, blog.image_url, blog.date, array_agg(DISTINCT tags.name) as tags_names FROM blog LEFT JOIN blog_tags ON blog.id = blog_tags.blog_id LEFT JOIN tags ON blog_tags.tag_id = tags.id GROUP BY blog.id, blog.slug, blog.title, blog.content, blog.description, blog.external_link, blog.image_url, blog.date ORDER BY blog.date DESC;"
-notes = "SELECT notes.id, notes.slug, notes.title, notes.content, notes.description, notes.external_link, notes.image_url, notes.date, array_agg(DISTINCT tags.name) as tags_names FROM notes LEFT JOIN notes_tags ON notes.id = notes_tags.notes_id LEFT JOIN tags ON notes_tags.tag_id = tags.id GROUP BY notes.id, notes.slug, notes.title, notes.content, notes.description, notes.external_link, notes.image_url, notes.date ORDER BY notes.date DESC;"
-
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
@@ -44,14 +22,19 @@ dependencies = [
   "render-engine-sitemap",
   "render-engine-microblog",
   "render-engine-fontawesome>=2024.1.1a1",
-  "render-engine-theme-kjaymiller>=2025.11.1a1",
+  "render-engine-theme-kjaymiller==2025.11.1a5",
   "render-engine-youtube-embed==2023.10.2b3",
   "render-engine-aggregators",
   "axe-playwright-python == 0.1.5",
   "typer",
   "llm",
   "render-engine-microblog>=2024.1.1",
-  "render-engine-pg>=2025.11.1b2",
+  "render-engine-pg>=2025.11.1b5",
+  "textual>=1.0.0",
+  "psycopg[binary]>=3.0.0",
+  "pyyaml>=6.0",
+  "python-dotenv>=1.0.0",
+
 ]
 
 [project.scripts]

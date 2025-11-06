@@ -7,6 +7,7 @@ from render_engine_pg import (
     get_db_connection,
     PostgresContentManager,
     PGMarkdownCollectionParser,
+    PGPageParser,
     PostgresQuery,
 )
 
@@ -20,11 +21,11 @@ from render_engine.blog import Blog as _Blog
 from render_engine_microblog import MicroBlog
 from render_engine_markdown import MarkdownPageParser
 from render_engine_aggregators.feed import AggregateFeed
+from render_engine_lunr import LunrTheme
 
 from render_engine_theme_kjaymiller import kjaymiller
 from render_engine_fontawesome.fontawesome import fontawesome
 from render_engine_json import JSONPageParser
-from render_engine_lunr import LunrTheme
 
 
 app = Site()
@@ -32,7 +33,9 @@ with open("settings.json") as json_file:
     settings = json.loads(json_file.read())
 app.site_vars.update(**settings)
 app.register_themes(kjaymiller, fontawesome, LunrTheme)
-app.plugin_manager.plugin_settings["LunrPlugin"].update({"collections": ["pages"]})
+app.plugin_manager.plugin_settings["LunrPlugin"].update(
+    {"collections": ["pages", "blog"]}
+)
 
 app.site_vars.update({"SITE_URL": os.getenv("RE_SITE_URL", "http://localhost:8000")})
 app.site_vars.update(head=["_head.html"])
@@ -63,8 +66,11 @@ class _404(Page):
 class Conferences(Page):
     template = "conferences.html"
     parser_extras = {"markdown_extras": markdown_extras}
-    Parser = JSONPageParser
-    content_path = "data/conferences.json"
+    content_path = PostgresQuery(connection=conn, collection_name="conferences")
+    Parser = PGPageParser
+
+
+print(app.route_list["conferences"])
 
 
 @app.page

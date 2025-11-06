@@ -74,10 +74,15 @@ class DatabaseManager:
         if self.conn:
             self.conn.close()
 
-    def get_posts(self, search: Optional[str] = None) -> List[Dict[str, Any]]:
-        """Get all posts from current collection, optionally filtered by search term.
+    def get_posts(self, search: Optional[str] = None, limit: int = 50, offset: int = 0) -> List[Dict[str, Any]]:
+        """Get posts from current collection, optionally filtered by search term.
 
         For microblog, returns empty title/description since those fields don't exist.
+
+        Args:
+            search: Optional search term to filter posts
+            limit: Maximum number of posts to return (default: 50)
+            offset: Number of posts to skip for pagination (default: 0)
         """
         cursor = self.conn.cursor()
         try:
@@ -91,16 +96,18 @@ class DatabaseManager:
                         FROM {table}
                         WHERE slug ILIKE %s OR content ILIKE %s
                         ORDER BY date DESC
+                        LIMIT %s OFFSET %s
                     """
                     search_term = f"%{search}%"
-                    cursor.execute(query, (search_term, search_term))
+                    cursor.execute(query, (search_term, search_term, limit, offset))
                 else:
                     query = f"""
                         SELECT id, slug, content, date
                         FROM {table}
                         ORDER BY date DESC
+                        LIMIT %s OFFSET %s
                     """
-                    cursor.execute(query)
+                    cursor.execute(query, (limit, offset))
 
                 posts = []
                 for row in cursor.fetchall():
@@ -120,16 +127,18 @@ class DatabaseManager:
                         FROM {table}
                         WHERE title ILIKE %s OR slug ILIKE %s OR content ILIKE %s
                         ORDER BY date DESC
+                        LIMIT %s OFFSET %s
                     """
                     search_term = f"%{search}%"
-                    cursor.execute(query, (search_term, search_term, search_term))
+                    cursor.execute(query, (search_term, search_term, search_term, limit, offset))
                 else:
                     query = f"""
                         SELECT id, slug, title, description, date
                         FROM {table}
                         ORDER BY date DESC
+                        LIMIT %s OFFSET %s
                     """
-                    cursor.execute(query)
+                    cursor.execute(query, (limit, offset))
 
                 posts = []
                 for row in cursor.fetchall():
@@ -387,20 +396,52 @@ class DatabaseManager:
         finally:
             cursor.close()
 
-    def slug_exists(self, slug: str, exclude_id: Optional[int] = None) -> bool:
-        """Check if a slug already exists."""
+    def get_all_tags_with_counts(self) -> List[Dict[str, Any]]:
+        """Get all tags with post count for current collection in a single query.
+
+        This replaces the N+1 query problem where get_all_tags() + N get_tag_post_count() calls
+        are replaced with a single SQL query using GROUP BY and COUNT.
+
+        Returns:
+            List of dicts with keys: id, name, post_count
+        """
         cursor = self.conn.cursor()
         try:
+            junction_table = sql.Identifier(self.JUNCTION_TABLES[self.current_collection])
+            query = sql.SQL("""
+                SELECT t.id, t.name, COUNT(jt.tag_id) as post_count
+                FROM tags t
+                LEFT JOIN {} jt ON t.id = jt.tag_id
+                GROUP BY t.id, t.name
+                ORDER BY t.name
+            """).format(junction_table)
+            cursor.execute(query)
+            return [{"id": row[0], "name": row[1], "post_count": row[2]} for row in cursor.fetchall()]
+        finally:
+            cursor.close()
+
+    def slug_exists(self, slug: str, exclude_id: Optional[int] = None) -> bool:
+        """Check if a slug already exists in current collection."""
+        cursor = self.conn.cursor()
+        try:
+            table = sql.Identifier(self.current_collection)
             if exclude_id:
-                cursor.execute("SELECT 1 FROM blog WHERE slug = %s AND id != %s", (slug, exclude_id))
+                query = sql.SQL("SELECT 1 FROM {} WHERE slug = %s AND id != %s").format(table)
+                cursor.execute(query, (slug, exclude_id))
             else:
-                cursor.execute("SELECT 1 FROM blog WHERE slug = %s", (slug,))
+                query = sql.SQL("SELECT 1 FROM {} WHERE slug = %s").format(table)
+                cursor.execute(query, (slug,))
             return cursor.fetchone() is not None
         finally:
             cursor.close()
 
-    def get_posts_by_tag(self, tag_id: int) -> List[Dict[str, Any]]:
-        """Get all posts associated with a tag in current collection."""
+    def get_posts_by_tag(self, tag_id: int, limit: int = 5) -> List[Dict[str, Any]]:
+        """Get posts associated with a tag in current collection.
+
+        Args:
+            tag_id: The ID of the tag to filter by
+            limit: Maximum number of posts to return (default: 5)
+        """
         cursor = self.conn.cursor()
         try:
             table = sql.Identifier(self.current_collection)
@@ -415,9 +456,10 @@ class DatabaseManager:
                     JOIN {} jt ON t.id = jt.{}
                     WHERE jt.tag_id = %s
                     ORDER BY t.date DESC
+                    LIMIT %s
                     """
                 ).format(table, junction_table, id_column)
-                cursor.execute(query, (tag_id,))
+                cursor.execute(query, (tag_id, limit))
 
                 posts = []
                 for row in cursor.fetchall():
@@ -437,9 +479,10 @@ class DatabaseManager:
                     JOIN {} jt ON t.id = jt.{}
                     WHERE jt.tag_id = %s
                     ORDER BY t.date DESC
+                    LIMIT %s
                     """
                 ).format(table, junction_table, id_column)
-                cursor.execute(query, (tag_id,))
+                cursor.execute(query, (tag_id, limit))
 
                 posts = []
                 for row in cursor.fetchall():

@@ -1,6 +1,6 @@
 """Main TUI application."""
 
-from typing import Optional
+from typing import Optional, Any, Dict
 from textual.app import ComposeResult, App
 from textual.containers import Container, Vertical, Horizontal
 from textual.widgets import (
@@ -14,6 +14,7 @@ from textual.widgets import (
     ListItem,
 )
 from textual.binding import Binding
+from textual import work
 
 from .db import DatabaseManager
 
@@ -28,6 +29,8 @@ class ContentEditorApp(App):
         Binding("/", "search", "Search", show=True),
         Binding("c", "change_collection", "Collection", show=True),
         Binding("r", "reset", "Reset", show=True),
+        Binding("pagedown", "next_page", "Next", show=True),
+        Binding("pageup", "prev_page", "Prev", show=True),
         Binding("q", "app.quit", "Quit", show=True),
     ]
 
@@ -59,6 +62,13 @@ class ContentEditorApp(App):
         self.tags = []
         self.selected_tag_id = None
         self.current_collection = "blog"  # Default collection
+        self.current_post_full = None  # Cache full post data to avoid duplicate fetches
+        self.preview_loading = False  # Track if preview fetch is in progress
+
+        # Pagination state
+        self.page_size = 50  # Number of posts per page
+        self.current_page = 0  # 0-indexed page number
+        self.current_search = None  # Store search term for pagination
 
     def compose(self) -> ComposeResult:
         """Compose the app."""
@@ -96,13 +106,64 @@ class ContentEditorApp(App):
         )
         self.sub_title = f"Editing {collection_display}"
 
-    def load_posts(self, search: Optional[str] = None):
-        """Load posts from database."""
+    def load_posts(self, search: Optional[str] = None, page: int = 0):
+        """Load posts from database with pagination support.
+
+        Args:
+            search: Optional search term to filter posts
+            page: Page number (0-indexed) to load
+        """
         try:
-            self.posts = self.db.get_posts(search)
+            self.current_page = page
+            self.current_search = search
+            offset = page * self.page_size
+            self.posts = self.db.get_posts(search=search, limit=self.page_size, offset=offset)
             self.populate_table()
         except Exception as e:
             self.notify(f"Error loading posts: {e}", severity="error")
+
+    def refresh_current_post(self, post_id: int) -> None:
+        """Refresh a single post in the table without reloading all posts.
+
+        Much more efficient than load_posts() when only one post changed.
+        Keeps scroll position and selection.
+
+        Args:
+            post_id: The ID of the post to refresh
+        """
+        try:
+            # Find the post in our current list
+            for i, post in enumerate(self.posts):
+                if post["id"] == post_id:
+                    # Fetch updated post data
+                    updated_post = self.db.get_post(post_id)
+                    if updated_post:
+                        # Update the post dict in our list
+                        self.posts[i] = {
+                            "id": updated_post["id"],
+                            "slug": updated_post["slug"],
+                            "title": updated_post.get("title", ""),
+                            "description": updated_post.get("description", ""),
+                            "date": updated_post["date"],
+                        }
+                        # Re-render just this row in the table
+                        table = self.query_one("#posts-table", DataTable)
+                        date_str = self.posts[i]["date"].strftime("%Y-%m-%d") if self.posts[i]["date"] else "N/A"
+
+                        # Update row data
+                        if self.current_collection == "microblog":
+                            table.update_cell(str(post_id), "Content", self.posts[i]["description"][:50])
+                        else:
+                            table.update_cell(str(post_id), "Title", self.posts[i]["title"])
+                        table.update_cell(str(post_id), "Date", date_str)
+
+                        # Update the preview if it's the currently selected post
+                        if self.current_post and self.current_post["id"] == post_id:
+                            self.current_post_full = updated_post
+                            self._update_preview_content(updated_post)
+                    break
+        except Exception as e:
+            self.notify(f"Error refreshing post: {e}", severity="error")
 
     def populate_table(self):
         """Populate the data table with posts.
@@ -153,21 +214,27 @@ class ContentEditorApp(App):
         self.update_preview()
 
     def load_tags_sidebar(self):
-        """Load tags into the sidebar."""
+        """Load tags into the sidebar with post counts (single query, no N+1)."""
         try:
-            self.tags = self.db.get_all_tags()
+            # Use get_all_tags_with_counts() to fetch tags and counts in a single query
+            # instead of the old N+1 approach (1 query for tags + N queries for counts)
+            self.tags = self.db.get_all_tags_with_counts()
             list_view = self.query_one("#tags-sidebar-list", ListView)
             list_view.clear()
 
             for tag in self.tags:
-                post_count = self.db.get_tag_post_count(tag["id"])
+                post_count = tag.get("post_count", 0)
                 label = Label(f"{tag['name']} ({post_count})", id=f"tag-{tag['id']}")
                 list_view.append(ListItem(label))
         except Exception as e:
             self.notify(f"Error loading tags: {e}", severity="error")
 
     def update_preview(self):
-        """Update the preview panel with the currently selected post."""
+        """Update the preview panel with the currently selected post.
+
+        Triggers an async fetch of full post content to avoid blocking the UI.
+        Shows summary while loading, then updates with full content when ready.
+        """
         table = self.query_one("#posts-table", DataTable)
         preview = self.query_one("#preview-content", MarkdownViewer)
 
@@ -178,16 +245,54 @@ class ContentEditorApp(App):
         ):
             post = self.posts[table.cursor_row]
             self.current_post = post
-            full_post_load = self.db.get_post(self.current_post["id"])
 
-            # Show title and content
-            if full_post_load.get("content", None):
-                content_preview = full_post_load["content"]
-            else:
-                content_preview = "No content available"
-            preview.document.update(f"# {post['title']}\n\n{content_preview}")
+            # Show a quick preview while we fetch the full content asynchronously
+            preview.document.update(f"# {post['title']}\n\n*Loading full content...*")
+
+            # Fetch full post content asynchronously
+            self.fetch_full_post(post["id"])
         else:
             preview.document.update("Select a post to preview")
+
+    @work(exclusive=True, thread=True)
+    def fetch_full_post(self, post_id: int) -> Optional[Dict[str, Any]]:
+        """Fetch full post content asynchronously.
+
+        This runs in a background worker so it doesn't block the UI.
+        Uses exclusive=True to ensure only one fetch runs at a time.
+
+        Args:
+            post_id: The ID of the post to fetch
+
+        Returns:
+            Full post dict or None if not found
+        """
+        try:
+            full_post = self.db.get_post(post_id)
+            if full_post:
+                self.current_post_full = full_post
+                # Schedule UI update back on the main event loop thread
+                self.call_from_thread(self._update_preview_content, full_post)
+            return full_post
+        except Exception as e:
+            # Schedule error notification back on the main event loop thread
+            self.call_from_thread(
+                lambda: self.notify(f"Error loading full post content: {e}", severity="error")
+            )
+            return None
+
+    def _update_preview_content(self, full_post: Dict[str, Any]) -> None:
+        """Update the preview panel with full post content.
+
+        Called when async post fetch completes.
+
+        Args:
+            full_post: The full post dict with all content
+        """
+        preview = self.query_one("#preview-content", MarkdownViewer)
+        title = full_post.get("title", self.current_post.get("title", ""))
+        content = full_post.get("content", "No content available")
+        preview.document.update(f"# {title}\n\n{content}")
 
     @property
     def cursor_row(self):
@@ -227,8 +332,10 @@ class ContentEditorApp(App):
         list_view = self.query_one("#tags-sidebar-list", ListView)
         list_view.index = None
 
-        # Load all posts (no search, no tag filter)
-        self.load_posts(search=None)
+        # Reset pagination and load all posts (no search, no tag filter)
+        self.current_page = 0
+        self.current_search = None
+        self.load_posts(search=None, page=0)
 
         # Move cursor to the top of the table
         table = self.query_one("#posts-table", DataTable)
@@ -249,11 +356,15 @@ class ContentEditorApp(App):
 
         from .ui import EditPostScreen
 
+        post_id = self.current_post["id"]
+
         def on_updated():
-            self.load_posts()
+            # Only refresh the updated post instead of reloading all posts
+            # This is much faster and preserves scroll position/selection
+            self.refresh_current_post(post_id)
             self.notify("Post updated successfully", severity="information")
 
-        self.push_screen(EditPostScreen(self.db, self.current_post["id"], on_updated))
+        self.push_screen(EditPostScreen(self.db, post_id, on_updated))
 
     def action_new_post(self):
         """Create a new blog post."""
@@ -309,6 +420,8 @@ class ContentEditorApp(App):
                 self.db.set_collection(collection)
                 self._update_subtitle()
                 self.selected_tag_id = None  # Reset tag filter
+                self.current_page = 0  # Reset pagination
+                self.current_search = None
                 self.load_posts()
                 self.load_tags_sidebar()
                 self.notify(
@@ -317,6 +430,25 @@ class ContentEditorApp(App):
                 )
 
         self.push_screen(CollectionSelectScreen(on_collection_selected))
+
+    def action_next_page(self):
+        """Load the next page of posts."""
+        if len(self.posts) < self.page_size:
+            # Less posts than page size means we're on the last page
+            self.notify("Already on last page", severity="information")
+            return
+
+        self.load_posts(search=self.current_search, page=self.current_page + 1)
+        self.notify(f"Page {self.current_page + 1}", severity="information")
+
+    def action_prev_page(self):
+        """Load the previous page of posts."""
+        if self.current_page == 0:
+            self.notify("Already on first page", severity="information")
+            return
+
+        self.load_posts(search=self.current_search, page=self.current_page - 1)
+        self.notify(f"Page {self.current_page + 1}", severity="information")
 
 
 def run():
