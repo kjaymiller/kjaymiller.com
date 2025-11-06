@@ -1,9 +1,21 @@
 {
   "NAVIGATION": [
-    { "text": "About", "url": "/about.html" },
-    { "text": "Blog", "url": "/blog/blog1.html" },
-    { "text": "MicroBlog", "url": "/microblog/microblog.html" },
-    { "text": "Notes to Self", "url": "/notes/" },
+    {
+      "text": "About",
+      "url": "/about.html"
+    },
+    {
+      "text": "Blog",
+      "url": "/blog/blog1.html"
+    },
+    {
+      "text": "MicroBlog",
+      "url": "/microblog/microblog.html"
+    },
+    {
+      "text": "Notes to Self",
+      "url": "/notes/"
+    },
     {
       "text": "Talks",
       "url": "/conferences.html"
@@ -12,20 +24,22 @@
   "timezone": "US/Pacific",
   "SITE_TITLE": "KJayMiller",
   "SITE_SUBTITLE": "Automation, Podcasting, Development",
-  "OWNER": { "name": "Jay Miller", "email": "kjaymiller@gmail.com" },
+  "OWNER": {
+    "name": "Jay Miller",
+    "email": "kjaymiller@gmail.com"
+  },
   "theme": {
     "favicon": "https:fav.farm/☕",
     "fontawesome": "94d9a219ee",
     "colors": {
-      "main": "purple-500",
-      "header_gradient_interval": 100
+      "main": "emerald-800",
+      "header_gradient_interval": 300
     },
     "title_size": "small",
     "footer_column1": "footer_block_1.html",
     "footer_column2": "footer_block_2.html",
     "social": {
       "youtube": "https://www.youtube.com/kjaymiller",
-      "twitter": "https://twitter.com/kjaymiller",
       "linkedin": "https://linkedin.com/in/kjaymiller",
       "github": "https://github.com/kjaymiller",
       "mastodon": "https://mastodon.social/@kjaymiller"

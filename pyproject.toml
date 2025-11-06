@@ -10,6 +10,9 @@ build-backend = "setuptools.build_meta"
 include = ["tools*"]
 exclude = ["data*", "output*", "static*", "content*", "templates*"]
 
+[tool.uv.sources]
+render-engine-pg = { path = "../render-engine-pg-parser" }
+
 
 [project]
 name = "kjayiller.com"
@@ -29,13 +32,38 @@ dependencies = [
   "typer",
   "llm",
   "render-engine-microblog>=2024.1.1",
-  "render-engine-pg>=2025.11.1b5",
+  "render-engine-pg==2025.11.1b7",
   "textual>=1.0.0",
   "psycopg[binary]>=3.0.0",
   "pyyaml>=6.0",
   "python-dotenv>=1.0.0",
-
 ]
 
 [project.scripts]
 no-tags = "tools.no_tags:main"
+
+[tool.render-engine.pg.insert_sql]
+microblog = [
+  "INSERT INTO microblog (id, slug, content, external_link, image_url, date, created_at, updated_at) VALUES ({id}, {slug}, {content}, {external_link}, {image_url}, {date}, {created_at}, {updated_at});",
+  "INSERT INTO tags (id, name, created_at) VALUES ({id}, {name}, {created_at});",
+  "INSERT INTO microblog_tags (microblog_id, tag_id) VALUES ({microblog_id}, {tag_id});",
+]
+notes = [
+  "INSERT INTO notes (id, slug, title, content, description, external_link, image_url, date, created_at, updated_at) VALUES ({id}, {slug}, {title}, {content}, {description}, {external_link}, {image_url}, {date}, {created_at}, {updated_at});",
+  "INSERT INTO tags (id, name, created_at) VALUES ({id}, {name}, {created_at});",
+  "INSERT INTO notes_tags (notes_id, tag_id) VALUES ({notes_id}, {tag_id});",
+]
+blog = [
+  "INSERT INTO tags (id, name, created_at) VALUES ({id}, {name}, {created_at});",
+  "INSERT INTO blog (id, slug, title, content, description, external_link, image_url, date) VALUES ({id}, {slug}, {title}, {content}, {description}, {external_link}, {image_url}, {date});",
+  "INSERT INTO blog_tags (blog_id, tag_id, created_at) VALUES ({blog_id}, {tag_id}, {created_at});",
+]
+conferences = [
+  "INSERT INTO conferences (id, name, date, location, latitude, longitude, url, created_at) VALUES ({id}, {name}, {date}, {location}, {latitude}, {longitude}, {url}, {created_at});",
+]
+
+[tool.render-engine.pg.read_sql]
+microblog = "SELECT DISTINCT ON (microblog.id) microblog.id, microblog.slug, microblog.content, microblog.external_link, microblog.image_url, microblog.date, microblog.created_at, microblog.updated_at FROM microblog LEFT JOIN microblog_tags ON microblog.id = microblog_tags.microblog_id LEFT JOIN tags ON microblog_tags.tag_id = tags.id ORDER BY microblog.id, microblog.date DESC;"
+notes = "SELECT DISTINCT ON (notes.id) notes.id, notes.slug, notes.title, notes.content, notes.description, notes.external_link, notes.image_url, notes.date, notes.created_at, notes.updated_at FROM notes LEFT JOIN notes_tags ON notes.id = notes_tags.notes_id LEFT JOIN tags ON notes_tags.tag_id = tags.id ORDER BY notes.id, notes.date DESC;"
+blog = "SELECT DISTINCT ON (blog.id) blog.id, blog.slug, blog.title, blog.content, blog.description, blog.external_link, blog.image_url, blog.date FROM blog LEFT JOIN blog_tags ON blog.id = blog_tags.blog_id LEFT JOIN tags ON blog_tags.tag_id = tags.id ORDER BY blog.id, blog.date DESC;"
+conferences = "SELECT conferences.id, conferences.name, conferences.date, conferences.location, conferences.latitude, conferences.longitude, conferences.url, conferences.created_at FROM conferences ORDER BY conferences.date DESC;"

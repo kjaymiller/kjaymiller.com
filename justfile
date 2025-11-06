@@ -24,7 +24,11 @@ new-entry collection:
     uv run --no-dev --prerelease=allow render-engine new-entry {{ collection }}
 
 tui:
-  uv run --directory content-editor-tui content-editor
+    uv run --directory content-editor-tui content-editor
+
+# generate read and insert queries
+gen-queries:
+    uv run --no-dev --prerelease=allow render-engine-pg  schema.sql
 
 # Build the database schema (PostgreSQL)
 build-schema:

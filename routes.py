@@ -64,13 +64,10 @@ class _404(Page):
 
 @app.page
 class Conferences(Page):
-    template = "conferences.html"
+    template = "conferences_map.html"
     parser_extras = {"markdown_extras": markdown_extras}
     content_path = PostgresQuery(connection=conn, collection_name="conferences")
     Parser = PGPageParser
-
-
-print(app.route_list["conferences"])
 
 
 @app.page

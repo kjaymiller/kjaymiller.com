@@ -4,12 +4,21 @@
 <section class="container mx-auto">
   <h1 class="text-2xl mb-4">Conferences Map</h1>
 
-<link rel="stylesheet" href="https://leafletjs.com/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
 
-<script src="https://leafletjs.com/dist/leaflet.js"></script>
+ <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin="">
+ </script>
+
+<div id="map" style="height: 500px; width: 100%; border-radius: 8px; margin-bottom: 2rem;"></div>
+
 <script>
 // Initialize map centered on US
-const map = L.map('map').setView([39, -95], 4);
+var map = L.map('map').setView([39, -95], 4);
 
 // Add OpenStreetMap tiles
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -20,32 +29,55 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Conference data from template
 const conferences = [
   {% for conference in data %}
+  {% if conference.latitude and conference.longitude %}
   {
-    name: '{{ conference.conference }}',
-    date: '{{ conference.event_date | date("%Y-%m-%d") }}',
+    name: '{{ conference.location }}',
+    url: '{{conference.url}}',
+    date: '{{ conference.date }}',
     lat: {{ conference.latitude }},
     lng: {{ conference.longitude }}
   }{% if not loop.last %},{% endif %}
+  {% endif %}
   {% endfor %}
 ];
 
 // Add markers for each conference
 conferences.forEach(conf => {
+  let popupContent = `<strong><a href="${conf.url}">${conf.name}</a></strong><br><em>${conf.date}</em>`;
   L.marker([conf.lat, conf.lng])
     .addTo(map)
-    .bindPopup(`<strong>${conf.name}</strong><br>${conf.date}`);
+    .bindPopup(popupContent);
 });
 </script>
-  <div id="map" style="height: 500px; width: 100%; border-radius: 8px; margin-bottom: 2rem;"></div>
+
 
   <h2 class="text-xl mb-4">Conferences</h2>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <div class="space-y-6">
     {% for conference in data %}
-    <div class="border rounded-lg p-4">
-      <h3 class="font-bold">{{ conference.conference }}</h3>
-      <p class="text-sm text-gray-600">{{ conference.event_date | date("%Y-%m-%d") }}</p>
-      {% if conference.latitude %}
-      <p class="text-sm">📍 {{ conference.latitude }}, {{ conference.longitude }}</p>
+    <div class="border rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+      <div class="mb-4">
+        <h3 class="text-lg font-bold text-gray-900">{{ conference.name }}</h3>
+        <div class="flex flex-wrap gap-4 mt-2 text-sm text-gray-600">
+          {% if conference.date %}
+          <span>📅 {{ conference.date }}</span>
+          {% endif %}
+          {% if conference.location %}
+          <span>📍 {{ conference.location }}</span>
+          {% endif %}
+        </div>
+      </div>
+
+      {% if conference.description %}
+      <div class="mb-4 text-gray-700 text-sm leading-relaxed">
+        {{ conference.description }}
+      </div>
+      {% endif %}
+
+      {% if conference.url %}
+      <a href="{{ conference.url }}" target="_blank" rel="noopener noreferrer"
+         class="inline-block mt-2 px-3 py-2 bg-blue-50 text-blue-700 rounded hover:bg-blue-100 text-sm font-medium">
+        Visit Website
+      </a>
       {% endif %}
     </div>
     {% endfor %}
