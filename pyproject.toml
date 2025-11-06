@@ -47,7 +47,7 @@ dependencies = [
   "render-engine-theme-kjaymiller>=2025.11.1a1",
   "render-engine-youtube-embed==2023.10.2b3",
   "render-engine-aggregators",
-  "axe-playwright-python == 0.1.5",
+  "axe-playwright-python == 0.1.6",
   "typer",
   "llm",
   "render-engine-microblog>=2024.1.1",
