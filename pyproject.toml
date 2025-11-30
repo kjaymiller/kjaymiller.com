@@ -1,3 +1,7 @@
+[tool.render-engine]
+module = "routes"
+site = "app"
+
 [tool.render-engine.cli]
 module = "routes"
 site = "app"
@@ -9,6 +13,11 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools.packages.find]
 include = ["tools*"]
 exclude = ["data*", "output*", "static*", "content*", "templates*"]
+
+[tool.uv.sources]
+render-engine-theme-kjaymiller = { path = "../render_engine_theme_kjaymiller" }
+render-engine-pg = { path = "../render-engine-pg-parser" }
+render-engine-tui = { path = "../render-engine-tui" }
 
 [project]
 name = "kjayiller.com"
@@ -28,34 +37,31 @@ dependencies = [
   "typer",
   "llm",
   "render-engine-microblog>=2024.1.1",
-  "render-engine-pg==2025.11.1",
+  "render-engine-tui",
   "textual>=1.0.0",
   "psycopg[binary]>=3.0.0",
   "pyyaml>=6.0",
   "python-dotenv>=1.0.0",
+  "render-engine-pg",
 ]
-
-[project.scripts]
-no-tags = "tools.no_tags:main"
-
 [tool.render-engine.pg.insert_sql]
 microblog = [
-  "INSERT INTO microblog (id, slug, content, external_link, image_url, date, created_at, updated_at) VALUES ({id}, {slug}, {content}, {external_link}, {image_url}, {date}, {created_at}, {updated_at});",
-  "INSERT INTO tags (id, name, created_at) VALUES ({id}, {name}, {created_at});",
-  "INSERT INTO microblog_tags (microblog_id, tag_id) VALUES ({microblog_id}, {tag_id});",
+  "INSERT INTO microblog (slug, content, external_link, image_url, date, created_at, updated_at) VALUES ({slug}, {content}, {external_link}, {image_url}, {date}, {created_at}, {updated_at});",
+  "INSERT INTO tags (name, created_at) VALUES ({name}, {created_at});",
+  "INSERT INTO microblog_tags (microblog_id, tag_id) SELECT (SELECT id FROM microblog WHERE slug = {slug}), (SELECT id FROM tags WHERE name = {name});",
 ]
 notes = [
-  "INSERT INTO notes (id, slug, title, content, description, external_link, image_url, date, created_at, updated_at) VALUES ({id}, {slug}, {title}, {content}, {description}, {external_link}, {image_url}, {date}, {created_at}, {updated_at});",
-  "INSERT INTO tags (id, name, created_at) VALUES ({id}, {name}, {created_at});",
-  "INSERT INTO notes_tags (notes_id, tag_id) VALUES ({notes_id}, {tag_id});",
+  "INSERT INTO notes (slug, title, content, description, external_link, image_url, date, created_at, updated_at) VALUES ({slug}, {title}, {content}, {description}, {external_link}, {image_url}, {date}, {created_at}, {updated_at});",
+  "INSERT INTO tags (name, created_at) VALUES ({name}, {created_at});",
+  "INSERT INTO notes_tags (notes_id, tag_id) SELECT (SELECT id FROM notes WHERE slug = {slug}), (SELECT id FROM tags WHERE name = {name});",
 ]
 blog = [
-  "INSERT INTO tags (id, name, created_at) VALUES ({id}, {name}, {created_at});",
-  "INSERT INTO blog (id, slug, title, content, description, external_link, image_url, date) VALUES ({id}, {slug}, {title}, {content}, {description}, {external_link}, {image_url}, {date});",
-  "INSERT INTO blog_tags (blog_id, tag_id, created_at) VALUES ({blog_id}, {tag_id}, {created_at});",
+  "INSERT INTO tags (name, created_at) VALUES ({name}, {created_at});",
+  "INSERT INTO blog (slug, title, content, description, external_link, image_url, date) VALUES ({slug}, {title}, {content}, {description}, {external_link}, {image_url}, {date});",
+  "INSERT INTO blog_tags (blog_id, tag_id, created_at) SELECT (SELECT id FROM blog WHERE slug = {slug}), (SELECT id FROM tags WHERE name = {name}), {created_at};",
 ]
 conferences = [
-  "INSERT INTO conferences (id, name, date, location, latitude, longitude, url, created_at) VALUES ({id}, {name}, {date}, {location}, {latitude}, {longitude}, {url}, {created_at});",
+  "INSERT INTO conferences (name, date, location, latitude, longitude, url, created_at) VALUES ({name}, {date}, {location}, {latitude}, {longitude}, {url}, {created_at});",
 ]
 
 [tool.render-engine.pg.read_sql]

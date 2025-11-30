@@ -153,3 +153,5 @@ uv run pre-commit run --all-files
 - Markdown files in `content/` must have frontmatter with at least title and date
 - The PostgreSQL integration is configured via the `CONNECTION_STRING` environment variable
 - Output is generated to `output/` directory; this is a build artifact and should not be committed
+
+If you have to run `just tui` or the command it equates to, Note that it opens a textual session that you will need to exit from after a few seconds otherwise you will stall.

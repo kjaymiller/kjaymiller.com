@@ -94,10 +94,7 @@ class Notes(_Blog):
 
     @staticmethod
     def _metadata_attrs() -> dict[str, str]:
-        return {
-            "connection": conn,
-            "table": "notes",
-        }
+        return {"connection": conn}
 
 
 @app.collection
@@ -125,7 +122,6 @@ class Blog(_Blog):
     def _metadata_attrs() -> dict[str, str]:
         return {
             "connection": conn,
-            "table": "blog",
         }
 
 
@@ -146,7 +142,6 @@ class MicroBlog(MicroBlog):
     def _metadata_attrs() -> dict[str, str]:
         return {
             "connection": conn,
-            "table": "microblog",
         }
 
 

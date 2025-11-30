@@ -11,6 +11,9 @@ default:
 install:
     uv sync
 
+upgrade:
+    uv sync --upgrade --prerelease=allow
+
 # Build the static site
 build:
     uv run --no-dev --prerelease=allow render-engine build
@@ -24,7 +27,10 @@ new-entry collection:
     uv run --no-dev --prerelease=allow render-engine new-entry {{ collection }}
 
 tui:
-    uv run --directory content-editor-tui content-editor
+    uv run --no-dev --prerelease=allow render-engine-tui
+
+publish:
+    gh workflow run Publish
 
 # generate read and insert queries
 gen-queries:
@@ -36,8 +42,12 @@ build-schema:
     psql $CONNECTION_STRING -f schema.sql
 
 # Populate database from markdown files
-populate-db:
-    uv run populate_db.py
+populate-db BLOG CONTENT:
+    uv run python populate_db.py {{BLOG}} {{CONTENT}} --ignore-pk
+
+# Truncate blog tables (blog, tags, blog_tags)
+truncate-blog:
+    psql $CONNECTION_STRING -c "TRUNCATE TABLE blog_tags, blog, tags CASCADE;"
 
 # Run pre-commit checks
 pre-commit:
