@@ -5,9 +5,8 @@ import json
 
 from render_engine_pg import (
     get_db_connection,
-    PostgresContentManager,
-    PGMarkdownCollectionParser,
     PGPageParser,
+    PostgresContentManager,
     PostgresQuery,
 )
 
@@ -83,7 +82,7 @@ class Notes(_Blog):
     routes = ["notes"]
     title = "Notes to Self"
     template = "blog.html"
-    Parser = PGMarkdownCollectionParser
+    Parser = MarkdownPageParser
     ContentManager = PostgresContentManager
     content_path = tempfile.gettempdir()
     content_manager_extras = {"connection": conn}
@@ -109,7 +108,7 @@ class Pages(Collection):
 class Blog(_Blog):
     routes = ["blog"]
     template = "blog.html"
-    Parser = PGMarkdownCollectionParser
+    Parser = MarkdownPageParser
     ContentManager = PostgresContentManager
     content_path = tempfile.gettempdir()
     content_manager_extras = {"connection": conn}
@@ -127,7 +126,7 @@ class Blog(_Blog):
 
 @app.collection
 class MicroBlog(MicroBlog):
-    Parser = PGMarkdownCollectionParser
+    Parser = MarkdownPageParser
     ContentManager = PostgresContentManager
     template_vars = {"microblog_entry": "custom_microblog_post.html"}
     content_path = tempfile.gettempdir()
@@ -157,6 +156,37 @@ class Index(Page):
         "hero": {
             "from_template": "index_hero.html",
         },
+    }
+
+
+@app.page
+class Links(Page):
+    template = "links.html"
+    title = "Links"
+    slug = "links"
+    template_vars = {
+        "links": [
+            {
+                "text": "LinkedIn",
+                "url": "https://linkedin.com/in/kjaymiller",
+                "icon": "fab fa-linkedin",
+            },
+            {
+                "text": "Mastodon",
+                "url": "https://mastodon.social/@kjaymiller",
+                "icon": "fab fa-mastodon",
+            },
+            {
+                "text": "Bluesky",
+                "url": "https://bsky.app/profile/kjaymiller.com",
+                "icon": "fas fa-cloud",
+            },
+            {
+                "text": "Aiven Blogposts",
+                "url": "https://aiven.io/blog/author/jay-miller",
+                "icon": "fas fa-newspaper",
+            },
+        ]
     }
 
 

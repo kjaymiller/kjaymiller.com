@@ -2,6 +2,9 @@ version = 1
 revision = 3
 requires-python = ">=3.14"
 
+[options]
+prerelease-mode = "allow"
+
 [[package]]
 name = "annotated-types"
 version = "0.7.0"
@@ -321,9 +324,9 @@ requires-dist = [
     { name = "render-engine-lunr" },
     { name = "render-engine-microblog" },
     { name = "render-engine-microblog", specifier = ">=2024.1.1" },
-    { name = "render-engine-pg", directory = "../render-engine-pg-parser" },
+    { name = "render-engine-pg", specifier = ">=2026.1.1a1" },
     { name = "render-engine-sitemap" },
-    { name = "render-engine-theme-kjaymiller", directory = "../render_engine_theme_kjaymiller" },
+    { name = "render-engine-theme-kjaymiller", specifier = "==2025.11.1a5" },
     { name = "render-engine-tui", directory = "../render-engine-tui" },
     { name = "render-engine-youtube-embed", specifier = "==2023.10.2b3" },
     { name = "textual", specifier = ">=1.0.0" },
@@ -744,7 +747,7 @@ wheels = [
 
 [[package]]
 name = "render-engine"
-version = "2025.11.1"
+version = "2026.1.1a1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jinja2" },
@@ -758,9 +761,9 @@ dependencies = [
     { name = "render-engine-parser" },
     { name = "rich" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/72/56/4b3046d9493b930a8f2c3afc022eacc18dad7275fc77c3e83d4f92550143/render_engine-2025.11.1.tar.gz", hash = "sha256:0c468d57aa85a20e3ba4ffc6abedc6bd09ffa9d0edb66484669aaa7f87d1a03e", size = 11888486, upload-time = "2025-11-18T19:28:40.456Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e8/14/5674de3ba401b5b1c450a551d5b78090a7243f838ed4aff4c7a9fac4f260/render_engine-2026.1.1a1.tar.gz", hash = "sha256:a9ab28d356c09a0060033ea5c744db1c4c51f1c1ed1e6113a65c8e91d5e1da45", size = 11888935, upload-time = "2026-01-02T02:21:24.465Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b5/1f/06591352b623204f0db4c195798fd69c377838422aa40ef62a80ed41acbd/render_engine-2025.11.1-py3-none-any.whl", hash = "sha256:5c738c66b929d4be3b5137ba09b33d576e1f2dc6011dc04d8d0d0381a83e3318", size = 34345, upload-time = "2025-11-18T19:28:37.465Z" },
+    { url = "https://files.pythonhosted.org/packages/d1/4e/fa207b20b445534173dbeda90b5ffb53e0b259504c04fa3caecf8ad60285/render_engine-2026.1.1a1-py3-none-any.whl", hash = "sha256:f547bfa26c679fdf9c4caa7b66830ee62b6f0aff9c953e5219bed831d215c860", size = 34742, upload-time = "2026-01-02T02:21:22.734Z" },
 ]
 
 [package.optional-dependencies]
@@ -878,7 +881,8 @@ wheels = [
 
 [[package]]
 name = "render-engine-pg"
-source = { directory = "../render-engine-pg-parser" }
+version = "2026.1.1a1"
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
     { name = "psycopg", extra = ["binary"] },
@@ -887,20 +891,10 @@ dependencies = [
     { name = "render-engine-markdown" },
     { name = "tomli-w" },
 ]
-
-[package.metadata]
-requires-dist = [
-    { name = "click", specifier = ">=8.3.0" },
-    { name = "mypy", marker = "extra == 'test'", specifier = ">=1.0" },
-    { name = "psycopg", extras = ["binary"], specifier = ">=3.0" },
-    { name = "pytest", marker = "extra == 'test'", specifier = ">=7.0" },
-    { name = "pytest-mock", marker = "extra == 'test'", specifier = ">=3.10" },
-    { name = "python-frontmatter", specifier = ">=1.0" },
-    { name = "render-engine", specifier = ">=2025.11.1a1" },
-    { name = "render-engine-markdown", specifier = ">=2023.12.1" },
-    { name = "tomli-w", specifier = ">=1.0.0" },
+sdist = { url = "https://files.pythonhosted.org/packages/90/3d/097cc07e042dd19427e3e429594f515a3a0f149b61eb887663199f9cc564/render_engine_pg-2026.1.1a1.tar.gz", hash = "sha256:e8ae880e446dabd91f549bb4dd4180873359c7dfd5457876e0dfc02a770f0e48", size = 105588, upload-time = "2026-01-03T04:15:10.528Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/4b/9a/0da8c9b8ff39e48c1b7c86100d4e180bdcde788692014e6e7a7b1d193a45/render_engine_pg-2026.1.1a1-py3-none-any.whl", hash = "sha256:4b7e157768b759d9fe4c8222de1fcc4111b04dd6ec3109c86bfe6bfb2b7f83cd", size = 36682, upload-time = "2026-01-03T04:15:09.134Z" },
 ]
-provides-extras = ["test"]
 
 [[package]]
 name = "render-engine-sitemap"
@@ -930,48 +924,38 @@ wheels = [
 
 [[package]]
 name = "render-engine-theme-kjaymiller"
-source = { directory = "../render_engine_theme_kjaymiller" }
+version = "2025.11.1a5"
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jinja2" },
     { name = "render-engine", extra = ["cli"] },
     { name = "render-engine-markdown" },
     { name = "render-engine-tailwindcss" },
 ]
-
-[package.metadata]
-requires-dist = [
-    { name = "axe-playwright-python", marker = "extra == 'dev'" },
-    { name = "axe-playwright-python", marker = "extra == 'test'" },
-    { name = "jinja2" },
-    { name = "playwright", marker = "extra == 'dev'" },
-    { name = "playwright", marker = "extra == 'test'" },
-    { name = "pytest", marker = "extra == 'dev'" },
-    { name = "pytest", marker = "extra == 'test'" },
-    { name = "pytest-mock", marker = "extra == 'dev'" },
-    { name = "pytest-mock", marker = "extra == 'test'" },
-    { name = "pytest-playwright", marker = "extra == 'dev'" },
-    { name = "pytest-playwright", marker = "extra == 'test'" },
-    { name = "render-engine", extras = ["cli"], specifier = ">=2025.11.1" },
-    { name = "render-engine-markdown" },
-    { name = "render-engine-tailwindcss", specifier = ">=2025.11.1a1" },
-    { name = "ruff", marker = "extra == 'dev'" },
-    { name = "ruff", marker = "extra == 'test'" },
+sdist = { url = "https://files.pythonhosted.org/packages/96/2a/4021adb3e3d5e46775f28e83b3c1f0734ef0dbcdc7cca58c970b53a581b6/render_engine_theme_kjaymiller-2025.11.1a5.tar.gz", hash = "sha256:2b44d929b2b060a2e53adabd294c29846e7b88ef4638dad4164f253977ace330", size = 2803594, upload-time = "2025-11-06T01:46:30.868Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7c/09/331efa188cf877dbd796eda14675f44150d039889f3c0165ad7a660e05f3/render_engine_theme_kjaymiller-2025.11.1a5-py3-none-any.whl", hash = "sha256:fa485717d0bef37f622cdacb320476b4294f59a261c893c69b4afb779386abc9", size = 2778602, upload-time = "2025-11-06T01:46:28.989Z" },
 ]
-provides-extras = ["test", "dev"]
 
 [[package]]
 name = "render-engine-tui"
 source = { directory = "../render-engine-tui" }
 dependencies = [
     { name = "python-frontmatter" },
+    { name = "render-engine" },
     { name = "textual" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "pytest", marker = "extra == 'test'", specifier = ">=7.0.0" },
+    { name = "pytest-asyncio", marker = "extra == 'test'", specifier = ">=0.21.0" },
+    { name = "pytest-cov", marker = "extra == 'test'", specifier = ">=4.0.0" },
     { name = "python-frontmatter", specifier = ">=1.0.0" },
+    { name = "render-engine", specifier = ">=2025.11.1" },
     { name = "textual", specifier = ">=1.0.0" },
 ]
+provides-extras = ["test"]
 
 [[package]]
 name = "render-engine-youtube-embed"

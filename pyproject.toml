@@ -14,11 +14,6 @@ build-backend = "setuptools.build_meta"
 include = ["tools*"]
 exclude = ["data*", "output*", "static*", "content*", "templates*"]
 
-[tool.uv.sources]
-render-engine-theme-kjaymiller = { path = "../render_engine_theme_kjaymiller" }
-render-engine-pg = { path = "../render-engine-pg-parser" }
-render-engine-tui = { path = "../render-engine-tui" }
-
 [project]
 name = "kjayiller.com"
 version = "0.0.0"
@@ -42,7 +37,7 @@ dependencies = [
   "psycopg[binary]>=3.0.0",
   "pyyaml>=6.0",
   "python-dotenv>=1.0.0",
-  "render-engine-pg",
+  "render-engine-pg>=2026.1.1a1",
 ]
 [tool.render-engine.pg.insert_sql]
 microblog = [
