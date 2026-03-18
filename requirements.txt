@@ -67,7 +67,7 @@ jinja2==3.1.6
     #   render-engine-theme-kjaymiller
 jiter==0.10.0
     # via openai
-llm==0.28
+llm==0.29
     # via -r requirements.in
 lunr==0.8.0
     # via render-engine-lunr
