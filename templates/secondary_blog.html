@@ -1,14 +1,7 @@
 <div>
   {% for post in blog %}
-  <div class="p-2 m-2">
-    <div class="text-xl">
-      <a
-        href="{{post.url_for()}}"
-        class="underline drop-shadow-lg hover:decoration-2 hover:text-{{theme.colors.main}} font-semibold"
-      >
-        {{post.title}}
-      </a>
-    </div>
+  <div class="secondary-blog-item">
+    <a href="{{post.url_for()}}">{{post.title}}</a>
     {% if post.description %}
     <div>{{post.description}}</div>
     {% endif %}

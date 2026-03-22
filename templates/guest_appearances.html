@@ -1,32 +1,29 @@
 {% extends "page.html" %}
 
 {% block content %}
+<section>
+  <h1 class="page-title">Guest Appearances</h1>
 
-<section class="container mx-auto">
-
-<h1 class="text-2xl">Guest Appearances</h1>
-
-{% for _podcast in content %}
-{% set podcast = content[_podcast] %}
-
-<div class="mx-4 my-4 p-2 border rounded-xl hover:shadow shadow-{{theme.colors.main}}">
-    <h2 class="py-1 text-xl">{{_podcast}}</h2>
-<div class="flex">
- <div>
-      <img src="{{podcast["image"]}}" class="max-h-64 max-w-64" alt="{{_podcast}} artwork">
+  {% for _podcast in content %}
+  {% set podcast = content[_podcast] %}
+  <div class="podcast-card">
+    <h2 style="font-size: 1.25rem; margin-bottom: 0.5rem;">{{_podcast}}</h2>
+    <div class="podcast-layout">
+      <div>
+        <img src="{{podcast["image"]}}" class="podcast-artwork" alt="{{_podcast}} artwork">
+      </div>
+      <div>
+        {% for episode in podcast["appearances"] %}
+        <div style="margin-bottom: 0.75rem;">
+          <p><strong><a href="{{episode.url}}">{{episode.title}}</a></strong> | {{episode.date}}</p>
+          {% if episode.description %}
+          <p>{{episode.description}}</p>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
   </div>
-  <div class="px-3">
-    {% for episode in podcast["appearances"] %}
-    <div class="mb-3">
-      <p class="py-1"><strong><a href="{{episode.url}}">{{episode.title}}</a></strong> | {{episode.date}}</h2>
-      {% if episode.description %}
-        <p>{{episode.description}}</p>
-      {% endif %}
-  </div>
-      {% endfor %}
-  </div>
-  </div>
-</div>
-{% endfor %}
+  {% endfor %}
 </section>
 {% endblock %}

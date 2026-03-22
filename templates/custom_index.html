@@ -3,19 +3,17 @@
 {% block head %}
 {{super()}}
 {% include 'components/lunrjs/lunrjs_head.html'%}
-<link rel="stylesheet" href="/static/css/style.css">
 {% endblock %}
 
 {% block header %}
 {{super()}}
-<div class="flex flex-row-reverse">
+<div style="display: flex; justify-content: flex-end;">
   <div id="search">
       {{search_form()}}
-      <div id="lunrSearchResults" class="text-left"></div>
+      <div id="lunrSearchResults"></div>
   </div>
 </div>
-
-  {% endblock %}
+{% endblock %}
 
 {% block footer %}
 {{super()}}

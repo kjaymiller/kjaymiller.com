@@ -1,87 +1,65 @@
 {% extends "page.html" %}
 
 {% block content %}
-<section class="container mx-auto">
-  <h1 class="text-2xl mb-4">Conferences Map</h1>
+<section>
+  <h1 class="page-title">Conferences Map</h1>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-     crossorigin=""/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+       crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+       crossorigin="">
+  </script>
 
- <!-- Make sure you put this AFTER Leaflet's CSS -->
- <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-     crossorigin="">
- </script>
+  <div id="map" style="height: 500px; width: 100%; border-radius: 8px; margin-bottom: 2rem;"></div>
 
-<div id="map" style="height: 500px; width: 100%; border-radius: 8px; margin-bottom: 2rem;"></div>
+  <script>
+  var map = L.map('map').setView([39, -95], 4);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 19
+  }).addTo(map);
 
-<script>
-// Initialize map centered on US
-var map = L.map('map').setView([39, -95], 4);
-
-// Add OpenStreetMap tiles
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-  maxZoom: 19
-}).addTo(map);
-
-// Conference data from template
-const conferences = [
-  {% for conference in data %}
-  {% if conference.latitude and conference.longitude %}
-  {
-    name: '{{ conference.location }}',
-    url: '{{conference.url}}',
-    date: '{{ conference.date }}',
-    lat: {{ conference.latitude }},
-    lng: {{ conference.longitude }}
-  }{% if not loop.last %},{% endif %}
-  {% endif %}
-  {% endfor %}
-];
-
-// Add markers for each conference
-conferences.forEach(conf => {
-  let popupContent = `<strong><a href="${conf.url}">${conf.name}</a></strong><br><em>${conf.date}</em>`;
-  L.marker([conf.lat, conf.lng])
-    .addTo(map)
-    .bindPopup(popupContent);
-});
-</script>
-
-
-  <h2 class="text-xl mb-4">Conferences</h2>
-  <div class="space-y-6">
+  const conferences = [
     {% for conference in data %}
-    <div class="border rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
-      <div class="mb-4">
-        <h3 class="text-lg font-bold text-gray-900">{{ conference.name }}</h3>
-        <div class="flex flex-wrap gap-4 mt-2 text-sm text-gray-600">
-          {% if conference.date %}
-          <span>📅 {{ conference.date }}</span>
-          {% endif %}
-          {% if conference.location %}
-          <span>📍 {{ conference.location }}</span>
-          {% endif %}
-        </div>
-      </div>
+    {% if conference.latitude and conference.longitude %}
+    {
+      name: '{{ conference.location }}',
+      url: '{{conference.url}}',
+      date: '{{ conference.date }}',
+      lat: {{ conference.latitude }},
+      lng: {{ conference.longitude }}
+    }{% if not loop.last %},{% endif %}
+    {% endif %}
+    {% endfor %}
+  ];
 
+  conferences.forEach(conf => {
+    let popupContent = `<strong><a href="${conf.url}">${conf.name}</a></strong><br><em>${conf.date}</em>`;
+    L.marker([conf.lat, conf.lng])
+      .addTo(map)
+      .bindPopup(popupContent);
+  });
+  </script>
+
+  <h2 style="margin-top: 1.5rem; font-size: 1.25rem;">Conferences</h2>
+  <div style="display: flex; flex-direction: column; gap: 1.25rem; margin-top: 1rem;">
+    {% for conference in data %}
+    <div class="conference-card">
+      <h3>{{ conference.name }}</h3>
+      <div class="conference-meta">
+        {% if conference.date %}<span>📅 {{ conference.date }}</span>{% endif %}
+        {% if conference.location %}<span>📍 {{ conference.location }}</span>{% endif %}
+      </div>
       {% if conference.description %}
-      <div class="mb-4 text-gray-700 text-sm leading-relaxed">
-        {{ conference.description }}
-      </div>
+      <p style="color: var(--color-text-muted); font-size: 0.9rem; line-height: 1.6;">{{ conference.description }}</p>
       {% endif %}
-
       {% if conference.url %}
-      <a href="{{ conference.url }}" target="_blank" rel="noopener noreferrer"
-         class="inline-block mt-2 px-3 py-2 bg-blue-50 text-blue-700 rounded hover:bg-blue-100 text-sm font-medium">
-        Visit Website
-      </a>
+      <a href="{{ conference.url }}" target="_blank" rel="noopener noreferrer" class="conference-link">Visit Website</a>
       {% endif %}
     </div>
     {% endfor %}
   </div>
 </section>
-
 {% endblock %}

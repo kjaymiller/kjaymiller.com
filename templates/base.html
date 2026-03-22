@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}{{SITE_TITLE}}{% endblock %}</title>
+        {% block head %}
+        {% for content in head %}
+        {% include content %}
+        {% endfor %}
+        {% endblock %}
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    </head>
+    <body>
+        {% block header %}
+        <header class="site-header">
+            <div class="site-header-inner" x-data="{ open: false }">
+                <h1 class="site-title">
+                    <a href="{{SITE_URL}}">{{SITE_TITLE}}</a>
+                </h1>
+                <button class="nav-toggle" @click="open = !open" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <nav class="site-nav" x-show="open || window.innerWidth > 640" x-cloak @resize.window="open = false">
+                    {% for link in NAVIGATION %}
+                    <a href="{{link.url}}" aria-label="{{link.text}}">
+                        {% if link.icon is defined %}
+                        <i class="{{link.icon}}" aria-hidden="true"></i>
+                        {% endif %}
+                        {{link.text}}
+                    </a>
+                    {% endfor %}
+                </nav>
+            </div>
+        </header>
+        {% endblock %}
+
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+
+        {% block footer %}
+        <footer class="site-footer">
+            <div class="footer-grid">
+                <div>
+                    {% if theme.footer_column1 %}
+                    {% include theme.footer_column1 %}
+                    {% else %}
+                    <p>{{SITE_URL}}</p>
+                    <p>Created with <a href="https://github.com/render-engine/render-engine">Render Engine</a></p>
+                    {% endif %}
+                </div>
+                <div>
+                    {% if theme.footer_column2 %}
+                    {% include theme.footer_column2 %}
+                    {% endif %}
+                </div>
+                <div>
+                    {% if theme.social %}
+                    {% for name, url in theme.social.items() %}
+                    <a href="{{url}}" style="margin-right: 0.75rem;">{{name | capitalize}}</a>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </footer>
+        {% endblock %}
+    </body>
+</html>

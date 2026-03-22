@@ -1,14 +1,10 @@
-{% extends "page.html" %}
+{% extends "base.html" %}
 {% block title %} {{content | striptags | truncate(15, False) }} | {{SITE_TITLE}} {% endblock %}
 {% block content %}
-        {% if microblog_entry in template_vars %}
-            {% include template_vars['microblog_entry'] %}
-        {% else %}
-        <div class="border my-4 rounded-xl shadow-md container p-2 xl:w-1/2 mx-auto">
-            <div class="prose dark:prose-invert prose-slate">
-            {{ content }}
-            <p class="font-light text-sm text-right" id="microblog-post-metadata"> on {{ date }}</p>
-            </div>
-        </div>
-        {% endif %}
+<div class="microblog-single">
+    <div class="prose">
+        {{ content }}
+        <p class="post-meta">on {{ date }}</p>
+    </div>
+</div>
 {% endblock %}

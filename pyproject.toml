@@ -14,6 +14,9 @@ build-backend = "setuptools.build_meta"
 include = ["tools*"]
 exclude = ["data*", "output*", "static*", "content*", "templates*"]
 
+[tool.uv.sources]
+render-engine = { path = "../render-engine" }
+
 [project]
 name = "kjayiller.com"
 version = "0.0.0"
@@ -25,7 +28,6 @@ dependencies = [
   "render-engine-sitemap",
   "render-engine-microblog",
   "render-engine-fontawesome>=2024.1.1a1",
-  "render-engine-theme-kjaymiller==2025.11.2a2",
   "render-engine-youtube-embed==2023.10.2b3",
   "render-engine-aggregators",
   "axe-playwright-python == 0.1.7",

@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block head %}
+{{super()}}
+<meta property="og:title" content="{{title}}" />
+<meta property="og:type" content="article" />
+{% if description is defined %}<meta property="og:description" content="{{description}}" />{% endif %}
+{% endblock %}
+{% block content %}
+<article class="blog-post prose">
+    {% if image is defined %}
+    <div class="feature-image">
+        <img src="{{image}}" alt="{{title}}">
+    </div>
+    {% endif %}
+    <h1 class="page-title">{{title}}</h1>
+    <div class="post-meta">
+        {{date | format_datetime}}
+        {% if subtitle %} &middot; {{subtitle}}{% endif %}
+    </div>
+
+    {% if link %}<p><strong>Source:</strong> <a href="{{link}}">{{link}}</a></p>{% endif %}
+    <div>{{content}}</div>
+</article>
+<div class="blog-post">
+    <a class="back-link" href="/blog/blog1.html">Back to Blogs...</a>
+</div>
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}MicroBlog | {{SITE_TITLE}}{% endblock %}
+{% block content %}
+<div class="microblog-timeline">
+    <div class="timeline-header">
+        <div class="timeline-avatar-placeholder">JM</div>
+        <div>
+            <div class="timeline-display-name">Jay Miller</div>
+            <span class="timeline-handle">@kjaymiller</span>
+        </div>
+    </div>
+
+    {% for post in pages %}
+    <article class="timeline-post">
+        <div class="post-avatar-small">JM</div>
+        <div class="post-main">
+            <div class="post-header">
+                <span class="post-author">Jay Miller</span>
+                <span class="post-handle">@kjaymiller</span>
+                <span class="post-dot">&middot;</span>
+                <a href="{{post.url_for()}}" class="post-timestamp">{{ post.date|to_pub_date }}</a>
+            </div>
+            <div class="post-body">
+                {{ post._content }}
+            </div>
+            <div class="post-actions">
+                <a href="{{post.url_for()}}" class="post-action" title="Permalink">
+                    <i class="fas fa-link"></i>
+                </a>
+            </div>
+        </div>
+    </article>
+    {% endfor %}
+
+    {% if pages.has_previous or pages.has_next %}
+    <div class="pagination">
+        {% if pages.has_previous %}
+        <a href="{{ pages.previous_page }}">&larr; Newer</a>
+        {% endif %}
+        {% if pages.has_next %}
+        <a href="{{ pages.next_page }}">Older &rarr;</a>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

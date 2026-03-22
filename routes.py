@@ -22,7 +22,6 @@ from render_engine_markdown import MarkdownPageParser
 from render_engine_aggregators.feed import AggregateFeed
 from render_engine_lunr import LunrTheme
 
-from render_engine_theme_kjaymiller import kjaymiller
 from render_engine_fontawesome.fontawesome import fontawesome
 from render_engine_json import JSONPageParser
 
@@ -31,7 +30,7 @@ app = Site()
 with open("settings.json") as json_file:
     settings = json.loads(json_file.read())
 app.site_vars.update(**settings)
-app.register_themes(kjaymiller, fontawesome, LunrTheme)
+app.register_themes(fontawesome, LunrTheme)
 app.plugin_manager.plugin_settings["LunrPlugin"].update(
     {"collections": ["pages", "blog"]}
 )
@@ -63,11 +62,9 @@ class _404(Page):
 
 @app.page
 class Conferences(Page):
-    template = "conferences_map.html"
-    parser_extras = {"markdown_extras": markdown_extras}
-    content_path = PostgresQuery(connection=conn, collection_name="conferences")
     Parser = PGPageParser
-
+    template = "conferences_map.html"
+    content_path = PostgresQuery(connection=conn, collection_name="conferences")
 
 @app.page
 class GuestAppearances(Page):
@@ -132,6 +129,7 @@ class MicroBlog(MicroBlog):
     content_path = tempfile.gettempdir()
     content_manager_extras = {"connection": conn}
     template = "microblog_post.html"
+    archive_template = "microblog_archive.html"
     routes = ["microblog"]
     parser_extra = {"markdown_extras": markdown_extras}
     items_per_page = 20
@@ -165,28 +163,32 @@ class Links(Page):
     title = "Links"
     slug = "links"
     template_vars = {
-        "links": [
-            {
-                "text": "LinkedIn",
-                "url": "https://linkedin.com/in/kjaymiller",
-                "icon": "fab fa-linkedin",
-            },
-            {
-                "text": "Mastodon",
-                "url": "https://mastodon.social/@kjaymiller",
-                "icon": "fab fa-mastodon",
-            },
-            {
-                "text": "Bluesky",
-                "url": "https://bsky.app/profile/kjaymiller.com",
-                "icon": "fas fa-cloud",
-            },
-            {
-                "text": "Aiven Blogposts",
-                "url": "https://aiven.io/blog/author/jay-miller",
-                "icon": "fas fa-newspaper",
-            },
-        ]
+        "links": {
+            "social": [
+                {
+                    "text": "LinkedIn",
+                    "url": "https://linkedin.com/in/kjaymiller",
+                },
+                {
+                    "text": "Mastodon",
+                    "url": "https://mastodon.social/@kjaymiller",
+                },
+                {
+                    "text": "Bluesky",
+                    "url": "https://bsky.app/profile/kjaymiller.com",
+                },
+            ],
+            "Org and Work": [
+                {
+                    "text": "Black Python Devs",
+                    "url": "https://blakpythondevs.com",
+                },
+                {
+                    "text": "Aiven Blogposts",
+                    "url": "https://aiven.io/blog/author/jay-miller",
+                },
+            ],
+        }
     }
 
 
