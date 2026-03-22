@@ -9,7 +9,7 @@ repos:
       - id: check-yaml
       - id: check-added-large-files
   - repo: https://github.com/kjaymiller/pin-versions
-    rev: 2026.3.5
+    rev: 2026.3.6
     hooks:
       - id: pin-versions
         args: ["--fix"]
