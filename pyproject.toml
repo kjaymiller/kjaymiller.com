@@ -14,8 +14,6 @@ build-backend = "setuptools.build_meta"
 include = ["tools*"]
 exclude = ["data*", "output*", "static*", "content*", "templates*"]
 
-[tool.uv.sources]
-render-engine = { path = "../render-engine" }
 
 [project]
 name = "kjayiller.com"

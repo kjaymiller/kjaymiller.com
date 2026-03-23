@@ -1,0 +1,267 @@
+Trim Trailing Whitespace.................................................Passed
+Fix End of Files.........................................................Passed
+Check Yaml...............................................................Passed
+Check for added large files..............................................Passed
+pin-versions.............................................................Passed
+no-local-imports.........................................................Failed
+- hook id: no-local-imports
+- exit code: 1
+
+  Local path sources found in [tool.uv.sources]: render-engine
+deptry...................................................................Failed
+- hook id: deptry
+- exit code: 1
+
+  ⠋ Preparing packages... (0/0)                                                   ⠋ Preparing packages... (0/1)                                                   ⠙ Preparing packages... (0/1)                                                      Building kjayiller-com @ file:///Users/kjaymiller/kjaymiller.com
+  ⠙ Preparing packages... (0/1)                                                      Building kjayiller-com @ file:///Users/kjaymiller/kjaymiller.com
+  ⠹ Preparing packages... (0/1)                                                         Built kjayiller-com @ file:///Users/kjaymiller/kjaymiller.com
+  ⠹ Preparing packages... (0/1)                                                   ⠹  (1/1)                                                                        Uninstalled 1 package in 0.67ms
+  ░░░░░░░░░░░░░░░░░░░░ [0/0] Installing wheels...                                 ░░░░░░░░░░░░░░░░░░░░ [0/1] Installing wheels...                                 ░░░░░░░░░░░░░░░░░░░░ [0/1] kjayiller-com==0.0.0 (from file:///Users/kjaymiller/k████████████████████ [1/1] kjayiller-com==0.0.0 (from file:///Users/kjaymiller/kInstalled 1 package in 1ms
+  Traceback (most recent call last):
+    File "/Users/kjaymiller/kjaymiller.com/.venv/bin/deptry", line 10, in <module>
+      sys.exit(deptry())
+               ~~~~~~^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/cli.py", line 353, in deptry
+      cli(max_content_width=column_size)
+      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1485, in __call__
+      return self.main(*args, **kwargs)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1406, in main
+      rv = self.invoke(ctx)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1269, in invoke
+      return ctx.invoke(self.callback, **ctx.params)
+             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 824, in invoke
+      return callback(*args, **kwargs)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/decorators.py", line 34, in new_func
+      return f(get_current_context(), *args, **kwargs)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/cli.py", line 347, in cli
+      ).run()
+        ~~~^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/core.py", line 66, in run
+      local_modules = self._get_local_modules()
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/core.py", line 126, in _get_local_modules
+      path.stem for source in self.root for path in source.iterdir() if self._is_local_module(path)
+                                                    ~~~~~~~~~~~~~~^^
+    File "/Users/kjaymiller/.local/share/uv/python/cpython-3.14.2-macos-aarch64-none/lib/python3.14/pathlib/__init__.py", line 836, in iterdir
+      with os.scandir(root_dir) as scandir_it:
+           ~~~~~~~~~~^^^^^^^^^^
+  NotADirectoryError: [Errno 20] Not a directory: 'templates/index.html'
+  Traceback (most recent call last):
+    File "/Users/kjaymiller/kjaymiller.com/.venv/bin/deptry", line 10, in <module>
+      sys.exit(deptry())
+               ~~~~~~^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/cli.py", line 353, in deptry
+      cli(max_content_width=column_size)
+      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1485, in __call__
+      return self.main(*args, **kwargs)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1406, in main
+      rv = self.invoke(ctx)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1269, in invoke
+      return ctx.invoke(self.callback, **ctx.params)
+             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 824, in invoke
+      return callback(*args, **kwargs)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/decorators.py", line 34, in new_func
+      return f(get_current_context(), *args, **kwargs)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/cli.py", line 347, in cli
+      ).run()
+        ~~~^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/core.py", line 66, in run
+      local_modules = self._get_local_modules()
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/core.py", line 126, in _get_local_modules
+      path.stem for source in self.root for path in source.iterdir() if self._is_local_module(path)
+                                                    ~~~~~~~~~~~~~~^^
+    File "/Users/kjaymiller/.local/share/uv/python/cpython-3.14.2-macos-aarch64-none/lib/python3.14/pathlib/__init__.py", line 836, in iterdir
+      with os.scandir(root_dir) as scandir_it:
+           ~~~~~~~~~~^^^^^^^^^^
+  NotADirectoryError: [Errno 20] Not a directory: 'templates/base.html'
+  Traceback (most recent call last):
+    File "/Users/kjaymiller/kjaymiller.com/.venv/bin/deptry", line 10, in <module>
+      sys.exit(deptry())
+               ~~~~~~^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/cli.py", line 353, in deptry
+      cli(max_content_width=column_size)
+      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1485, in __call__
+      return self.main(*args, **kwargs)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1406, in main
+      rv = self.invoke(ctx)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1269, in invoke
+      return ctx.invoke(self.callback, **ctx.params)
+             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 824, in invoke
+      return callback(*args, **kwargs)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/decorators.py", line 34, in new_func
+      return f(get_current_context(), *args, **kwargs)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/cli.py", line 347, in cli
+      ).run()
+        ~~~^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/core.py", line 66, in run
+      local_modules = self._get_local_modules()
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/core.py", line 126, in _get_local_modules
+      path.stem for source in self.root for path in source.iterdir() if self._is_local_module(path)
+                                                    ~~~~~~~~~~~~~~^^
+    File "/Users/kjaymiller/.local/share/uv/python/cpython-3.14.2-macos-aarch64-none/lib/python3.14/pathlib/__init__.py", line 836, in iterdir
+      with os.scandir(root_dir) as scandir_it:
+           ~~~~~~~~~~^^^^^^^^^^
+  NotADirectoryError: [Errno 20] Not a directory: 'content/pages/coffee-wishlist.md'
+  Traceback (most recent call last):
+    File "/Users/kjaymiller/kjaymiller.com/.venv/bin/deptry", line 10, in <module>
+      sys.exit(deptry())
+               ~~~~~~^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/cli.py", line 353, in deptry
+      cli(max_content_width=column_size)
+      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1485, in __call__
+      return self.main(*args, **kwargs)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1406, in main
+      rv = self.invoke(ctx)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1269, in invoke
+      return ctx.invoke(self.callback, **ctx.params)
+             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 824, in invoke
+      return callback(*args, **kwargs)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/decorators.py", line 34, in new_func
+      return f(get_current_context(), *args, **kwargs)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/cli.py", line 347, in cli
+      ).run()
+        ~~~^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/core.py", line 66, in run
+      local_modules = self._get_local_modules()
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/core.py", line 126, in _get_local_modules
+      path.stem for source in self.root for path in source.iterdir() if self._is_local_module(path)
+                                                    ~~~~~~~~~~~~~~^^
+    File "/Users/kjaymiller/.local/share/uv/python/cpython-3.14.2-macos-aarch64-none/lib/python3.14/pathlib/__init__.py", line 836, in iterdir
+      with os.scandir(root_dir) as scandir_it:
+           ~~~~~~~~~~^^^^^^^^^^
+  NotADirectoryError: [Errno 20] Not a directory: 'templates/conferences_map.html'
+  Traceback (most recent call last):
+    File "/Users/kjaymiller/kjaymiller.com/.venv/bin/deptry", line 10, in <module>
+      sys.exit(deptry())
+               ~~~~~~^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/cli.py", line 353, in deptry
+      cli(max_content_width=column_size)
+      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1485, in __call__
+      return self.main(*args, **kwargs)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1406, in main
+      rv = self.invoke(ctx)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1269, in invoke
+      return ctx.invoke(self.callback, **ctx.params)
+             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 824, in invoke
+      return callback(*args, **kwargs)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/decorators.py", line 34, in new_func
+      return f(get_current_context(), *args, **kwargs)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/cli.py", line 347, in cli
+      ).run()
+        ~~~^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/core.py", line 66, in run
+      local_modules = self._get_local_modules()
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/core.py", line 126, in _get_local_modules
+      path.stem for source in self.root for path in source.iterdir() if self._is_local_module(path)
+                                                    ~~~~~~~~~~~~~~^^
+    File "/Users/kjaymiller/.local/share/uv/python/cpython-3.14.2-macos-aarch64-none/lib/python3.14/pathlib/__init__.py", line 836, in iterdir
+      with os.scandir(root_dir) as scandir_it:
+           ~~~~~~~~~~^^^^^^^^^^
+  NotADirectoryError: [Errno 20] Not a directory: 'templates/guest_appearances.html'
+  Traceback (most recent call last):
+    File "/Users/kjaymiller/kjaymiller.com/.venv/bin/deptry", line 10, in <module>
+      sys.exit(deptry())
+               ~~~~~~^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/cli.py", line 353, in deptry
+      cli(max_content_width=column_size)
+      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1485, in __call__
+      return self.main(*args, **kwargs)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1406, in main
+      rv = self.invoke(ctx)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1269, in invoke
+      return ctx.invoke(self.callback, **ctx.params)
+             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 824, in invoke
+      return callback(*args, **kwargs)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/decorators.py", line 34, in new_func
+      return f(get_current_context(), *args, **kwargs)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/cli.py", line 347, in cli
+      ).run()
+        ~~~^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/core.py", line 66, in run
+      local_modules = self._get_local_modules()
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/core.py", line 126, in _get_local_modules
+      path.stem for source in self.root for path in source.iterdir() if self._is_local_module(path)
+                                                    ~~~~~~~~~~~~~~^^
+    File "/Users/kjaymiller/.local/share/uv/python/cpython-3.14.2-macos-aarch64-none/lib/python3.14/pathlib/__init__.py", line 836, in iterdir
+      with os.scandir(root_dir) as scandir_it:
+           ~~~~~~~~~~^^^^^^^^^^
+  NotADirectoryError: [Errno 20] Not a directory: 'justfile'
+  Traceback (most recent call last):
+    File "/Users/kjaymiller/kjaymiller.com/.venv/bin/deptry", line 10, in <module>
+      sys.exit(deptry())
+               ~~~~~~^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/cli.py", line 353, in deptry
+      cli(max_content_width=column_size)
+      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1485, in __call__
+      return self.main(*args, **kwargs)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1406, in main
+      rv = self.invoke(ctx)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1269, in invoke
+      return ctx.invoke(self.callback, **ctx.params)
+             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 824, in invoke
+      return callback(*args, **kwargs)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/decorators.py", line 34, in new_func
+      return f(get_current_context(), *args, **kwargs)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/cli.py", line 347, in cli
+      ).run()
+        ~~~^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/core.py", line 66, in run
+      local_modules = self._get_local_modules()
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/core.py", line 126, in _get_local_modules
+      path.stem for source in self.root for path in source.iterdir() if self._is_local_module(path)
+                                                    ~~~~~~~~~~~~~~^^
+    File "/Users/kjaymiller/.local/share/uv/python/cpython-3.14.2-macos-aarch64-none/lib/python3.14/pathlib/__init__.py", line 836, in iterdir
+      with os.scandir(root_dir) as scandir_it:
+           ~~~~~~~~~~^^^^^^^^^^
+  NotADirectoryError: [Errno 20] Not a directory: 'pyproject.toml'
+  Traceback (most recent call last):
+    File "/Users/kjaymiller/kjaymiller.com/.venv/bin/deptry", line 10, in <module>
+      sys.exit(deptry())
+               ~~~~~~^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/cli.py", line 353, in deptry
+      cli(max_content_width=column_size)
+      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1485, in __call__
+      return self.main(*args, **kwargs)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1406, in main
+      rv = self.invoke(ctx)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 1269, in invoke
+      return ctx.invoke(self.callback, **ctx.params)
+             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/core.py", line 824, in invoke
+      return callback(*args, **kwargs)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/click/decorators.py", line 34, in new_func
+      return f(get_current_context(), *args, **kwargs)
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/cli.py", line 347, in cli
+      ).run()
+        ~~~^^
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/core.py", line 66, in run
+      local_modules = self._get_local_modules()
+    File "/Users/kjaymiller/kjaymiller.com/.venv/lib/python3.14/site-packages/deptry/core.py", line 126, in _get_local_modules
+      path.stem for source in self.root for path in source.iterdir() if self._is_local_module(path)
+                                                    ~~~~~~~~~~~~~~^^
+    File "/Users/kjaymiller/.local/share/uv/python/cpython-3.14.2-macos-aarch64-none/lib/python3.14/pathlib/__init__.py", line 836, in iterdir
+      with os.scandir(root_dir) as scandir_it:
+           ~~~~~~~~~~^^^^^^^^^^
+  NotADirectoryError: [Errno 20] Not a directory: 'data/guest_appearances.json'

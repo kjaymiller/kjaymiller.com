@@ -331,7 +331,7 @@ requires-dist = [
     { name = "playwright", specifier = "==1.58.0" },
     { name = "psycopg", extras = ["binary"], specifier = ">=3.0.0" },
     { name = "python-frontmatter", specifier = "==1.1.0" },
-    { name = "render-engine", extras = ["cli"], directory = "../render-engine" },
+    { name = "render-engine", extras = ["cli"], specifier = ">=2025.10.1" },
     { name = "render-engine-aggregators", specifier = "==2023.6.1" },
     { name = "render-engine-fontawesome", specifier = ">=2024.1.1a1" },
     { name = "render-engine-json", specifier = "==2024.1.1a2" },
@@ -704,56 +704,28 @@ wheels = [
 
 [[package]]
 name = "render-engine"
-source = { directory = "../render-engine" }
+version = "2026.3.3"
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jinja2" },
+    { name = "markdown2" },
     { name = "more-itertools" },
     { name = "pluggy" },
     { name = "python-dateutil" },
     { name = "python-frontmatter" },
     { name = "python-slugify" },
     { name = "render-engine-markdown" },
+    { name = "render-engine-parser" },
     { name = "rich" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/80/76/511579f3b471014df71672e82a3c012ef93b01ed9759329ae0f846506aa4/render_engine-2026.3.3.tar.gz", hash = "sha256:6f22edeac11215dc523450d87efc74d89195102f6b4dc1cdbe7ad5d0b76a0249", size = 11900480, upload-time = "2026-03-02T14:09:28.959Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6b/22/e7971de9fd0676f444461f5c28e7f55496ca6ed509206f88805342ee8168/render_engine-2026.3.3-py3-none-any.whl", hash = "sha256:b50c5793ada285f809068e687aa70c729ec74caa4b82476b5359001eca33a698", size = 35187, upload-time = "2026-03-02T14:09:27.727Z" },
 ]
 
 [package.optional-dependencies]
 cli = [
     { name = "render-engine-cli" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "jinja2" },
-    { name = "more-itertools" },
-    { name = "pluggy" },
-    { name = "python-dateutil" },
-    { name = "python-frontmatter", specifier = "==1.1.0" },
-    { name = "python-slugify" },
-    { name = "render-engine-cli", marker = "extra == 'cli'" },
-    { name = "render-engine-markdown" },
-    { name = "render-engine-sitemap", marker = "extra == 'extras'" },
-    { name = "rich" },
-]
-provides-extras = ["cli", "extras"]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "deptry", specifier = ">=0.24.0" },
-    { name = "ephemeral-port-reserve" },
-    { name = "httpx" },
-    { name = "pre-commit" },
-    { name = "pytest" },
-    { name = "pytest-cov" },
-    { name = "pytest-mock" },
-    { name = "toml" },
-    { name = "ty", specifier = "==0.0.14" },
-]
-docs = [
-    { name = "mkdocs" },
-    { name = "mkdocs-material" },
-    { name = "mkdocs-multirepo-plugin", specifier = "==0.8.3" },
-    { name = "mkdocstrings", extras = ["python"] },
-    { name = "pymdown-extensions" },
 ]
 
 [[package]]
