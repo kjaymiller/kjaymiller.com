@@ -309,6 +309,7 @@ source = { editable = "." }
 dependencies = [
     { name = "axe-playwright-python" },
     { name = "llm" },
+    { name = "playwright" },
     { name = "psycopg", extra = ["binary"] },
     { name = "python-frontmatter" },
     { name = "render-engine", extra = ["cli"] },
@@ -316,9 +317,9 @@ dependencies = [
     { name = "render-engine-fontawesome" },
     { name = "render-engine-json" },
     { name = "render-engine-lunr" },
+    { name = "render-engine-markdown" },
     { name = "render-engine-microblog" },
     { name = "render-engine-pg" },
-    { name = "render-engine-youtube-embed" },
     { name = "rich" },
     { name = "typer" },
 ]
@@ -327,6 +328,7 @@ dependencies = [
 requires-dist = [
     { name = "axe-playwright-python", specifier = "==0.1.7" },
     { name = "llm", specifier = "==0.29" },
+    { name = "playwright", specifier = "==1.58.0" },
     { name = "psycopg", extras = ["binary"], specifier = ">=3.0.0" },
     { name = "python-frontmatter", specifier = "==1.1.0" },
     { name = "render-engine", extras = ["cli"], directory = "../render-engine" },
@@ -334,10 +336,10 @@ requires-dist = [
     { name = "render-engine-fontawesome", specifier = ">=2024.1.1a1" },
     { name = "render-engine-json", specifier = "==2024.1.1a2" },
     { name = "render-engine-lunr", specifier = "==2024.1.1b3" },
+    { name = "render-engine-markdown", specifier = "==2023.12.1" },
     { name = "render-engine-microblog", specifier = "==2024.1.1" },
     { name = "render-engine-microblog", specifier = ">=2024.1.1" },
     { name = "render-engine-pg", specifier = ">=2026.1.1a1" },
-    { name = "render-engine-youtube-embed", specifier = "==2023.10.2b3" },
     { name = "rich", specifier = "==14.3.3" },
     { name = "typer", specifier = "==0.24.1" },
 ]
@@ -877,18 +879,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/0f/0d/4600bd515f6a9b57e4a57c7f9c882a6083a540dac8e317392e18a7202406/render_engine_pg-2026.3.1a1.tar.gz", hash = "sha256:4bfa03b41341d5c46f6428dc129cedc9004c831b10e3be09b05165bd048605b0", size = 113019, upload-time = "2026-03-20T17:45:42.379Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d6/79/43cb928c53de73ba83084b683cdaf23ec451cacd0d46e967c2008eec7d03/render_engine_pg-2026.3.1a1-py3-none-any.whl", hash = "sha256:899f8b55505473e691bbc2ccdae2e62d8e37f061de9248bec40f271cef982791", size = 36713, upload-time = "2026-03-20T17:45:41.013Z" },
-]
-
-[[package]]
-name = "render-engine-youtube-embed"
-version = "2023.10.2b3"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "render-engine" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/40/af/d464236ea0297c55c4a9cb47a13c53f4ecb82d2f8539f21879e498b4a4f4/render_engine_youtube_embed-2023.10.2b3.tar.gz", hash = "sha256:c5c3b1b085998e6749a721334f0078f2262f024cea969704e845167046378178", size = 10343, upload-time = "2023-10-23T02:54:39.474Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/fb/46/af40daf22567a1acfdc2b4cf513d3ca44e62d31c6bcf5ceaeb2269ea8fe4/render_engine_youtube_embed-2023.10.2b3-py3-none-any.whl", hash = "sha256:fa5faf071496d42ce397e6e556549f1c26f4815c94d43fcabde2e56a4e948295", size = 4483, upload-time = "2023-10-23T02:54:38.37Z" },
 ]
 
 [[package]]

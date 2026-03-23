@@ -13,3 +13,11 @@ repos:
     hooks:
       - id: pin-versions
         args: ["--fix"]
+  - repo: local
+    hooks:
+      - id: deptry
+        name: deptry
+        entry: uv run deptry .
+        language: system
+        always_run: true
+        pass_filenames: false

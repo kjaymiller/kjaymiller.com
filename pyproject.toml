@@ -23,10 +23,10 @@ version = "0.0.0"
 requires-python = ">=3.14"
 dependencies = [
   "render-engine[cli]>=2025.10.1",
+  "render-engine-markdown==2023.12.1",
   "render-engine-lunr==2024.1.1b3",
   "render-engine-microblog==2024.1.1",
   "render-engine-fontawesome>=2024.1.1a1",
-  "render-engine-youtube-embed==2023.10.2b3",
   "render-engine-aggregators==2023.6.1",
   "render-engine-json==2024.1.1a2",
   "axe-playwright-python == 0.1.7",
@@ -37,9 +37,11 @@ dependencies = [
   "render-engine-pg>=2026.1.1a1",
   "python-frontmatter==1.1.0",
   "rich==14.3.3",
-
+  "playwright==1.58.0",
 ]
 
+[tool.deptry.package_module_name_map]
+python-frontmatter = "frontmatter"
 
 [tool.render-engine.pg.insert_sql]
 microblog = [
