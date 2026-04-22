@@ -18,9 +18,15 @@ upgrade:
 build:
     uv run --no-dev --prerelease=allow render-engine build
 
-# Start development server with live reload
+# Start development server with live reload (finds first open port ≥ 8000)
 serve:
-    uv run --no-dev --prerelease=allow render-engine serve
+    #!/usr/bin/env zsh
+    port=8000
+    while lsof -iTCP:$port -sTCP:LISTEN -Pn >/dev/null 2>&1; do
+        port=$((port + 1))
+    done
+    echo "serving on http://localhost:$port"
+    uv run --no-dev --prerelease=allow render-engine serve --port $port
 
 # Create a new blog entry
 new-entry collection:

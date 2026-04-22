@@ -71,12 +71,15 @@
                 {% include theme.footer_column2 %}
                 {% endif %}
             </div>
-            <div class="colophon-social">
-                {% if theme.social %}
-                {% for name, url in theme.social.items() %}
-                <a href="{{url}}">{{name | capitalize}}</a>
-                {% endfor %}
-                {% endif %}
+            <div>
+                <h3 class="footer-heading">Elsewhere</h3>
+                <div class="colophon-social">
+                    {% if theme.social %}
+                    {% for name, url in theme.social.items() %}
+                    <a href="{{url}}">{{name | capitalize}}</a>
+                    {% endfor %}
+                    {% endif %}
+                </div>
             </div>
         </div>
         <div class="colophon-tag">

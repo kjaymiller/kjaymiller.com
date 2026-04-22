@@ -298,11 +298,23 @@ main {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-bottom: 1.25rem;
+  align-items: start;
 }
-.colophon-grid p { margin: 0 0 0.3rem; }
+.colophon-grid > div { min-width: 0; }
+.colophon-grid p { margin: 0 0 0.35rem; }
 .colophon-grid a { color: var(--ink); border-bottom: 1px solid var(--rule); }
 .colophon-grid a:hover { color: var(--scarlet); border-bottom-color: var(--scarlet); }
-.colophon-social { display: flex; flex-wrap: wrap; gap: 0.65rem; }
+.footer-heading {
+  font-family: var(--display);
+  font-variation-settings: "opsz" 32, "wght" 600;
+  font-size: 0.95rem; letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 0.75rem;
+}
+.colophon-social {
+  display: flex; flex-direction: column; gap: 0.35rem;
+}
+.colophon-social a { width: fit-content; }
 .colophon-tag {
   padding-top: 1rem; border-top: 1px solid var(--rule);
   display: flex; gap: 0.6rem; flex-wrap: wrap;
