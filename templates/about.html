@@ -1,12 +1,9 @@
 {% extends 'base.html' %}
 {% block title %}{{title}} | {{SITE_TITLE}}{% endblock %}
 {% block content %}
-{% if show_hero %}
 {% include 'index_hero.html' %}
-{% else %}
-<div class="page-title">{{title}}</div>
-{% endif %}
-<article class="prose">
+
+<article class="prose" style="margin-top: 2rem;">
     {{content}}
 </article>
 {% endblock %}

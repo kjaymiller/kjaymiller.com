@@ -1,0 +1,53 @@
+{# Inline SVG icon macros.
+   UI icons: Lucide (MIT, https://lucide.dev) — stroke-based, currentColor.
+   Brand marks: official logos (Mastodon, Bluesky, RSS). #}
+
+{% macro lucide(body, size=18, extra="") -%}
+<svg xmlns="http://www.w3.org/2000/svg" width="{{size}}" height="{{size}}" viewBox="0 0 24 24"
+     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+     class="icon {{ extra }}" aria-hidden="true">{{ body|safe }}</svg>
+{%- endmacro %}
+
+{% macro icon_search(size=18) -%}
+{{ lucide('<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>', size) }}
+{%- endmacro %}
+
+{% macro icon_close(size=18) -%}
+{{ lucide('<path d="M18 6 6 18"/><path d="m6 6 12 12"/>', size) }}
+{%- endmacro %}
+
+{% macro icon_menu(size=18) -%}
+{{ lucide('<line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/>', size) }}
+{%- endmacro %}
+
+{% macro icon_link(size=18) -%}
+{{ lucide('<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>', size) }}
+{%- endmacro %}
+
+{% macro icon_chat(size=18) -%}
+{{ lucide('<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>', size) }}
+{%- endmacro %}
+
+{% macro icon_pin(size=18) -%}
+{{ lucide('<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>', size) }}
+{%- endmacro %}
+
+{% macro icon_rss(size=18) -%}
+{{ lucide('<path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/>', size) }}
+{%- endmacro %}
+
+{% macro icon_mastodon(size=18) -%}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="{{size}}" height="{{size}}"
+     class="icon icon-brand" aria-hidden="true">
+  <path fill="currentColor"
+    d="M21.58 13.9c-.28 1.4-2.45 2.94-4.95 3.24-1.3.15-2.58.3-3.94.24-2.23-.1-4-.54-4-.54 0 .22.01.43.04.62.29 2.2 2.17 2.33 3.96 2.4 1.8.05 3.4-.44 3.4-.44l.07 1.63s-1.26.67-3.5.8c-1.24.07-2.78-.04-4.57-.51C3.2 20.31 2.54 16.2 2.44 12.02c-.03-1.24 0-2.41 0-3.39 0-4.27 2.8-5.52 2.8-5.52 1.4-.64 3.82-.92 6.33-.94h.06c2.51.02 4.93.3 6.35.94 0 0 2.8 1.25 2.8 5.52 0 0 .03 3.15-.39 5.27zm-3.05-5.18v5.06H16.5v-4.9c0-1.05-.44-1.58-1.3-1.58-.97 0-1.45.62-1.45 1.85v2.7h-2.03v-2.7c0-1.22-.48-1.85-1.45-1.85-.87 0-1.3.53-1.3 1.58v4.9H6.95V8.72c0-1.05.27-1.87.8-2.48a2.78 2.78 0 0 1 2.15-.93c1.04 0 1.83.4 2.35 1.2l.5.85.51-.85a2.77 2.77 0 0 1 2.35-1.2c.9 0 1.61.31 2.14.93.54.61.8 1.43.8 2.48z"/>
+</svg>
+{%- endmacro %}
+
+{% macro icon_bluesky(size=18) -%}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="{{size}}" height="{{size}}"
+     class="icon icon-brand" aria-hidden="true">
+  <path fill="currentColor"
+    d="M6.8 3.6C9.35 5.54 12.08 9.48 13.1 11.6 14.1 9.48 16.83 5.54 19.38 3.6c1.83-1.4 4.82-2.48 4.82.94 0 .68-.38 5.72-.6 6.55-.78 2.86-3.66 3.6-6.22 3.16 4.47.78 5.6 3.34 3.15 5.9-4.65 4.85-6.68-1.22-7.2-2.78a9 9 0 0 1-.23-.78 9 9 0 0 1-.24.78c-.5 1.56-2.54 7.63-7.2 2.78-2.45-2.56-1.3-5.12 3.16-5.9-2.55.44-5.43-.3-6.22-3.16C2.4 10.26 2 5.22 2 4.54 2 1.12 5 2.2 6.8 3.6z"/>
+</svg>
+{%- endmacro %}

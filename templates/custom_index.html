@@ -1,21 +1,67 @@
-{% from 'components/lunrjs/lunr_search.html' import search_form, search_script with context %}
+{% from 'components/lunrjs/lunr_search.html' import search_script with context %}
+{% from '_icons.html' import icon_search, icon_close %}
 {% extends "index.html" %}
 {% block head %}
 {{super()}}
 {% include 'components/lunrjs/lunrjs_head.html'%}
 {% endblock %}
 
-{% block header %}
-{{super()}}
-<div style="display: flex; justify-content: flex-end;">
-  <div id="search">
-      {{search_form()}}
-      <div id="lunrSearchResults"></div>
-  </div>
-</div>
+{% block page_head_actions %}
+<button type="button" class="search-trigger"
+        @click="$dispatch('open-search')">
+  {{ icon_search(16) }}
+  <span>Search</span>
+  <kbd>/</kbd>
+</button>
 {% endblock %}
 
 {% block footer %}
 {{super()}}
 {{search_script()}}
+
+<div x-data="{ open: false }"
+     @keydown.escape.window="open = false"
+     @open-search.window="open = true; $nextTick(() => document.getElementById('lunrSearchInput').focus())">
+  <div class="search-modal" x-show="open" x-cloak
+       x-transition.opacity
+       @click.self="open = false"
+       role="dialog" aria-modal="true" aria-label="Search">
+    <div class="search-modal-panel" @click.stop>
+      <form class="search-modal-form" action="javascript:void(0);" onsubmit="search()">
+        {{ icon_search(16) }}
+        <input type="text" id="lunrSearchInput" aria-label="Search"
+               placeholder="Search posts, notes, microblog…"
+               oninput="updateSearchResults()">
+        <button type="button" class="search-modal-close" @click="open = false" aria-label="Close">
+          {{ icon_close(16) }}
+        </button>
+      </form>
+      <div id="lunrSearchResults" class="search-modal-results"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.addEventListener("keydown", (e) => {
+    if (e.key === "/" && !/input|textarea/i.test((e.target.tagName || ""))) {
+      e.preventDefault();
+      window.dispatchEvent(new CustomEvent("open-search"));
+    }
+  });
+  document.addEventListener("alpine:init", () => {
+    Alpine.data("timeline", () => ({
+      filter: "all",
+      init() {
+        const params = new URLSearchParams(location.search);
+        if (params.has("type")) this.filter = params.get("type");
+        this.$watch("filter", (v) => {
+          const p = new URLSearchParams(location.search);
+          if (v === "all") p.delete("type"); else p.set("type", v);
+          const qs = p.toString();
+          history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+        });
+      },
+    }));
+  });
+</script>
 {% endblock %}

@@ -1,27 +1,55 @@
 {% extends 'base.html' %}
+{% from '_icons.html' import icon_mastodon, icon_bluesky %}
 {% block head %}
 {{super()}}
 <meta property="og:title" content="{{title}}" />
 <meta property="og:type" content="article" />
 {% if description is defined %}<meta property="og:description" content="{{description}}" />{% endif %}
+{% if image_url is defined %}<meta property="og:image" content="{{image_url}}" />{% endif %}
 {% endblock %}
 {% block content %}
 <article class="blog-post prose">
-    {% if image is defined %}
+    {% if image_url %}
     <div class="feature-image">
-        <img src="{{image}}" alt="{{title}}">
+        <img src="{{image_url}}" alt="{{title}}">
     </div>
     {% endif %}
     <h1 class="page-title">{{title}}</h1>
     <div class="post-meta">
         {{date | format_datetime}}
         {% if subtitle %} &middot; {{subtitle}}{% endif %}
+        {% if mastodon_url %}· <a href="{{mastodon_url}}" target="_blank" rel="noopener" class="status-masto">{{ icon_mastodon(14) }} Mastodon</a>{% endif %}
+        {% if bluesky_url %}· <a href="{{bluesky_url}}" target="_blank" rel="noopener" class="status-bsky">{{ icon_bluesky(14) }} Bluesky</a>{% endif %}
     </div>
 
-    {% if link %}<p><strong>Source:</strong> <a href="{{link}}">{{link}}</a></p>{% endif %}
+    {% if external_link %}
+    <p><strong>Source:</strong> <a href="{{external_link}}" target="_blank" rel="noopener">{{external_link}}</a></p>
+    {% endif %}
+
     <div>{{content}}</div>
+
+    {% include '_webmentions.html' %}
+
+    {% if prev_url or next_url %}
+    <nav class="post-nav" aria-label="Previous and next posts">
+      {% if prev_url %}
+      <a class="post-nav-prev" href="{{ prev_url }}">
+        <span class="post-nav-kicker">← Previous</span>
+        <span class="post-nav-title">{{ prev_title }}</span>
+      </a>
+      {% else %}<span></span>{% endif %}
+      {% if next_url %}
+      <a class="post-nav-next" href="{{ next_url }}">
+        <span class="post-nav-kicker">Next →</span>
+        <span class="post-nav-title">{{ next_title }}</span>
+      </a>
+      {% else %}<span></span>{% endif %}
+    </nav>
+    {% endif %}
 </article>
 <div class="blog-post">
-    <a class="back-link" href="/blog/blog1.html">Back to Blogs...</a>
+    <a class="back-link" href="{% if collection_url %}/{{ collection_url }}/{% else %}/blog/blog1.html{% endif %}">
+      Back to {{ collection_title or 'Blog' }}…
+    </a>
 </div>
 {% endblock %}

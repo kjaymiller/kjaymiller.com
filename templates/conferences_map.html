@@ -1,18 +1,21 @@
-{% extends "page.html" %}
+{% extends "base.html" %}
+
+{% block head %}
+{{ super() }}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+{% endblock %}
 
 {% block content %}
-<section>
-  <h1 class="page-title">Conferences Map</h1>
+<header class="page-head" data-kicker="Section · Talks">
+  <h1><em>Conferences</em></h1>
+</header>
 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-       crossorigin=""/>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-       crossorigin="">
-  </script>
-
-  <div id="map" style="height: 500px; width: 100%; border-radius: 8px; margin-bottom: 2rem;"></div>
+<div id="map" style="height: 500px; width: 100%; border-radius: var(--radius); margin-bottom: 2rem;"></div>
 
   <script>
   var map = L.map('map').setView([39, -95], 4);
@@ -43,23 +46,24 @@
   });
   </script>
 
-  <h2 style="margin-top: 1.5rem; font-size: 1.25rem;">Conferences</h2>
-  <div style="display: flex; flex-direction: column; gap: 1.25rem; margin-top: 1rem;">
+  <h2 class="section-head">Conferences</h2>
+  <div class="card-grid">
     {% for conference in data %}
-    <div class="conference-card">
-      <h3>{{ conference.name }}</h3>
-      <div class="conference-meta">
-        {% if conference.date %}<span>📅 {{ conference.date }}</span>{% endif %}
-        {% if conference.location %}<span>📍 {{ conference.location }}</span>{% endif %}
+    <article class="card">
+      <div class="card-body">
+        <h3 class="card-title">{{ conference.name }}</h3>
+        <div class="card-meta">
+          {% if conference.date %}<span>{{ conference.date }}</span>{% endif %}
+          {% if conference.location %}<span>{{ conference.location }}</span>{% endif %}
+        </div>
+        {% if conference.description %}
+        <p class="card-desc">{{ conference.description }}</p>
+        {% endif %}
+        {% if conference.url %}
+        <a href="{{ conference.url }}" target="_blank" rel="noopener noreferrer" class="conference-link">Visit Website ↗</a>
+        {% endif %}
       </div>
-      {% if conference.description %}
-      <p style="color: var(--color-text-muted); font-size: 0.9rem; line-height: 1.6;">{{ conference.description }}</p>
-      {% endif %}
-      {% if conference.url %}
-      <a href="{{ conference.url }}" target="_blank" rel="noopener noreferrer" class="conference-link">Visit Website</a>
-      {% endif %}
-    </div>
+    </article>
     {% endfor %}
   </div>
-</section>
 {% endblock %}

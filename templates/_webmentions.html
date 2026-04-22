@@ -1,0 +1,85 @@
+{# Webmentions widget. Fetches mentions.jf2 from webmention.io at page load
+   and groups them by type (replies / likes / reposts / bookmarks). #}
+<section class="webmentions" x-data="webmentions()" x-init="load()" x-cloak>
+  <header class="webmentions-head">
+    <h3>Webmentions</h3>
+    <span class="webmentions-count" x-show="total > 0" x-text="`${total} total`"></span>
+  </header>
+
+  <div x-show="loading" class="webmentions-empty">Loading mentions…</div>
+  <div x-show="!loading && total === 0" class="webmentions-empty">
+    No webmentions yet.
+    <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener">What's this?</a>
+  </div>
+
+  <div class="webmentions-tallies" x-show="!loading && total > 0">
+    <span class="webmention-tally" x-show="counts.like > 0">
+      ★ <strong x-text="counts.like"></strong> like<span x-show="counts.like !== 1">s</span>
+    </span>
+    <span class="webmention-tally" x-show="counts.repost > 0">
+      ↻ <strong x-text="counts.repost"></strong> repost<span x-show="counts.repost !== 1">s</span>
+    </span>
+    <span class="webmention-tally" x-show="counts.bookmark > 0">
+      ☆ <strong x-text="counts.bookmark"></strong> bookmark<span x-show="counts.bookmark !== 1">s</span>
+    </span>
+    <span class="webmention-tally" x-show="counts.reply > 0">
+      ✎ <strong x-text="counts.reply"></strong> repl<span x-text="counts.reply === 1 ? 'y' : 'ies'"></span>
+    </span>
+    <span class="webmention-tally" x-show="counts.mention > 0">
+      @ <strong x-text="counts.mention"></strong> mention<span x-show="counts.mention !== 1">s</span>
+    </span>
+  </div>
+
+  <ul class="webmention-replies" x-show="!loading && replies.length > 0">
+    <template x-for="m in replies" :key="m.id">
+      <li class="webmention-reply">
+        <a :href="m.author?.url || m.url" target="_blank" rel="noopener" class="wm-avatar">
+          <img :src="m.author?.photo" :alt="m.author?.name || ''" loading="lazy"
+               onerror="this.style.display='none'">
+        </a>
+        <div class="wm-body">
+          <header class="wm-meta">
+            <a :href="m.author?.url || m.url" target="_blank" rel="noopener" x-text="m.author?.name || 'anonymous'"></a>
+            <a :href="m.url" target="_blank" rel="noopener" class="wm-when"
+               x-text="m.published ? new Date(m.published).toLocaleDateString() : ''"></a>
+          </header>
+          <div class="wm-text" x-html="m.content?.html || m.content?.text || ''"></div>
+        </div>
+      </li>
+    </template>
+  </ul>
+</section>
+
+<script>
+  document.addEventListener("alpine:init", () => {
+    Alpine.data("webmentions", () => ({
+      loading: true,
+      total: 0,
+      counts: { like: 0, repost: 0, bookmark: 0, reply: 0, mention: 0 },
+      replies: [],
+      async load() {
+        const target = new URL(location.pathname, location.origin).toString();
+        const url = `https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(target)}&per-page=200`;
+        try {
+          const r = await fetch(url);
+          if (!r.ok) throw new Error(r.statusText);
+          const data = await r.json();
+          const items = data.children || [];
+          for (const m of items) {
+            const p = m["wm-property"];
+            if      (p === "like-of")      this.counts.like++;
+            else if (p === "repost-of")    this.counts.repost++;
+            else if (p === "bookmark-of")  this.counts.bookmark++;
+            else if (p === "in-reply-to") { this.counts.reply++; this.replies.push(m); }
+            else                            this.counts.mention++;
+          }
+          this.total = items.length;
+        } catch (e) {
+          console.warn("webmentions:", e);
+        } finally {
+          this.loading = false;
+        }
+      },
+    }));
+  });
+</script>

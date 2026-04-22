@@ -1,10 +1,28 @@
 {% extends "base.html" %}
+{% from '_icons.html' import icon_mastodon, icon_bluesky %}
 {% block title %} {{content | striptags | truncate(15, False) }} | {{SITE_TITLE}} {% endblock %}
 {% block content %}
-<div class="microblog-single">
-    <div class="prose">
+<article class="microblog-single prose">
+    <div class="post-body">
         {{ content }}
-        <p class="post-meta">on {{ date }}</p>
     </div>
-</div>
+
+    {% if image_url %}
+    <div class="post-image" style="margin-top: 1rem;">
+        <img src="{{ image_url }}" alt="" loading="lazy">
+    </div>
+    {% endif %}
+
+    {% if external_link %}
+    <p><a class="tl-link" href="{{ external_link }}" target="_blank" rel="noopener">↗ {{ external_link }}</a></p>
+    {% endif %}
+
+    <p class="post-meta">
+        on {{ date }}
+        {% if mastodon_url %}· <a href="{{mastodon_url}}" target="_blank" rel="noopener" class="status-masto">{{ icon_mastodon(14) }} Mastodon</a>{% endif %}
+        {% if bluesky_url %}· <a href="{{bluesky_url}}" target="_blank" rel="noopener" class="status-bsky">{{ icon_bluesky(14) }} Bluesky</a>{% endif %}
+    </p>
+
+    {% include '_webmentions.html' %}
+</article>
 {% endblock %}

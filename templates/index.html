@@ -1,57 +1,132 @@
 {% extends 'base.html' %}
+{% from '_icons.html' import icon_mastodon, icon_bluesky, icon_chat %}
 {% block content %}
-{% if hero %}
-<section>
-    {% if hero.from_template %}
-    {% include hero.from_template %}
-    {% else %}
-    {% if hero.target %}
-    <h2><a href="{{hero.target}}">{{hero.title}}</a></h2>
-    {% else %}
-    <h2>{{hero.title}}</h2>
-    {% endif %}
-    <article class="prose">{{hero.content}}</article>
-    {% endif %}
-</section>
-{% endif %}
+<header class="page-head" data-kicker="Latest · Blog · Notes · Microblog">
+  <h1><em>Timeline</em></h1>
+  {% block page_head_actions %}{% endblock %}
+</header>
 
-{% if secondary %}
-<section style="margin-top: 2rem;">
-    {% if secondary.target %}
-    <h2><a href="{{secondary.target}}">{{secondary.title}}</a></h2>
-    {% else %}
-    <h2>{{secondary.title}}</h2>
-    {% endif %}
-    {% if secondary.from_template %}
-    {% include secondary.from_template %}
-    {% else %}
-    {{secondary.content}}
-    {% endif %}
-    {% if secondary.target %}
-    <p style="text-align: right;"><a href="{{secondary.target}}">More from {{secondary.title}}</a></p>
-    {% endif %}
-</section>
-{% endif %}
+{% set posts = latest_posts or [] %}
+{% set types = ['blog', 'notes', 'microblog'] %}
 
-{% if other %}
-<section style="margin-top: 2rem;">
-    {% if other.target %}
-    <h2><a href="{{other.target}}">{{other.title}}</a></h2>
-    {% else %}
-    <h2>{{other.title}}</h2>
-    {% endif %}
-    {% for other_section in other['sections'] %}
-    {% if other_section.target %}
-    <h3 style="margin-top: 1rem; font-weight: 700;"><a href="{{other_section.target}}">{{other_section.title}}</a></h3>
-    {% else %}
-    <h3 style="margin-top: 1rem; font-weight: 700;">{{other_section.title}}</h3>
-    {% endif %}
-    {% if other_section.from_template %}
-    {% include other_section.from_template %}
-    {% else %}
-    <p>{{other_section.content}}</p>
-    {% endif %}
+<div x-data="timeline()" class="timeline">
+  <div class="tl-filters" role="tablist">
+    <button type="button" role="tab"
+            class="tl-filter" :class="filter === 'all' ? 'is-active' : ''"
+            @click="filter = 'all'">
+      <span>All</span>
+      <span class="tl-filter-count">{{ posts | length }}</span>
+    </button>
+    {% for t in types %}
+      {% set cnt = posts | selectattr('_type', 'equalto', t) | list | length %}
+      <button type="button" role="tab"
+              class="tl-filter tl-filter-{{ t }}"
+              :class="filter === '{{ t }}' ? 'is-active' : ''"
+              @click="filter = '{{ t }}'">
+        <span>{{ t }}</span>
+        <span class="tl-filter-count">{{ cnt }}</span>
+      </button>
     {% endfor %}
-</section>
-{% endif %}
+  </div>
+
+  <ol class="tl-list">
+    {% for r in posts %}
+      {% set when = r.date %}
+      <li class="tl-item tl-item-{{ r._type }}"
+          data-type="{{ r._type }}"
+          x-show="filter === 'all' || filter === '{{ r._type }}'"
+          x-transition:enter="tl-enter"
+          x-transition:enter-start="tl-enter-start"
+          x-transition:enter-end="tl-enter-end">
+        <div class="tl-rail">
+          <span class="tl-dot tl-dot-{{ r._type }}" aria-hidden="true"></span>
+          <span class="tl-badge">{{ r._type }}</span>
+          <time class="tl-when" datetime="{{ when }}">
+            {{ when.strftime('%b %d') if when else '—' }}
+            <small>{{ when.strftime('%Y') if when else '' }}</small>
+          </time>
+        </div>
+        <article class="tl-card">
+          <header class="tl-card-head">
+            <h3 class="tl-title">
+              <a href="/{{ r._type }}/{{ r.slug }}.html">
+                {% if r.title %}{{ r.title }}
+                {% elif r.content %}{{ r.content | striptags | truncate(80) }}
+                {% else %}(untitled){% endif %}
+              </a>
+            </h3>
+            {% if r._type in ('blog', 'microblog') %}
+            <span class="status-cluster">
+              {% if r.mastodon_url %}
+              <a class="status status-masto" href="{{ r.mastodon_url }}"
+                 target="_blank" rel="noopener" title="View on Mastodon">
+                {{ icon_mastodon(16) }}
+              </a>
+              {% endif %}
+              {% if r.bluesky_url %}
+              <a class="status status-bsky" href="{{ r.bluesky_url }}"
+                 target="_blank" rel="noopener" title="View on Bluesky">
+                {{ icon_bluesky(16) }}
+              </a>
+              {% endif %}
+              {% if r.webmentions_count %}
+              <span class="status status-webmention"
+                    title="{{ r.webmentions_count }} webmention{{ 's' if r.webmentions_count != 1 else '' }}">
+                {{ icon_chat(16) }}
+                <span class="status-count">{{ r.webmentions_count }}</span>
+              </span>
+              {% endif %}
+            </span>
+            {% endif %}
+          </header>
+
+          {% if r._type == 'microblog' and r.content %}
+            <div class="tl-body">{{ r.content | md | safe }}</div>
+          {% elif r.description %}
+            <p class="tl-desc">{{ r.description }}</p>
+          {% elif r.content %}
+            <p class="tl-desc">{{ r.content | striptags | truncate(200) }}</p>
+          {% endif %}
+
+          {% if r.image_url %}
+            <a class="tl-img" href="/{{ r._type }}/{{ r.slug }}.html">
+              <img src="{{ r.image_url }}" alt="" loading="lazy">
+            </a>
+          {% endif %}
+
+          {% if r.external_link %}
+            <a class="tl-link" href="{{ r.external_link }}" target="_blank" rel="noopener">
+              ↗ {{ r.external_link }}
+            </a>
+          {% endif %}
+
+          <footer class="tl-foot">
+            <span>#{{ r.id }}{% if r.slug %} · {{ r.slug }}{% endif %}</span>
+            <a href="/{{ r._type }}/{{ r.slug }}.html">Read →</a>
+          </footer>
+        </article>
+      </li>
+    {% else %}
+      <li class="muted" style="padding: 2rem 0;">No entries yet.</li>
+    {% endfor %}
+  </ol>
+
+  <nav class="tl-sections" aria-label="Browse sections">
+    <a class="tl-section tl-section-blog" href="/blog/blog1.html">
+      <span class="tl-section-kicker">Section</span>
+      <span class="tl-section-title">Blog</span>
+      <span class="tl-section-cue">All posts →</span>
+    </a>
+    <a class="tl-section tl-section-notes" href="/notes/notes-to-self.html">
+      <span class="tl-section-kicker">Section</span>
+      <span class="tl-section-title">Notes to Self</span>
+      <span class="tl-section-cue">All notes →</span>
+    </a>
+    <a class="tl-section tl-section-microblog" href="/microblog/microblog.html">
+      <span class="tl-section-kicker">Section</span>
+      <span class="tl-section-title">Microblog</span>
+      <span class="tl-section-cue">All posts →</span>
+    </a>
+  </nav>
+</div>
 {% endblock %}

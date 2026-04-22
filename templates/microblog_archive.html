@@ -1,46 +1,116 @@
 {% extends "base.html" %}
+{% from '_icons.html' import icon_link, icon_mastodon, icon_bluesky, icon_chat %}
 {% block title %}MicroBlog | {{SITE_TITLE}}{% endblock %}
 {% block content %}
-<div class="microblog-timeline">
-    <div class="timeline-header">
-        <div class="timeline-avatar-placeholder">JM</div>
-        <div>
-            <div class="timeline-display-name">Jay Miller</div>
-            <span class="timeline-handle">@kjaymiller</span>
-        </div>
+<div class="microblog-timeline" x-data="microblogArchive()">
+    <header class="page-head" data-kicker="Section · Microblog">
+        <h1><em>Microblog</em></h1>
+        <span class="page-head-count" x-text="countLabel()"></span>
+    </header>
+
+    <div class="tl-list" x-ref="list">
+        {% for post in pages %}
+        <article class="timeline-post"
+                 x-show="visible($el)"
+                 x-transition:enter.opacity.duration.250ms>
+            <img class="post-avatar-small"
+     src="https://jmblogstorrage.blob.core.windows.net/media/jay-in-stairwell.jpg"
+     alt="Jay Miller" loading="lazy">
+            <div class="post-main">
+                <div class="post-header">
+                    <span class="post-author">Jay Miller</span>
+                    <span class="post-handle">@kjaymiller</span>
+                    <span class="post-dot">&middot;</span>
+                    <a href="{{post.url_for()}}" class="post-timestamp">{{ post.date|to_pub_date }}</a>
+                </div>
+                <div class="post-body">
+                    {{ post._content }}
+                    {% if post.image_url %}
+                    <a href="{{post.url_for()}}" class="post-image">
+                        <img src="{{ post.image_url }}" alt="" loading="lazy">
+                    </a>
+                    {% endif %}
+                </div>
+                <div class="post-actions">
+                    <a href="{{post.url_for()}}" class="post-action" title="Permalink">
+                        {{ icon_link(16) }}
+                    </a>
+                    {% if post.mastodon_url %}
+                    <a href="{{ post.mastodon_url }}" class="post-action status-masto"
+                       target="_blank" rel="noopener" title="View on Mastodon">
+                        {{ icon_mastodon(16) }}
+                    </a>
+                    {% endif %}
+                    {% if post.bluesky_url %}
+                    <a href="{{ post.bluesky_url }}" class="post-action status-bsky"
+                       target="_blank" rel="noopener" title="View on Bluesky">
+                        {{ icon_bluesky(16) }}
+                    </a>
+                    {% endif %}
+                    {% if post.webmentions_count %}
+                    <span class="post-action status-webmention"
+                          title="{{ post.webmentions_count }} webmention{{ 's' if post.webmentions_count != 1 else '' }}">
+                        {{ icon_chat(16) }}
+                        <span class="status-count">{{ post.webmentions_count }}</span>
+                    </span>
+                    {% endif %}
+                </div>
+            </div>
+        </article>
+        {% endfor %}
     </div>
 
-    {% for post in pages %}
-    <article class="timeline-post">
-        <div class="post-avatar-small">JM</div>
-        <div class="post-main">
-            <div class="post-header">
-                <span class="post-author">Jay Miller</span>
-                <span class="post-handle">@kjaymiller</span>
-                <span class="post-dot">&middot;</span>
-                <a href="{{post.url_for()}}" class="post-timestamp">{{ post.date|to_pub_date }}</a>
-            </div>
-            <div class="post-body">
-                {{ post._content }}
-            </div>
-            <div class="post-actions">
-                <a href="{{post.url_for()}}" class="post-action" title="Permalink">
-                    <i class="fas fa-link"></i>
-                </a>
-            </div>
-        </div>
-    </article>
-    {% endfor %}
-
-    {% if pages.has_previous or pages.has_next %}
-    <div class="pagination">
-        {% if pages.has_previous %}
-        <a href="{{ pages.previous_page }}">&larr; Newer</a>
-        {% endif %}
-        {% if pages.has_next %}
-        <a href="{{ pages.next_page }}">Older &rarr;</a>
-        {% endif %}
+    <div class="pagination" x-show="pages > 1">
+        <button type="button" class="pg-btn"
+                :disabled="page <= 1"
+                @click="go(page - 1)">&larr; Newer</button>
+        <span class="pg-info">
+            page <strong x-text="page"></strong> of <span x-text="pages"></span>
+        </span>
+        <button type="button" class="pg-btn"
+                :disabled="page >= pages"
+                @click="go(page + 1)">Older &rarr;</button>
     </div>
-    {% endif %}
 </div>
+
+<script>
+    document.addEventListener("alpine:init", () => {
+        Alpine.data("microblogArchive", () => ({
+            page: 1,
+            perPage: 20,
+            pages: 1,
+            total: 0,
+            _all: [],
+            init() {
+                this._all = Array.from(this.$refs.list.querySelectorAll(".timeline-post"));
+                this.total = this._all.length;
+                this.pages = Math.max(1, Math.ceil(this.total / this.perPage));
+
+                const params = new URLSearchParams(location.search);
+                if (params.has("page")) this.page = Math.min(this.pages, Math.max(1, parseInt(params.get("page")) || 1));
+
+                this._syncUrl();
+            },
+            visible(el) {
+                const idx = this._all.indexOf(el);
+                const start = (this.page - 1) * this.perPage;
+                return idx >= start && idx < start + this.perPage;
+            },
+            go(p) {
+                this.page = Math.min(Math.max(1, p), this.pages);
+                this._syncUrl();
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            },
+            countLabel() {
+                return `${this.total} ${this.total === 1 ? "post" : "posts"}`;
+            },
+            _syncUrl() {
+                const p = new URLSearchParams();
+                if (this.page > 1) p.set("page", this.page);
+                const qs = p.toString();
+                history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+            },
+        }));
+    });
+</script>
 {% endblock %}

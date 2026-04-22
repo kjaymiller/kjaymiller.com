@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block title %}{{title}} | {{SITE_TITLE}}{% endblock %}
+{% block content %}
+<header class="page-head" data-kicker="Section · {{title}}">
+  <h1><em>{{title}}</em></h1>
+  <a href="/">← Timeline</a>
+</header>
+
+{% if pages %}
+<div class="card-grid">
+  {% for post in pages %}
+  <article class="card">
+    {% if post.image %}
+    <a class="card-img" href="{{SITE_URL}}{{post.url_for()}}">
+      <img src="{{post.image}}" alt="" loading="lazy">
+    </a>
+    {% endif %}
+    <div class="card-body">
+      <h3 class="card-title">
+        <a href="{{SITE_URL}}{{post.url_for()}}">
+          {{post.title or post.slug or '(untitled)'}}
+        </a>
+      </h3>
+      {% if post.description %}
+      <p class="card-desc">{{post.description}}</p>
+      {% endif %}
+      <div class="card-meta">
+        <span>{% if post.date is defined %}{{post.date|format_datetime}}{% endif %}</span>
+        <span>#{{ loop.index }}</span>
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+{% else %}
+<p class="muted">No notes yet.</p>
+{% endif %}
+{% endblock %}

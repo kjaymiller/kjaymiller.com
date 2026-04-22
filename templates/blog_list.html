@@ -1,27 +1,31 @@
 {% extends 'base.html' %}
 {% block title %}{{title}} | {{SITE_TITLE}}{% endblock %}
 {% block content %}
-<h2 class="page-title">{{title}}</h2>
-<div class="archive-list">
+<header class="page-head" data-kicker="Section · {{title}}">
+  <h1><em>{{title}}</em></h1>
+  <a href="/">← Timeline</a>
+</header>
+
+{% if pages %}
+<table class="records">
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>title</th>
+      <th>date</th>
+    </tr>
+  </thead>
+  <tbody>
     {% for post in pages %}
-    <article class="archive-item">
-        {% if post.image %}
-        <div class="archive-item-image">
-            <a href="{{SITE_URL}}{{post.url_for()}}">
-                <img src="{{post.image}}" alt="{{post.title}}">
-            </a>
-        </div>
-        {% endif %}
-        <div>
-            {% if post.category %}
-            <a href="{{COLLECTION_OUTPUT_PATH}}/category/{{post.category}}-0">{{post.category}}</a>
-            {% endif %}
-            <h2><a href="{{SITE_URL}}{{post.url_for()}}">{{post.title}}</a></h2>
-            {% if post.date is defined %}
-            <div class="archive-meta">{{post.date|format_datetime}}</div>
-            {% endif %}
-        </div>
-    </article>
+    <tr>
+      <td>{{ loop.index }}</td>
+      <td><a href="{{SITE_URL}}{{post.url_for()}}">{{post.title}}</a></td>
+      <td>{% if post.date is defined %}{{post.date|format_datetime}}{% endif %}</td>
+    </tr>
     {% endfor %}
-</div>
+  </tbody>
+</table>
+{% else %}
+<p class="muted">No records yet.</p>
+{% endif %}
 {% endblock %}

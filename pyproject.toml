@@ -24,10 +24,8 @@ dependencies = [
   "render-engine-markdown==2023.12.1",
   "render-engine-lunr==2024.1.1b3",
   "render-engine-microblog==2024.1.1",
-  "render-engine-fontawesome>=2024.1.1a1",
   "render-engine-aggregators==2023.6.1",
   "render-engine-json==2024.1.1a2",
-  "axe-playwright-python == 0.1.7",
   "typer==0.24.1",
   "llm==0.29",
   "render-engine-microblog>=2024.1.1",
@@ -35,7 +33,8 @@ dependencies = [
   "render-engine-pg>=2026.1.1a1",
   "python-frontmatter==1.1.0",
   "rich>=14.3.1",
-  "playwright==1.58.0",
+  "re-plugin-pack>=2025.6.1",
+  "markdown2>=2.5.5",
 ]
 
 [tool.deptry.package_module_name_map]
@@ -62,7 +61,7 @@ conferences = [
 ]
 
 [tool.render-engine.pg.read_sql]
-microblog = "SELECT DISTINCT ON (microblog.id) microblog.id, microblog.slug, microblog.content, microblog.external_link, microblog.image_url, microblog.date, microblog.created_at, microblog.updated_at FROM microblog LEFT JOIN microblog_tags ON microblog.id = microblog_tags.microblog_id LEFT JOIN tags ON microblog_tags.tag_id = tags.id ORDER BY microblog.id, microblog.date DESC;"
+microblog = "SELECT DISTINCT ON (microblog.id) microblog.id, microblog.slug, microblog.content, microblog.external_link, microblog.image_url, microblog.date, microblog.created_at, microblog.updated_at, microblog.mastodon_url, microblog.bluesky_url, microblog.webmentions_count FROM microblog LEFT JOIN microblog_tags ON microblog.id = microblog_tags.microblog_id LEFT JOIN tags ON microblog_tags.tag_id = tags.id ORDER BY microblog.id, microblog.date DESC;"
 notes = "SELECT DISTINCT ON (notes.id) notes.id, notes.slug, notes.title, notes.content, notes.description, notes.external_link, notes.image_url, notes.date, notes.created_at, notes.updated_at FROM notes LEFT JOIN notes_tags ON notes.id = notes_tags.notes_id LEFT JOIN tags ON notes_tags.tag_id = tags.id ORDER BY notes.id, notes.date DESC;"
-blog = "SELECT DISTINCT ON (blog.id) blog.id, blog.slug, blog.title, blog.content, blog.description, blog.external_link, blog.image_url, blog.date FROM blog LEFT JOIN blog_tags ON blog.id = blog_tags.blog_id LEFT JOIN tags ON blog_tags.tag_id = tags.id ORDER BY blog.id, blog.date DESC;"
+blog = "SELECT DISTINCT ON (blog.id) blog.id, blog.slug, blog.title, blog.content, blog.description, blog.external_link, blog.image_url, blog.date, blog.mastodon_url, blog.bluesky_url, blog.webmentions_count FROM blog LEFT JOIN blog_tags ON blog.id = blog_tags.blog_id LEFT JOIN tags ON blog_tags.tag_id = tags.id ORDER BY blog.id, blog.date DESC;"
 conferences = "SELECT conferences.id, conferences.name, conferences.date, conferences.location, conferences.latitude, conferences.longitude, conferences.url, conferences.created_at FROM conferences ORDER BY conferences.date DESC;"
