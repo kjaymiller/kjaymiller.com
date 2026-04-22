@@ -2,7 +2,7 @@
 {% from '_icons.html' import icon_mastodon, icon_bluesky %}
 {% block title %} {{content | striptags | truncate(15, False) }} | {{SITE_TITLE}} {% endblock %}
 {% block content %}
-<article class="microblog-single prose">
+<article class="microblog-single prose h-entry">
     <div class="post-body">
         {{ content }}
     </div>
@@ -19,8 +19,18 @@
 
     <p class="post-meta">
         on {{ date }}
-        {% if mastodon_url %}· <a href="{{mastodon_url}}" target="_blank" rel="noopener" class="status-masto">{{ icon_mastodon(14) }} Mastodon</a>{% endif %}
-        {% if bluesky_url %}· <a href="{{bluesky_url}}" target="_blank" rel="noopener" class="status-bsky">{{ icon_bluesky(14) }} Bluesky</a>{% endif %}
+        {% if mastodon_url %}· <a href="{{mastodon_url}}" target="_blank" rel="noopener syndication" class="status-masto u-syndication">{{ icon_mastodon(14) }} Mastodon</a>{% endif %}
+        {% if bluesky_url %}· <a href="{{bluesky_url}}" target="_blank" rel="noopener syndication" class="status-bsky u-syndication">{{ icon_bluesky(14) }} Bluesky</a>{% endif %}
+        {% set wm_types = webmentions_types or {} %}
+        {% if webmentions_count %}
+        <span class="wm-chips">
+          {% if wm_types.get("like") %}<span class="wm-chip wm-chip-like" title="likes">♥ {{ wm_types["like"] }}</span>{% endif %}
+          {% if wm_types.get("repost") %}<span class="wm-chip wm-chip-repost" title="reposts">🔁 {{ wm_types["repost"] }}</span>{% endif %}
+          {% if wm_types.get("in-reply-to") %}<span class="wm-chip wm-chip-reply" title="replies">💬 {{ wm_types["in-reply-to"] }}</span>{% endif %}
+          {% if wm_types.get("mention-of") %}<span class="wm-chip" title="mentions">↗ {{ wm_types["mention-of"] }}</span>{% endif %}
+          {% if wm_types.get("bookmark-of") %}<span class="wm-chip" title="bookmarks">🔖 {{ wm_types["bookmark-of"] }}</span>{% endif %}
+        </span>
+        {% endif %}
     </p>
 
     {% include '_webmentions.html' %}

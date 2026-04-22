@@ -1634,3 +1634,32 @@ table.records td:nth-child(3) {
   font-family: var(--mono); font-size: 0.7rem;
   color: var(--ink-mute); letter-spacing: 0.04em;
 }
+
+/* ───────── Webmention chips (cached DB counts in post-meta) ─── */
+.wm-chips { display: inline-flex; gap: 0.3rem; flex-wrap: wrap; vertical-align: middle; }
+.wm-chip {
+  display: inline-flex; align-items: center; gap: 0.2rem;
+  padding: 0.1rem 0.45rem;
+  font-family: var(--mono); font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+  border-radius: 999px;
+  background: var(--paper-2);
+  color: var(--ink-soft);
+  border: 1px solid var(--rule);
+  line-height: 1.4;
+}
+.wm-chip-like {
+  color: var(--scarlet);
+  background: var(--scarlet-wash);
+  border-color: color-mix(in srgb, var(--scarlet) 25%, var(--rule));
+}
+.wm-chip-repost {
+  color: var(--fern);
+  background: var(--sage-wash);
+  border-color: color-mix(in srgb, var(--sage) 30%, var(--rule));
+}
+.wm-chip-reply {
+  color: var(--navy);
+  background: var(--navy-wash);
+  border-color: color-mix(in srgb, var(--navy) 25%, var(--rule));
+}
