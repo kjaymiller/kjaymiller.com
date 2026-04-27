@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% from '_icons.html' import icon_mastodon, icon_bluesky, icon_chat %}
 {% block title %}{{title}} | {{SITE_TITLE}}{% endblock %}
 {% block content %}
 <header class="page-head" data-kicker="Section · {{title}}">
@@ -13,6 +14,7 @@
       <th>id</th>
       <th>title</th>
       <th>date</th>
+      <th>syndication</th>
     </tr>
   </thead>
   <tbody>
@@ -21,6 +23,27 @@
       <td>{{ loop.index }}</td>
       <td><a href="{{SITE_URL}}{{post.url_for()}}">{{post.title}}</a></td>
       <td>{% if post.date is defined %}{{post.date|format_datetime}}{% endif %}</td>
+      <td class="syndication-cell">
+        {% if post.mastodon_url %}
+        <a href="{{ post.mastodon_url }}" class="post-action status-masto"
+           target="_blank" rel="noopener syndication" title="View on Mastodon">
+          {{ icon_mastodon(14) }}
+        </a>
+        {% endif %}
+        {% if post.bluesky_url %}
+        <a href="{{ post.bluesky_url }}" class="post-action status-bsky"
+           target="_blank" rel="noopener syndication" title="View on Bluesky">
+          {{ icon_bluesky(14) }}
+        </a>
+        {% endif %}
+        {% if post.webmentions_count %}
+        <span class="post-action status-webmention"
+              title="{{ post.webmentions_count }} webmention{{ 's' if post.webmentions_count != 1 else '' }}">
+          {{ icon_chat(14) }}
+          <span class="status-count">{{ post.webmentions_count }}</span>
+        </span>
+        {% endif %}
+      </td>
     </tr>
     {% endfor %}
   </tbody>

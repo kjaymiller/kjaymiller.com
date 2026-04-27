@@ -673,8 +673,10 @@ img.post-avatar-small { object-position: center 20%; }
 }
 .post-body a:hover { color: var(--scarlet); border-bottom-color: var(--scarlet); }
 .post-body img { max-width: 100%; border-radius: var(--radius); margin: 0.6rem 0; }
-.post-image { display: block; margin: 0.6rem 0; border-radius: var(--radius); overflow: hidden; }
-.post-image img { display: block; max-width: 100%; max-height: 320px; object-fit: cover; }
+.post-image { display: block; margin: 0.6rem 0; border-radius: var(--radius); overflow: hidden; border-bottom: 0; line-height: 0; }
+.post-body a.post-image,
+.post-body a.post-image:hover { border-bottom: 0; }
+.post-image img { display: block; width: 100%; max-height: 320px; object-fit: cover; margin: 0; border-radius: 0; }
 
 /* ───────── Webmentions widget ─────────────────────────────── */
 .webmentions {

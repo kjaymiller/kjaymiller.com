@@ -1,6 +1,10 @@
+{% from '_icons.html' import icon_mastodon, icon_bluesky, icon_chat %}
 <div class="microblog-single" style="margin: 1rem 0;">
   <div class="post-body">{{ post._content }}</div>
   <p class="post-meta">
     on {{ post.date|to_pub_date }} <a href="{{post.url_for()}}">🔗</a>
+    {% if post.mastodon_url %}· <a href="{{ post.mastodon_url }}" target="_blank" rel="noopener syndication" class="status-masto u-syndication" title="View on Mastodon">{{ icon_mastodon(14) }} Mastodon</a>{% endif %}
+    {% if post.bluesky_url %}· <a href="{{ post.bluesky_url }}" target="_blank" rel="noopener syndication" class="status-bsky u-syndication" title="View on Bluesky">{{ icon_bluesky(14) }} Bluesky</a>{% endif %}
+    {% if post.webmentions_count %}· <span class="status-webmention" title="{{ post.webmentions_count }} webmention{{ 's' if post.webmentions_count != 1 else '' }}">{{ icon_chat(14) }} {{ post.webmentions_count }}</span>{% endif %}
   </p>
 </div>

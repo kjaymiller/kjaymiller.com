@@ -12,25 +12,7 @@
     <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener">What's this?</a>
   </div>
 
-  <div class="webmentions-tallies" x-show="!loading && total > 0">
-    <span class="webmention-tally" x-show="counts.like > 0">
-      ★ <strong x-text="counts.like"></strong> like<span x-show="counts.like !== 1">s</span>
-    </span>
-    <span class="webmention-tally" x-show="counts.repost > 0">
-      ↻ <strong x-text="counts.repost"></strong> repost<span x-show="counts.repost !== 1">s</span>
-    </span>
-    <span class="webmention-tally" x-show="counts.bookmark > 0">
-      ☆ <strong x-text="counts.bookmark"></strong> bookmark<span x-show="counts.bookmark !== 1">s</span>
-    </span>
-    <span class="webmention-tally" x-show="counts.reply > 0">
-      ✎ <strong x-text="counts.reply"></strong> repl<span x-text="counts.reply === 1 ? 'y' : 'ies'"></span>
-    </span>
-    <span class="webmention-tally" x-show="counts.mention > 0">
-      @ <strong x-text="counts.mention"></strong> mention<span x-show="counts.mention !== 1">s</span>
-    </span>
-  </div>
-
-  <ul class="webmention-replies" x-show="!loading && replies.length > 0">
+<ul class="webmention-replies" x-show="!loading && replies.length > 0">
     <template x-for="m in replies" :key="m.id">
       <li class="webmention-reply">
         <a :href="m.author?.url || m.url" target="_blank" rel="noopener" class="wm-avatar">

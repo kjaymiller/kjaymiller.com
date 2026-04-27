@@ -14,7 +14,7 @@
     {% block header %}
     <header class="masthead">
         <div class="masthead-inner" x-data="{ open: false }">
-            <a href="{{SITE_URL}}" class="brand">
+            <a href="{{SITE_URL or '/'}}" class="brand">
                 <span class="brand-mark" aria-hidden="true"></span>
                 <span class="brand-word">{{SITE_TITLE}}</span>
             </a>
