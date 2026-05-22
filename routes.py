@@ -1,5 +1,4 @@
 import tempfile
-import pdb
 import os
 import json
 
@@ -16,7 +15,6 @@ from render_engine import (
     Collection,
 )
 from render_engine.blog import Blog as _Blog
-
 from render_engine_microblog import MicroBlog
 from render_engine_markdown import MarkdownPageParser
 from render_engine_aggregators.feed import AggregateFeed
@@ -33,7 +31,9 @@ from render_engine.engine import engine as _jinja_engine
 def _md_filter(text):
     if not text:
         return ""
-    return markdown2.markdown(text, extras=["fenced-code-blocks", "tables", "footnotes"])
+    return markdown2.markdown(
+        text, extras=["fenced-code-blocks", "tables", "footnotes"]
+    )
 
 
 _jinja_engine.filters["md"] = _md_filter
@@ -79,6 +79,7 @@ class Conferences(Page):
     Parser = PGPageParser
     template = "conferences_map.html"
     content_path = PostgresQuery(connection=conn, collection_name="conferences")
+
 
 @app.page
 class GuestAppearances(Page):
