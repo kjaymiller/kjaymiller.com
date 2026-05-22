@@ -169,17 +169,17 @@ def _fetch_latest_posts(limit=15):
     (SELECT 'blog' AS _type, id, slug, title, content, description,
             external_link, image_url, date,
             mastodon_url, bluesky_url, webmentions_count
-       FROM blog ORDER BY date DESC LIMIT %s)
+       FROM blog WHERE draft = FALSE ORDER BY date DESC LIMIT %s)
     UNION ALL
     (SELECT 'notes' AS _type, id, slug, title, content, description,
             external_link, image_url, date,
             NULL AS mastodon_url, NULL AS bluesky_url, NULL AS webmentions_count
-       FROM notes ORDER BY date DESC LIMIT %s)
+       FROM notes WHERE draft = FALSE ORDER BY date DESC LIMIT %s)
     UNION ALL
     (SELECT 'microblog' AS _type, id, slug, NULL AS title, content, NULL AS description,
             external_link, image_url, date,
             mastodon_url, bluesky_url, webmentions_count
-       FROM microblog ORDER BY date DESC LIMIT %s)
+       FROM microblog WHERE draft = FALSE ORDER BY date DESC LIMIT %s)
     ORDER BY date DESC
     LIMIT %s;
     """
