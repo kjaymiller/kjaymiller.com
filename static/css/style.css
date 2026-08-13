@@ -1415,6 +1415,25 @@ main > *:nth-child(4) { animation-delay: 180ms; }
 .tl-loadmore button:disabled { opacity: 0.5; cursor: not-allowed; }
 .htmx-request .tl-loadmore button { opacity: 0.6; }
 
+/* ───────── Strudel play links (auto-inserted after ```strudel blocks) ── */
+.strudel-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin: -0.5rem 0 1.5rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--paper);
+  border: 1px solid var(--ink);
+  text-decoration: none;
+  transition: background 180ms var(--ease-soft), border-color 180ms var(--ease-soft);
+}
+.strudel-link:hover { background: var(--scarlet); border-color: var(--scarlet); }
+
 /* ───────── Section cards under timeline ────────────────────── */
 .tl-sections {
   display: grid;
