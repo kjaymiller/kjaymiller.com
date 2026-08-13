@@ -58,6 +58,7 @@ markdown_extras = [
     "footnotes",
     "fenced-code-blocks",
     "header-ids",
+    "highlightjs-lang",
     "mermaid",
     "tables",
 ]
