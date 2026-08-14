@@ -1416,7 +1416,10 @@ main > *:nth-child(4) { animation-delay: 180ms; }
 .htmx-request .tl-loadmore button { opacity: 0.6; }
 
 /* ───────── Strudel play links (auto-inserted after ```strudel blocks) ── */
-.strudel-link {
+/* `a` element is included so specificity matches (and, tied, beats by source
+   order) `.prose a`'s color rule — otherwise that rule wins on specificity
+   and overrides the button's text color regardless of order. */
+a.strudel-link {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
@@ -1432,7 +1435,7 @@ main > *:nth-child(4) { animation-delay: 180ms; }
   text-decoration: none;
   transition: background 180ms var(--ease-soft), border-color 180ms var(--ease-soft);
 }
-.strudel-link:hover { background: var(--scarlet); border-color: var(--scarlet); }
+a.strudel-link:hover { background: var(--scarlet); border-color: var(--scarlet); color: var(--paper); }
 
 /* ───────── Section cards under timeline ────────────────────── */
 .tl-sections {
