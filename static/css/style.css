@@ -1436,6 +1436,12 @@ a.strudel-link {
   transition: background 180ms var(--ease-soft), border-color 180ms var(--ease-soft);
 }
 a.strudel-link:hover { background: var(--scarlet); border-color: var(--scarlet); color: var(--paper); }
+/* Road theme's `.prose a` override (higher specificity: [data-theme] + .prose
+   + a) forces color:var(--ink), which in road theme is the *light* color —
+   same as this button's light background, making the text invisible. Pin it
+   back to var(--paper) with matching specificity. */
+body[data-theme="road"] a.strudel-link { color: var(--paper); }
+body[data-theme="road"] a.strudel-link:hover { color: var(--paper); }
 
 /* ───────── Section cards under timeline ────────────────────── */
 .tl-sections {
