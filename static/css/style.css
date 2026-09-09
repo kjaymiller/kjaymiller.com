@@ -1144,9 +1144,6 @@ main > *:nth-child(4) { animation-delay: 180ms; }
   .colophon-grid { grid-template-columns: 1fr; gap: 1.25rem; }
   .podcast-layout { grid-template-columns: 1fr; gap: 1rem; }
   .podcast-artwork { max-width: 180px; }
-  .tl-item { grid-template-columns: 1fr; gap: 0.4rem; }
-  .tl-rail { flex-direction: row; align-items: center; padding-top: 0; }
-  .tl-dot { position: static; }
   .tl-list::before { display: none; }
   .page-head { grid-template-columns: 1fr; }
 }
@@ -1442,6 +1439,28 @@ a.strudel-link:hover { background: var(--scarlet); border-color: var(--scarlet);
    back to var(--paper) with matching specificity. */
 body[data-theme="road"] a.strudel-link { color: var(--paper); }
 body[data-theme="road"] a.strudel-link:hover { color: var(--paper); }
+
+@media (max-width: 760px) {
+  .tl-item { grid-template-columns: 1fr; gap: 0; }
+  .tl-rail {
+    flex-direction: row; align-items: center; gap: 0.6rem;
+    padding: 0.85rem 1.4rem 0;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-bottom: none;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  }
+  .tl-dot { position: static; order: -1; }
+  .tl-when {
+    flex-direction: row; align-items: baseline; gap: 0.3rem;
+    padding-left: 0;
+  }
+  .tl-card {
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
 
 /* ───────── Section cards under timeline ────────────────────── */
 .tl-sections {
