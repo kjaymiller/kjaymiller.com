@@ -150,7 +150,7 @@ class MicroBlog(MicroBlog):
     template = "microblog_post.html"
     archive_template = "microblog_archive.html"
     routes = ["microblog"]
-    parser_extra = {"markdown_extras": markdown_extras}
+    parser_extras = {"markdown_extras": markdown_extras}
     items_per_page = 10000
     skip_site_map = True
 
