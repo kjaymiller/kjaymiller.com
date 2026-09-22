@@ -32,7 +32,7 @@ def _md_filter(text):
     if not text:
         return ""
     return markdown2.markdown(
-        text, extras=["fenced-code-blocks", "tables", "footnotes"]
+        text, extras=["fenced-code-blocks", "tables", "footnotes", "mermaid", "link-shortrefs"]
     )
 
 
@@ -59,6 +59,7 @@ markdown_extras = [
     "fenced-code-blocks",
     "header-ids",
     "highlightjs-lang",
+    "link-shortrefs",
     "mermaid",
     "tables",
 ]
